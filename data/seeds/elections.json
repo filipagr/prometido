@@ -1,0 +1,65 @@
+[
+  {
+    "id": "leg_2002",
+    "type": "legislativas",
+    "date": "2002-03-17",
+    "description": "Eleições Legislativas 2002",
+    "discovery_window": {"from": "20011201", "to": "20020317"}
+  },
+  {
+    "id": "leg_2005",
+    "type": "legislativas",
+    "date": "2005-02-20",
+    "description": "Eleições Legislativas 2005",
+    "discovery_window": {"from": "20041201", "to": "20050228"}
+  },
+  {
+    "id": "leg_2009",
+    "type": "legislativas",
+    "date": "2009-09-27",
+    "description": "Eleições Legislativas 2009",
+    "discovery_window": {"from": "20090701", "to": "20090930"}
+  },
+  {
+    "id": "leg_2011",
+    "type": "legislativas",
+    "date": "2011-06-05",
+    "description": "Eleições Legislativas 2011",
+    "discovery_window": {"from": "20110401", "to": "20110605"}
+  },
+  {
+    "id": "leg_2015",
+    "type": "legislativas",
+    "date": "2015-10-04",
+    "description": "Eleições Legislativas 2015",
+    "discovery_window": {"from": "20150801", "to": "20151004"}
+  },
+  {
+    "id": "leg_2019",
+    "type": "legislativas",
+    "date": "2019-10-06",
+    "description": "Eleições Legislativas 2019",
+    "discovery_window": {"from": "20190801", "to": "20191006"}
+  },
+  {
+    "id": "leg_2022",
+    "type": "legislativas",
+    "date": "2022-01-30",
+    "description": "Eleições Legislativas 2022",
+    "discovery_window": {"from": "20211101", "to": "20220130"}
+  },
+  {
+    "id": "leg_2024",
+    "type": "legislativas",
+    "date": "2024-03-10",
+    "description": "Eleições Legislativas 2024",
+    "discovery_window": {"from": "20240101", "to": "20240310"}
+  },
+  {
+    "id": "leg_2025",
+    "type": "legislativas",
+    "date": "2025-05-18",
+    "description": "Eleições Legislativas 2025",
+    "discovery_window": {"from": "20250301", "to": "20250518"}
+  }
+]

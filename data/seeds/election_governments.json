@@ -1,0 +1,25 @@
+[
+  {"election_id": "leg_2002", "party_id": "PSD", "role": "prime_minister"},
+  {"election_id": "leg_2002", "party_id": "CDS", "role": "coalition_partner"},
+
+  {"election_id": "leg_2005", "party_id": "PS",  "role": "prime_minister"},
+
+  {"election_id": "leg_2009", "party_id": "PS",  "role": "prime_minister"},
+
+  {"election_id": "leg_2011", "party_id": "PSD", "role": "prime_minister"},
+  {"election_id": "leg_2011", "party_id": "CDS", "role": "coalition_partner"},
+
+  {"election_id": "leg_2015", "party_id": "PS",  "role": "prime_minister"},
+  {"election_id": "leg_2015", "party_id": "BE",  "role": "confidence_supply"},
+  {"election_id": "leg_2015", "party_id": "PCP", "role": "confidence_supply"},
+
+  {"election_id": "leg_2019", "party_id": "PS",  "role": "prime_minister"},
+
+  {"election_id": "leg_2022", "party_id": "PS",  "role": "prime_minister"},
+
+  {"election_id": "leg_2024", "party_id": "PSD", "role": "prime_minister"},
+  {"election_id": "leg_2024", "party_id": "CDS", "role": "coalition_partner"},
+
+  {"election_id": "leg_2025", "party_id": "PSD", "role": "prime_minister"},
+  {"election_id": "leg_2025", "party_id": "CDS", "role": "coalition_partner"}
+]

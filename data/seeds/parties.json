@@ -1,0 +1,89 @@
+[
+  {
+    "id": "PS",
+    "name": "Partido Socialista",
+    "short_name": "PS",
+    "color": "#F1144B",
+    "founded": "1973-04-19",
+    "domains": ["ps.pt", "partido-socialista.pt", "todosdecidem.ps.pt"],
+    "elections": ["leg_2002", "leg_2005", "leg_2009", "leg_2011", "leg_2015", "leg_2019", "leg_2022", "leg_2024", "leg_2025"],
+    "notes": "2019: programa eleitoral em todosdecidem.ps.pt"
+  },
+  {
+    "id": "PSD",
+    "name": "Partido Social Democrata",
+    "short_name": "PSD",
+    "color": "#FF6600",
+    "founded": "1974-05-06",
+    "domains": ["psd.pt", "ppd-psd.pt", "adportugal.pt", "portugalafrente.pt"],
+    "elections": ["leg_2002", "leg_2005", "leg_2009", "leg_2011", "leg_2015", "leg_2019", "leg_2022", "leg_2024", "leg_2025"],
+    "notes": "2015: correu como PàF (PSD+CDS) em portugalafrente.pt. 2024/2025: correu como AD (PSD+CDS) em adportugal.pt"
+  },
+  {
+    "id": "BE",
+    "name": "Bloco de Esquerda",
+    "short_name": "BE",
+    "color": "#B51F23",
+    "founded": "1999-03-03",
+    "domains": ["bloco.org", "blockesquerda.net"],
+    "elections": ["leg_2002", "leg_2005", "leg_2009", "leg_2011", "leg_2015", "leg_2019", "leg_2022", "leg_2024", "leg_2025"],
+    "notes": "2005: bloco.org com cobertura muito fraca no arquivo — fallback para Tier 3"
+  },
+  {
+    "id": "PCP",
+    "name": "Partido Comunista Português",
+    "short_name": "PCP",
+    "color": "#CC0000",
+    "founded": "1921-03-06",
+    "domains": ["pcp.pt", "cdu.pt"],
+    "elections": ["leg_2002", "leg_2005", "leg_2009", "leg_2011", "leg_2015", "leg_2019", "leg_2022", "leg_2024", "leg_2025"]
+  },
+  {
+    "id": "CDS",
+    "name": "CDS – Partido Popular",
+    "short_name": "CDS",
+    "color": "#003DA5",
+    "founded": "1974-07-19",
+    "domains": ["cds.pt", "partido-cds.pt"],
+    "elections": ["leg_2002", "leg_2005", "leg_2009", "leg_2011", "leg_2019"],
+    "notes": "2015: correu como PàF (PSD+CDS) — promessas atribuídas ao PSD. 2022: 0 mandatos. 2024/2025: correu como AD (PSD+CDS) — promessas atribuídas ao PSD"
+  },
+  {
+    "id": "IL",
+    "name": "Iniciativa Liberal",
+    "short_name": "IL",
+    "color": "#00AEEF",
+    "founded": "2017-09-19",
+    "domains": ["iniciativaliberal.pt", "liberal.pt", "legislativas2024.liberal.pt"],
+    "elections": ["leg_2019", "leg_2022", "leg_2024", "leg_2025"],
+    "notes": "2024: programa eleitoral em legislativas2024.liberal.pt (PDF: iniciativaliberal.pt/wp-content/uploads/2024/02/Por-um-Portugal-com-Futuro-Programa-Eleitoral-IL-2024.pdf, arquivado em web.archive.org)"
+  },
+  {
+    "id": "Chega",
+    "name": "Chega",
+    "short_name": "Chega",
+    "color": "#202056",
+    "founded": "2019-04-13",
+    "domains": ["chega.pt"],
+    "elections": ["leg_2019", "leg_2022", "leg_2024", "leg_2025"]
+  },
+  {
+    "id": "Livre",
+    "name": "Livre",
+    "short_name": "Livre",
+    "color": "#00B140",
+    "founded": "2014-02-01",
+    "domains": ["partidolivre.pt", "programa2019.partidolivre.pt", "programa2022.partidolivre.pt"],
+    "elections": ["leg_2019", "leg_2022", "leg_2024", "leg_2025"],
+    "notes": "2019: programa em programa2019.partidolivre.pt. 2022: programa em programa2022.partidolivre.pt"
+  },
+  {
+    "id": "PAN",
+    "name": "Pessoas-Animais-Natureza",
+    "short_name": "PAN",
+    "color": "#00A88E",
+    "founded": "2009-11-14",
+    "domains": ["pan.com.pt"],
+    "elections": ["leg_2015", "leg_2019", "leg_2022", "leg_2024", "leg_2025"]
+  }
+]

@@ -1,0 +1,108 @@
+import { getParty, search, type PartyDetail, type PartyElection, type PromiseItem } from "@/lib/api";
+import PromiseCard from "@/components/PromiseCard";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+
+export default async function PartyPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+
+  let party: PartyDetail;
+  try {
+    party = await getParty(id);
+  } catch {
+    notFound();
+  }
+
+  const promisesData = await search({ party: id, limit: "20" }).catch(() => ({ results: [], total: 0 }));
+
+  return (
+    <div className="max-w-5xl mx-auto px-4 py-8">
+      {/* Cabeçalho */}
+      <div className="flex items-center gap-4 mb-8">
+        <div className="w-4 h-12 rounded" style={{ backgroundColor: party.color }} />
+        <div>
+          <h1 className="text-2xl font-bold text-gray-900">{party.name}</h1>
+          <p className="text-gray-500 text-sm">
+            {party.promise_count} promessas · {party.elections_covered} eleições cobertas
+            {party.founded && ` · fundado em ${party.founded.slice(0, 4)}`}
+          </p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Eleições */}
+        <div className="md:col-span-1 space-y-4">
+          <h2 className="font-semibold text-gray-900">Por eleição</h2>
+          {party.elections.length === 0 ? (
+            <p className="text-sm text-gray-400">Sem dados ainda.</p>
+          ) : (
+            party.elections.map((e: PartyElection) => (
+              <Link
+                key={e.id}
+                href={`/search?party=${id}&election=${e.id}`}
+                className="block bg-white border border-gray-200 rounded-lg p-3 hover:border-gray-300 transition-all"
+              >
+                <p className="font-medium text-sm text-gray-900">{e.description}</p>
+                <p className="text-xs text-gray-500 mt-0.5">{e.promise_count} promessas</p>
+                {(e.statuses.implemented + e.statuses.not_implemented + e.statuses.partial) > 0 && (
+                  <div className="flex gap-2 mt-1.5 flex-wrap">
+                    {e.statuses.implemented > 0 && (
+                      <span className="text-xs text-green-700 bg-green-50 px-1.5 py-0.5 rounded">
+                        ✓ {e.statuses.implemented} cumpridas
+                      </span>
+                    )}
+                    {e.statuses.not_implemented > 0 && (
+                      <span className="text-xs text-red-700 bg-red-50 px-1.5 py-0.5 rounded">
+                        ✗ {e.statuses.not_implemented} não cumpridas
+                      </span>
+                    )}
+                    {e.statuses.partial > 0 && (
+                      <span className="text-xs text-orange-700 bg-orange-50 px-1.5 py-0.5 rounded">
+                        ~ {e.statuses.partial} parciais
+                      </span>
+                    )}
+                  </div>
+                )}
+              </Link>
+            ))
+          )}
+
+          {/* Tópicos */}
+          {party.topics.length > 0 && (
+            <>
+              <h2 className="font-semibold text-gray-900 pt-4">Por tema</h2>
+              <div className="flex flex-wrap gap-1.5">
+                {party.topics.map((t) => (
+                  <Link
+                    key={t.topic}
+                    href={`/search?party=${id}&topic=${encodeURIComponent(t.topic)}`}
+                    className="px-2 py-1 bg-gray-100 hover:bg-gray-200 rounded text-xs text-gray-700 transition-colors"
+                  >
+                    {t.topic} <span className="text-gray-400">({t.count})</span>
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+
+        {/* Promessas recentes */}
+        <div className="md:col-span-2 space-y-3">
+          <div className="flex items-center justify-between mb-1">
+            <h2 className="font-semibold text-gray-900">Promessas recentes</h2>
+            <Link href={`/search?party=${id}`} className="text-sm text-blue-600 hover:underline">
+              Ver todas ({promisesData.total})
+            </Link>
+          </div>
+          {promisesData.results.length === 0 ? (
+            <p className="text-sm text-gray-400">Sem promessas extraídas ainda.</p>
+          ) : (
+            promisesData.results.map((p: PromiseItem) => (
+              <PromiseCard key={p.id} promise={p} showParty={false} />
+            ))
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyc
+data/prometido.db-shm
+data/prometido.db-wal
+data/programs/
+data/samples/
+.DS_Store
+.claude/
+node_modules/
+frontend/.next/
+frontend/out/
