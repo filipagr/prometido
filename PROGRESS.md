@@ -1,10 +1,14 @@
 # Prometido — Progress Log
 
 ## Estado atual
-**Fase:** Semana 2 — Extracção completa via API. A fazer: deploy Railway + Vercel.
+**Fase:** Semana 2 — Deploy feito. A fazer: Railway (backend) + testes em produção.
 **Data:** 28 de abril de 2026
-**Próximo passo:** Commitar db → deploy Railway (backend) → deploy Vercel (frontend) → testar em produção.
-**Totais actuais na DB:** 7.549 promessas válidas · 9 partidos · 9 eleições (2002–2025) · 56 combinações partido×eleição.
+**Próximo passo:** `railway login && railway up` → testar em produção → actualizar URL backend no Vercel → vídeo + submissão até 6 maio 23:59h.
+**Totais actuais na DB:** 7.549 promessas válidas · 9 partidos · 9 eleições (2002–2025) · 55 combinações partido×eleição.
+
+**URLs de deploy:**
+- Frontend (Vercel): https://prometido-app.vercel.app
+- Backend (Railway): pendente — `railway login && railway up` no repo raiz
 
 ---
 
@@ -182,9 +186,9 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 ### Frontend e deploy
 - [x] Frontend build sem erros (TypeScript)
 - [x] Backend a responder com dados reais (7.549 promessas)
-- [ ] Commitar `data/prometido.db` no git
-- [ ] Deploy Railway (backend + DB)
-- [ ] Deploy Vercel (frontend)
+- [x] Commitar `data/prometido.db` no git (commit 6c9e4ab)
+- [ ] Deploy Railway (backend + DB) — `railway login && railway up`
+- [x] Deploy Vercel (frontend) — https://prometido-app.vercel.app
 - [ ] Testar em produção (search, party page, compare)
 - [ ] Mobile testing
 
@@ -193,9 +197,12 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 - [ ] Vídeo 3 minutos
 - [ ] Submissão até 6 maio 23:59h
 
-### Pipeline Arquivo.pt (pós-submissão, se houver tempo)
-- [ ] Discovery PS/PSD/PCP/BE/CDS × 2005–2019 para evidência de origem (Tier 1)
-- [ ] Curadoria humana dos casos `needs_human_review`
+### Arquivo.pt linking
+- [x] `scripts/link_arquivo.py` — 4 camadas: URL exacta → SHA1 → homepage → Wayback
+- [x] Todas as 55 combinações partido×eleição ligadas ao Arquivo.pt
+- 9 com link directo ao PDF ou página específica do programa
+- 46 com homepage do partido na data da eleição (fallback de 3ª camada)
+- Ver tabela completa em `data/context/program_sources.md`
 
 ---
 
@@ -257,3 +264,11 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 - BE 2011: PDF adicionado (190K)
 - CDS 2011: pesquisa bloqueada por egress proxy em todos os domínios PT-relacionados; recuperado manualmente pela Filipa
 - PROGRESS.md actualizado com secção 2024
+
+### Sessão 7 — 28 abril 2026 (Claude Code)
+- `scripts/link_arquivo.py` criado — 4 camadas de ligação ao Arquivo.pt (URL exacta → SHA1 → homepage → Wayback)
+- SHA1 match confirmado para: BE/2025, IL/2025, PAN/2025, PCP/2009, PCP/2011, IL/2019, IL/2024, Chega/2022, PAN/2015
+- Restantes 46 combinações: homepage do partido na data da eleição
+- Commit completo: .gitignore, backend, frontend, DB, scripts → `github.com/filipagr/prometido`
+- Frontend deployed: https://prometido-app.vercel.app (Vercel)
+- Backend pendente: `railway login && railway up`
