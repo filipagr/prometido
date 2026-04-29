@@ -200,9 +200,11 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 ### Arquivo.pt linking
 - [x] `scripts/link_arquivo.py` — 4 camadas: URL exacta → SHA1 → homepage → Wayback
 - [x] Todas as 55 combinações partido×eleição ligadas ao Arquivo.pt
-- 9 com link directo ao PDF ou página específica do programa
-- 46 com homepage do partido na data da eleição (fallback de 3ª camada)
-- Ver tabela completa em `data/context/program_sources.md`
+- 22 com PDF específico confirmado no Arquivo.pt
+- 20 com página específica do programa ou listagem oficial
+- 7 com homepage apenas (BE 2005/2009/2015, CDS 2011/2019, Chega 2024/2025)
+- 1 sem dados: CDS 2002 (programa não encontrado em lado nenhum)
+- Ver tabela completa e todos os links em `data/context/program_sources.md`
 
 ---
 
@@ -267,8 +269,9 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 
 ### Sessão 7 — 28 abril 2026 (Claude Code)
 - `scripts/link_arquivo.py` criado — 4 camadas de ligação ao Arquivo.pt (URL exacta → SHA1 → homepage → Wayback)
-- SHA1 match confirmado para: BE/2025, IL/2025, PAN/2025, PCP/2009, PCP/2011, IL/2019, IL/2024, Chega/2022, PAN/2015
-- Restantes 46 combinações: homepage do partido na data da eleição
+- Verificação URL-a-URL de todos os 46 programas via CDX (check exacto por URL canónica)
+- 22 PDFs específicos confirmados · 20 páginas específicas · 7 homepages · 1 sem dados (CDS 2002)
+- `data/context/program_sources.md` actualizado com todos os links e tipo de evidência
 - Commit completo: .gitignore, backend, frontend, DB, scripts → `github.com/filipagr/prometido`
 - Frontend deployed: https://prometido-app.vercel.app (Vercel)
 - Backend pendente: `railway login && railway up`
