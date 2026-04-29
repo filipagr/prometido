@@ -39,8 +39,8 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 | 2011 | PSD-leg-2011.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105438/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2011.pdf) |
 | 2015 | PaF-leg-2015.pdf | Coligação PSD+CDS (Portugal à Frente) | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105434/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2015.pdf) |
 | 2019 | PSD-leg-2019.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205135320/https://www.psd.pt/sites/default/files/2020-09/Programa-Eleitoral-2019.pdf) |
-| 2022 | PDS-leg-2022.pdf | | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
-| 2024 | AD-leg-2024.pdf | Coligação AD (PSD+CDS+PPM) | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
+| 2022 | PDS-leg-2022.pdf | | [✓✓ PDF — psd.pt (abr 2022)](https://arquivo.pt/noFrame/replay/20220422164430/https://www.psd.pt/sites/default/files/2022-03/Programa%20Eleitoral%202022.pdf) |
+| 2024 | AD-leg-2024.pdf | Coligação AD (PSD+CDS+PPM) | [✓✓ PDF — psd.pt (mai 2024)](https://arquivo.pt/noFrame/replay/20240522225828/https://www.psd.pt/sites/default/files/2024-04/Programa%20Eleitoral%20AD%20Legislativas%202024%20VF_0.pdf) |
 | 2025 | AD-leg-2025.pdf | Coligação AD — programa completo | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
 
 ---
@@ -137,8 +137,8 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 
 | Tipo | Combinações |
 |------|-------------|
-| ✓✓ PDF específico no Arquivo.pt | 43 |
-| ✓ Página específica do programa | 12 |
+| ✓✓ PDF específico no Arquivo.pt | 45 |
+| ✓ Página específica do programa | 10 |
 | ~ Homepage apenas | 1 (CDS 2011) |
 | — Sem dados | 1 (CDS 2002) |
 
