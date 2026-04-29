@@ -6,7 +6,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir fastapi uvicorn[standard] httpx python-dotenv aiosqlite
 
 COPY backend/ ./backend/
-COPY data/prometido.db ./data/prometido.db
+COPY data/ ./data/
 
 EXPOSE 8080
 
