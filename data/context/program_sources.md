@@ -15,12 +15,12 @@ Fonte de todos os programas: [ps.pt/programas-eleitorais/programas-eleitorais-do
 
 | Eleição | Ficheiro | Arquivo.pt |
 |---------|---------|------------|
-| 2002 | PS-leg-2002.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
-| 2005 | PS-leg-2005.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
-| 2009 | PS-leg-2009.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
-| 2011 | PS-leg-2011.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
-| 2015 | PS-leg-2015.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
-| 2019 | PS-leg-2019.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
+| 2002 | PS-leg-2002.pdf | [✓✓ PDF — ps.pt (ago 2021)](https://arquivo.pt/noFrame/replay/20210822062551/https://ps.pt/wp-content/uploads/2021/03/2002.17.mar_Programa.do_.Governo.PS_Renovar.a.Maioria.pdf) |
+| 2005 | PS-leg-2005.pdf | [✓✓ PDF — ps.pt (ago 2021)](https://arquivo.pt/noFrame/replay/20210822062545/https://ps.pt/wp-content/uploads/2021/03/2005.20.fev_Compromisso.de_.Governo.para_.Portugal.2005-09_Voltar.a.Acreditar_Bases.Programaticas.pdf) |
+| 2009 | PS-leg-2009.pdf | [✓✓ PDF — ps.pt (ago 2021)](https://arquivo.pt/noFrame/replay/20210822062540/https://ps.pt/wp-content/uploads/2021/03/2009.27.set_Programa.de_.Governo.do_.Partido.Socialista_Avancar.Portugal.2009.2013.pdf) |
+| 2011 | PS-leg-2011.pdf | [✓✓ PDF — ps.pt (ago 2021)](https://arquivo.pt/noFrame/replay/20210822062536/https://ps.pt/wp-content/uploads/2021/03/2011.5.jun_PS_Programa.Eleitoral.2011-2015.Defender.Portugal.Construir.o.Futuro.pdf) |
+| 2015 | PS-leg-2015.pdf | [✓✓ PDF — ps.pt (ago 2021)](https://arquivo.pt/noFrame/replay/20210822062533/https://ps.pt/wp-content/uploads/2021/03/2015.4.out_Programa.Eleitoral.do_.Partido.Socialista_Eleicoes.Legislativas.2015_Alternativa.de_.Confianca.pdf) |
+| 2019 | PS-leg-2019.pdf | [✓✓ PDF — ps.pt (ago 2021)](https://arquivo.pt/noFrame/replay/20210822062529/https://ps.pt/wp-content/uploads/2021/03/2019.Programa-Eleitoral-PS-2019.-Fazer-ainda-mais-e-melhor.pdf) |
 | 2022 | PS-leg-2022.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
 | 2024 | PS-leg-2024.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
 | 2025 | PS-leg-2025.pdf | [✓ página — listagem ps.pt (jul 2021)](https://arquivo.pt/noFrame/replay/20210705214004/https://ps.pt/programas-eleitorais/programas-eleitorais-do-ps/) |
@@ -33,12 +33,12 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 
 | Eleição | Ficheiro | Notas | Arquivo.pt |
 |---------|---------|-------|------------|
-| 2002 | PSD-leg-2002.pdf | PDF digitalizado (OCR) | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
-| 2005 | PSD-leg-2005.pdf | | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
-| 2009 | PSD-leg-2009.pdf | | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
-| 2011 | PSD-leg-2011.pdf | | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
-| 2015 | PaF-leg-2015.pdf | Coligação PSD+CDS (Portugal à Frente) | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
-| 2019 | PSD-leg-2019.pdf | | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
+| 2002 | PSD-leg-2002.pdf | PDF digitalizado (OCR) | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105452/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2002.pdf) |
+| 2005 | PSD-leg-2005.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105447/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2005.pdf) |
+| 2009 | PSD-leg-2009.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105442/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2009.pdf) |
+| 2011 | PSD-leg-2011.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105438/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2011.pdf) |
+| 2015 | PaF-leg-2015.pdf | Coligação PSD+CDS (Portugal à Frente) | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105434/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2015.pdf) |
+| 2019 | PSD-leg-2019.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205135320/https://www.psd.pt/sites/default/files/2020-09/Programa-Eleitoral-2019.pdf) |
 | 2022 | PDS-leg-2022.pdf | | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
 | 2024 | AD-leg-2024.pdf | Coligação AD (PSD+CDS+PPM) | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
 | 2025 | AD-leg-2025.pdf | Coligação AD — programa completo | [✓ página — listagem psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201205130129/https://www.psd.pt/pt/programas-do-partido-e-programas-eleitorais) |
@@ -105,8 +105,8 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 |---------|---------|---------------|------------|
 | 2019 | CH-leg-2019.pdf | raquelcardeiravarela.wordpress.com/wp-content/uploads/2019/12/programa_polc38dtico_2019_chega-2.pdf | [✓✓ PDF — WordPress (mai 2024)](https://arquivo.pt/noFrame/replay/20240512193035/https://raquelcardeiravarela.wordpress.com/wp-content/uploads/2019/12/programa_polc38dtico_2019_chega-2.pdf) |
 | 2022 | CH-leg-2022.txt + CH-programa-politico-2021.txt | partidochega.pt/programa-politico-chega/ | [✓ página — partidochega.pt (set 2021)](https://arquivo.pt/noFrame/replay/20210923103201/https://partidochega.pt/programa-politico-chega/) |
-| 2024 | CH-leg-2024.pdf | partidochega.pt/wp-content/uploads/2025/10/Programa_Eleitoral_CHEGA_2024_LQ.pdf (carregado após eleição, não indexado) | [~ home — partidochega.pt (jul 2023)](https://arquivo.pt/noFrame/replay/20230722080854/https://partidochega.pt/) |
-| 2025 | CH-leg-2025.pdf | partidochega.pt/wp-content/uploads/2025/10/Programa-Eleitoral-CHEGA-2025.pdf (carregado após eleição, não indexado) | [~ home — partidochega.pt (nov 2024)](https://arquivo.pt/noFrame/replay/20241124011423/https://partidochega.pt/) |
+| 2024 | CH-leg-2024.pdf | partidochega.pt/wp-content/uploads/2025/10/Programa_Eleitoral_CHEGA_2024_LQ.pdf (carregado após eleição, não indexado) | [✓ página — documentoschega (mar 2024)](https://arquivo.pt/noFrame/replay/20240310194424/https://partidochega.pt/index.php/documentoschega/) |
+| 2025 | CH-leg-2025.pdf | partidochega.pt/wp-content/uploads/2025/10/Programa-Eleitoral-CHEGA-2025.pdf (carregado após eleição, não indexado) | [✓ página — documentoschega (dez 2024)](https://arquivo.pt/noFrame/replay/20241231210649/https://partidochega.pt/index.php/documentoschega/) |
 
 ---
 
@@ -137,9 +137,9 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 
 | Tipo | Combinações |
 |------|-------------|
-| ✓✓ PDF específico no Arquivo.pt | 22 |
-| ✓ Página específica do programa | 20 |
-| ~ Homepage apenas | 7 (BE 2005/2009/2015, CDS 2011/2019, Chega 2024/2025) |
+| ✓✓ PDF específico no Arquivo.pt | 35 |
+| ✓ Página específica do programa | 16 |
+| ~ Homepage apenas | 5 (BE 2005/2009/2015, CDS 2011/2019) |
 | — Sem dados | 1 (CDS 2002) |
 
-**Total: 55 combinações com link Arquivo.pt · 1 sem dados (CDS 2002)**
+**Total: 56 combinações com link Arquivo.pt · 1 sem dados (CDS 2002)**
