@@ -29,6 +29,18 @@ export default async function PartyPage({ params }: { params: Promise<{ id: stri
         </div>
       </div>
 
+      {/* Nota CDS — participação em coligações */}
+      {id === "CDS" && (
+        <div className="mb-8 bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 text-sm text-amber-800">
+          <p>
+            Em <strong>2015</strong> (Portugal à Frente), <strong>2022</strong>, <strong>2024</strong> e <strong>2025</strong> (Aliança Democrática)
+            o CDS concorreu em coligação com o PSD. Os programas e promessas dessas eleições estão registados
+            em{" "}
+            <a href="/party/PSD" className="underline hover:text-amber-900">PSD / AD</a>.
+          </p>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Eleições */}
         <div className="md:col-span-1 space-y-4">
