@@ -33,7 +33,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://prometido.pt"],
+    allow_origins=["http://localhost:3000", "https://prometido.pt", "https://prometido-app.vercel.app"],
     allow_methods=["GET"],
     allow_headers=["*"],
 )
