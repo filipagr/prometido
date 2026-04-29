@@ -3,6 +3,6 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://prometido-api.up.railway.app/api"
+    "NEXT_PUBLIC_API_URL": "https://prometido-api.fly.dev/api"
   }
 }
