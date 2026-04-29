@@ -1,10 +1,12 @@
-import { getPromise, type PromiseDetail } from "@/lib/api";
+"use client";
+
+import { use, useEffect, useState } from "react";
+import Link from "next/link";
+import { ExternalLink } from "lucide-react";
+import { getPromise, warmupBackend, type PromiseDetail } from "@/lib/api";
 import SourceBadge from "@/components/SourceBadge";
 import StatusBadge from "@/components/StatusBadge";
 import ArchiveLink from "@/components/ArchiveLink";
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { ExternalLink } from "lucide-react";
 
 const USE_TYPE_LABELS: Record<string, string> = {
   corroboration: "Corroboração",
@@ -12,14 +14,49 @@ const USE_TYPE_LABELS: Record<string, string> = {
   breach: "Evidência de não cumprimento",
 };
 
-export default async function PromisePage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+export default function PromisePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
 
-  let promise: PromiseDetail;
-  try {
-    promise = await getPromise(id);
-  } catch {
-    notFound();
+  const [promise, setPromise] = useState<PromiseDetail | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [slowWarning, setSlowWarning] = useState(false);
+  const [notFound, setNotFound] = useState(false);
+
+  useEffect(() => {
+    warmupBackend();
+    const slowTimer = setTimeout(() => setSlowWarning(true), 4000);
+
+    getPromise(id)
+      .then(setPromise)
+      .catch(() => setNotFound(true))
+      .finally(() => {
+        clearTimeout(slowTimer);
+        setLoading(false);
+      });
+
+    return () => clearTimeout(slowTimer);
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-16 text-center">
+        <p className="text-sm text-gray-500">A carregar promessa…</p>
+        {slowWarning && (
+          <p className="text-xs text-gray-400 mt-2 max-w-md mx-auto">
+            O servidor pode demorar até um minuto a acordar na primeira visita do dia.
+          </p>
+        )}
+      </div>
+    );
+  }
+
+  if (notFound || !promise) {
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-16 text-center">
+        <h1 className="text-xl font-semibold text-gray-900 mb-2">Promessa não encontrada</h1>
+        <Link href="/" className="text-sm text-blue-600 hover:underline">← Voltar ao início</Link>
+      </div>
+    );
   }
 
   return (
@@ -113,7 +150,7 @@ export default async function PromisePage({ params }: { params: Promise<{ id: st
                 </div>
                 {s.quote && (
                   <blockquote className="text-sm text-gray-700 italic border-l-2 border-gray-200 pl-3 mb-2">
-                    "{s.quote}"
+                    &ldquo;{s.quote}&rdquo;
                   </blockquote>
                 )}
                 <a

@@ -1,19 +1,67 @@
-import { getParty, search, type PartyDetail, type PartyElection, type PromiseItem } from "@/lib/api";
-import PromiseCard from "@/components/PromiseCard";
+"use client";
+
+import { use, useEffect, useState } from "react";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import {
+  getParty, search, warmupBackend,
+  type PartyDetail, type PartyElection, type PromiseItem, type SearchResult,
+} from "@/lib/api";
+import PromiseCard from "@/components/PromiseCard";
 
-export default async function PartyPage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+export default function PartyPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
 
-  let party: PartyDetail;
-  try {
-    party = await getParty(id);
-  } catch {
-    notFound();
+  const [party, setParty] = useState<PartyDetail | null>(null);
+  const [promises, setPromises] = useState<SearchResult>({ total: 0, offset: 0, limit: 20, results: [] });
+  const [loading, setLoading] = useState(true);
+  const [slowWarning, setSlowWarning] = useState(false);
+  const [notFound, setNotFound] = useState(false);
+
+  useEffect(() => {
+    warmupBackend();
+    const slowTimer = setTimeout(() => setSlowWarning(true), 4000);
+
+    Promise.all([
+      getParty(id),
+      search({ party: id, limit: "20" }).catch(() => ({ total: 0, offset: 0, limit: 20, results: [] as PromiseItem[] })),
+    ])
+      .then(([p, r]) => {
+        setParty(p);
+        setPromises(r);
+      })
+      .catch(() => setNotFound(true))
+      .finally(() => {
+        clearTimeout(slowTimer);
+        setLoading(false);
+      });
+
+    return () => clearTimeout(slowTimer);
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="max-w-5xl mx-auto px-4 py-16 text-center">
+        <p className="text-sm text-gray-500">A carregar partido…</p>
+        {slowWarning && (
+          <p className="text-xs text-gray-400 mt-2 max-w-md mx-auto">
+            O servidor pode demorar até um minuto a acordar na primeira visita do dia.
+          </p>
+        )}
+      </div>
+    );
   }
 
-  const promisesData = await search({ party: id, limit: "20" }).catch(() => ({ results: [], total: 0 }));
+  if (notFound || !party) {
+    return (
+      <div className="max-w-5xl mx-auto px-4 py-16 text-center">
+        <h1 className="text-xl font-semibold text-gray-900 mb-2">Partido não encontrado</h1>
+        <p className="text-sm text-gray-500 mb-6">
+          O identificador <code className="font-mono bg-gray-100 px-1.5 py-0.5 rounded">{id}</code> não existe na base de dados.
+        </p>
+        <Link href="/" className="text-sm text-blue-600 hover:underline">← Voltar ao início</Link>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -36,7 +84,7 @@ export default async function PartyPage({ params }: { params: Promise<{ id: stri
             Em <strong>2015</strong> (Portugal à Frente), <strong>2022</strong>, <strong>2024</strong> e <strong>2025</strong> (Aliança Democrática)
             o CDS concorreu em coligação com o PSD. Os programas e promessas dessas eleições estão registados
             em{" "}
-            <a href="/party/PSD" className="underline hover:text-amber-900">PSD / AD</a>.
+            <Link href="/party/PSD" className="underline hover:text-amber-900">PSD / AD</Link>.
           </p>
         </div>
       )}
@@ -103,13 +151,13 @@ export default async function PartyPage({ params }: { params: Promise<{ id: stri
           <div className="flex items-center justify-between mb-1">
             <h2 className="font-semibold text-gray-900">Promessas recentes</h2>
             <Link href={`/search?party=${id}`} className="text-sm text-blue-600 hover:underline">
-              Ver todas ({promisesData.total})
+              Ver todas ({promises.total})
             </Link>
           </div>
-          {promisesData.results.length === 0 ? (
+          {promises.results.length === 0 ? (
             <p className="text-sm text-gray-400">Sem promessas extraídas ainda.</p>
           ) : (
-            promisesData.results.map((p: PromiseItem) => (
+            promises.results.map((p: PromiseItem) => (
               <PromiseCard key={p.id} promise={p} showParty={false} />
             ))
           )}

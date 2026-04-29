@@ -1,18 +1,47 @@
+"use client";
+
 import Link from "next/link";
-import { getParties, getElections, type Party, type Election } from "@/lib/api";
-// Party and Election are used for type annotations below
+import { useEffect, useState } from "react";
+import { getParties, getElections, warmupBackend, type Party, type Election } from "@/lib/api";
 import SearchBar from "@/components/SearchBar";
 
 const FEATURED_TOPICS = ["habitação", "saúde", "educação", "emprego", "ambiente", "economia"];
+const SEARCH_TOPICS = [
+  "habitação", "saúde", "educação", "economia", "emprego",
+  "ambiente", "segurança", "justiça", "transportes", "tecnologia",
+];
 
-export default async function HomePage() {
-  const [parties, elections]: [Party[], Election[]] = await Promise.all([
-    getParties().catch((): Party[] => []),
-    getElections().catch((): Election[] => []),
-  ]);
+export default function HomePage() {
+  const [parties, setParties] = useState<Party[]>([]);
+  const [elections, setElections] = useState<Election[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [slowWarning, setSlowWarning] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const totalPromises = parties.reduce((sum: number, p: Party) => sum + p.promise_count, 0);
-  const electionsWithData = elections.filter((e: Election) => e.promise_count > 0);
+  useEffect(() => {
+    warmupBackend();
+    const slowTimer = setTimeout(() => setSlowWarning(true), 4000);
+
+    Promise.all([getParties(), getElections()])
+      .then(([p, e]) => {
+        setParties(p);
+        setElections(e);
+        setError(null);
+      })
+      .catch((err) => {
+        setError(err?.message ?? "Não foi possível carregar os dados.");
+      })
+      .finally(() => {
+        clearTimeout(slowTimer);
+        setLoading(false);
+      });
+
+    return () => clearTimeout(slowTimer);
+  }, []);
+
+  const totalPromises = parties.reduce((sum, p) => sum + p.promise_count, 0);
+  const electionsWithData = elections.filter((e) => e.promise_count > 0);
+  const partiesWithData = parties.filter((p) => p.promise_count > 0);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
@@ -36,15 +65,38 @@ export default async function HomePage() {
         </div>
       </div>
 
+      {/* Loading state */}
+      {loading && (
+        <div className="text-center py-8 mb-8">
+          <p className="text-sm text-gray-500">A carregar dados…</p>
+          {slowWarning && (
+            <p className="text-xs text-gray-400 mt-2 max-w-md mx-auto">
+              O servidor pode demorar até um minuto a acordar na primeira visita do dia.
+            </p>
+          )}
+        </div>
+      )}
+
+      {/* Erro */}
+      {!loading && error && (
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8 text-sm text-amber-800">
+          <p className="font-medium mb-1">Não foi possível carregar os dados.</p>
+          <p className="text-amber-700">
+            Tenta recarregar a página dentro de alguns segundos. Se o problema persistir,{" "}
+            <a href="https://github.com/filipagr/prometido/issues" className="underline">avisa-nos</a>.
+          </p>
+        </div>
+      )}
+
       {/* Stats */}
-      {totalPromises > 0 && (
+      {!loading && totalPromises > 0 && (
         <div className="grid grid-cols-3 gap-4 mb-12 max-w-lg mx-auto text-center">
           <div className="bg-white rounded-lg border border-gray-200 p-4">
             <p className="text-2xl font-bold text-gray-900">{totalPromises.toLocaleString("pt")}</p>
             <p className="text-xs text-gray-500 mt-0.5">promessas</p>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4">
-            <p className="text-2xl font-bold text-gray-900">{parties.filter((p) => p.promise_count > 0).length}</p>
+            <p className="text-2xl font-bold text-gray-900">{partiesWithData.length}</p>
             <p className="text-xs text-gray-500 mt-0.5">partidos</p>
           </div>
           <div className="bg-white rounded-lg border border-gray-200 p-4">
@@ -74,30 +126,32 @@ export default async function HomePage() {
       </div>
 
       {/* Partidos */}
-      <div className="mb-12">
-        <h2 className="font-semibold text-gray-900 mb-4">Partidos</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {parties.map((party) => (
-            <Link
-              key={party.id}
-              href={`/party/${party.id}`}
-              className="bg-white border border-gray-200 rounded-lg p-3 hover:border-gray-300 hover:shadow-sm transition-all flex items-center gap-2.5"
-            >
-              <span className="w-3 h-3 rounded-full shrink-0" style={{ backgroundColor: party.color }} />
-              <div className="min-w-0">
-                <p className="font-medium text-sm text-gray-900 truncate">{party.short_name}</p>
-                <p className="text-xs text-gray-500">{party.promise_count} promessas</p>
-              </div>
-            </Link>
-          ))}
+      {!loading && parties.length > 0 && (
+        <div className="mb-12">
+          <h2 className="font-semibold text-gray-900 mb-4">Partidos</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            {parties.map((party) => (
+              <Link
+                key={party.id}
+                href={`/party/${party.id}`}
+                className="bg-white border border-gray-200 rounded-lg p-3 hover:border-gray-300 hover:shadow-sm transition-all flex items-center gap-2.5"
+              >
+                <span className="w-3 h-3 rounded-full shrink-0" style={{ backgroundColor: party.color }} />
+                <div className="min-w-0">
+                  <p className="font-medium text-sm text-gray-900 truncate">{party.short_name}</p>
+                  <p className="text-xs text-gray-500">{party.promise_count} promessas</p>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Tópicos */}
       <div>
         <h2 className="font-semibold text-gray-900 mb-4">Pesquisar por tema</h2>
         <div className="flex flex-wrap gap-2">
-          {["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia"].map((topic) => (
+          {SEARCH_TOPICS.map((topic) => (
             <Link
               key={topic}
               href={`/search?topic=${encodeURIComponent(topic)}`}
