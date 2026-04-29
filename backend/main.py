@@ -34,6 +34,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000", "https://prometido.pt", "https://prometido-app.vercel.app"],
+    # Aceita também previews do Vercel (frontend-*.vercel.app, *-filipagrs-projects.vercel.app, etc.)
+    allow_origin_regex=r"https://([a-z0-9-]+\.)*vercel\.app",
     allow_methods=["GET"],
     allow_headers=["*"],
 )
