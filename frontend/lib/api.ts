@@ -1,11 +1,13 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "https://prometido-api.onrender.com/api";
+const API_BASE = process.env.NODE_ENV === "production"
+  ? "https://prometido-api.onrender.com/api"
+  : "http://localhost:8000/api";
 
 async function apiFetch<T>(path: string, params?: Record<string, string>): Promise<T> {
   const url = new URL(`${API_BASE}${path}`);
   if (params) {
     Object.entries(params).forEach(([k, v]) => v && url.searchParams.set(k, v));
   }
-  const res = await fetch(url.toString(), { next: { revalidate: 60 } });
+  const res = await fetch(url.toString(), { cache: "no-store" });
   if (!res.ok) throw new Error(`API ${res.status}: ${path}`);
   return res.json();
 }
