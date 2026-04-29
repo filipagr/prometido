@@ -1,14 +1,14 @@
 # Prometido — Progress Log
 
 ## Estado atual
-**Fase:** Semana 2 — Deploy feito. A fazer: Railway (backend) + testes em produção.
-**Data:** 28 de abril de 2026
-**Próximo passo:** `railway login && railway up` → testar em produção → actualizar URL backend no Vercel → vídeo + submissão até 6 maio 23:59h.
+**Fase:** Semana 2 — Deploy completo. A fazer: testes em produção + vídeo + submissão.
+**Data:** 29 de abril de 2026
+**Próximo passo:** testar em produção (search, party, compare) → vídeo 3 min → submissão até 6 maio 23:59h.
 **Totais actuais na DB:** 7.549 promessas válidas · 9 partidos · 9 eleições (2002–2025) · 55 combinações partido×eleição.
 
 **URLs de deploy:**
 - Frontend (Vercel): https://prometido-app.vercel.app
-- Backend (Railway): pendente — `railway login && railway up` no repo raiz
+- Backend (Render): https://prometido-api.onrender.com (free tier, adormece após 15 min sem tráfego)
 
 ---
 
@@ -186,9 +186,10 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 ### Frontend e deploy
 - [x] Frontend build sem erros (TypeScript)
 - [x] Backend a responder com dados reais (7.549 promessas)
-- [x] Commitar `data/prometido.db` no git (commit 6c9e4ab)
-- [ ] Deploy Railway (backend + DB) — `railway login && railway up`
+- [x] Commitar `data/prometido.db` no git
+- [x] Deploy Render (backend) — https://prometido-api.onrender.com
 - [x] Deploy Vercel (frontend) — https://prometido-app.vercel.app
+- [x] CORS configurado para prometido-app.vercel.app
 - [ ] Testar em produção (search, party page, compare)
 - [ ] Mobile testing
 
@@ -199,11 +200,11 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 
 ### Arquivo.pt linking
 - [x] `scripts/link_arquivo.py` — 4 camadas: URL exacta → SHA1 → homepage → Wayback
-- [x] Todas as 55 combinações partido×eleição ligadas ao Arquivo.pt
-- 22 com PDF específico confirmado no Arquivo.pt
-- 20 com página específica do programa ou listagem oficial
-- 7 com homepage apenas (BE 2005/2009/2015, CDS 2011/2019, Chega 2024/2025)
-- 1 sem dados: CDS 2002 (programa não encontrado em lado nenhum)
+- [x] Todas as 56 combinações partido×eleição ligadas ao Arquivo.pt (+ 1 sem dados)
+- 45 com PDF específico confirmado no Arquivo.pt
+- 10 com página específica do programa ou listagem oficial
+- 1 com homepage apenas (CDS 2011 — PDF não encontrado)
+- 1 sem dados: CDS 2002
 - Ver tabela completa e todos os links em `data/context/program_sources.md`
 
 ---
@@ -275,3 +276,19 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 - Commit completo: .gitignore, backend, frontend, DB, scripts → `github.com/filipagr/prometido`
 - Frontend deployed: https://prometido-app.vercel.app (Vercel)
 - Backend pendente: `railway login && railway up`
+
+### Sessão 8 — 29 abril 2026 (Claude Code)
+- Arquivo.pt: upgrade massivo de archived_urls para PDFs específicos
+  - PS 2002–2019: PDFs directos (ago 2021) · PS 2005: registo tier-2 inserido
+  - PSD 2002–2019: PDFs directos (dez 2020) · PSD 2022/2024: PDFs directos
+  - BE 2005/2009/2015: PDFs em bloco.org/media/ (abr 2018, via página de documentos)
+  - PCP 2015/2019/2024/2025: PDFs directos em pcp.pt
+  - CDS 2019: PDF em ephemerajpp.com (jan 2021)
+  - Chega 2024/2025: página documentoschega (mar 2024 / dez 2024)
+  - CDS 2011: não encontrado (microsite sem PDF)
+- **Total final: 45 PDF específico · 10 página · 1 home · 1 sem dados**
+- Backend: Railway abandonado (pede cartão) → Fly.io abandonado (pede cartão) → **Render** (grátis, sem cartão)
+- Deploy Render: https://prometido-api.onrender.com ✓
+- Fix CORS: adicionado prometido-app.vercel.app
+- Fix API URL: hardcoded Render URL como fallback em frontend/lib/api.ts
+- Dockerfile criado (bake data/ no image) · fly.toml criado (não usado)
