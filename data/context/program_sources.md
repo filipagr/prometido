@@ -49,10 +49,10 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 
 | Eleição | Ficheiro | Fonte original | Arquivo.pt |
 |---------|---------|---------------|------------|
-| 2005 | BE-leg-2005.pdf | bloco.org/sites/default/files/media/programa2005.pdf | [~ home — bloco.org (abr 2005)](https://arquivo.pt/noFrame/replay/20050409065147/http://www.bloco.org/) |
-| 2009 | BE-leg-2009.pdf | bloco.org/sites/default/files/media/programabe2009.pdf | [~ home — bloco.org (out 2009)](https://arquivo.pt/noFrame/replay/20091003114520/http://bloco.org/) |
+| 2005 | BE-leg-2005.pdf | bloco.org/media/programa2005.pdf | [✓✓ PDF — bloco.org (abr 2018)](https://arquivo.pt/noFrame/replay/20180406182924/http://www.bloco.org/media/programa2005.pdf) |
+| 2009 | BE-leg-2009.pdf | bloco.org/media/programabe2009.pdf | [✓✓ PDF — bloco.org (abr 2018)](https://arquivo.pt/noFrame/replay/20180406145724/http://www.bloco.org/media/programabe2009.pdf) |
 | 2011 | BE-leg-2011.pdf | esquerda.net/sites/default/files/compromisso_eleitoral_0.pdf | [✓✓ PDF — esquerda.net (nov 2013)](https://arquivo.pt/noFrame/replay/20131105154211/http://www.esquerda.net/sites/default/files/compromisso_eleitoral_0.pdf) |
-| 2015 | BE-leg-2015.pdf | bloco.org/sites/default/files/media/manifestolegislativas2015.pdf | [~ home — bloco.org (dez 2015)](https://arquivo.pt/noFrame/replay/20151201105732/http://www.bloco.org//) |
+| 2015 | BE-leg-2015.pdf | bloco.org/media/manifestolegislativas2015.pdf | [✓✓ PDF — bloco.org (abr 2018)](https://arquivo.pt/noFrame/replay/20180406145556/http://www.bloco.org/media/manifestolegislativas2015.pdf) |
 | 2019 | BE-leg-2019.pdf | programa2019.bloco.org/images/programa-sem-fotos.pdf | [✓✓ PDF — programa2019.bloco.org (set 2019)](https://arquivo.pt/noFrame/replay/20190919183013/https://programa2019.bloco.org/images/programa-sem-fotos.pdf) |
 | 2022 | BE-leg-2022.pdf | programa2022.bloco.org/wp-content/uploads/2022/01/Programa-a-cores-com-página-dupla.pdf | [✓✓ PDF — programa2022.bloco.org (jan 2022)](https://arquivo.pt/noFrame/replay/20220118182943/https://programa2022.bloco.org/wp-content/uploads/2022/01/Programa-a-cores-com-pa%CC%81gina-dupla.pdf) |
 | 2024 | BE-leg-2024.pdf | bloco.org/media/PROGRAMA_BLOCO_2024.pdf | [✓✓ PDF — bloco.org (jan 2024)](https://arquivo.pt/noFrame/replay/20240130205205/https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf) |
@@ -68,11 +68,11 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 | 2005 | CDU-leg-2005.pdf | pcp.pt/ar/legislativas05/programa-eleitoral/programa-eleitoral.pdf | [✓✓ PDF — pcp.pt (jan 2005)](https://arquivo.pt/noFrame/replay/20050120125110/http://www.pcp.pt/ar/legislativas05/programa-eleitoral/programa-eleitoral.pdf) |
 | 2009 | CDU-leg-2009.pdf | pcp.pt/dmfiles/programa-eleitoral-ar2009.pdf | [✓✓ PDF — pcp.pt (set 2009)](https://arquivo.pt/noFrame/replay/20090926082751/http://www.pcp.pt/dmfiles/programa-eleitoral-ar2009.pdf) |
 | 2011 | CDU-leg-2011.pdf | pcp.pt/sites/default/files/documentos/2011_compromisso_eleitoral_pcp_legistativas.pdf | [✓✓ PDF — pcp.pt (abr 2015)](https://arquivo.pt/noFrame/replay/20150419172523/http://pcp.pt/sites/default/files/documentos/2011_compromisso_eleitoral_pcp_legistativas.pdf) |
-| 2015 | PCP-leg-2015.pdf | pcp.pt/programa-eleitoral-do-pcp | [✓ página — pcp.pt (set 2015)](https://arquivo.pt/noFrame/replay/20150922053438/http://www.pcp.pt/programa-eleitoral-do-pcp) |
-| 2019 | CDU-leg-2019.pdf | cdu.pt/2022/programa-eleitoral-do-pcp-2019 | [✓ página — cdu.pt (jan 2022)](https://arquivo.pt/noFrame/replay/20220112225350/https://www.cdu.pt/2022/programa-eleitoral-do-pcp-2019) |
+| 2015 | PCP-leg-2015.pdf | pcp.pt/sites/default/files/documentos/programa_eleitoral_pcp_legislativas_2015.pdf | [✓✓ PDF — pcp.pt (set 2015)](https://arquivo.pt/noFrame/replay/20150922132024/http://www.pcp.pt/sites/default/files/documentos/programa_eleitoral_pcp_legislativas_2015.pdf) |
+| 2019 | CDU-leg-2019.pdf | pcp.pt/sites/default/files/documentos/2019_programa_eleitoral_pcp.pdf | [✓✓ PDF — pcp.pt (set 2019)](https://arquivo.pt/noFrame/replay/20190905224802/http://pcp.pt/sites/default/files/documentos/2019_programa_eleitoral_pcp.pdf) |
 | 2022 | CDU-leg-2022.pdf | cdu.pt/2022/documentos/compromisso_eleitoral_pcp.pdf | [✓✓ PDF — cdu.pt (jan 2022)](https://arquivo.pt/noFrame/replay/20220112225742/https://www.cdu.pt/2022/documentos/compromisso_eleitoral_pcp.pdf) |
-| 2024 | CDU-leg-2024.pdf | cdu.pt/legislativas2024/programa-eleitoral-do-pcp | [✓ página — cdu.pt (fev 2024)](https://arquivo.pt/noFrame/replay/20240215205217/https://www.cdu.pt/legislativas2024/programa-eleitoral-do-pcp) |
-| 2025 | CDU-leg-2025.pdf | cdu.pt/legislativas2025/compromisso-eleitoral-do-pcp | [✓ página — cdu.pt (mai 2025)](https://arquivo.pt/noFrame/replay/20250517190242/https://www.cdu.pt/legislativas2025/compromisso-eleitoral-do-pcp) |
+| 2024 | CDU-leg-2024.pdf | pcp.pt/sites/default/files/documentos/2024_programa_eleitoral_pcp.pdf | [✓✓ PDF — pcp.pt (fev 2024)](https://arquivo.pt/noFrame/replay/20240213064658/https://www.pcp.pt/sites/default/files/documentos/2024_programa_eleitoral_pcp.pdf) |
+| 2025 | CDU-leg-2025.pdf | pcp.pt/sites/default/files/documentos/2025_compromisso_eleitoral_pcp_legislativas.pdf | [✓✓ PDF — pcp.pt (mai 2025)](https://arquivo.pt/noFrame/replay/20250519215223/https://www.pcp.pt/sites/default/files/documentos/2025_compromisso_eleitoral_pcp_legislativas.pdf) |
 
 ---
 
@@ -84,7 +84,7 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 | 2005 | CDS-leg-2005.pdf | cds.pt/legis/pdf/programa.pdf | [✓✓ PDF — cds.pt (mar 2005)](https://arquivo.pt/noFrame/replay/20050308184351/http://www.cds.pt:80/legis/pdf/programa.pdf) |
 | 2009 | CDS-leg-2009.pdf | cds.pt/rubricas/asnossasrespostas.pdf | [✓✓ PDF — cds.pt (set 2009)](https://arquivo.pt/noFrame/replay/20090925112714/http://www.cds.pt/rubricas/asnossasrespostas.pdf) |
 | 2011 | CDS-leg-2011.pdf | tretas.org (não indexado) | [~ home — cds.pt (jul 2011)](https://arquivo.pt/noFrame/replay/20110701233132/http://www.cds.pt/) |
-| 2019 | CDS-leg-2019.pdf | cds.pt (download directo — URL específica não indexada) | [~ home — cds.pt (ago 2019)](https://arquivo.pt/noFrame/replay/20190830234459/http://cds.pt/) |
+| 2019 | CDS-leg-2019.pdf | ephemerajpp.com/wp-content/uploads/2019/08/programaeleitoral_legislativascds19.pdf | [✓✓ PDF — ephemerajpp.com (jan 2021)](https://arquivo.pt/noFrame/replay/20210116195108/https://ephemerajpp.com/wp-content/uploads/2019/08/programaeleitoral_legislativascds19.pdf) |
 
 ---
 
@@ -137,9 +137,9 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 
 | Tipo | Combinações |
 |------|-------------|
-| ✓✓ PDF específico no Arquivo.pt | 35 |
-| ✓ Página específica do programa | 16 |
-| ~ Homepage apenas | 5 (BE 2005/2009/2015, CDS 2011/2019) |
+| ✓✓ PDF específico no Arquivo.pt | 43 |
+| ✓ Página específica do programa | 12 |
+| ~ Homepage apenas | 1 (CDS 2011) |
 | — Sem dados | 1 (CDS 2002) |
 
 **Total: 56 combinações com link Arquivo.pt · 1 sem dados (CDS 2002)**
