@@ -13,3 +13,17 @@ data/samples/
 node_modules/
 frontend/.next/
 frontend/out/
+
+# macOS FUSE temp files
+data/.fuse_hidden*
+
+# one-off scripts and logs
+extract_*.py
+final_extract.py
+refine_promises.py
+*.log
+diag.html
+RELATORIO_*.txt
+SUMARIO_EXTRACAO.md
+VALIDATION_GUIDE.md
+VALIDATION_PLAN.md
