@@ -1,16 +1,17 @@
 type Props = { tier: number; className?: string };
 
-const TIER_LABELS: Record<number, { label: string; title: string; style: string }> = {
-  1: { label: "Tier 1", title: "Site oficial do partido", style: "bg-emerald-100 text-emerald-800 border-emerald-200" },
-  2: { label: "Tier 2", title: "Programa de governo", style: "bg-blue-100 text-blue-800 border-blue-200" },
-  3: { label: "Tier 3", title: "Fonte jornalística", style: "bg-amber-100 text-amber-800 border-amber-200" },
+const TIER_CONFIG: Record<number, { label: string; title: string; color: string }> = {
+  1: { label: "T1", title: "Site oficial do partido — máxima credibilidade", color: "#16a34a" },
+  2: { label: "T2", title: "Programa de governo — fonte primária oficial",   color: "#2563eb" },
+  3: { label: "T3", title: "Fonte jornalística — citação directa",           color: "#d97706" },
 };
 
 export default function SourceBadge({ tier, className = "" }: Props) {
-  const config = TIER_LABELS[tier] ?? { label: `Tier ${tier}`, title: "", style: "bg-gray-100 text-gray-600" };
+  const config = TIER_CONFIG[tier] ?? { label: `T${tier}`, title: "", color: "#a3a3a3" };
   return (
     <span
-      className={`inline-flex items-center px-2 py-0.5 rounded border text-xs font-medium ${config.style} ${className}`}
+      className={`inline-flex items-center text-[10px] font-semibold tabular-nums px-1.5 py-0.5 rounded border ${className}`}
+      style={{ color: config.color, borderColor: `${config.color}40`, backgroundColor: `${config.color}0d` }}
       title={config.title}
     >
       {config.label}

@@ -1,5 +1,3 @@
-import { ExternalLink } from "lucide-react";
-
 type Props = {
   archivedUrl: string;
   archivedDate?: string; // YYYYMMDD
@@ -18,14 +16,12 @@ export default function ArchiveLink({ archivedUrl, archivedDate, className = "" 
       href={archivedUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-stone-100 hover:bg-stone-200 border border-stone-300 text-xs font-mono text-stone-700 hover:text-stone-900 transition-colors ${className}`}
       title="Ver página original arquivada no Arquivo.pt"
+      className={`inline-flex items-center gap-1 text-[11px] font-mono text-neutral-400 hover:text-neutral-700 transition-colors duration-150 ${className}`}
     >
-      <ExternalLink size={11} />
       arquivo.pt
-      {archivedDate && (
-        <span className="text-stone-500">{formatDate(archivedDate)}</span>
-      )}
+      {archivedDate && <span className="text-neutral-300">· {formatDate(archivedDate)}</span>}
+      <span className="text-neutral-300 font-sans not-italic">↗</span>
     </a>
   );
 }

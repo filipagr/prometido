@@ -1,18 +1,22 @@
 type Props = { status: string; className?: string };
 
-const STATUS_CONFIG: Record<string, { label: string; style: string }> = {
-  archived:                      { label: "Arquivado",           style: "bg-gray-100 text-gray-600 border-gray-200" },
-  corroborated:                  { label: "Corroborado",         style: "bg-sky-100 text-sky-800 border-sky-200" },
-  evidence_of_implementation:    { label: "Evidência: cumprida", style: "bg-green-100 text-green-800 border-green-200" },
-  evidence_of_non_implementation:{ label: "Evidência: não cumprida", style: "bg-red-100 text-red-800 border-red-200" },
-  partial_implementation:        { label: "Cumprida parcialmente", style: "bg-orange-100 text-orange-800 border-orange-200" },
-  untracked:                     { label: "Sem análise",         style: "bg-gray-50 text-gray-400 border-gray-200" },
+const STATUS_CONFIG: Record<string, { label: string; color: string }> = {
+  archived:                       { label: "Arquivado",             color: "#a3a3a3" },
+  corroborated:                   { label: "Corroborado",           color: "#38bdf8" },
+  evidence_of_implementation:     { label: "Cumprida",              color: "#22c55e" },
+  evidence_of_non_implementation: { label: "Não cumprida",          color: "#f87171" },
+  partial_implementation:         { label: "Parcial",               color: "#fb923c" },
+  untracked:                      { label: "Sem análise",           color: "#d4d4d4" },
 };
 
 export default function StatusBadge({ status, className = "" }: Props) {
-  const config = STATUS_CONFIG[status] ?? { label: status, style: "bg-gray-100 text-gray-600 border-gray-200" };
+  const config = STATUS_CONFIG[status] ?? { label: status, color: "#a3a3a3" };
   return (
-    <span className={`inline-flex items-center px-2 py-0.5 rounded border text-xs font-medium ${config.style} ${className}`}>
+    <span className={`inline-flex items-center gap-1.5 text-[11px] text-neutral-400 whitespace-nowrap ${className}`}>
+      <span
+        className="w-[5px] h-[5px] rounded-full shrink-0"
+        style={{ backgroundColor: config.color }}
+      />
       {config.label}
     </span>
   );

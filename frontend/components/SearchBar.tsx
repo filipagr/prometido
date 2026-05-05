@@ -12,7 +12,7 @@ type Props = {
 
 export default function SearchBar({
   defaultValue = "",
-  placeholder = "Pesquisar promessas… ex: habitação, salário mínimo, SNS",
+  placeholder = "Pesquisar promessas… habitação, SNS, salário mínimo",
   autoFocus = false,
 }: Props) {
   const [value, setValue] = useState(defaultValue);
@@ -28,27 +28,25 @@ export default function SearchBar({
 
   return (
     <form onSubmit={handleSubmit} className="relative w-full">
-      <div className="relative flex items-center">
-        <Search
-          size={18}
-          className="absolute left-3.5 text-gray-400 pointer-events-none"
-        />
-        <input
-          ref={inputRef}
-          type="search"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
-          placeholder={placeholder}
-          autoFocus={autoFocus}
-          className="w-full pl-10 pr-28 py-3 text-sm border border-gray-300 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder:text-gray-400"
-        />
-        <button
-          type="submit"
-          className="absolute right-2 px-4 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-md transition-colors"
-        >
-          Pesquisar
-        </button>
-      </div>
+      <Search
+        size={15}
+        className="absolute left-4 top-1/2 -translate-y-1/2 text-neutral-400 pointer-events-none"
+      />
+      <input
+        ref={inputRef}
+        type="search"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        placeholder={placeholder}
+        autoFocus={autoFocus}
+        className="w-full pl-10 pr-28 py-3.5 text-sm border border-neutral-200 rounded-xl bg-white shadow-[0_1px_3px_rgba(0,0,0,0.05)] focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 placeholder:text-neutral-400 transition-all duration-150"
+      />
+      <button
+        type="submit"
+        className="absolute right-2 top-1/2 -translate-y-1/2 px-3.5 py-2 bg-blue-600 hover:bg-blue-700 active:scale-[0.97] text-white text-[13px] font-medium rounded-lg transition-all duration-150 shadow-sm"
+      >
+        Pesquisar
+      </button>
     </form>
   );
 }
