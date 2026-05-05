@@ -25,6 +25,25 @@ export default function ComoFunciona() {
           </p>
         </div>
 
+        {/* Arquivo.pt */}
+        <div className="bg-white border border-neutral-200 rounded-2xl p-6">
+          <h2 className="text-[15px] font-semibold text-neutral-900 mb-2.5 tracking-[-0.01em]">Porquê o Arquivo.pt</h2>
+          <p className="text-[13px] text-neutral-600 leading-relaxed">
+            Partidos apagam programas eleitorais depois das eleições. Governos redesenham sites.
+            O Arquivo.pt é o único lugar onde muitas destas páginas continuam acessíveis,
+            congeladas no tempo. Todas as fontes do Prometido têm um link directo para a versão
+            arquivada — o utilizador pode verificar por si, com o contexto original intacto.
+          </p>
+          <a
+            href="https://arquivo.pt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 mt-4 text-[13px] font-medium text-neutral-800 hover:text-neutral-950 transition-colors underline underline-offset-2"
+          >
+            Visitar arquivo.pt →
+          </a>
+        </div>
+
         {/* Definição */}
         <div>
           <h2 className="text-[15px] font-semibold text-neutral-900 mb-3 tracking-[-0.01em]">O que é uma promessa</h2>
@@ -137,24 +156,6 @@ export default function ComoFunciona() {
           </ul>
         </div>
 
-        {/* Arquivo.pt */}
-        <div className="bg-white border border-neutral-200 rounded-2xl p-6">
-          <h2 className="text-[15px] font-semibold text-neutral-900 mb-2.5 tracking-[-0.01em]">Porquê o Arquivo.pt</h2>
-          <p className="text-[13px] text-neutral-600 leading-relaxed">
-            Partidos apagam programas eleitorais depois das eleições. Governos redesenham sites.
-            O Arquivo.pt é o único lugar onde muitas destas páginas continuam acessíveis,
-            congeladas no tempo. Todas as fontes do Prometido têm um link directo para a versão
-            arquivada — o utilizador pode verificar por si, com o contexto original intacto.
-          </p>
-          <a
-            href="https://arquivo.pt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 mt-4 text-[13px] font-medium text-neutral-800 hover:text-neutral-950 transition-colors underline underline-offset-2"
-          >
-            Visitar arquivo.pt →
-          </a>
-        </div>
       </section>
     </div>
   );
