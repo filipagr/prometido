@@ -69,6 +69,16 @@ def get_party(party_id: str):
         (party_id,),
     ).fetchall()
 
+    promise_count = conn.execute(
+        "SELECT COUNT(*) FROM promises WHERE party_id = ? AND is_valid = 1",
+        (party_id,),
+    ).fetchone()[0]
+
+    elections_covered = conn.execute(
+        "SELECT COUNT(DISTINCT election_id) FROM promises WHERE party_id = ? AND is_valid = 1",
+        (party_id,),
+    ).fetchone()[0]
+
     # breakdown por tópico
     topics = conn.execute(
         """SELECT topic, COUNT(*) as n
@@ -88,6 +98,8 @@ def get_party(party_id: str):
         "founded": party["founded"],
         "domains": json.loads(party["domains"] or "[]"),
         "notes": party["notes"],
+        "promise_count": promise_count,
+        "elections_covered": elections_covered,
         "elections": [
             {
                 "id": e["id"],
