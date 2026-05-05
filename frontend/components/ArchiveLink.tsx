@@ -17,11 +17,11 @@ export default function ArchiveLink({ archivedUrl, archivedDate, className = "" 
       target="_blank"
       rel="noopener noreferrer"
       title="Ver página original arquivada no Arquivo.pt"
-      className={`inline-flex items-center gap-1 text-[11px] font-mono text-neutral-400 hover:text-neutral-700 transition-colors duration-150 ${className}`}
+      className={`inline-flex items-center gap-1 text-[11px] font-mono text-neutral-600 hover:text-neutral-900 transition-colors duration-150 ${className}`}
     >
       arquivo.pt
-      {archivedDate && <span className="text-neutral-300">· {formatDate(archivedDate)}</span>}
-      <span className="text-neutral-300 font-sans not-italic">↗</span>
+      {archivedDate && <span className="text-neutral-500">· {formatDate(archivedDate)}</span>}
+      <span className="text-neutral-500 font-sans not-italic">↗</span>
     </a>
   );
 }

@@ -6,7 +6,6 @@ import { ExternalLink } from "lucide-react";
 import { getPromise, warmupBackend, type PromiseDetail } from "@/lib/api";
 import SourceBadge from "@/components/SourceBadge";
 import StatusBadge from "@/components/StatusBadge";
-import ArchiveLink from "@/components/ArchiveLink";
 
 const USE_TYPE_LABELS: Record<string, string> = {
   corroboration: "Corroboração",
@@ -38,7 +37,7 @@ function LoadingSkeleton({ slowWarning }: { slowWarning: boolean }) {
       </div>
       <div className="skeleton h-40 rounded-2xl" />
       {slowWarning && (
-        <p className="text-center text-[12px] text-neutral-400 mt-8">
+        <p className="text-center text-[12px] text-neutral-500 mt-8">
           O servidor pode demorar até um minuto a acordar na primeira visita do dia.
         </p>
       )}
@@ -70,7 +69,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
     return (
       <div className="max-w-3xl mx-auto px-4 py-24 text-center">
         <p className="text-lg font-semibold text-neutral-900 mb-3">Promessa não encontrada</p>
-        <Link href="/" className="text-[13px] text-blue-600 hover:text-blue-800 transition-colors">← Voltar ao início</Link>
+        <Link href="/" className="text-[13px] text-neutral-700 hover:text-neutral-900 transition-colors">← Voltar ao início</Link>
       </div>
     );
   }
@@ -78,9 +77,9 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 fade-in">
       {/* Breadcrumb */}
-      <nav className="text-[12px] text-neutral-400 mb-10 flex items-center gap-1.5 flex-wrap">
-        <Link href="/" className="hover:text-neutral-700 transition-colors">Início</Link>
-        <span className="text-neutral-200">/</span>
+      <nav className="text-[12px] text-neutral-500 mb-10 flex items-center gap-1.5 flex-wrap">
+        <Link href="/" className="hover:text-neutral-800 transition-colors">Início</Link>
+        <span className="text-neutral-300">/</span>
         <Link
           href={`/party/${promise.party.id}`}
           className="font-semibold hover:opacity-75 transition-opacity"
@@ -88,7 +87,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
         >
           {promise.party.short_name}
         </Link>
-        <span className="text-neutral-200">/</span>
+        <span className="text-neutral-300">/</span>
         <span>{promise.election.description}</span>
       </nav>
 
@@ -100,7 +99,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
         >
           {promise.party.short_name}
         </span>
-        <span className="text-[13px] text-neutral-500">{promise.election.description}</span>
+        <span className="text-[13px] text-neutral-600">{promise.election.description}</span>
         <SourceBadge tier={promise.tier} />
         <StatusBadge status={promise.status} />
       </div>
@@ -110,7 +109,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
         <div className="mb-6">
           <Link
             href={`/search?topic=${encodeURIComponent(promise.topic)}`}
-            className="inline-flex items-center text-[12px] text-neutral-500 bg-neutral-100 hover:bg-neutral-200 px-2.5 py-1 rounded-full font-medium transition-colors duration-150"
+            className="inline-flex items-center text-[12px] text-neutral-600 bg-neutral-100 hover:bg-neutral-200 px-2.5 py-1 rounded-full font-medium transition-colors duration-150"
           >
             {TOPIC_LABELS[promise.topic] ?? promise.topic}
           </Link>
@@ -126,7 +125,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
       </blockquote>
 
       {promise.context && (
-        <p className="text-[13px] text-neutral-400 mt-4 pl-5 italic leading-relaxed">
+        <p className="text-[13px] text-neutral-500 mt-4 pl-5 italic leading-relaxed">
           {promise.context}
         </p>
       )}
@@ -134,44 +133,34 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
       {/* Divider */}
       <div className="border-t border-neutral-100 my-8" />
 
-      {/* Primary source */}
+      {/* Source */}
       <div className="bg-white border border-neutral-200 rounded-2xl p-5 mb-6">
-        <div className="flex items-center gap-2 mb-5">
-          <p className="text-[11px] font-semibold text-neutral-400 uppercase tracking-widest">Fonte primária</p>
-          <SourceBadge tier={promise.tier} />
-        </div>
+        <p className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-5">Fonte arquivada</p>
 
-        <div className="space-y-4 mb-5">
-          {promise.source.original_url && (
-            <div>
-              <p className="text-[10px] font-semibold text-neutral-400 uppercase tracking-widest mb-1.5">URL original</p>
-              <p className="font-mono text-[11.5px] text-neutral-600 break-all bg-neutral-50 px-3 py-2 rounded-lg border border-neutral-100 leading-relaxed">
-                {promise.source.original_url}
-              </p>
-            </div>
-          )}
-          <div>
-            <p className="text-[10px] font-semibold text-neutral-400 uppercase tracking-widest mb-1.5">Data de arquivo</p>
-            <p className="text-[13px] text-neutral-700 font-medium tabular-nums">
-              {promise.source.archived_date
-                ? `${promise.source.archived_date.slice(6, 8)}/${promise.source.archived_date.slice(4, 6)}/${promise.source.archived_date.slice(0, 4)}`
-                : "—"}
-            </p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-3 pt-4 border-t border-neutral-100">
-          <ArchiveLink archivedUrl={promise.source.archived_url} archivedDate={promise.source.archived_date} />
-          <p className="text-[12px] text-neutral-400 leading-relaxed flex-1">
-            Abre a página original no Arquivo.pt, com a toolbar do arquivo visível.
+        <div className="mb-5">
+          <p className="text-[10px] font-semibold text-neutral-500 uppercase tracking-widest mb-1.5">Data de arquivo</p>
+          <p className="text-[13px] text-neutral-800 font-medium tabular-nums">
+            {promise.source.archived_date
+              ? `${promise.source.archived_date.slice(6, 8)}/${promise.source.archived_date.slice(4, 6)}/${promise.source.archived_date.slice(0, 4)}`
+              : "—"}
           </p>
         </div>
+
+        <a
+          href={promise.source.archived_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-4 py-2.5 bg-neutral-900 hover:bg-neutral-700 text-white text-[13px] font-medium rounded-lg transition-colors duration-150"
+        >
+          <ExternalLink size={13} />
+          Abre o programa original no Arquivo.pt
+        </a>
       </div>
 
       {/* Verification sources */}
       {promise.verification_sources.length > 0 && (
         <div className="mb-6">
-          <p className="text-[11px] font-semibold text-neutral-400 uppercase tracking-widest mb-3">
+          <p className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-3">
             Fontes de verificação
           </p>
           <div className="space-y-2.5">
@@ -181,7 +170,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
                   <span className="text-[12px] font-semibold text-neutral-700 bg-neutral-100 px-2 py-0.5 rounded-md">
                     {USE_TYPE_LABELS[s.use_type] ?? s.use_type}
                   </span>
-                  <span className="text-[11px] text-neutral-400 tabular-nums">{s.source_domain} · {s.date}</span>
+                  <span className="text-[11px] text-neutral-500 tabular-nums">{s.source_domain} · {s.date}</span>
                 </div>
                 {s.quote && (
                   <blockquote className="text-[13px] text-neutral-600 italic border-l-2 border-neutral-200 pl-3.5 mb-3 leading-relaxed">
@@ -192,7 +181,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
                   href={s.archived_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-[12px] text-blue-600 hover:text-blue-800 font-medium transition-colors"
+                  className="inline-flex items-center gap-1.5 text-[12px] text-neutral-700 hover:text-neutral-950 font-medium transition-colors"
                 >
                   <ExternalLink size={11} />
                   Ver artigo no Arquivo.pt
@@ -205,22 +194,22 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
 
       {/* Status note */}
       {promise.status_note && (
-        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 text-[13px] text-amber-800 leading-relaxed">
+        <div className="bg-neutral-50 border border-neutral-200 rounded-xl p-4 mb-6 text-[13px] text-neutral-700 leading-relaxed">
           <strong>Nota:</strong> {promise.status_note}
         </div>
       )}
 
       {/* Methodology footer */}
-      <div className="text-[11px] text-neutral-400 border-t border-neutral-100 pt-5 flex items-center justify-between gap-4 tabular-nums">
+      <div className="text-[11px] text-neutral-500 border-t border-neutral-100 pt-5 flex items-center justify-between gap-4 tabular-nums">
         <span>
           Extracção:{" "}
-          <span className="text-neutral-500 font-medium">{((promise.confidence?.extraction ?? 0) * 100).toFixed(0)}%</span>
+          <span className="text-neutral-700 font-medium">{((promise.confidence?.extraction ?? 0) * 100).toFixed(0)}%</span>
           {" · "}
           Validação:{" "}
-          <span className="text-neutral-500 font-medium">{((promise.confidence?.validation ?? 0) * 100).toFixed(0)}%</span>
+          <span className="text-neutral-700 font-medium">{((promise.confidence?.validation ?? 0) * 100).toFixed(0)}%</span>
           {" "}confiança
         </span>
-        <Link href="/como-funciona" className="hover:text-neutral-600 underline underline-offset-2 transition-colors not-italic">
+        <Link href="/como-funciona" className="hover:text-neutral-700 underline underline-offset-2 transition-colors not-italic">
           Metodologia →
         </Link>
       </div>

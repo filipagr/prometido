@@ -39,11 +39,11 @@ export default function SearchBar({
         onChange={(e) => setValue(e.target.value)}
         placeholder={placeholder}
         autoFocus={autoFocus}
-        className="w-full pl-10 pr-28 py-3.5 text-sm border border-neutral-200 rounded-xl bg-white shadow-[0_1px_3px_rgba(0,0,0,0.05)] focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 placeholder:text-neutral-400 transition-all duration-150"
+        className="w-full pl-10 pr-28 py-3.5 text-sm border border-neutral-200 rounded-xl bg-white shadow-[0_1px_3px_rgba(0,0,0,0.05)] focus:outline-none focus:ring-2 focus:ring-neutral-400/30 focus:border-neutral-400 placeholder:text-neutral-500 transition-all duration-150"
       />
       <button
         type="submit"
-        className="absolute right-2 top-1/2 -translate-y-1/2 px-3.5 py-2 bg-blue-600 hover:bg-blue-700 active:scale-[0.97] text-white text-[13px] font-medium rounded-lg transition-all duration-150 shadow-sm"
+        className="absolute right-2 top-1/2 -translate-y-1/2 px-3.5 py-2 bg-neutral-900 hover:bg-neutral-700 active:scale-[0.97] text-white text-[13px] font-medium rounded-lg transition-all duration-150 shadow-sm"
       >
         Pesquisar
       </button>

@@ -7,7 +7,8 @@ import { search, getParties, getElections, type PromiseItem, type Party, type El
 import PromiseCard from "@/components/PromiseCard";
 import SearchBar from "@/components/SearchBar";
 
-const TOPICS = ["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia","outros"];
+const TOPICS = ["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia","administração pública","agricultura","cultura","desporto","outros"];
+const PAGE_SIZE = 20;
 
 function SkeletonCard() {
   return (
@@ -47,9 +48,9 @@ function Select({
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className={`appearance-none text-[13px] border rounded-lg pl-3 pr-7 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 cursor-pointer transition-all duration-150 font-medium ${
+        className={`appearance-none text-[13px] border rounded-lg pl-3 pr-7 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-neutral-400/30 focus:border-neutral-400 cursor-pointer transition-all duration-150 font-medium ${
           hasValue
-            ? "border-blue-300 text-blue-700 bg-blue-50"
+            ? "border-neutral-400 text-neutral-900 bg-neutral-50"
             : "border-neutral-200 text-neutral-600 hover:border-neutral-300"
         }`}
       >
@@ -57,7 +58,7 @@ function Select({
       </select>
       <ChevronDown
         size={13}
-        className={`absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none ${hasValue ? "text-blue-500" : "text-neutral-400"}`}
+        className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-neutral-500"
       />
     </div>
   );
@@ -74,7 +75,9 @@ function SearchPage() {
 
   const [results, setResults] = useState<PromiseItem[]>([]);
   const [total, setTotal] = useState(0);
+  const [offset, setOffset] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [parties, setParties] = useState<Party[]>([]);
   const [elections, setElections] = useState<Election[]>([]);
 
@@ -85,10 +88,11 @@ function SearchPage() {
 
   useEffect(() => {
     if (!q && !partyFilter && !electionFilter && !topicFilter) {
-      setResults([]); setTotal(0); return;
+      setResults([]); setTotal(0); setOffset(0); return;
     }
     setLoading(true);
-    const p: Record<string, string> = {};
+    setOffset(0);
+    const p: Record<string, string> = { limit: String(PAGE_SIZE), offset: "0" };
     if (q) p.q = q;
     if (partyFilter) p.party = partyFilter;
     if (electionFilter) p.election = electionFilter;
@@ -98,6 +102,23 @@ function SearchPage() {
       .catch(() => {})
       .finally(() => setLoading(false));
   }, [q, partyFilter, electionFilter, topicFilter]);
+
+  function loadMore() {
+    const nextOffset = offset + PAGE_SIZE;
+    setLoadingMore(true);
+    const p: Record<string, string> = { limit: String(PAGE_SIZE), offset: String(nextOffset) };
+    if (q) p.q = q;
+    if (partyFilter) p.party = partyFilter;
+    if (electionFilter) p.election = electionFilter;
+    if (topicFilter) p.topic = topicFilter;
+    search(p)
+      .then((r: SearchResult) => {
+        setResults((prev) => [...prev, ...r.results]);
+        setOffset(nextOffset);
+      })
+      .catch(() => {})
+      .finally(() => setLoadingMore(false));
+  }
 
   function updateFilter(key: string, value: string) {
     const next = new URLSearchParams(params.toString());
@@ -113,6 +134,7 @@ function SearchPage() {
   const hasSearch = q || partyFilter || electionFilter || topicFilter;
   const partyLabel = parties.find((p) => p.id === partyFilter)?.short_name;
   const electionLabel = elections.find((e) => e.id === electionFilter)?.description;
+  const hasMore = results.length < total;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -140,7 +162,7 @@ function SearchPage() {
         {activeFilterCount > 0 && (
           <button
             onClick={() => { clearFilter("party"); clearFilter("election"); clearFilter("topic"); }}
-            className="inline-flex items-center gap-1.5 text-[12px] text-neutral-400 hover:text-neutral-700 transition-colors px-1"
+            className="inline-flex items-center gap-1.5 text-[12px] text-neutral-600 hover:text-neutral-900 transition-colors px-1"
           >
             <X size={12} />
             Limpar {activeFilterCount > 1 ? `${activeFilterCount} filtros` : "filtro"}
@@ -152,25 +174,25 @@ function SearchPage() {
       {(partyFilter || electionFilter || topicFilter) && (
         <div className="flex flex-wrap gap-1.5 mb-5">
           {partyFilter && (
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-blue-50 border border-blue-200 rounded-full text-[12px] text-blue-700 font-medium">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-neutral-100 border border-neutral-200 rounded-full text-[12px] text-neutral-700 font-medium">
               {partyLabel ?? partyFilter}
-              <button onClick={() => clearFilter("party")} className="text-blue-400 hover:text-blue-700 transition-colors">
+              <button onClick={() => clearFilter("party")} className="text-neutral-500 hover:text-neutral-900 transition-colors">
                 <X size={11} />
               </button>
             </span>
           )}
           {electionFilter && (
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-blue-50 border border-blue-200 rounded-full text-[12px] text-blue-700 font-medium">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-neutral-100 border border-neutral-200 rounded-full text-[12px] text-neutral-700 font-medium">
               {electionLabel ?? electionFilter}
-              <button onClick={() => clearFilter("election")} className="text-blue-400 hover:text-blue-700 transition-colors">
+              <button onClick={() => clearFilter("election")} className="text-neutral-500 hover:text-neutral-900 transition-colors">
                 <X size={11} />
               </button>
             </span>
           )}
           {topicFilter && (
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-blue-50 border border-blue-200 rounded-full text-[12px] text-blue-700 font-medium">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-neutral-100 border border-neutral-200 rounded-full text-[12px] text-neutral-700 font-medium">
               {topicFilter}
-              <button onClick={() => clearFilter("topic")} className="text-blue-400 hover:text-blue-700 transition-colors">
+              <button onClick={() => clearFilter("topic")} className="text-neutral-500 hover:text-neutral-900 transition-colors">
                 <X size={11} />
               </button>
             </span>
@@ -185,24 +207,36 @@ function SearchPage() {
         </div>
       ) : results.length > 0 ? (
         <div className="fade-in">
-          <p className="text-[12px] text-neutral-400 font-medium mb-4 tabular-nums">
+          <p className="text-[12px] text-neutral-600 font-medium mb-4 tabular-nums">
             {total.toLocaleString("pt")} resultado{total !== 1 ? "s" : ""}
-            {total > results.length && (
-              <span className="text-neutral-300"> · a mostrar {results.length}</span>
+            {hasMore && (
+              <span className="text-neutral-400"> · a mostrar {results.length}</span>
             )}
           </p>
           <div className="space-y-2.5">
             {results.map((p) => <PromiseCard key={p.id} promise={p} />)}
           </div>
+
+          {hasMore && (
+            <div className="mt-6 text-center">
+              <button
+                onClick={loadMore}
+                disabled={loadingMore}
+                className="px-5 py-2.5 text-[13px] font-medium bg-white border border-neutral-200 hover:border-neutral-400 hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 rounded-lg transition-all duration-150 disabled:opacity-50"
+              >
+                {loadingMore ? "A carregar…" : `Carregar mais (${total - results.length} restantes)`}
+              </button>
+            </div>
+          )}
         </div>
       ) : hasSearch ? (
         <div className="py-20 text-center">
-          <p className="text-neutral-600 font-medium text-[15px] mb-1">Nenhuma promessa encontrada</p>
-          <p className="text-[13px] text-neutral-400">Tenta outros termos ou remove alguns filtros.</p>
+          <p className="text-neutral-700 font-medium text-[15px] mb-1">Nenhuma promessa encontrada</p>
+          <p className="text-[13px] text-neutral-600">Tenta outros termos ou remove alguns filtros.</p>
         </div>
       ) : (
         <div className="py-20 text-center">
-          <p className="text-[13px] text-neutral-400">Usa a barra de pesquisa ou os filtros para explorar as promessas.</p>
+          <p className="text-[13px] text-neutral-600">Usa a barra de pesquisa ou os filtros para explorar as promessas.</p>
         </div>
       )}
     </div>

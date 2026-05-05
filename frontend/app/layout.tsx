@@ -20,11 +20,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-5xl mx-auto px-4 h-[52px] flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 group shrink-0">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="shrink-0">
-                <rect width="20" height="20" rx="5" fill="#2563EB"/>
+                <rect width="20" height="20" rx="5" fill="#171717"/>
                 <rect x="5" y="5" width="4" height="10" rx="1.5" fill="white" fillOpacity="0.95"/>
                 <rect x="11" y="5" width="4" height="6" rx="1.5" fill="white" fillOpacity="0.6"/>
               </svg>
-              <span className="font-semibold text-[15px] text-neutral-900 tracking-[-0.01em] group-hover:text-blue-700 transition-colors duration-150">
+              <span className="font-semibold text-[15px] text-neutral-900 tracking-[-0.01em] group-hover:text-neutral-500 transition-colors duration-150">
                 Prometido
               </span>
             </Link>
@@ -36,28 +36,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <footer className="border-t border-neutral-200 bg-white mt-20">
           <div className="max-w-5xl mx-auto px-4 py-7">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-[13px] text-neutral-400">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-[13px] text-neutral-500">
               <p>
                 Prometido usa o{" "}
                 <a
                   href="https://arquivo.pt"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-neutral-500 underline underline-offset-2 hover:text-neutral-800 transition-colors"
+                  className="text-neutral-600 underline underline-offset-2 hover:text-neutral-900 transition-colors"
                 >
                   Arquivo.pt
                 </a>{" "}
-                como fonte primária · Candidatura ao Prémio Arquivo.pt 2026
+                como fonte primária
               </p>
               <div className="flex items-center gap-4">
-                <Link href="/como-funciona" className="hover:text-neutral-700 transition-colors underline underline-offset-2">
+                <Link href="/como-funciona" className="hover:text-neutral-800 transition-colors underline underline-offset-2">
                   Metodologia
                 </Link>
                 <a
                   href="https://github.com/filipagr/prometido"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-neutral-700 transition-colors underline underline-offset-2"
+                  className="hover:text-neutral-800 transition-colors underline underline-offset-2"
                 >
                   GitHub
                 </a>

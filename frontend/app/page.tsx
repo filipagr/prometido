@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 import { getParties, getElections, warmupBackend, type Party, type Election } from "@/lib/api";
 import SearchBar from "@/components/SearchBar";
 
-const FEATURED_TOPICS = ["habitação", "saúde", "educação", "emprego", "ambiente", "economia"];
-const SEARCH_TOPICS = [
+const ALL_TOPICS = [
   "habitação", "saúde", "educação", "economia", "emprego",
   "ambiente", "segurança", "justiça", "transportes", "tecnologia",
+  "administração pública", "agricultura", "cultura", "desporto", "outros",
 ];
 
 function partyAbbr(name: string): string {
@@ -62,29 +62,23 @@ export default function HomePage() {
     <div>
       {/* Hero */}
       <div className="relative bg-white border-b border-neutral-100 overflow-hidden">
-        {/* Dot grid background */}
         <div className="absolute inset-0 dot-grid opacity-60 pointer-events-none" />
 
         <div className="relative max-w-5xl mx-auto px-4 pt-20 pb-16 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-xs text-blue-700 font-medium mb-6">
-            <span className="w-1.5 h-1.5 rounded-full bg-blue-500" />
-            Candidatura ao Prémio Arquivo.pt 2026
-          </div>
-
           <h1 className="text-[2.75rem] sm:text-5xl font-semibold text-neutral-950 mb-4 tracking-[-0.03em] leading-[1.15]">
             O que prometeram.
             <br />
-            <span className="text-blue-600">Onde está a prova.</span>
+            Onde está a prova.
           </h1>
 
-          <p className="text-[15px] text-neutral-500 max-w-md mx-auto mb-8 leading-relaxed">
+          <p className="text-[15px] text-neutral-600 max-w-md mx-auto mb-8 leading-relaxed">
             Promessas eleitorais de partidos políticos portugueses desde 2002,
             arquivadas no{" "}
             <a
               href="https://arquivo.pt"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-neutral-700 underline underline-offset-2 hover:text-blue-700 transition-colors"
+              className="text-neutral-800 underline underline-offset-2 hover:text-neutral-950 transition-colors"
             >
               Arquivo.pt
             </a>
@@ -101,9 +95,9 @@ export default function HomePage() {
 
         {/* Error */}
         {!loading && error && (
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 text-sm text-amber-800">
+          <div className="bg-neutral-50 border border-neutral-200 rounded-xl p-5 text-sm text-neutral-700">
             <p className="font-semibold mb-1">Não foi possível carregar os dados.</p>
-            <p className="text-amber-700/80">
+            <p className="text-neutral-600">
               Tenta recarregar a página. Se o problema persistir,{" "}
               <a href="https://github.com/filipagr/prometido/issues" className="underline underline-offset-2">avisa-nos</a>.
             </p>
@@ -118,22 +112,22 @@ export default function HomePage() {
             <>
               <div className="fade-in">
                 <p className="text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{totalPromises.toLocaleString("pt")}</p>
-                <p className="text-[11px] text-neutral-400 font-medium uppercase tracking-widest">promessas</p>
+                <p className="text-[11px] text-neutral-600 font-medium uppercase tracking-widest">promessas</p>
               </div>
               <div className="fade-in">
                 <p className="text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{partiesWithData.length}</p>
-                <p className="text-[11px] text-neutral-400 font-medium uppercase tracking-widest">partidos</p>
+                <p className="text-[11px] text-neutral-600 font-medium uppercase tracking-widest">partidos</p>
               </div>
               <div className="fade-in">
                 <p className="text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{electionsWithData.length}</p>
-                <p className="text-[11px] text-neutral-400 font-medium uppercase tracking-widest">eleições</p>
+                <p className="text-[11px] text-neutral-600 font-medium uppercase tracking-widest">eleições</p>
               </div>
             </>
           ) : null}
         </div>
 
         {loading && slowWarning && (
-          <p className="text-center text-xs text-neutral-400">
+          <p className="text-center text-xs text-neutral-500">
             O servidor pode demorar até um minuto a acordar na primeira visita do dia.
           </p>
         )}
@@ -143,21 +137,21 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-4">
             <div>
               <h2 className="text-sm font-semibold text-neutral-900 mb-0.5">Comparar por tema</h2>
-              <p className="text-[13px] text-neutral-400">O que prometeram PS, PSD e BE sobre habitação?</p>
+              <p className="text-[13px] text-neutral-600">O que prometeram os partidos sobre habitação, saúde ou ambiente?</p>
             </div>
             <Link
               href="/compare"
-              className="text-[13px] font-medium text-neutral-400 hover:text-neutral-800 transition-colors shrink-0"
+              className="text-[13px] font-medium text-neutral-600 hover:text-neutral-900 transition-colors shrink-0"
             >
               Ver comparador →
             </Link>
           </div>
           <div className="flex flex-wrap gap-2">
-            {FEATURED_TOPICS.map((topic) => (
+            {ALL_TOPICS.map((topic) => (
               <Link
                 key={topic}
                 href={`/compare?topic=${encodeURIComponent(topic)}`}
-                className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-300 rounded-full transition-all duration-150"
+                className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-400 rounded-full transition-all duration-150"
               >
                 {topic}
               </Link>
@@ -167,7 +161,7 @@ export default function HomePage() {
 
         {/* Partidos */}
         <div>
-          <h2 className="text-[11px] font-semibold text-neutral-400 uppercase tracking-widest mb-4">Partidos</h2>
+          <h2 className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-4">Partidos</h2>
           {loading ? (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
               {Array.from({ length: 9 }).map((_, i) => <PartySkeleton key={i} />)}
@@ -190,10 +184,10 @@ export default function HomePage() {
                     {partyAbbr(party.short_name)}
                   </span>
                   <div className="min-w-0">
-                    <p className="font-semibold text-[13px] text-neutral-900 truncate group-hover:text-blue-700 transition-colors duration-150">
+                    <p className="font-semibold text-[13px] text-neutral-900 truncate group-hover:text-neutral-600 transition-colors duration-150">
                       {party.short_name}
                     </p>
-                    <p className="text-[11px] text-neutral-400 tabular-nums">{(party.promise_count ?? 0).toLocaleString("pt")}</p>
+                    <p className="text-[11px] text-neutral-500 tabular-nums">{(party.promise_count ?? 0).toLocaleString("pt")}</p>
                   </div>
                 </Link>
               ))}
@@ -203,13 +197,13 @@ export default function HomePage() {
 
         {/* Tópicos */}
         <div>
-          <h2 className="text-[11px] font-semibold text-neutral-400 uppercase tracking-widest mb-4">Pesquisar por tema</h2>
+          <h2 className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-4">Pesquisar por tema</h2>
           <div className="flex flex-wrap gap-1.5">
-            {SEARCH_TOPICS.map((topic) => (
+            {ALL_TOPICS.map((topic) => (
               <Link
                 key={topic}
                 href={`/search?topic=${encodeURIComponent(topic)}`}
-                className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-600 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-300 rounded-full transition-all duration-150"
+                className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-400 rounded-full transition-all duration-150"
               >
                 {topic}
               </Link>

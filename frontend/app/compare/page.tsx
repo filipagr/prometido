@@ -23,20 +23,20 @@ function Select({
 }) {
   return (
     <div>
-      <p className="text-[11px] font-semibold text-neutral-400 uppercase tracking-widest mb-1.5">{label}</p>
+      <p className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-1.5">{label}</p>
       <div className="relative">
         <select
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          className={`appearance-none text-[13px] border rounded-lg pl-3 pr-8 py-2.5 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-400 cursor-pointer transition-all duration-150 font-medium min-w-[152px] ${
+          className={`appearance-none text-[13px] border rounded-lg pl-3 pr-8 py-2.5 bg-white focus:outline-none focus:ring-2 focus:ring-neutral-400/30 focus:border-neutral-400 cursor-pointer transition-all duration-150 font-medium min-w-[152px] ${
             value
-              ? "border-blue-300 text-blue-700 bg-blue-50/60"
+              ? "border-neutral-400 text-neutral-900 bg-neutral-50"
               : "border-neutral-200 text-neutral-700 hover:border-neutral-300"
           }`}
         >
           {children}
         </select>
-        <ChevronDown size={13} className={`absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none ${value ? "text-blue-400" : "text-neutral-400"}`} />
+        <ChevronDown size={13} className="absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-neutral-500" />
       </div>
     </div>
   );
@@ -95,7 +95,7 @@ function ComparePage() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <div className="mb-7">
         <h1 className="text-[22px] font-semibold text-neutral-950 tracking-[-0.02em] mb-1">Comparar promessas</h1>
-        <p className="text-[13px] text-neutral-400">Compara o que diferentes partidos prometeram sobre o mesmo tema.</p>
+        <p className="text-[13px] text-neutral-600">Compara o que diferentes partidos prometeram sobre o mesmo tema.</p>
       </div>
 
       {/* Controls */}
@@ -112,10 +112,10 @@ function ComparePage() {
         </div>
 
         <div>
-          <p className="text-[11px] font-semibold text-neutral-400 uppercase tracking-widest mb-2.5">
+          <p className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-2.5">
             Partidos
             {selectedParties.length > 0 && (
-              <span className="ml-2 px-1.5 py-0.5 bg-blue-100 text-blue-600 rounded text-[10px] font-bold normal-case tracking-normal">
+              <span className="ml-2 px-1.5 py-0.5 bg-neutral-100 text-neutral-700 rounded text-[10px] font-bold normal-case tracking-normal">
                 {selectedParties.length}
               </span>
             )}
@@ -128,7 +128,7 @@ function ComparePage() {
                   key={p.id}
                   onClick={() => toggleParty(p.id)}
                   className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[13px] font-semibold border transition-all duration-150 ${
-                    active ? "text-white border-transparent shadow-sm" : "bg-white text-neutral-500 border-neutral-200 hover:border-neutral-300 hover:text-neutral-800"
+                    active ? "text-white border-transparent shadow-sm" : "bg-white text-neutral-600 border-neutral-200 hover:border-neutral-300 hover:text-neutral-900"
                   }`}
                   style={active ? { backgroundColor: p.color, borderColor: p.color } : {}}
                 >
@@ -152,12 +152,14 @@ function ComparePage() {
       {!topic ? (
         <div className="flex flex-col items-center justify-center py-24 text-center">
           <div className="w-10 h-10 rounded-xl bg-neutral-100 flex items-center justify-center mb-4">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-neutral-400">
-              <rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="text-neutral-500">
+              <path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3"/>
+              <path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3"/>
+              <line x1="12" y1="3" x2="12" y2="21"/>
             </svg>
           </div>
-          <p className="text-[15px] font-medium text-neutral-700 mb-1">Escolhe um tema para começar</p>
-          <p className="text-[13px] text-neutral-400 max-w-[260px] leading-relaxed">Selecciona um tema no menu acima para ver e comparar as promessas de cada partido.</p>
+          <p className="text-[15px] font-medium text-neutral-800 mb-1">Escolhe um tema para começar</p>
+          <p className="text-[13px] text-neutral-600 max-w-[260px] leading-relaxed">Selecciona um tema no menu acima para ver e comparar as promessas de cada partido.</p>
         </div>
       ) : loading ? (
         <div className="overflow-x-auto -mx-4 px-4 scrollbar-hide">
@@ -179,23 +181,21 @@ function ComparePage() {
         </div>
       ) : !result || result.promise_count === 0 ? (
         <div className="py-16 text-center">
-          <p className="text-[15px] font-medium text-neutral-600 mb-1">Nenhuma promessa encontrada</p>
-          <p className="text-[13px] text-neutral-400">Tenta outro tema ou remove o filtro de eleição.</p>
+          <p className="text-[15px] font-medium text-neutral-700 mb-1">Nenhuma promessa encontrada</p>
+          <p className="text-[13px] text-neutral-600">Tenta outro tema ou remove o filtro de eleição.</p>
         </div>
       ) : (
         <div className="fade-in">
-          <p className="text-[12px] text-neutral-400 font-medium mb-5 tabular-nums">
+          <p className="text-[12px] text-neutral-600 font-medium mb-5 tabular-nums">
             {result.promise_count.toLocaleString("pt")} promessa{result.promise_count !== 1 ? "s" : ""} sobre{" "}
-            <span className="text-neutral-700 font-semibold">{topic}</span>
-            {election && <span className="text-neutral-400"> · {elections.find((e) => e.id === election)?.description}</span>}
+            <span className="text-neutral-900 font-semibold">{topic}</span>
+            {election && <span className="text-neutral-500"> · {elections.find((e) => e.id === election)?.description}</span>}
           </p>
 
-          {/* Horizontal scroll columns — Notion-style */}
           <div className="overflow-x-auto -mx-4 px-4 scrollbar-hide">
             <div className="flex gap-4 pb-6" style={{ minWidth: `${result.parties.length * 296}px` }}>
               {result.parties.map((party) => (
                 <div key={party.id} className="flex-1 space-y-2.5" style={{ minWidth: "272px", maxWidth: "320px" }}>
-                  {/* Sticky column header */}
                   <div
                     className="flex items-center gap-2 pb-2.5 border-b-[2px] sticky top-[52px] bg-[#fafafa] pt-1 z-10"
                     style={{ borderColor: party.color }}
@@ -212,23 +212,22 @@ function ComparePage() {
                     <span className="font-semibold text-[13px] tracking-tight" style={{ color: party.color }}>
                       {party.short_name}
                     </span>
-                    <span className="text-[11px] text-neutral-400 ml-auto tabular-nums">{party.promises.length}</span>
+                    <span className="text-[11px] text-neutral-500 ml-auto tabular-nums">{party.promises.length}</span>
                   </div>
 
-                  {/* Promise cards */}
                   {party.promises.map((p) => (
                     <div
                       key={p.id}
                       className="bg-white border border-neutral-200 rounded-xl p-4 hover:border-neutral-300 hover:shadow-[0_1px_4px_rgba(0,0,0,0.06)] transition-all duration-150 group/promise"
                     >
                       <Link href={`/promise/${p.id}`} className="block mb-3">
-                        <p className="text-[13px] leading-[1.6] text-neutral-700 group-hover/promise:text-blue-700 transition-colors duration-150">
+                        <p className="text-[13px] leading-[1.6] text-neutral-700 group-hover/promise:text-neutral-950 transition-colors duration-150">
                           {p.text}
                         </p>
                       </Link>
                       <div className="flex items-center justify-between gap-2 pt-2.5 border-t border-neutral-100">
                         <div className="flex items-center gap-2">
-                          <span className="text-[11px] text-neutral-400 tabular-nums font-medium">{p.election?.date?.slice(0, 4)}</span>
+                          <span className="text-[11px] text-neutral-500 tabular-nums font-medium">{p.election?.date?.slice(0, 4)}</span>
                           <StatusBadge status={p.status} />
                         </div>
                         <ArchiveLink archivedUrl={p.archived_url} archivedDate={p.archived_date} />
