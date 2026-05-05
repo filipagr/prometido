@@ -197,7 +197,7 @@ function ComparePage() {
               {result.parties.map((party) => (
                 <div key={party.id} className="flex-1 space-y-2.5" style={{ minWidth: "272px", maxWidth: "320px" }}>
                   <div
-                    className="flex items-center gap-2 pb-2.5 border-b-[2px] sticky top-[52px] bg-[#fafafa] pt-1 z-10"
+                    className="flex items-center gap-2 pb-2.5 border-b-[2px] pt-1"
                     style={{ borderColor: party.color }}
                   >
                     <span
