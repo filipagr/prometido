@@ -5,7 +5,6 @@ import { useEffect, useState, Suspense } from "react";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { compare, getParties, getElections, type CompareResult, type Party, type Election } from "@/lib/api";
-import ArchiveLink from "@/components/ArchiveLink";
 import StatusBadge from "@/components/StatusBadge";
 
 const TOPICS = ["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia","administração pública","agricultura","cultura","desporto","outros"];
@@ -225,12 +224,9 @@ function ComparePage() {
                           {p.text}
                         </p>
                       </Link>
-                      <div className="flex items-center justify-between gap-2 pt-2.5 border-t border-neutral-100">
-                        <div className="flex items-center gap-2">
-                          <span className="text-[11px] text-neutral-500 tabular-nums font-medium">{p.election?.date?.slice(0, 4)}</span>
-                          <StatusBadge status={p.status} />
-                        </div>
-                        <ArchiveLink archivedUrl={p.archived_url} archivedDate={p.archived_date} />
+                      <div className="flex items-center gap-2 pt-2.5 border-t border-neutral-100">
+                        <span className="text-[11px] text-neutral-500 tabular-nums font-medium">{p.election?.date?.slice(0, 4)}</span>
+                        <StatusBadge status={p.status} />
                       </div>
                     </div>
                   ))}

@@ -132,33 +132,6 @@ export default function HomePage() {
           </p>
         )}
 
-        {/* Compare feature */}
-        <div>
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <h2 className="text-sm font-semibold text-neutral-900 mb-0.5">Comparar por tema</h2>
-              <p className="text-[13px] text-neutral-600">O que prometeram os partidos sobre habitação, saúde ou ambiente?</p>
-            </div>
-            <Link
-              href="/compare"
-              className="text-[13px] font-medium text-neutral-600 hover:text-neutral-900 transition-colors shrink-0"
-            >
-              Ver comparador →
-            </Link>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {ALL_TOPICS.map((topic) => (
-              <Link
-                key={topic}
-                href={`/compare?topic=${encodeURIComponent(topic)}`}
-                className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-400 rounded-full transition-all duration-150"
-              >
-                {topic}
-              </Link>
-            ))}
-          </div>
-        </div>
-
         {/* Partidos */}
         <div>
           <h2 className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-4">Partidos</h2>
@@ -203,6 +176,30 @@ export default function HomePage() {
               <Link
                 key={topic}
                 href={`/search?topic=${encodeURIComponent(topic)}`}
+                className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-400 rounded-full transition-all duration-150"
+              >
+                {topic}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Compare feature */}
+        <div>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest">Comparar por tema</h2>
+            <Link
+              href="/compare"
+              className="text-[13px] font-medium text-neutral-600 hover:text-neutral-900 transition-colors shrink-0"
+            >
+              Ver comparador →
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {ALL_TOPICS.map((topic) => (
+              <Link
+                key={topic}
+                href={`/compare?topic=${encodeURIComponent(topic)}`}
                 className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-400 rounded-full transition-all duration-150"
               >
                 {topic}

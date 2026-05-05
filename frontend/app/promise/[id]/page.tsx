@@ -4,7 +4,6 @@ import { use, useEffect, useState } from "react";
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { getPromise, warmupBackend, type PromiseDetail } from "@/lib/api";
-import SourceBadge from "@/components/SourceBadge";
 import StatusBadge from "@/components/StatusBadge";
 
 const USE_TYPE_LABELS: Record<string, string> = {
@@ -100,7 +99,6 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
           {promise.party.short_name}
         </span>
         <span className="text-[13px] text-neutral-600">{promise.election.description}</span>
-        <SourceBadge tier={promise.tier} />
         <StatusBadge status={promise.status} />
       </div>
 
@@ -134,26 +132,23 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
       <div className="border-t border-neutral-100 my-8" />
 
       {/* Source */}
-      <div className="bg-white border border-neutral-200 rounded-2xl p-5 mb-6">
-        <p className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-5">Fonte arquivada</p>
-
-        <div className="mb-5">
-          <p className="text-[10px] font-semibold text-neutral-500 uppercase tracking-widest mb-1.5">Data de arquivo</p>
-          <p className="text-[13px] text-neutral-800 font-medium tabular-nums">
-            {promise.source.archived_date
-              ? `${promise.source.archived_date.slice(6, 8)}/${promise.source.archived_date.slice(4, 6)}/${promise.source.archived_date.slice(0, 4)}`
-              : "—"}
-          </p>
+      <div className="bg-white border border-neutral-200 rounded-xl px-4 py-3 mb-6 flex items-center justify-between gap-4">
+        <div className="flex items-center gap-3 min-w-0">
+          <span className="text-[11px] font-semibold text-neutral-500 uppercase tracking-widest shrink-0">Fonte arquivada</span>
+          {promise.source.archived_date && (
+            <span className="text-[12px] text-neutral-400 tabular-nums shrink-0">
+              {`${promise.source.archived_date.slice(6, 8)}/${promise.source.archived_date.slice(4, 6)}/${promise.source.archived_date.slice(0, 4)}`}
+            </span>
+          )}
         </div>
-
         <a
           href={promise.source.archived_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2.5 bg-neutral-900 hover:bg-neutral-700 text-white text-[13px] font-medium rounded-lg transition-colors duration-150"
+          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-neutral-900 hover:bg-neutral-700 text-white text-[12px] font-medium rounded-lg transition-colors duration-150 shrink-0"
         >
-          <ExternalLink size={13} />
-          Abre o programa original no Arquivo.pt
+          <ExternalLink size={12} />
+          Abrir no Arquivo.pt
         </a>
       </div>
 

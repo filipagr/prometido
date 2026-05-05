@@ -1,0 +1,224 @@
+================================================================================
+PROMETIDO - PLATAFORMA DE DOCUMENTAÇÃO DE PROMESSAS ELEITORAIS
+Candidatura ao Prémio Arquivo.pt 2026
+================================================================================
+
+PROGRAMA: Iniciativa Liberal - Legislativas 2025
+FICHEIRO: data/programs/2025/IL-leg-2025.json
+DATA DE EXTRAÇÃO: 2026-04-20
+
+================================================================================
+RESUMO EXECUTIVO
+================================================================================
+
+Total de promessas extraídas: 113
+Tipo de fonte: Tier 2 (Programa Eleitoral Oficial)
+Tamanho do documento: 576.924 caracteres (~49K tokens)
+Densidade de promessas: ~195 promessas por 1.000 caracteres
+
+Observação: A Iniciativa Liberal apresenta um programa eleitoral significativamente
+denso em propostas concretas, conforme esperado dado o perfil do partido (liberal/
+libertário com foco em números, números e especificações técnicas).
+
+================================================================================
+DISTRIBUIÇÃO POR TÓPICO
+================================================================================
+
+Tópico                      Count    %      Observações
+────────────────────────────────────────────────────────────────────────────────
+Outros                        23    20.4%   Tópicos genéricos ou transversais
+Segurança Social              20    17.7%   Pensions, Pilares, Capitalização (foco)
+Administração Pública         18    15.9%   Reforma do Estado, Burocracia (foco)
+Economia                      14    12.4%   Impostos, IRS, IRC, Fiscalidade (foco)
+Educação                       8     7.1%   Autonomia, Formação
+Justiça                        8     7.1%   Celeridade, Processos, Corrupção
+Habitação                      5     4.4%   Construção, IVA, Arrendamento
+Emprego                        4     3.5%   Legislação Laboral, Salários
+Saúde                          4     3.5%   SNS, Médicos, Cuidados
+Cultura & Desporto            4     3.5%   Desporto Adaptado, Património
+Segurança                      2     1.8%   Defesa, Polícia
+Transportes                    2     1.8%   Mobilidade, Ferroviário
+Ambiente                       1     0.9%   Energia Renovável
+────────────────────────────────────────────────────────────────────────────────
+
+Padrão: Forte concentração em tópicos de economia, administração e proteção social,
+refletindo a ideologia liberal do partido (redução de Estado, flexibilização fiscal,
+reformas estruturais).
+
+================================================================================
+DISTRIBUIÇÃO POR NÍVEL DE CONFIANÇA
+================================================================================
+
+Confiança    Count    %      Significado
+────────────────────────────────────────────────────────────────────
+0.7          9        8.0%   Muito alta (número + lei/agência + ação)
+0.6          6        5.3%   Alta (número + lei OU lei + ação)
+0.5         13       11.5%   Média (número + ação OU lei + ação)
+0.4         85       75.2%   Média-baixa (número OU lei OU ação único)
+
+Nota: 75% das promessas têm confiança 0.4 porque a maioria tem um critério
+concreto bem definido (e.g., IRS, lei nomeada, ação específica) mas não todos.
+Apenas 28 promessas têm confiança >= 0.5 (múltiplos critérios).
+
+================================================================================
+CRITÉRIOS DE VALIDAÇÃO APLICADOS
+================================================================================
+
+Uma promessa foi considerada "válida" (incluída na extração) se atendesse a
+PELO MENOS UM dos seguintes critérios:
+
+A) Número/valor concreto
+   - Percentagens: 6%, 23%, 80%, 75%, etc.
+   - Valores em euros: 500 milhões, 228-404 milhões, etc.
+   - Reduções/aumentos quantificados: "reduzir em 25%"
+
+B) Prazo específico
+   - "até 2030", "nos próximos 10 anos", "durante este período", etc.
+
+C) Ação singular identificável
+   - Verbos: criar, eliminar, rever, reformar, implementar, garantir, assegurar,
+   - Fusão, integração, descentralização, desburocratização, etc.
+
+D) Lei/instituição/medida nomeada concretamente
+   - Lei, Decreto, Código, Fundo, Programa, Imposto
+   - Instituições específicas: IRS, IRC, SNS, PPP, FGADM, AMIM, SAPA, TMRG, UCCI
+   - Agências: "Entidade Reguladora", "Agência", "Centro", etc.
+
+================================================================================
+AMOSTRA DE PROMESSAS (TOPO 10 POR CONFIANÇA)
+================================================================================
+
+1. [0.7] Administração Pública
+   "Reduzir em 25% o tempo médio de resposta da administração pública"
+   → Criação: número específico, ação concreta
+
+2. [0.7] Administração Pública
+   "Portugal tem de reduzir despesa pública e reestruturação e foco na
+   eficiência do estado"
+   → Redução geral com objetivo estrutural
+
+3. [0.7] Habitação
+   "A Iniciativa Liberal propõe uma redução do IVA da construção dos atuais 23%
+   para a taxa mínima de 6%"
+   → Redução fiscal específica (23% → 6%)
+
+4. [0.7] Economia
+   "De IVA de 15.000€ para 25.000€, a redução da taxa de retenção de IRS para
+   15%"
+   → Múltiplos valores e percentagens
+
+5. [0.7] Emprego
+   "No custo da medida entre os 228 e os 404 milhões de euros em 2025"
+   → Estimativa orçamental concreta
+
+6. [0.6] Saúde
+   "Propomos a integração dos sistemas do SNS, AIMA e Autoridade Tributária"
+   → Integração de sistemas nomeados
+
+7. [0.6] Segurança Social
+   "Agilizar o mercado de carbono voluntário e Reformar o Fundo Ambiental"
+   → Ações definidas em dois domínios
+
+8. [0.6] Educação
+   "Objetivo é criar um ecossistema nacional sólido de investigação,
+   desenvolvimento e inovação"
+   → Criação de estrutura com objetivo
+
+9. [0.5] Habitação
+   "Se em 2002 se construíram 125 708 fogos novos para habitação familiar"
+   → Número histórico para comparação
+
+10. [0.5] Segurança Social
+    "Média de vida é de 20 anos após a reforma e, para os quais, mesmo
+    existindo motivação pessoal"
+    → Contexto demográfico com ação implícita
+
+================================================================================
+CARACTERÍSTICAS DO PROGRAMA
+================================================================================
+
+1. DENSIDADE ALTA: 113 promessas em ~577KB é uma densidade muito elevada,
+   confirmando que a IL apresenta um programa eleitoral muito específico e
+   detalhado.
+
+2. FOCO FISCAL: ~14 promessas sobre economia/impostos + 20 sobre segurança
+   social = 30% do total. Isto reflete claramente a agenda liberal de redução
+   de carga fiscal e reforma estrutural de segurança social.
+
+3. FOCO ADMINISTRATIVO: 18 promessas sobre administração pública (descentralização,
+   reforma, desburocratização). Também esperado pela ideologia do partido.
+
+4. PROPOSTAS ESTRUTURAIS vs COSMÉTICAS: A maioria das promessas são estruturais
+   (reformas do sistema) e não apenas mejoras incrementais. Exemplos:
+   - Modelo tripilar de pensões (em vez de aumentos pontuais)
+   - SUA-Saúde como sistema alternativo
+   - Entidade Reguladora independente da Saúde
+   - Descentralização com neutralidade fiscal
+
+5. RASTREABILIDADE: A IL referencia legislação, instituições e números
+   específicos, facilitando a verificação posterior das promessas.
+
+================================================================================
+LIMITAÇÕES DA EXTRAÇÃO
+================================================================================
+
+1. Alguns textos fragmentados: O processamento automatizado do PDF resultou em
+   alguns casos em quebras de linhas que afetam a legibilidade (e.g., "Portugal
+   tem de reduzir reestruturação..." está fragmentado).
+
+2. Classificação de tópico: 20.4% das promessas caem em "outros" porque têm
+   múltiplos tópicos ou cobrem áreas transversais (e.g., defesa, energia).
+
+3. Confiança média: 75% das promessas têm confiança 0.4 (média-baixa). Isto
+   reflete a natureza do texto: muitas propostas têm um critério concreto bem
+   definido mas não múltiplos (ex: apenas ação sem número específico).
+
+4. Contexto perdido: A extração orientada a sentenças perdeu algum contexto
+   estrutural. Recomenda-se leitura do documento original para promessas
+   críticas.
+
+================================================================================
+RECOMENDAÇÕES
+================================================================================
+
+1. Para validação mais rigorosa, recomendam-se entrevistas ou consultas ao
+   partido sobre as 28 promessas com confiança >= 0.5.
+
+2. As promessas sobre Segurança Social e Economia são as mais concretas e
+   verificáveis. Devem ser prioritárias na validação.
+
+3. O programa foi publicado a 10 de Abril 2025 pelo presidente Rui Rocha.
+   Será interessante comparar com implementações após as eleições legislativas.
+
+4. A IL apresenta mais números e especificações que a maioria dos partidos
+   portugueses, facilitando a verificação factual.
+
+================================================================================
+FICHEIRO DE SAÍDA
+================================================================================
+
+JSON Structure:
+{
+  "source": "Iniciativa Liberal - Programa Eleitoral Legislativas 2025",
+  "tier": "Tier 2",
+  "total_promises": 113,
+  "extraction_date": "2026-04-20",
+  "topic_distribution": { ... },
+  "confidence_distribution": { ... },
+  "promises": [
+    {
+      "text": "string (promessa completa)",
+      "topic": "string (categorizado)",
+      "confidence": float (0.0-1.0)
+    },
+    ...
+  ]
+}
+
+Localização: data/programs/2025/IL-leg-2025.json
+Tamanho: 33KB
+Linhas JSON: 593
+
+================================================================================
+FIM DO RELATÓRIO
+================================================================================

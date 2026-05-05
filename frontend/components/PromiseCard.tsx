@@ -76,7 +76,7 @@ export default function PromiseCard({ promise, showParty = true, showElection = 
 
         {/* Promise text */}
         <Link href={`/promise/${promise.id}`} className="block">
-          <p className="text-[13.5px] leading-[1.6] text-neutral-700 group-hover/card:text-blue-700 transition-colors duration-150 line-clamp-3">
+          <p className="text-[13.5px] leading-[1.6] text-neutral-700 group-hover/card:text-neutral-900 transition-colors duration-150 line-clamp-3">
             {promise.text}
           </p>
         </Link>

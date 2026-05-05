@@ -1,13 +1,13 @@
 # Prometido — Progress Log
 
 ## Estado atual
-**Fase:** Semana 2 — Deploy completo. A fazer: testes em produção + vídeo + submissão.
-**Data:** 29 de abril de 2026
-**Próximo passo:** testar em produção (search, party, compare) → vídeo 3 min → submissão até 6 maio 23:59h.
+**Fase:** Semana 2 — Deploy completo. A fazer: validação de links Arquivo.pt + correcção BE 2024 + vídeo + submissão.
+**Data:** 5 de maio de 2026
+**Próximo passo:** corrigir URL arquivada BE 2024 na DB → vídeo 3 min → submissão até 6 maio 23:59h.
 **Totais actuais na DB:** 7.549 promessas válidas · 9 partidos · 9 eleições (2002–2025) · 55 combinações partido×eleição.
 
 **URLs de deploy:**
-- Frontend (Vercel): https://prometido-app.vercel.app
+- Frontend (Vercel): https://frontend-rosy-six-72.vercel.app (subdomínio actual, projecto renomeado de `prometido-app` → `frontend`)
 - Backend (Render): https://prometido-api.onrender.com (free tier, adormece após 15 min sem tráfego)
 
 ---
@@ -211,6 +211,7 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 
 ## Bloqueadores / riscos activos
 
+- **BE 2024 — URL arquivada corrigida ⚠ confirmar:** link original (`noFrame/replay/20240130205205/...`) estava quebrado ("Failed to load PDF document"). Filipa arquivou manualmente `https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf` no Arquivo.pt — novo URL: `https://arquivo.pt/wayback/20260505224129/https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf`. DB actualizada. **Ainda por confirmar se o PDF abre correctamente no novo URL — testar antes da submissão.**
 - **BE 2025:** só manifesto de 2 páginas — poucas promessas extraídas, reflecte escolha do partido.
 - **CDU 2011:** não é um programa completo — 24 promessas (compromisso eleitoral).
 - **Cumprido/não cumprido:** fora do scope (decisão 20 abril) — ver SCOPE.md.
@@ -292,3 +293,36 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 - Fix CORS: adicionado prometido-app.vercel.app
 - Fix API URL: hardcoded Render URL como fallback em frontend/lib/api.ts
 - Dockerfile criado (bake data/ no image) · fly.toml criado (não usado)
+
+### Sessão 10 — 5 maio 2026 (Cowork)
+
+#### UI — fixes e melhorias
+- **Bug: partido não aparecia nos cards de pesquisa** — `backend/api/search.py` não incluía `pt.short_name` no SELECT nem no objeto de resposta (só `name` e `color`). Adicionado `pt.short_name as party_short_name` a ambas as queries (FTS5 e filtros directos) e ao dict de resposta.
+- **Hover azul nos cards** — texto da promessa ficava `text-blue-700` no hover, o que ficava estranho. Mudado para `text-neutral-900` em `frontend/components/PromiseCard.tsx`.
+- **Badge "T2" removido** — retirado `<SourceBadge>` da página de detalhe de promessa (`frontend/app/promise/[id]/page.tsx`). O tier não tem contexto suficiente para o utilizador final. Import limpo.
+- **Card de fonte compactado** — o card "FONTE ARQUIVADA" na página de detalhe passou de bloco vertical com três secções empilhadas para uma linha compacta: label + data à esquerda, botão "Abrir no Arquivo.pt" à direita. Padding e texto reduzidos.
+- **Homepage reordenada** — ordem das secções alterada para: Partidos → Pesquisar por tema → Comparar por tema (era: Comparar por tema → Partidos → Pesquisar por tema).
+- **"Comparar por tema" normalizado** — título passou de `text-sm font-semibold text-neutral-900` para o mesmo estilo das outras secções (`text-[11px] font-semibold text-neutral-600 uppercase tracking-widest`). Subtítulo "O que prometeram os partidos sobre habitação, saúde ou ambiente?" removido.
+- **Footer do comparador simplificado** — cards na página `/compare` mostravam ano + status + link Arquivo.pt. `ArchiveLink` removido — fica só ano + status. Import limpo.
+
+#### Discussão de produto
+- **Mostrar vencedor das eleições:** proposta de campo `won: boolean` na relação partido×eleição, com indicador visual subtil nos cards e perfil do partido.
+- **Verificação de promessas com Arquivo.pt:** plano de usar a API `textsearch` do Arquivo.pt para pesquisar artigos de imprensa arquivados durante o mandato de cada partido, e propor vereditos com LLM + revisão humana. Hierarquia de evidência: DRE (legislação) > imprensa > ausência de cobertura.
+- **Diário da República no Arquivo.pt:** confirmado que o Arquivo.pt cobre o DRE — permite verificação via legislação publicada, mais rigorosa que cobertura jornalística.
+
+#### Validação de links Arquivo.pt — BE
+- Em curso: verificação manual dos URLs arquivados programa-a-programa.
+- **BE:** todos os links do Bloco de Esquerda estão funcionais **excepto BE 2024**.
+  - URL problemática: `https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf` — o visualizador de PDF retorna "Failed to load PDF document".
+  - URL original do programa está acessível directamente em `https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf`.
+  - A verificar: se está arquivada no Arquivo.pt via CDX API (`https://arquivo.pt/wayback/cdx/search/cdx?url=bloco.org/media/PROGRAMA_BLOCO_2024.pdf&output=json&limit=10`). Se não estiver, actualizar `archived_url` na DB para o URL directo.
+- **Arquivo.pt não está na allowlist de rede do sandbox** — pesquisa via CDX API tem de ser feita no browser ou adicionando arquivo.pt em Settings → Capabilities.
+- **BE 2024 — corrigido:** Filipa arquivou manualmente o PDF no Arquivo.pt (`https://arquivo.pt/wayback/20260505224129/https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf`). DB actualizada via SQL (`archived_pages` — 1 row). ⚠ Confirmar que o PDF abre correctamente antes da submissão.
+
+### Sessão 9 — 29 abril 2026 (Cowork)
+- **Bug:** site mostrava "Não foi possível carregar os dados" — todos os pedidos à API bloqueados por CORS.
+- **Causa raiz:** projecto na Vercel foi renomeado de `prometido-app` → `frontend`, com novo subdomínio `frontend-rosy-six-72.vercel.app`. A whitelist do CORS no backend só tinha `prometido-app.vercel.app` explícito.
+- **Fix:** adicionado `allow_origin_regex=r"https://([a-z0-9-]+\.)*vercel\.app"` em `backend/main.py` para cobrir qualquer subdomínio `*.vercel.app` (incluindo previews `frontend-*-filipagrs-projects.vercel.app`).
+- **Deploy:** commit + push → Render auto-deploy → confirmado live no novo URL.
+- **Lição:** mudar o nome do projecto na Vercel rebenta o subdomínio anterior. Para evitar no futuro: comprar um custom domain (o `prometido.pt` já não está disponível) e apontá-lo à Vercel, em vez de depender do `*.vercel.app` gerado automaticamente.
+- **Nota:** `https://prometido.pt` continua na whitelist explícita do CORS em `backend/main.py` por inércia — o domínio não está registado, é inofensivo mas pode ser removido ou substituído pelo domínio que vier a ser comprado.

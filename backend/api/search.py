@@ -39,7 +39,7 @@ def search(
             SELECT p.id, p.text, p.topic, p.party_id, p.election_id, p.tier, p.status,
                    p.extraction_confidence, p.validation_score,
                    pg.archived_url, pg.timestamp,
-                   pt.name as party_name, pt.color as party_color,
+                   pt.name as party_name, pt.short_name as party_short_name, pt.color as party_color,
                    e.date as election_date, e.description as election_desc
             FROM promises_fts fts
             JOIN promises p ON fts.rowid = p.rowid
@@ -55,7 +55,7 @@ def search(
             SELECT p.id, p.text, p.topic, p.party_id, p.election_id, p.tier, p.status,
                    p.extraction_confidence, p.validation_score,
                    pg.archived_url, pg.timestamp,
-                   pt.name as party_name, pt.color as party_color,
+                   pt.name as party_name, pt.short_name as party_short_name, pt.color as party_color,
                    e.date as election_date, e.description as election_desc
             FROM promises p
             LEFT JOIN archived_pages pg ON p.page_id = pg.id
@@ -100,7 +100,7 @@ def search(
             "id": r["id"],
             "text": r["text"],
             "topic": r["topic"],
-            "party": {"id": r["party_id"], "name": r["party_name"], "color": r["party_color"]},
+            "party": {"id": r["party_id"], "name": r["party_name"], "short_name": r["party_short_name"], "color": r["party_color"]},
             "election": {"id": r["election_id"], "date": r["election_date"], "description": r["election_desc"]},
             "tier": r["tier"],
             "status": r["status"],
