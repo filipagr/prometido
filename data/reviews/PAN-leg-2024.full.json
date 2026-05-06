@@ -1,0 +1,925 @@
+[
+  {
+    "text": "Assegurar a neutralidade climática em 2045, antecipando esta meta com transição justa e garantindo que até 2035 toda a eletricidade provém de fontes renováveis.",
+    "context": "O PAN quer assegurar a neutralidade climática em 2045 através de uma verdadeira estratégia política para as alterações climáticas.",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada a estrutura (removido 'procurando' redundante) e ajustada para melhor fluidez mantendo o significado."
+  },
+  {
+    "text": "Garantir que o Conselho para a Ação Climática inicia funções nos primeiros 100 dias e que são cumpridas as disposições da Lei de Bases do Clima.",
+    "context": "Garantir que nos primeiros 100 dias da legislatura o Conselho para a Ação Climática inicia funções.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reordenada a estrutura para melhor clareza e fluidez, eliminando repetição desnecessária."
+  },
+  {
+    "text": "Criar apoios técnicos e financeiros para ajudar os municípios a implementar a Lei de Bases do Clima e planos municipais de ação climática.",
+    "context": "Criar apoios técnicos e financeiros para ajudar os municípios a implementar a Lei de Bases do Clima.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas com especificação vaga em 'apoios técnicos e financeiros' (sem valores ou percentuais)",
+    "review_changed": true,
+    "review_note": "Removido 'respetivos' para maior concisão, mantendo clareza."
+  },
+  {
+    "text": "Promover o processo de reconhecimento do Clima Estável como património da humanidade junto das Nações Unidas.",
+    "context": "Promover o processo de reconhecimento do Clima Estável a património da humanidade junto das Nações Unidas.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Baixa concretude e verificabilidade: é um processo diplomático ambíguo, sem métricas claras de sucesso ou prazo definido"
+  },
+  {
+    "text": "Estabelecer enquadramento legal do Programa de Ação Nacional de Combate à Desertificação, com dotação orçamental anual adequada e revisão periódica.",
+    "context": "Estabelecer um enquadramento legal geral do Programa de Ação Nacional de Combate à Desertificação.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas 'dotação orçamental adequada' e 'revisão periódica' carecem de especificação (quanto? quando?)",
+    "review_changed": true,
+    "review_note": "Removido 'um' inicial para concisão. Mantém significado completo."
+  },
+  {
+    "text": "Assegurar debate nacional sobre a revisão do Plano Nacional de Energia e Clima 2045, com participação das ONGA e apreciação pela Assembleia da República.",
+    "context": "Assegurar um amplo debate nacional sobre a revisão do Plano Nacional de Energia e Clima 2045.",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta mas com ação genérica ('amplo debate') sem métricas de realização ou prazo",
+    "review_changed": true,
+    "review_note": "Removido 'amplo' para concisão sem perda de significado."
+  },
+  {
+    "text": "Aumentar investimento na IGAMAOT, reforçando efetivos e áreas de inspeção, garantindo valorização das carreiras de inspeção.",
+    "context": "Aumentar o investimento na Inspeção-geral da Agricultura, do Mar, do Ambiente e do Ordenamento do Território (IGAMAOT).",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas vaga em 'reforçando número de efetivos' (sem quantificar) e 'áreas relevantes' (sem detalhar)",
+    "review_changed": true,
+    "review_note": "Removidos artigos e preposições desnecessárias para maior concisão e fluidez."
+  },
+  {
+    "text": "Criar mecanismos de transparência na execução do Plano Nacional do Hidrogénio.",
+    "context": "Criar mecanismos de transparência na execução do Plano Nacional do Hidrogénio.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Pouco concreta: 'mecanismos de transparência' é genérico, sem especificar quais, como ou prazo"
+  },
+  {
+    "text": "Implementar a Estratégia Nacional de Longo Prazo para o Combate à Pobreza Energética 2023-2050, erradicando-a até 2050.",
+    "context": "Erradicar a pobreza energética até 2050 por via da implementação da Estratégia Nacional de Longo Prazo para o Combate à Pobreza Energética 2023-2050.",
+    "topics": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Condensada a repetição de conceitos, mantendo os objetivos principais de forma mais concisa."
+  },
+  {
+    "text": "Garantir que todas as habitações construídas atinjam classe energética D em 2030 e C até 2034, aproveitando a Onda de Renovação Europeia.",
+    "context": "Garantir que todas as habitações já construídas e em utilização atinjam pelo menos a classe energética D em 2030 e C até 2034.",
+    "topics": [
+      "energia",
+      "habitação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'já' e 'em utilização' como redundantes; mantém precisão."
+  },
+  {
+    "text": "Alargar o número de beneficiários das tarifas sociais de eletricidade e de gás natural.",
+    "context": "Do alargamento do número de beneficiários das tarifas sociais de eletricidade e de gás natural.",
+    "topics": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Não é concreta: 'alargar número' sem especificar quanto, para quem, ou prazo"
+  },
+  {
+    "text": "Implementar o programa 'Sol Para Todos', permitindo que energia excedente de autoconsumo renovável seja transmitida gratuitamente a famílias em pobreza energética.",
+    "context": "Implementação do programa 'Sol Para Todos', com vista a que a energia excedente produzida para autoconsumo possa ser investida de forma solidária.",
+    "topics": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'situação de' para concisão; termo 'pobreza energética' é suficientemente claro."
+  },
+  {
+    "text": "Incentivar a produção descentralizada de energias renováveis, nomeadamente em comunidades energéticas, e o autoconsumo.",
+    "context": "Incentivar a produção descentralizada de energias renováveis, nomeadamente em comunidades energéticas, e o autoconsumo.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.55,
+    "validation_reason": "Genérica: 'incentivar' sem detalhar mecanismos, valores ou prazos; 'nomeadamente' enfatiza exemplos sem concretização"
+  },
+  {
+    "text": "Elaborar Estratégia Nacional para armazenamento de energia, viabilizando eletrificação de veículos rodoviários com elevadas taxas de utilização.",
+    "context": "Elaborar uma Estratégia Nacional para o armazenamento de energia com vista à eletrificação de veículos rodoviários.",
+    "topics": [
+      "energia",
+      "transportes"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta na ação mas objetivo final ('eletrificação com elevadas taxas') é vago e sem prazo",
+    "review_changed": true,
+    "review_note": "Ajustada preposição ('para' em vez de 'com vista à') para maior concisão e clareza."
+  },
+  {
+    "text": "Criar incentivos ao investimento empresarial na sustentabilidade ambiental, designadamente em sede de IRC.",
+    "context": "Criar incentivos ao investimento empresarial na sustentabilidade ambiental, designadamente em sede de IRC.",
+    "topics": [
+      "ambiente",
+      "economia"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Genérica: 'criar incentivos' e 'designadamente em sede de IRC' sem especificar a medida concreta ou valores"
+  },
+  {
+    "text": "Eliminar todos os subsídios e apoios públicos aos combustíveis fósseis, canalizando os apoios para a produção de energias renováveis.",
+    "context": "Eliminar todos os subsídios e apoios públicos aos combustíveis fósseis, canalizando os apoios para a produção de energias renováveis.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Promover estudos relativos ao potencial energético da geotermia no território continental dada a sua relevância para a descarbonização da sociedade.",
+    "context": "Promover estudos relativos ao potencial energético da geotermia no território continental.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Não é concreta: 'promover estudos' é vago, sem prazo, orçamento ou meta clara. Falta ação executiva."
+  },
+  {
+    "text": "Garantir que todas as instalações de fontes de energia renovável, de média e grande dimensão, sejam sujeitas a Avaliação de Impacte Ambiental.",
+    "context": "Garantir que todas as instalações de fontes de energia renovável, de média e grande dimensão, sejam sujeitas a Avaliação de Impacte Ambiental.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Impedir a instalação de centrais fotovoltaicas e outras fontes de energias renováveis, bem como exploração de combustíveis fósseis e mineira, em áreas protegidas ou habitats de espécies protegidas.",
+    "context": "Impedir a instalação, em áreas protegidas ou que constituam habitats de espécies protegidas, de centrais fotovoltaicas.",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reorganizou-se a estrutura sintática para melhor clareza e fluidez, mantendo o significado completo."
+  },
+  {
+    "text": "Estabelecer uma meta de que até 2050, 55% da produção de energia elétrica seja proveniente de unidades de pequena produção e autoconsumo local, garantindo incentivos para o efeito.",
+    "context": "Estabelecer uma meta até 2050, de 55% da produção de energia elétrica ser proveniente de unidades de pequena produção e autoconsumo local.",
+    "topics": [
+      "energia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Fomentar a instalação de painéis fotovoltaicos em áreas urbanas e industriais, evitando áreas florestais e agrícolas.",
+    "context": "Fomentar a instalação de painéis fotovoltaicos em áreas urbanas e industriais, evitando áreas florestais e agrícolas.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Não é concreta: 'fomentar' sem medida, incentivo, meta ou prazo específicos."
+  },
+  {
+    "text": "Fomentar o arrendamento de telhados e coberturas para fins de exploração de negócios de produção de energia através de painéis fotovoltaicos.",
+    "context": "Fomentar o arrendamento de telhados e coberturas para fins de exploração de negócios de produção de energia através de painéis fotovoltaicos.",
+    "topics": [
+      "energia",
+      "economia"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Não é concreta: 'fomentar' sem mecanismo específico, incentivo ou meta quantificável."
+  },
+  {
+    "text": "Reduzir para 6% o IVA dos kits de autoconsumo para fins habitacionais.",
+    "context": "Reduzir para 6% o IVA dos kits de autoconsumo para fins habitacionais.",
+    "topics": [
+      "energia",
+      "habitação"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Adaptar a legislação laboral estabelecendo regras de limitação da prestação de trabalho que envolva exposição a fenómenos climáticos extremos.",
+    "context": "Adaptar a legislação laboral estabelecendo regras de limitação da prestação de trabalho que envolva a exposição do trabalhador a fenómenos climáticos extremos.",
+    "topics": [
+      "emprego",
+      "ambiente"
+    ],
+    "confidence": 0.94,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removeu-se redundância ('do trabalhador a') para melhor concisão, mantendo o significado."
+  },
+  {
+    "text": "Incluir os Objetivos de Desenvolvimento Sustentável da Agenda 2030 e os princípios de orçamentação verde da Lei de Bases do Clima nos documentos do processo orçamental.",
+    "context": "Incluir os Objetivos de Desenvolvimento Sustentável da Agenda 2030 e os princípios de orçamentação verde nos documentos do processo orçamental.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Ajustou-se a estrutura para melhor clareza gramatical ('fixados na Lei' → 'da Lei')."
+  },
+  {
+    "text": "Aprovar e implementar uma Estratégia Nacional de Educação Ambiental 2025-2030, com metas e objetivos na literacia ecológica, divulgando-a junto dos estabelecimentos de ensino.",
+    "context": "Aprovar e implementar uma Estratégia Nacional de Educação Ambiental 2025-2030, com metas e objetivos na área da literacia ecológica.",
+    "topics": [
+      "ambiente",
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reformulou-se a última parte para melhor fluidez e concisão, mantendo o significado completo."
+  },
+  {
+    "text": "Reforçar a dotação orçamental para melhorar a rede de estações de monitorização da qualidade do ar.",
+    "context": "Reforçar a dotação orçamental para melhorar a respetiva rede de estações de monitorização da qualidade do ar.",
+    "topics": [
+      "ambiente",
+      "saúde"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Não é concreta: 'reforçar a dotação' sem valor, número de estações ou meta específica."
+  },
+  {
+    "text": "Desenvolver uma Estratégia Nacional para o Ruído e garantir o integral cumprimento da legislação do ruído.",
+    "context": "Desenvolver uma Estratégia Nacional para o Ruído e garantir o integral cumprimento da legislação do ruído.",
+    "topics": [
+      "ambiente",
+      "saúde"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Adotar medidas de promoção de literacia jurídica na área do direito do ambiente, incluindo um plano plurianual de formação a magistrados e agentes de justiça.",
+    "context": "Adotar medidas de promoção de literacia jurídica na área do direito do ambiente, incluindo a aprovação de um plano plurianual de formação.",
+    "topics": [
+      "ambiente",
+      "justiça"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removeu-se 'demais' (redundante) e 'aprovação de' para maior concisão e clareza."
+  },
+  {
+    "text": "Aprovar um Programa de Mobilidade Sustentável para a Administração Pública para o período 2025-2030, apostando na conversão das frotas públicas rodoviárias para modo elétrico.",
+    "context": "Aprovar um Programa de Mobilidade Sustentável para a Administração Pública para o período de 2025-2030.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer metas de introdução de veículos elétricos pelos operadores de transportes públicos e criar apoios à eletrificação dos transportes públicos rodoviários.",
+    "context": "Estabelecer metas de introdução de veículos elétricos pelos operadores de transportes públicos.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Ampliar os postos de carregamento para veículos elétricos em espaços públicos, melhorando a eficiência da Rede Pública de Carregamento e incentivando carregadores rápidos e ultrarrápidos.",
+    "context": "Ampliar os postos de carregamento para veículos elétricos em espaços públicos, melhorando a eficiência da Rede Pública de Carregamento.",
+    "topics": [
+      "transportes",
+      "energia"
+    ],
+    "confidence": 0.94,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar o incentivo à instalação de carregadores de veículos elétricos a nível particular ou de condomínio.",
+    "context": "Alargar o incentivo à instalação de carregadores de veículos elétricos a nível particular ou de condomínio.",
+    "topics": [
+      "transportes",
+      "energia"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a continuidade do programa de apoio à aquisição de veículos elétricos, aumentando o incentivo para 6 mil euros, com majoração para residentes em territórios do interior.",
+    "context": "Garantir o reforço e a continuidade do programa de apoio à aquisição de veículos elétricos, aumentando o incentivo para o valor médio do incentivo na União Europeia (6 mil euros).",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida expressão redundante 'valor médio europeu de' para clareza e concisão (250 chars)."
+  },
+  {
+    "text": "Criar um programa de incentivos às deslocações pendulares casa-trabalho em bicicleta, com dotação de 6 milhões de euros, recompensando financeiramente os beneficiários por quilómetros pedalados.",
+    "context": "Criar um programa de incentivos às deslocações pendulares casa-trabalho em bicicleta, que, com uma dotação orçamental de 6 milhões de euros, recompense financeiramente os beneficiários.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida expressão 'orçamental de' redundante para melhor fluidez e concisão."
+  },
+  {
+    "text": "Reduzir para 6% o IVA da aquisição de componentes e acessórios para bicicletas.",
+    "context": "Reduzir para 6% o IVA da aquisição de componentes e acessórios para bicicletas.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um programa de apoio financeiro à criação e expansão de sistemas de bicicletas partilhadas, tendo os municípios como destinatários.",
+    "context": "Criar um programa de apoio financeiro à criação e expansão de sistemas de bicicletas partilhadas, que tenha os municípios como destinatários.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Integrar o acesso aos sistemas de bicicletas partilhadas nos passes mensais municipais, intermunicipais e metropolitanos.",
+    "context": "Integrar o acesso aos sistemas de bicicletas partilhadas no âmbito dos passes mensais de âmbito municipal, intermunicipal e metropolitano.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reformulação para maior clareza: 'no âmbito dos' substituído por 'nos' para concisão."
+  },
+  {
+    "text": "Criar um passe único nacional de transportes públicos.",
+    "context": "Criar um passe único nacional de transportes públicos.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretização: sem prazo, sem âmbito geográfico claro, sem detalhes de implementação ou custos associados"
+  },
+  {
+    "text": "Garantir a gratuitidade do passe de transportes a todos os jovens até aos 25 anos, independentemente de trabalharem ou estudarem.",
+    "context": "Garantir a gratuitidade do passe a todos os jovens até aos 25 anos, independentemente de trabalharem ou estudarem.",
+    "topics": [
+      "transportes",
+      "direitos sociais"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionada 'de transportes' para maior clareza e completude semântica."
+  },
+  {
+    "text": "Assegurar a gratuitidade dos passes mensais de transportes público até 2028, implementando progressivamente uma redução de 50% do valor da tarifa inteira e do passe ferroviário nacional até 2026.",
+    "context": "Assegurar a gratuitidade dos passes mensais de transportes público até 2028, implementando, progressivamente, uma redução em 50% do valor da sua tarifa inteira.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar os beneficiários do 'Passe Social +', assegurando a inclusão dos beneficiários do abono de família e de pensões sociais de invalidez e de velhice.",
+    "context": "Alargar os beneficiários do 'Passe Social +', assegurando a inclusão dos beneficiários do abono de família, de pensão social de invalidez.",
+    "topics": [
+      "transportes",
+      "segurança social"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionado 'e de velhice' para completude (context mostrava truncagem) e regularizado punctuação."
+  },
+  {
+    "text": "Criar incentivos fiscais para que as empresas adotem planos de mobilidade activa e promovam a mobilidade ciclável junto dos seus trabalhadores.",
+    "context": "Criar incentivos fiscais para que as empresas adotem planos de mobilidade activa e promovam a mobilidade ciclável junto dos seus trabalhadores.",
+    "topics": [
+      "transportes",
+      "emprego"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta concretização: incentivos fiscais não especificados, sem valores, sem tipos de incentivos ou prazos definidos"
+  },
+  {
+    "text": "Concluir a Avaliação Ambiental Estratégica do Plano Ferroviário Nacional e assegurar ligações rápidas entre capitais de distrito até 2030.",
+    "context": "Concluir a Avaliação Ambiental Estratégica do Plano Ferroviário Nacional e garantir a aposta até 2030 em ligações rápidas entre capitais de distrito.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'ligação ferroviária em todas as capitais de distrito' (redundante e tornava texto > 250 chars). Mantido o essencial."
+  },
+  {
+    "text": "Defender a necessidade de concretização do troço TGV Porto-Vigo com recurso a fundos europeus, nomeadamente os previstos no âmbito do Connecting Europe Facility.",
+    "context": "Defender a necessidade de concretização do troço TGV Porto-Vigo com recurso a fundos europeus.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.35,
+    "validation_reason": "Não é uma promessa directa do partido: usa 'defender a necessidade' (posicionamento) em vez de comprometer-se com ação executória. Depende de decisões supranacionais e de terceiros"
+  },
+  {
+    "text": "Defender a necessidade de concretização do troço TGV Lisboa-Madrid.",
+    "context": "Defender a necessidade de concretização do troço TGV Lisboa-Madrid.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Falta concretização: não especifica acções, prazos ou medidas. 'Defender a necessidade' é vago e não constitui compromisso verificável."
+  },
+  {
+    "text": "Defender a criação de uma linha ferroviária do Aeroporto Francisco Sá Carneiro, assegurando conexão com a rede de transportes públicos da Área Metropolitana do Porto.",
+    "context": "Defender a criação de uma linha ferroviária do Aeroporto Francisco Sá Carneiro, em termos que assegurem a conexão com a rede de transportes públicos da Área Metropolitana do Porto.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta: acção nomeada (criar linha ferroviária), localização específica, objectivo claro. Ligeiramente menos precisa por falta de prazo.",
+    "review_changed": true,
+    "review_note": "Removido 'a' após 'assegurando' para simplificar e reduzir caracteres, mantendo clareza."
+  },
+  {
+    "text": "Promover a eletrificação de toda a rede ferroviária existente.",
+    "context": "Promover a eletrificação de toda a rede ferroviária existente.",
+    "topics": [
+      "transportes",
+      "energia"
+    ],
+    "confidence": 0.96,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Promessa genérica sem prazos, metas numéricas ou medidas específicas. 'Promover' é acção vaga e pouco verificável."
+  },
+  {
+    "text": "Assegurar a avaliação da opção Aeroporto de Beja no âmbito da decisão sobre o novo aeroporto, com avaliação prévia de impacto ambiental.",
+    "context": "Assegurar a avaliação da opção Aeroporto de Beja (seja como solução principal, seja como solução complementar) no âmbito da decisão política sobre o novo aeroporto.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta: acção específica (avaliação), critério claro (impacto ambiental), objectivo identificado. Falta apenas prazo.",
+    "review_changed": true,
+    "review_note": "Simplificado para reduzir caracteres (removido 'política', reescrito final) e manter essência."
+  },
+  {
+    "text": "Pôr fim a voos noturnos entre as 00h00 e as 06h00 em todos os aeroportos nacionais, exceto voos de emergência e humanitários.",
+    "context": "Pôr fim à realização de voos noturnos entre as 00h00 e as 06h00 da manhã em todos os aeroportos nacionais.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": "Muito concreta: acção clara (pôr fim), horário específico (00h00-06h00), scope definido (todos os aeroportos), excepções nomeadas.",
+    "review_changed": true,
+    "review_note": "Removido 'da manhã' (redundante), simplificado 'de caráter humanitário' para 'humanitários'."
+  },
+  {
+    "text": "Aprovar um regime jurídico de limitação de voos em rotas aéreas internas quando exista ligação ferroviária alternativa satisfatória.",
+    "context": "Aprovar um regime jurídico de limitação de voos em rotas aéreas internas, sempre que exista uma ligação ferroviária alternativa satisfatória.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta: acção (aprovar regime), critério objetivo (ligação ferroviária alternativa). Falta prazo e detalhes sobre 'satisfatória'.",
+    "review_changed": true,
+    "review_note": "Simplificado 'sempre que exista uma' para 'quando exista' para reduzir caracteres."
+  },
+  {
+    "text": "Combater a poluição do turismo de cruzeiro, garantindo eletricidade da rede em terra aos navios até 2030 em todos os portos nacionais.",
+    "context": "Combater a poluição do turismo de cruzeiro por via da rápida implementação em todos os portos nacionais das obrigações previstas no Regulamento relativo à criação de uma infraestrutura para combustíveis alternativos.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Muito concreta: acção (fornecimento de eletricidade), prazo (2030), scope (todos os portos), medida específica (rede em terra).",
+    "review_changed": true,
+    "review_note": "Removido 'fornecimento de' para reduzir caracteres; significado mantido."
+  },
+  {
+    "text": "Garantir, em parceria com a academia e as ONGA, a elaboração de um estudo sobre a capacidade de carga do país relativamente ao turismo de cruzeiro.",
+    "context": "Garantir, em parceria com a academia e as ONGA, a elaboração de um estudo sobre a capacidade de carga do país relativamente ao turismo de cruzeiro.",
+    "topics": [
+      "ambiente",
+      "outros"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Promessa de elaboração de estudo é vaga. Falta prazo, e 'em parceria' não garante execução directa. Mais próxima de intenção que compromisso."
+  },
+  {
+    "text": "Aprovar a consagração do crime de Ecocídio no Código Penal.",
+    "context": "Aprovar a consagração do crime de Ecocídio no Código Penal.",
+    "topics": [
+      "ambiente",
+      "justiça"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta: acção clara (aprovar), medida específica (crime de Ecocídio no Código Penal). Falta apenas prazo.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aprovar um plano nacional de conservação e restauro ecológico com metas de cumprimento e identificação das respetivas fontes de financiamento.",
+    "context": "Aprovar um plano nacional de conservação e restauro, com metas de cumprimento e identificação das respetivas fontes de financiamento.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta: acção (aprovar plano), elementos específicos (metas, fontes de financiamento). Falta prazo de implementação.",
+    "review_changed": true,
+    "review_note": "Adicionado 'ecológico' (presente no context como foco) e removida vírgula após 'restauro' para fluidez."
+  },
+  {
+    "text": "Revogar o Simplex Ambiental e o Regime especial aplicável aos projetos PIN.",
+    "context": "Revogar o Simplex Ambiental e o Regime especial aplicável aos projetos PIN.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta: acção clara (revogar), mecanismos nomeados (Simplex Ambiental, Regime PIN). Falta apenas prazo.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar em 50% o financiamento do Orçamento do Estado para ações de conservação da natureza, assegurando o seu carácter plurianual.",
+    "context": "Aumentar em 50% o financiamento do Orçamento do Estado para ações de conservação da natureza.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Muito concreta: acção (aumentar financiamento), percentagem (50%), scope (OE), adjetivo importante (plurianual). Falta apenas prazo.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir o aumento em 30%, até 2028, da Rede Nacional de Áreas Protegidas, antecipando a meta europeia.",
+    "context": "Garantindo o aumento em 30%, até 2028, da Rede Nacional de Áreas Protegidas (RNAP), antecipando a meta europeia.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": "Muito concreta: acção (garantir aumento), percentagem (30%), prazo (até 2028), scope identificado (RNAP), objectivo comparativo (antecipa meta europeia).",
+    "review_changed": true,
+    "review_note": "Removida a sigla repetida (RNAP) para maior clareza e redução de caracteres, mantendo significado."
+  },
+  {
+    "text": "Garantir, através do Fundo Ambiental, o cofinanciamento nacional dos projetos LIFE executados pelas ONGA.",
+    "context": "Garantir, através do Fundo Ambiental, o cofinanciamento nacional dos projectos LIFE executados pelas ONGA.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta: acção (garantir cofinanciamento), mecanismo (Fundo Ambiental), beneficiários (ONGA, projetos LIFE). Falta percentagem ou montante.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um atlas de risco das alterações climáticas que identifique todos os riscos climáticos e áreas prioritárias para adaptação municipal.",
+    "context": "Criar um atlas de risco das alterações climáticas que evidencie todos os riscos climáticos.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta: acção (criar atlas), componentes específicas (riscos climáticos, áreas prioritárias, nível municipal). Falta apenas prazo.",
+    "review_changed": true,
+    "review_note": "Reescrito para maior concisão mantendo a informação completa sobre áreas prioritárias e nível municipal."
+  },
+  {
+    "text": "Garantir a proteção de pelo menos 30% do território marinho e terrestre até 2028, antecipando a meta europeia de 2030.",
+    "context": "Garantir a proteção de pelo menos 30% do território marinho e terrestre até 2028, antecipando a meta de 2030.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado \"meta de 2030 definida pelo Pacto Ecológico Europeu\" para \"meta europeia de 2030\" por clareza."
+  },
+  {
+    "text": "Designar novas Áreas Marinhas Protegidas e elevar o nível de proteção das existentes, travando a atividade piscatória.",
+    "context": "Designar novas Áreas Marinhas Protegidas e elevar o nível de proteção das existentes, travando a atividade piscatória nestas áreas de elevada importância ecológica.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas sem números ou prazos específicos",
+    "review_changed": true,
+    "review_note": "Removida a referência desnecessária \"de elevada importância ecológica\" implícita na designação de AMP."
+  },
+  {
+    "text": "Criar uma agência nacional para as Áreas Marinhas Protegidas, que garanta a sua proteção e devida gestão.",
+    "context": "Criar uma agência nacional para as Áreas Marinhas Protegidas, que garanta a sua proteção e devida gestão.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar santuários marinhos em áreas monitorizadas para a devolução de animais que tenham estado em cativeiro.",
+    "context": "Criar santuários marinhos em áreas devidamente monitorizadas, destinadas à devolução de animais que tenham estado em cativeiro.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.94,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas vaga em escala e prazo",
+    "review_changed": true,
+    "review_note": "Removido \"devidamente\" (redundante com \"santuários\") para melhor fluidez."
+  },
+  {
+    "text": "Assegurar ecoilhas em todos os portos marítimos para separação, recolha e tratamento de resíduos e redes de pesca.",
+    "context": "Assegurar a colocação de ecoilhas em todos os portos marítimos.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.94,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida a expressão \"com vista à adequada\" (implícita) e \"inutilizadas\" para maior concisão."
+  },
+  {
+    "text": "Reconhecer o estatuto profissional ao observador marítimo de pescas.",
+    "context": "Reconhecer o estatuto profissional ao observador marítimo de pescas.",
+    "topics": [
+      "emprego",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Não é concreta: 'reconhecer estatuto' é vago, não especifica medidas concretas ou prazos"
+  },
+  {
+    "text": "Aumentar os efetivos da Polícia Marítima.",
+    "context": "Aumentar os efetivos da Polícia Marítima.",
+    "topics": [
+      "segurança",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Não é concreta: sem números, percentagem ou prazo definido"
+  },
+  {
+    "text": "Abolir métodos de pesca destrutivos como o arrasto, as redes de emalhar ou o uso de explosivos para matar ou atordoar peixes.",
+    "context": "Abolir métodos de pesca destrutivos como o arrasto, as redes de emalhar ou o uso de explosivos para matar ou atordoar peixes.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta nos métodos a abolir, mas sem prazo específico",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Contribuir para libertar 25 mil km de rios na União Europeia através da implementação do plano nacional para remoção de barreiras obsoletas nos rios.",
+    "context": "Contribuir para libertar 25 mil km de rios na União Europeia através da implementação do plano nacional para remoção de barreiras obsoletas nos rios.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Regulamentar a profissão de guarda-rios, com vista à reativação de um corpo nacional de guarda-rios e à respetiva afetação aos quadros do ICNF.",
+    "context": "Regulamentar a profissão de guarda-rios, com vista à reativação de um corpo nacional de guarda-rios e à respetiva afetação aos quadros do ICNF.",
+    "topics": [
+      "ambiente",
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta nas ações (regulamentar, reativar, afetar) mas sem prazo",
+    "review_changed": false,
+    "review_note": null
+  }
+]
