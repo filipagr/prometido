@@ -37,6 +37,21 @@ from pathlib import Path
 
 DB_PATH = Path(__file__).parent.parent / "data" / "prometido.db"
 
+# URLs reais dos programas (url, archived_url, timestamp)
+SOURCE_URLS: dict[str, tuple[str, str, str]] = {
+    "BE|leg_2022":    ("https://programa2022.bloco.org/wp-content/uploads/2022/01/Programa-a-cores-com-p%C3%A1gina-dupla.pdf", "https://arquivo.pt/noFrame/replay/20220118182943/https://programa2022.bloco.org/wp-content/uploads/2022/01/Programa-a-cores-com-pa%CC%81gina-dupla.pdf", "20220118182943"),
+    "BE|leg_2024":    ("https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf", "https://arquivo.pt/noFrame/replay/20240130205205/https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf", "20240130205205"),
+    "BE|leg_2025":    ("https://www.bloco.org/media/Manifesto_Bloco_legislativas2025.pdf", "https://arquivo.pt/noFrame/replay/20250517224937/https://www.bloco.org/media/Manifesto_Bloco_legislativas2025.pdf", "20250517224937"),
+    "Chega|leg_2022": ("https://partidochega.pt/programa-politico-chega/", "https://arquivo.pt/noFrame/replay/20210923103201/https://partidochega.pt/programa-politico-chega/", "20210923103201"),
+    "Chega|leg_2024": ("https://partidochega.pt/index.php/documentoschega/", "https://arquivo.pt/noFrame/replay/20240310194424/https://partidochega.pt/index.php/documentoschega/", "20240310194424"),
+    "Chega|leg_2025": ("https://partidochega.pt/index.php/documentoschega/", "https://arquivo.pt/noFrame/replay/20241231210649/https://partidochega.pt/index.php/documentoschega/", "20241231210649"),
+    "IL|leg_2022":    ("https://iniciativaliberal.pt/wp-content/uploads/2022/01/Iniciativa-Liberal-Programa-Eleitoral-2022.pdf", "https://arquivo.pt/noFrame/replay/20220112223212/https://iniciativaliberal.pt/wp-content/uploads/2022/01/Iniciativa-Liberal-Programa-Eleitoral-2022.pdf", "20220112223212"),
+    "IL|leg_2024":    ("https://iniciativaliberal.pt/wp-content/uploads/2024/02/Por-um-Portugal-com-Futuro-Programa-Eleitoral-IL-2024.pdf", "https://arquivo.pt/noFrame/replay/20240205191957/https://iniciativaliberal.pt/wp-content/uploads/2024/02/Por-um-Portugal-com-Futuro-Programa-Eleitoral-IL-2024.pdf", "20240205191957"),
+    "IL|leg_2025":    ("https://iniciativaliberal.pt/wp-content/uploads/2025/04/Iniciativa-Liberal-Programa-Eleitoral-2025.pdf", "https://arquivo.pt/noFrame/replay/20250523212554/https://iniciativaliberal.pt/wp-content/uploads/2025/04/Iniciativa-Liberal-Programa-Eleitoral-2025.pdf", "20250523212554"),
+    "PCP|leg_2025":   ("https://www.pcp.pt/sites/default/files/documentos/2025_compromisso_eleitoral_pcp_legislativas.pdf", "https://arquivo.pt/noFrame/replay/20250519215223/https://www.pcp.pt/sites/default/files/documentos/2025_compromisso_eleitoral_pcp_legislativas.pdf", "20250519215223"),
+    "Livre|leg_2025": ("https://partidolivre.pt/wp-content/uploads/2019/04/ProgramaV1.pdf", "https://arquivo.pt/noFrame/replay/20250517185627/https://partidolivre.pt/wp-content/uploads/2019/04/ProgramaV1.pdf", "20250517185627"),
+}
+
 
 def main():
     if len(sys.argv) < 4:
@@ -68,18 +83,22 @@ def main():
 
     # Garantir que a página fonte existe
     page_id = hashlib.sha256(f"{party_id}|{election_id}|tier2|pdf-manual".encode()).hexdigest()[:16]
+    src = SOURCE_URLS.get(f"{party_id}|{election_id}")
+    src_url      = src[0] if src else f"file://data/programs/{year}/{party_id}-leg-{year}.pdf"
+    src_archived = src[1] if src else src_url
+    src_ts       = src[2] if src else f"{year}0101000000"
     if not conn.execute("SELECT 1 FROM archived_pages WHERE id = ?", (page_id,)).fetchone():
         conn.execute("""
             INSERT INTO archived_pages (id, url, archived_url, timestamp, party_id, election_id,
                                         tier, mime_type, status_code, crawled_at)
             VALUES (?, ?, ?, ?, ?, ?, 2, 'application/pdf', 200, datetime('now'))
-        """, (
-            page_id,
-            f"file://data/programs/{year}/{party_id}-leg-{year}.pdf",
-            f"file://data/programs/{year}/{party_id}-leg-{year}.pdf",
-            f"{year}0101000000",
-            party_id, election_id,
-        ))
+        """, (page_id, src_url, src_archived, src_ts, party_id, election_id))
+    else:
+        # actualiza URL se ainda for o placeholder file://
+        conn.execute(
+            "UPDATE archived_pages SET url=?, archived_url=?, timestamp=? WHERE id=? AND url LIKE 'file://%'",
+            (src_url, src_archived, src_ts, page_id)
+        )
 
     inserted = skipped = 0
     for p in data:
