@@ -14,7 +14,7 @@ O Arquivo Eleitoral extrai e indexa promessas de programas eleitorais portuguese
 
 | | |
 |---|---|
-| **Promessas** | 9 399 |
+| **Promessas** | 8 745 |
 | **Partidos** | 9 |
 | **Eleições** | 9 legislativas (2002–2025) |
 
@@ -22,15 +22,15 @@ O Arquivo Eleitoral extrai e indexa promessas de programas eleitorais portuguese
 
 | Partido | Promessas |
 |---|---|
-| PS | 2 392 |
-| Chega | 1 480 |
-| BE | 1 169 |
-| PSD / AD | 982 |
-| PCP | 978 |
-| CDS | 683 |
-| PAN | 671 |
-| IL | 540 |
-| Livre | 504 |
+| PAN | 1 352 |
+| PSD / AD | 1 331 |
+| PS | 1 284 |
+| Chega | 1 159 |
+| BE | 1 118 |
+| PCP | 899 |
+| CDS | 723 |
+| IL | 509 |
+| Livre | 370 |
 
 ## Stack
 
