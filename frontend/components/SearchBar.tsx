@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useRef, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Search } from "lucide-react";
 
 type Props = {
@@ -10,20 +10,27 @@ type Props = {
   autoFocus?: boolean;
 };
 
-export default function SearchBar({
+function SearchBarInner({
   defaultValue = "",
   placeholder = "Pesquisar promessas… habitação, SNS, salário mínimo",
   autoFocus = false,
 }: Props) {
   const [value, setValue] = useState(defaultValue);
   const router = useRouter();
+  const searchParams = useSearchParams();
   const inputRef = useRef<HTMLInputElement>(null);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const q = value.trim();
-    if (!q) return;
-    router.push(`/search?q=${encodeURIComponent(q)}`);
+    // preserve existing filters (party, election, topic) when submitting search
+    const next = new URLSearchParams(searchParams.toString());
+    if (q) {
+      next.set("q", q);
+    } else {
+      next.delete("q");
+    }
+    router.push(`/search?${next.toString()}`);
   }
 
   return (
@@ -48,5 +55,13 @@ export default function SearchBar({
         Pesquisar
       </button>
     </form>
+  );
+}
+
+export default function SearchBar(props: Props) {
+  return (
+    <Suspense fallback={<div className="h-[52px] w-full rounded-xl bg-neutral-100 animate-pulse" />}>
+      <SearchBarInner {...props} />
+    </Suspense>
   );
 }
