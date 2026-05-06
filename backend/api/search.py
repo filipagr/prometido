@@ -77,8 +77,8 @@ def search(
         filters.append("p.election_id = ?")
         params.append(election)
     if topic:
-        filters.append("p.topic = ?")
-        params.append(topic)
+        filters.append("(p.topic = ? OR EXISTS (SELECT 1 FROM json_each(p.topics) WHERE value = ?))")
+        params.extend([topic, topic])
     if tier is not None:
         filters.append("p.tier = ?")
         params.append(tier)

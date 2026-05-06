@@ -7,7 +7,7 @@ import "./globals.css";
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Prometido — O que prometeram. Onde está a prova.",
+  title: "Arquivo Eleitoral — O que prometeram. Onde está a prova.",
   description:
     "Pesquisa e compara promessas eleitorais de partidos políticos portugueses desde 2002, com fonte primária arquivada no Arquivo.pt.",
 };
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <rect x="11" y="5" width="4" height="6" rx="1.5" fill="white" fillOpacity="0.6"/>
               </svg>
               <span className="font-semibold text-[15px] text-neutral-900 tracking-[-0.01em] group-hover:text-neutral-500 transition-colors duration-150">
-                Prometido
+                Arquivo Eleitoral
               </span>
             </Link>
             <NavLinks />
@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-5xl mx-auto px-4 py-7">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-[13px] text-neutral-500">
               <p>
-                Prometido usa o{" "}
+                Arquivo Eleitoral usa o{" "}
                 <a
                   href="https://arquivo.pt"
                   target="_blank"

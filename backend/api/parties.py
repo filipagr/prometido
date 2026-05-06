@@ -81,12 +81,12 @@ def get_party(party_id: str):
         (party_id,),
     ).fetchone()[0]
 
-    # breakdown por tópico
+    # breakdown por tópico — expande multi-tópicos via json_each(topics)
     topics = conn.execute(
-        """SELECT topic, COUNT(*) as n
-           FROM promises
-           WHERE party_id = ? AND is_valid = 1
-           GROUP BY topic
+        """SELECT t.value as topic, COUNT(*) as n
+           FROM promises p, json_each(COALESCE(p.topics, json_array(p.topic))) t
+           WHERE p.party_id = ? AND p.is_valid = 1
+           GROUP BY t.value
            ORDER BY n DESC""",
         (party_id,),
     ).fetchall()

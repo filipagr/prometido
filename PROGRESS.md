@@ -1,10 +1,10 @@
-# Prometido — Progress Log
+# Arquivo Eleitoral — Progress Log
 
 ## Estado atual
-**Fase:** Semana 2 — Deploy completo. A fazer: validação de links Arquivo.pt + correcção BE 2024 + vídeo + submissão.
-**Data:** 5 de maio de 2026
-**Próximo passo:** corrigir URL arquivada BE 2024 na DB → vídeo 3 min → submissão até 6 maio 23:59h.
-**Totais actuais na DB:** 7.549 promessas válidas · 9 partidos · 9 eleições (2002–2025) · 55 combinações partido×eleição.
+**Fase:** Semana 3 — Pipeline de qualidade a correr. A fazer: importar reviews → push → vídeo → submissão.
+**Data:** 6 de maio de 2026
+**Próximo passo:** pipeline termina → revisar JSONs em data/reviews/ → importar → push → vídeo → submeter até 23:59h.
+**Totais actuais na DB:** 7.576 promessas válidas · 9 partidos · 9 eleições (2002–2025) · 55 combinações partido×eleição (+ CDS 2002 link adicionado, sem promessas extraídas ainda).
 
 **URLs de deploy:**
 - Frontend (Vercel): https://frontend-rosy-six-72.vercel.app (subdomínio actual, projecto renomeado de `prometido-app` → `frontend`)
@@ -13,6 +13,36 @@
 ---
 
 ## Decisões tomadas
+
+### 6 de maio de 2026 (Cowork — sessão de submissão)
+
+#### Dados — correcções e melhorias
+- **BE 2025:** 44 promessas fabricadas substituídas por 44 reais do manifesto (texto original do manifesto de 2 páginas, extraído via ChatGPT).
+- **PSD/AD 2025:** 376 promessas fabricadas substituídas por 47 reais (sumário AD), mais 40 de educação adicionadas → 87 total.
+- **Formatação:** 7.576 promessas migradas para primeira letra maiúscula + ponto final.
+- **CDS 2002:** link do Arquivo.pt adicionado à DB (`https://arquivo.pt/wayback/20091001090732mp_/http://cds.pt/items/ProgramadeGoverno2002.pdf`); PDF presente em `data/programs/2002/CDS-leg-2002.pdf`.
+
+#### Schema e API
+- **Campo `topics` (JSON array):** adicionado à tabela `promises`. Suporta múltiplos tópicos por promessa. Todas as 7.576 promessas migradas com `topics = [topic]`.
+- **API search, compare:** filtro por tópico actualizado para usar `json_each(topics)` — uma promessa com `["habitação","economia"]` aparece em ambas as pesquisas.
+- **API parties:** breakdown de tópicos expandido via `json_each(COALESCE(topics, json_array(topic)))`.
+- **Novas categorias adicionadas ao pipeline:** `imigração`, `direitos sociais`, `energia`, `segurança social` (já existiam na DB mas não estavam na lista dos scripts).
+
+#### Scripts novos
+- **`scripts/extract_pipeline.py`:** pipeline de 3 passos (Extracção Sonnet → Validação Haiku → Review Haiku). Suporta multi-tópicos, normalização de formatação, output para `data/reviews/` antes de importar para a DB.
+- **`scripts/add_promises.py`:** script de importação que aceita `categoria` como string ou array, aplica normalização de formatação automaticamente.
+
+#### Pipeline a correr (6 maio)
+- `python3 scripts/extract_pipeline.py --years 2022 2025` — 18 PDFs (~1h15, ~$12)
+- `python3 scripts/extract_pipeline.py --years 2002 2002 --party CDS` — CDS 2002 (~5 min)
+- Output em `data/reviews/` — revisar e importar com `add_promises.py`
+
+#### Pendente (git lock)
+- Commit pendente (`.git/index.lock` a bloquear — resolver com `rm -f .git/HEAD.lock .git/index.lock`):
+  - `data/prometido.db` (formatação, topics, CDS 2002, BE/PSD fixes)
+  - `backend/database.py`, `backend/api/search.py`, `backend/api/compare.py`, `backend/api/parties.py`
+  - `scripts/extract_pipeline.py`, `scripts/add_promises.py`
+  - Frontend UI fixes (sessão 10)
 
 ### 18 abril 2026
 - **Nome do projeto:** Prometido

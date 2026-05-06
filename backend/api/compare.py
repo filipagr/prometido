@@ -4,7 +4,7 @@ GET /api/compare
   &parties=<PS,PSD,BE>            — opcional, default todos
   &election=<leg_2019|...>        — opcional, default todas as eleições
 
-Feature principal do Prometido — compara promessas de diferentes partidos
+Feature principal do Arquivo Eleitoral — compara promessas de diferentes partidos
 sobre o mesmo tema, lado a lado por partido.
 """
 
@@ -25,8 +25,8 @@ def compare(
 
     party_list = [p.strip() for p in parties.split(",")] if parties else None
 
-    where_clauses = ["p.is_valid = 1", "p.topic = ?"]
-    params: list = [topic]
+    where_clauses = ["p.is_valid = 1", "(p.topic = ? OR EXISTS (SELECT 1 FROM json_each(p.topics) WHERE value = ?))"]
+    params: list = [topic, topic]
 
     if party_list:
         where_clauses.append(f"p.party_id IN ({','.join('?' * len(party_list))})")

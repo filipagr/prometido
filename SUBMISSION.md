@@ -1,4 +1,4 @@
-# Prometido — Candidatura Prémio Arquivo.pt 2026
+# Arquivo Eleitoral — Candidatura Prémio Arquivo.pt 2026
 
 ## Informação da candidatura
 
@@ -17,22 +17,22 @@
 ## Critérios de avaliação e como responder a cada um
 
 ### 1. Impacto social
-**Argumento principal:** Em democracia, os cidadãos precisam de poder confrontar políticos com o que prometeram. Esse confronto só é possível se as promessas estiverem preservadas, acessíveis, e comparáveis. O Prometido torna isso possível pela primeira vez em Portugal: pesquisa de promessas por tema e partido, comparação lado-a-lado entre partidos, e prova arquivada com link directo para a página original — não em memória jornalística, não em curadoria humana. É infraestrutura democrática.
+**Argumento principal:** Em democracia, os cidadãos precisam de poder confrontar políticos com o que prometeram. Esse confronto só é possível se as promessas estiverem preservadas, acessíveis, e comparáveis. O Arquivo Eleitoral torna isso possível pela primeira vez em Portugal: pesquisa de promessas por tema e partido, comparação lado-a-lado entre partidos, e prova arquivada com link directo para a página original — não em memória jornalística, não em curadoria humana. É infraestrutura democrática.
 
 **Público:** Jornalistas (comparam rapidamente o que diferentes partidos prometeram sobre o mesmo tema), cidadãos (verificam e partilham a prova), investigadores (dataset estruturado sobre discurso político).
 
-**Argumento forte:** O facto de precisar do Arquivo.pt para aceder a um programa eleitoral de 2019 — há apenas 7 anos — demonstra o problema de forma indesmentível. O Prometido não é um projeto de nicho: é uma infraestrutura que devia existir.
+**Argumento forte:** O facto de precisar do Arquivo.pt para aceder a um programa eleitoral de 2019 — há apenas 7 anos — demonstra o problema de forma indesmentível. O Arquivo Eleitoral não é um projeto de nicho: é uma infraestrutura que devia existir.
 
 ### 2. Originalidade
-**Argumento:** Em 8 edições do Prémio Arquivo.pt, nenhum projeto focou especificamente em promessas eleitorais como objeto de estudo e ferramenta de accountability. O projeto mais próximo — Memória Política (2023, 3º lugar) — é um motor de pesquisa de discurso político genérico. O Prometido tem um foco específico (promessas verificáveis), uma metodologia de atribuição (hierarquia de tiers), e um ângulo de accountability que nenhum projeto anterior desenvolveu. Internacionalmente, ferramentas equivalentes (PolitiFact, Polimeter) requerem newsrooms permanentes e curadoria humana intensiva. Este projeto automatiza o processo usando o Arquivo.pt como fonte primária.
+**Argumento:** Em 8 edições do Prémio Arquivo.pt, nenhum projeto focou especificamente em promessas eleitorais como objeto de estudo e ferramenta de accountability. O projeto mais próximo — Memória Política (2023, 3º lugar) — é um motor de pesquisa de discurso político genérico. O Arquivo Eleitoral tem um foco específico (promessas verificáveis), uma metodologia de atribuição (hierarquia de tiers), e um ângulo de accountability que nenhum projeto anterior desenvolveu. Internacionalmente, ferramentas equivalentes (PolitiFact, Polimeter) requerem newsrooms permanentes e curadoria humana intensiva. Este projeto automatiza o processo usando o Arquivo.pt como fonte primária.
 
 ### 3. Relevância do Arquivo.pt
-**Argumento central:** O Arquivo.pt é insubstituível neste projeto — e isso é demonstrável de forma concreta. Partidos apagam e redesenham os seus sites após as eleições. Durante a construção do Prometido, verificámos que:
+**Argumento central:** O Arquivo.pt é insubstituível neste projeto — e isso é demonstrável de forma concreta. Partidos apagam e redesenham os seus sites após as eleições. Durante a construção do Arquivo Eleitoral, verificámos que:
 - O programa eleitoral da IL de 2019 já não existe no site actual do partido — foi recuperado do Wayback Machine
 - O programa eleitoral do PAN de 2015 tinha o PDF original com erro 500 no arquivo — o conteúdo foi recuperado de 8 secções do site de campanha arquivado
 - Múltiplos programas históricos (PCP 2009, Chega 2022) só existem em versões arquivadas
 
-O Arquivo.pt realiza crawls especiais em períodos eleitorais — a cobertura é particularmente boa precisamente nos momentos mais relevantes para este projeto. Cada promessa no Prometido tem um link directo para a página original arquivada, com timestamp visível. O utilizador não precisa de confiar na nossa extracção — pode verificar a fonte por si.
+O Arquivo.pt realiza crawls especiais em períodos eleitorais — a cobertura é particularmente boa precisamente nos momentos mais relevantes para este projeto. Cada promessa no Arquivo Eleitoral tem um link directo para a página original arquivada, com timestamp visível. O utilizador não precisa de confiar na nossa extracção — pode verificar a fonte por si.
 
 ### 4. Qualidade técnica
 **Argumento:** Pipeline automatizado (Python + Claude API) que recolhe, processa e extrai promessas de páginas arquivadas. Validação em duas passagens (Sonnet para extracção, Haiku para validação). Sistema de pesquisa full-text (FTS5). Frontend em Next.js com ligação direta a cada página arquivada. Metodologia de atribuição transparente com fonte visível para cada promessa. Estratégia híbrida: PDFs para eleições recentes, Arquivo.pt para histórico.
@@ -92,7 +92,7 @@ Demo do produto: pesquisar "habitação" → aparecem promessas de vários parti
 Explicar brevemente o sistema de tiers. Mostrar o badge "Tier 1 — Site do Partido". Mostrar a página "Como funciona" — pipeline, validação automática, transparência de fonte.
 
 ### 2:15 - 2:45 — O impacto
-Caso de uso de um jornalista em véspera de eleições. *"O Prometido é o primeiro sistema de accountability eleitoral português baseado em fontes primárias arquivadas."*
+Caso de uso de um jornalista em véspera de eleições. *"O Arquivo Eleitoral é o primeiro sistema de accountability eleitoral português baseado em fontes primárias arquivadas."*
 
 ### 2:45 - 3:00 — Call to action
 URL do projeto. *"O que prometeram. Onde está a prova."*

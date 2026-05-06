@@ -1,7 +1,7 @@
 """
 run_pipeline.py
 
-Orquestrador do pipeline completo do Prometido.
+Orquestrador do pipeline completo do Arquivo Eleitoral.
 Corre todos os passos em sequência com logging claro.
 
 Uso rápido:
@@ -51,7 +51,7 @@ def run_step(name: str, fn, *args, **kwargs):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Pipeline completo do Prometido")
+    parser = argparse.ArgumentParser(description="Pipeline completo do Arquivo Eleitoral")
     parser.add_argument("--parties", nargs="+", help="Subset de partidos (PS PSD BE PCP ...)")
     parser.add_argument("--elections", nargs="+", help="Subset de eleições (leg_2005 leg_2009 ...)")
     parser.add_argument("--tiers", nargs="+", type=int, default=[1, 2, 3], help="Tiers a processar")

@@ -1,0 +1,932 @@
+[
+  {
+    "text": "Criar tetos máximos para rendas inferiores aos valores definidos na Portaria n.º 277-A/2010, considerando área, qualidade, certificação energética, localização e tipologia.",
+    "context": "Controlar as rendas: Criar tetos máximos para rendas inferiores aos valores definidos na Portaria n.o 277-A/2010.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aplicar apoios imediatos ao pagamento de rendas, acompanhados de medidas que aumentem a disponibilidade de casas e impeçam rendas especulativas.",
+    "context": "No imediato, devem ser aplicados apoios ao pagamento de rendas, acompanhados de medidas que aumentem a disponibilidade de casas.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta mas com elemento genérico ('medidas que aumentem'). Prazo 'imediato' é claro.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Utilizar a Caixa Geral de Depósitos para aplicar uma política de juros baixos no crédito à habitação própria e permanente, reduzindo o custo dos empréstimos.",
+    "context": "O banco público deve utilizar a sua posição dominante no mercado do crédito à habitação para aplicar uma política de juros baixos.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar a contribuição sobre o setor bancário criada em 2011, revertendo o aumento para políticas de habitação.",
+    "context": "O Bloco defende o aumento da contribuição sobre o setor bancário criada em 2011... destinada a financiar políticas de habitação.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas sem especificar montante ou taxa de aumento.",
+    "review_changed": true,
+    "review_note": "Simplificada a expressão 'com a parcela correspondente ao aumento a reverter' para 'revertendo o aumento' - mantém significado, melhora clareza."
+  },
+  {
+    "text": "Afetar uma quota de 25% da nova construção para habitação a arrendar em regime de renda condicionada.",
+    "context": "Com esta medida será afetada uma quota de 25% do produto de obras de construção... para habitação a arrendar sob o regime de renda condicionada.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Construir publicamente novos alojamentos destinados ao arrendamento a custos acessíveis, integrados na malha urbana.",
+    "context": "Construção pública de novos alojamentos destinados ao arrendamento a custos acessíveis, integrados na malha urbana.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Promessa clara mas sem quantidade, prazo ou investimento específico.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Mobilizar imediatamente edifícios públicos devolutos ou sem utilização para habitação a custos acessíveis.",
+    "context": "Mobilização imediata de edifícios públicos devolutos ou sem utilização para habitação a custos acessíveis.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Ação clara ('mobilizar imediatamente') mas sem números de edifícios ou cronograma.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Usar instrumentos de posse administrativa para converter edifícios habitacionais devolutos em habitação a custos controlados.",
+    "context": "Uso de instrumentos da política de solos - posse administrativa - para conversão de edifícios habitacionais devolutos em habitação a custos controlados.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.85,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Instrumento nomeado mas sem escala ou prazo específico.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reforçar o IHRU e criar um Serviço Nacional de Habitação com orçamento e programação plurianual.",
+    "context": "Reforço do IHRU e criação de um Serviço Nacional de Habitação com orçamento e programação plurianual.",
+    "topics": [
+      "habitação",
+      "administração pública"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Reforço e criação de estrutura com orçamento, mas sem valores.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Proibir a venda de casas a não residentes, salvaguardando portugueses no estrangeiro e estrangeiros residentes em Portugal.",
+    "context": "O Bloco propõe a proibição da venda de casas a não residentes, salvaguardando naturalmente o direito de aquisição de imóveis a portugueses residentes no estrangeiro.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida referência a 'zonas de baixa densidade' por falta de clareza sobre aplicabilidade; mantidas salvaguardas essenciais."
+  },
+  {
+    "text": "Suspender a emissão de títulos para novos empreendimentos turísticos nas zonas de pressão habitacional até 2030.",
+    "context": "Suspensão da emissão de títulos para novos empreendimentos turísticos nas zonas de pressão habitacional até 2030.",
+    "topics": [
+      "habitação",
+      "turismo"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Impor em cada freguesia um máximo de 5% de fogos dedicados ao Alojamento Local.",
+    "context": "Imposição, em cada freguesia, de um máximo de 5% de fogos dedicados ao Alojamento Local.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Fixar prazo de dois anos para as licenças de Alojamento Local, renováveis até cumprimento dos rácios fixados, com prioridade a titulares com apenas um registo.",
+    "context": "Fixação do prazo de dois anos para as licenças de Alojamento Local, renováveis por períodos iguais, até ao cumprimento dos rácios fixados.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar a isenção de IMI de 3 para 8 anos para imóveis de habitação própria e permanente com valor até 125.000€ e rendimento familiar até 153.300€.",
+    "context": "Aumentar o período de isenção em sede de IMI para os imóveis que se destinem à habitação própria e permanente... VPT não exceda 125.000€.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'VPT' por 'valor' para maior clareza e compreensão geral."
+  },
+  {
+    "text": "Reduzir em 50% as taxas de IMT na compra de habitação própria e permanente, compensada por aumento equivalente nas taxas para habitações secundárias.",
+    "context": "Redução em 50% das taxas de IMT na compra de habitação própria e permanente, compensada por um aumento equivalente nas taxas aplicáveis a habitações secundárias.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar as isenções e benefícios fiscais em sede de IRC, IMT e IMI a fundos de investimento imobiliário.",
+    "context": "Eliminação das isenções e benefícios fiscais em sede de IRC, IMT e IMI a fundos de investimento imobiliário.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar mecanismo de mutualização e repartição da receita de IMT pelos municípios para quebrar o vínculo entre especulação imobiliária e receita autárquica.",
+    "context": "Criação de mecanismo de mutualização e repartição da receita da IMT pelos municípios de forma a quebrar o atual vínculo entre especulação imobiliária e receita autárquica.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo 'um' para maior concisão e fluidez."
+  },
+  {
+    "text": "Terminar o regime do residente não habitual com efeito imediato para novos requerentes e cessação dos seus efeitos para atuais beneficiários.",
+    "context": "Fim do regime do residente não habitual, com aplicação imediata para novos requerentes e cessação dos seus efeitos para os atuais beneficiários.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'os' antes de 'atuais' para melhor fluidez sintática."
+  },
+  {
+    "text": "Revogar a Lei Cristas que facilitou os despejos.",
+    "context": "Revogar a Lei Cristas que veio facilitar os despejos.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Referência a lei por nome de pessoa (Lei Cristas) sem especificar exatamente qual diploma; menos concreta que deveria"
+  },
+  {
+    "text": "Reintroduzir o prazo mínimo de 5 anos para contratos de arrendamento.",
+    "context": "Reintrodução do prazo mínimo de 5 anos para contratos de arrendamento.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Combater os despejos garantindo alternativa habitacional e relatório social prévio, com suspensão do despejo até seu cumprimento.",
+    "context": "Combater os despejos, garantindo alternativa habitacional e que todos os processos de despejo são acompanhados de relatório social.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reescrito para maior clareza: 'dessas condições' substituído por 'seu cumprimento' e simplificada a estrutura."
+  },
+  {
+    "text": "Regularizar os contratos de arrendamento informais com garantia de que o processo se executa sem ameaça de despejo.",
+    "context": "Regularização dos contratos de arrendamento informais, com garantia de que o processo de regularização se executa sem a ameaça de despejo.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Consagrar na lei a dação em cumprimento, garantindo que a entrega da casa ao banco extingue a dívida associada.",
+    "context": "Consagração da 'dação em cumprimento', garantindo que a entrega da casa ao banco extingue a dívida associada.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Consagrar na lei a impenhorabilidade da casa própria e permanente morada de família.",
+    "context": "Consagração da impenhorabilidade de casa própria e permanente/morada de família.",
+    "topics": [
+      "habitação",
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida barra (/) para maior clareza; ajustada pontuação interna."
+  },
+  {
+    "text": "Incluir a caução no apoio do programa Porta 65.",
+    "context": "Inclusão da caução no apoio do programa Porta 65.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar regime de exclusividade para médicos do SNS com majoração de 40% do salário e 50% nos pontos para progressão na carreira.",
+    "context": "Criação de regime de exclusividade, com majoração de 40% sobre o salário... e de 50% nos pontos para progressão na carreira.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo 'o' antes de 'regime'; simplificado 'sobre o salário' para 'do salário' (mais conciso)."
+  },
+  {
+    "text": "Alargar as zonas carenciadas do SNS e os incentivos associados, incluindo apoio que cubra despesas com habitação.",
+    "context": "Alargamento das zonas carenciadas e dos incentivos associados, nomeadamente, através da criação de um apoio que cubra as despesas com habitação.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.65,
+    "validation_reason": "Vago: 'alargar' e 'apoio' não são concretos; faltam números, prazos ou medidas específicas"
+  },
+  {
+    "text": "Estabelecer um enfermeiro de referência para cada família no SNS e rever o quadro de competências destes profissionais.",
+    "context": "Estabelecimento de um enfermeiro de referência para cada família e da revisão do quadro de competências e atribuições destes profissionais.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Introduzir Técnicos Auxiliares de Saúde nas equipas de saúde familiar para apoio às atividades de enfermagem e cuidados domiciliários.",
+    "context": "Introdução de Técnicos Auxiliares de Saúde nas equipas de saúde familiar, para apoio às atividades de enfermagem.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Abrir imediatamente concursos para contratação em unidades de saúde onde existam horas extraordinárias acima do limite legal ou tempos de espera acima do recomendado.",
+    "context": "Abertura imediata de concursos para contratação em todas as unidades de saúde onde existam horas extraordinárias anuais que superem o limite legal.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir para 12 horas semanais o horário de urgência exigido aos médicos, libertando tempo para consultas e cirurgias.",
+    "context": "Redução para as 12h do horário semanal de urgência exigido aos médicos, libertando o restante tempo para consultas e cirurgias.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'o restante' antes de 'tempo' (simplificação sem perda de significado)."
+  },
+  {
+    "text": "Criar uma rede pública de Centros de Diagnóstico e Terapêutica.",
+    "context": "Criação de uma rede pública de Centros de Diagnóstico e Terapêutica.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas sem número, prazo ou dimensão específica da rede",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Contratar médicos dentistas para os centros de saúde, garantindo um dentista por 25.000 habitantes ou por 10.000-25.000 em concelhos pequenos.",
+    "context": "Contratar médicos dentistas em número suficiente para garantir, nos centros de saúde, um médico dentista por 25 mil habitantes.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos parênteses desnecessários para melhor legibilidade e fluidez do texto."
+  },
+  {
+    "text": "Criar a carreira de médico dentista no Serviço Nacional de Saúde.",
+    "context": "Criar a carreira de médico dentista no Serviço Nacional de Saúde.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Concreta mas sem prazo explícito",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Contratar psicólogos para os centros de saúde, garantindo um psicólogo por 5.000 habitantes.",
+    "context": "Contratar psicólogos em número suficiente para garantir, nos centros de saúde, um psicólogo por 5 mil habitantes.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionada vírgula antes de \"garantindo\" para melhor estrutura gramatical."
+  },
+  {
+    "text": "Contratar profissionais para colocar em funcionamento uma equipa comunitária de saúde mental por cada 50 a 100 mil habitantes.",
+    "context": "Contratar profissionais para colocar em funcionamento uma equipa comunitária de saúde mental por cada 50 a 100 mil habitantes.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Contratar nutricionistas para os centros de saúde, garantindo o rácio mínimo de um nutricionista por 12.000 habitantes.",
+    "context": "Contratar nutricionistas em número suficiente para garantir, nos centros de saúde, o rácio mínimo de um nutricionista por 12 mil habitantes.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionada vírgula antes de \"garantindo\" para melhor estrutura gramatical."
+  },
+  {
+    "text": "Comparticipação pelo escalão A (90%) de todos os medicamentos prescritos a pessoas com doença crónica ou pluripatologia.",
+    "context": "Comparticipação pelo escalão A, correspondente a 90%, de todos os medicamentos prescritos a pessoas com doença crónica ou pluripatologia.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Comparticipação a 100% de medicamentos para pessoas com rendimento inferior ao salário mínimo nacional (11.480€ anuais em 2024).",
+    "context": "Comparticipação a 100% de medicamentos para pessoas com rendimento inferior ao SMN (em 2024: €11.480 anuais).",
+    "topics": [
+      "saúde",
+      "segurança social"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Comparticipação entre 50% e 90% do Estado para aquisição de óculos, aparelhos auditivos e próteses dentárias, com 100% para rendimentos abaixo do salário mínimo.",
+    "context": "Comparticipação do Estado para a aquisição de óculos e lentes, aparelhos auditivos e próteses dentárias prescritas a beneficiários do SNS, fixada entre os 50% e os 90%.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado removendo referência a \"lentes\" (redundante com óculos) e condensado para clareza mantendo significado completo."
+  },
+  {
+    "text": "Comparticipação a 100% da nutrição entérica prescrita e distribuição gratuita de dispositivos semi-automáticos de insulina a crianças e jovens com diabetes tipo 1.",
+    "context": "Comparticipação a 100% da nutrição entérica prescrita, distribuição gratuita dos novos dispositivos semi-automáticos de insulina a todas as crianças e jovens com diabetes tipo 1.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Rever todas as carreiras da saúde no prazo de um ano, aumentando todos os salários em pelo menos três posições remuneratórias, com mínimo de 150 euros.",
+    "context": "Todas as carreiras da saúde devem ser revistas no prazo de um ano, de forma a aumentar todos os salários em pelo menos três posições remuneratórias, num valor mínimo de 150 euros.",
+    "topics": [
+      "saúde",
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído \"num mínimo\" por \"com mínimo\" para maior concisão e clareza."
+  },
+  {
+    "text": "Adequar o orçamento do SNS às necessidades reais identificadas pelas instituições de saúde.",
+    "context": "Adequar o Orçamento do SNS às reais necessidades da população... o orçamento do SNS do ano subsequente deve corresponder às necessidades identificadas.",
+    "topics": [
+      "saúde",
+      "economia"
+    ],
+    "confidence": 0.85,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Demasiado genérica e vaga; 'adequar às necessidades reais' é um diagnóstico/princípio, não uma ação concreta mensurável"
+  },
+  {
+    "text": "Excluir o SNS da aplicação da Lei dos Compromissos.",
+    "context": "Excluir o SNS da aplicação da Lei dos Compromissos.",
+    "topics": [
+      "saúde",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Concreta mas sem detalhe sobre alternativa ou prazo",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Integrar no SNS os hospitais entregues à gestão das Santas Casas da Misericórdia (Serpa, Anadia e Fafe).",
+    "context": "Integração no SNS dos hospitais que o governo PSD/CDS entregou (e que o PS manteve) à gestão das Santas Casas da Misericórdia (Serpa, Anadia e Fafe).",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Revogar o decreto-lei que regula as parcerias público-privado no SNS e a legislação que permite a privatização dos cuidados de saúde primários através das USF-C.",
+    "context": "Revogar o decreto-lei que regula as parcerias de gestão na área da saúde e abre portas a novas parcerias público-privado no SNS, da legislação que permite a privatização dos cuidados de saúde primários através das USF-C.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Colocar o Laboratório Nacional do Medicamento a produzir medicamentos com faltas persistentes e rupturas no mercado.",
+    "context": "Colocar o Laboratório Nacional do Medicamento a produzir medicamentos que registem faltas persistentes e rupturas.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância 'que registem' para melhorar clareza e fluidez."
+  },
+  {
+    "text": "Regulamentar com urgência a lei da despenalização da morte assistida.",
+    "context": "O Bloco de Esquerda assume o firme compromisso... de exigir que o Governo que resultar das eleições regulamente com urgência a lei da despenalização da morte assistida.",
+    "topics": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o salário mínimo para 900 euros em 2024, com aumentos anuais correspondentes à inflação mais 50 euros.",
+    "context": "Uma nova trajetória para o aumento do salário mínimo, com aumento intercalar para 900 euros já em 2024 e aumentos anuais correspondentes ao efeito da inflação adicionado de 50 euros.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida palavra 'já' para maior clareza e concisão, mantendo o significado."
+  },
+  {
+    "text": "Repor os montantes e períodos de concessão dos subsídios de desemprego pré-troika, com valor máximo vinculado a três salários mínimos.",
+    "context": "Reposição dos montantes e dos períodos de concessão dos subsídios de desemprego do período pré-troika... Valor máximo do subsídio de desemprego vinculado a três salários mínimos.",
+    "topics": [
+      "segurança social",
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Referência a 'período pré-troika' é vaga quanto ao prazo exato, mas a ação e critério são claros",
+    "review_changed": true,
+    "review_note": "Simplificado 'do período pré-troika' para 'pré-troika' e removido 'do período' redundante."
+  },
+  {
+    "text": "Aumentar em 500 euros a remuneração de entrada dos técnicos superiores na administração pública, com reajuste nos níveis seguintes.",
+    "context": "Reforço salarial para os trabalhadores qualificados, iniciado na administração pública: aumento de 500 euros na posição de entrada dos técnicos superiores.",
+    "topics": [
+      "administração pública",
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o peso dos salários no PIB para 55% até ao final da legislatura.",
+    "context": "Aumentar a parte dos salários na repartição da riqueza para mais de metade do PIB até ao final da legislatura... O Bloco propõe a meta de 55% para a legislatura.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Métrica macroeconómica clara com prazo, mas dependência de múltiplos fatores reduz verificabilidade direta",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Retomar o valor das compensações por despedimento para 30 dias por cada ano trabalhado.",
+    "context": "Retoma do valor das compensações por despedimento anteriores ao corte da troika (30 dias por cada ano trabalhado).",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Definir leques salariais de referência com máximo de 1 para 12 nas empresas, excluindo de apoios públicos as que ultrapassem esse leque.",
+    "context": "Definir leques salariais de referência (máximo de 1 para 12)... As empresas que ultrapassem esse leque serão excluídas de qualquer apoio público e benefício fiscal.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Consagrar na lei o subsídio de alimentação para todos os trabalhadores do setor privado com valor mínimo igual ao do setor público.",
+    "context": "Consagrar na lei o subsídio de alimentação para todos os trabalhadores e trabalhadoras do privado, com valor mínimo igual ao do setor público.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'privado' por 'setor privado' para maior clareza e precisão terminológica."
+  },
+  {
+    "text": "Reduzir progressivamente o horário de trabalho, fixando por lei nesta legislatura o período normal de trabalho no máximo em 35 horas.",
+    "context": "Redução progressiva do horário de trabalho, fixando por lei, nesta legislatura, o período normal de trabalho, no máximo, nas 35 horas.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Corrigido 'nas 35 horas' para 'em 35 horas' (preposição correta). Removidas vírgulas desnecessárias para maior fluidez."
+  },
+  {
+    "text": "Consagrar na lei a possibilidade de opção pela semana de 4 dias sem perda de rendimento.",
+    "context": "Consagrar na lei a possibilidade de opção (também por iniciativa do trabalhador) pela semana de 4 dias, vinculada à redução do horário de trabalho semanal e sem perda de rendimento.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Acabar com a caducidade unilateral dos instrumentos de regulação coletiva de trabalho e repor o tratamento mais favorável ao trabalhador.",
+    "context": "Relançar as convenções coletivas... com o fim da caducidade unilateral dos instrumentos de regulação coletiva de trabalho e a reposição do tratamento mais favorável ao trabalhador.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Ação legislativa clara mas critério 'tratamento mais favorável' é interpretativo",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Restringir a contratação a prazo apenas a situações de substituição temporária, pico ou sazonalidade, eliminando exceções legais que permitem sucessão de contratos.",
+    "context": "Restringir a contratação a prazo apenas às situações de substituição temporária e de pico ou sazonalidade de atividade, eliminando as exceções legais.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Ação nítida mas 'situações de pico ou sazonalidade' requer regulamentação adicional",
+    "review_changed": true,
+    "review_note": "Simplificado: removida repetição de 'e de' e ajustada pontuação para melhor legibilidade."
+  },
+  {
+    "text": "Revogar o alargamento do período experimental para jovens à procura do primeiro emprego e desempregados de longa duração, introduzido em 2019.",
+    "context": "Revogação do alargamento do período experimental para jovens a procura do primeiro emprego e desempregados de longa duração, introduzido em 2019.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Corrigido 'a procura' para 'à procura' (preposição contraída obrigatória). Alterado 'Revogação' para imperativo 'Revogar'."
+  },
+  {
+    "text": "Eliminar o intermediário na presunção de laboralidade nas plataformas digitais, impedindo as grandes empresas de descartar responsabilidades patronais.",
+    "context": "Eliminar o intermediário na presunção de laboralidade nas plataformas digitais, impedindo as grandes empresas de continuar a descartar as suas responsabilidades patronais.",
+    "topics": [
+      "emprego",
+      "tecnologia"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Falta concretização: não especifica mecanismo legislativo, prazo ou medida nomeada. 'Eliminar o intermediário' é vago quanto à implementação."
+  },
+  {
+    "text": "Devolver os três dias de férias retirados pela direita, repondo a norma dos 25 dias.",
+    "context": "Devolver os três dias de férias retirados pela direita (regresso à norma dos 25 dias, sem depender de outro critério).",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": "Concreta (25 dias específicos), verificável, promessa direta do BE sem ambiguidade.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Repor o valor das compensações por despedimento para um mês por cada ano prestado e impedir despedimentos em empresas com resultados positivos.",
+    "context": "Combater a facilitação dos despedimentos, com a reposição do valor das compensações... (um mês por cada ano de trabalho prestado) e impedindo despedimentos... em empresas com resultados positivos.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Medidas concretas e nomeadas: 'um mês por cada ano' e 'impedir despedimentos com resultados positivos'. Verificável e direta.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar os direitos de parentalidade, incluindo licença inicial do pai, aumento da licença partilhada e redução de horário nos primeiros três anos de vida da criança.",
+    "context": "Alargar os direitos de parentalidade (licença inicial do pai, aumento da licença partilhada, redução de horário nos primeiros três anos de vida da criança).",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Áreas específicas mencionadas (licença do pai, partilhada, redução de horário, 3 anos). Falta detalhe quantitativo em alguns elementos mas é suficientemente concreta.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alterar as regras de atualização das pensões, integrando crescimento e inflação, garantindo que nenhuma pensão perde poder de compra.",
+    "context": "Alterar as regras de atualização das pensões, integrando no cálculo os valores do crescimento e da inflação, garantindo que nenhuma pensão perde poder de compra.",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": "Critério claro ('crescimento e inflação'), objetivo verificável ('nenhuma pensão perde poder de compra'). Promessa concreta do BE.",
+    "review_changed": true,
+    "review_note": "Adicionada vírgula após 'pensões' para clareza e melhor pontuação."
+  },
+  {
+    "text": "Aumentar o valor mínimo das pensões para garantir que carreiras com 20 ou mais anos de descontos fiquem acima do limiar de pobreza.",
+    "context": "Aumentar o valor mínimo das pensões, de modo a garantir que... o valor das pensões de carreiras contributivas com 20 ou mais anos de descontos fica sempre acima do limiar de pobreza.",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.87,
+    "validation_reason": "Condição específica (20+ anos descontos), objetivo nomeado (limiar pobreza). Verificável, embora 'aumentar o valor' careça de número exato.",
+    "review_changed": true,
+    "review_note": "Simplificado para melhor fluidez, removendo redundância e mantendo o significado essencial."
+  },
+  {
+    "text": "Eliminar o fator de sustentabilidade das pensões.",
+    "context": "Eliminação do 'fator de sustentabilidade'. Depois de todas as alterações aprovadas entre 2017 e 2020 ele já só se aplica a cerca de 10% das pensões requeridas.",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": "Ação muito concreta e nomeada: eliminar mecanismo específico do sistema. Totalmente verificável.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Permitir reforma antecipada para pessoas com 15 ou mais anos de descontos e incapacidade igual ou superior a 60%.",
+    "context": "Reforma antecipada para pessoas com 15 ou mais anos de descontos com incapacidade igual ou superior a 60%.",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": "Critérios precisos: '15+ anos descontos' e 'incapacidade ≥60%'. Ação clara e verificável.",
+    "review_changed": true,
+    "review_note": "Substituído 'e incapacidade' por 'e incapacidade' para maior clareza gramatical da condição acumulativa."
+  },
+  {
+    "text": "Alargar o acesso ao Complemento Solidário para Idosos elevando seu valor de referência ao limiar da pobreza, com 14 prestações por ano.",
+    "context": "Alargamento do acesso ao Complemento Solidário para Idosos (CSI), elevando o seu valor de referência a ser calculado a partir do valor do limiar da pobreza, com 14 prestações por ano.",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Medidas concretas: elevação ao limiar pobreza, 14 prestações anuais. Alargamento de acesso é específico (CSI nomeado).",
+    "review_changed": true,
+    "review_note": "Removido 'o' antes de 'seu' (simplificação) e 'a ser calculado a partir do' por 'ao' para concisão, mantendo significado."
+  },
+  {
+    "text": "Criar uma contribuição de 0,75% sobre o valor acrescentado das grandes empresas para financiar a Segurança Social.",
+    "context": "O Bloco propôs ainda uma outra fonte de financiamento da Segurança Social: uma contribuição de 0,75% sobre o valor acrescentado das grandes empresas.",
+    "topics": [
+      "segurança social",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": "Taxa exata (0,75%), base nomeada (valor acrescentado grandes empresas), finalidade específica (Segurança Social). Totalmente verificável.",
+    "review_changed": true,
+    "review_note": "Alterado 'para financiamento da' por 'para financiar a' para melhor construção gramatical e concisão."
+  }
+]

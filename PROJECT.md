@@ -1,11 +1,11 @@
-# Prometido — Project Master Document
+# Arquivo Eleitoral — Project Master Document
 
 ## O que é
 
 Uma plataforma web que usa o Arquivo.pt como fonte primária para documentar, pesquisar e confrontar promessas eleitorais de partidos políticos portugueses desde 2002. Cobre todos os partidos com assento parlamentar e todas as eleições legislativas. O utilizador pode pesquisar por tema, partido ou legislatura, comparar o que diferentes partidos prometeram sobre o mesmo tema, e ver a prova arquivada — com link directo para a página original congelada no tempo.
 
 **Tagline:** *O que prometeram. Onde está a prova.*
-**Domínio:** prometido.pt
+**Domínio:** arquivoeleitoral.pt
 
 ---
 
@@ -13,7 +13,7 @@ Uma plataforma web que usa o Arquivo.pt como fonte primária para documentar, pe
 
 O Arquivo.pt é o único lugar onde páginas que já não existem continuam acessíveis. Partidos apagam programas eleitorais depois das eleições. Governos redesenham sites. O arquivo congela o momento. Este projeto usa essa capacidade única para criar o primeiro sistema de accountability político baseado em fontes primárias arquivadas — as próprias páginas dos partidos, corroboradas por cobertura jornalística arquivada.
 
-**Nota:** A verificação de cumprimento (cumprido/não cumprido) está fora do scope do MVP. É genuinamente difícil e subjectiva, e o argumento de candidatura é mais forte sem essa camada: o facto de precisar do Arquivo.pt para aceder a um programa eleitoral de 2019 já demonstra o problema que o Prometido resolve. A verificação de cumprimento é uma feature pós-prémio.
+**Nota:** A verificação de cumprimento (cumprido/não cumprido) está fora do scope do MVP. É genuinamente difícil e subjectiva, e o argumento de candidatura é mais forte sem essa camada: o facto de precisar do Arquivo.pt para aceder a um programa eleitoral de 2019 já demonstra o problema que o Arquivo Eleitoral resolve. A verificação de cumprimento é uma feature pós-prémio.
 
 ---
 

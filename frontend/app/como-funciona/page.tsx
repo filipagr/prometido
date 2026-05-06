@@ -4,16 +4,16 @@ export default function ComoFunciona() {
       <div className="mb-10">
         <h1 className="text-[28px] font-semibold text-neutral-950 mb-2 tracking-[-0.02em]">Como funciona</h1>
         <p className="text-[14px] text-neutral-600 leading-relaxed">
-          Metodologia do Prometido — transparência total sobre fontes, processo e limitações.
+          Metodologia do Arquivo Eleitoral — transparência total sobre fontes, processo e limitações.
         </p>
       </div>
 
       <section className="space-y-12">
         {/* O que é */}
         <div>
-          <h2 className="text-[15px] font-semibold text-neutral-900 mb-3 tracking-[-0.01em]">O que é o Prometido</h2>
+          <h2 className="text-[15px] font-semibold text-neutral-900 mb-3 tracking-[-0.01em]">O que é o Arquivo Eleitoral</h2>
           <p className="text-[13px] text-neutral-600 leading-relaxed mb-3">
-            O Prometido é uma base de dados de promessas eleitorais de partidos políticos portugueses,
+            O Arquivo Eleitoral é uma base de dados de promessas eleitorais de partidos políticos portugueses,
             pesquisável e comparável, com ligação directa às fontes arquivadas. Cobre 9 partidos e
             9 eleições legislativas de 2002 a 2025, com mais de 7.500 promessas extraídas.
           </p>
@@ -31,7 +31,7 @@ export default function ComoFunciona() {
           <p className="text-[13px] text-neutral-600 leading-relaxed">
             Partidos apagam programas eleitorais depois das eleições. Governos redesenham sites.
             O Arquivo.pt é o único lugar onde muitas destas páginas continuam acessíveis,
-            congeladas no tempo. Todas as fontes do Prometido têm um link directo para a versão
+            congeladas no tempo. Todas as fontes do Arquivo Eleitoral têm um link directo para a versão
             arquivada — o utilizador pode verificar por si, com o contexto original intacto.
           </p>
           <a
@@ -118,7 +118,7 @@ export default function ComoFunciona() {
         <div>
           <h2 className="text-[15px] font-semibold text-neutral-900 mb-2 tracking-[-0.01em]">Estados de uma promessa</h2>
           <p className="text-[13px] text-neutral-600 mb-4 leading-relaxed">
-            O Prometido usa uma linguagem de documentação, não de julgamento.
+            O Arquivo Eleitoral usa uma linguagem de documentação, não de julgamento.
             Não dizemos que uma promessa foi cumprida ou quebrada — mostramos a evidência e deixamos o utilizador concluir.
           </p>
           <div className="divide-y divide-neutral-100 border border-neutral-200 rounded-xl overflow-hidden">

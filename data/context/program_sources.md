@@ -1,4 +1,4 @@
-# Prometido — Fontes dos Programas Eleitorais
+# Arquivo Eleitoral — Fontes dos Programas Eleitorais
 
 Registo de onde foi obtido cada programa eleitoral e respectivo link no Arquivo.pt.
 

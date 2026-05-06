@@ -1,0 +1,240 @@
+[
+  {
+    "texto_original": "Estabelecer um teto nas rendas com valores máximos de acordo com a localização e as características dos imóveis.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Vamos estabelecer um teto nas rendas, ou seja, valores máximos de acordo com a localização e as características dos imóveis.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Parar a construção de novos hotéis.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "parar a construção de hotéis; reduzir o alojamento local onde o turismo é excessivo.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Acabar com os vistos gold.",
+    "categoria": [
+      "habitação",
+      "imigração"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "acabar com os vistos gold e construir casas públicas para baixar os preços.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Construir casas públicas para baixar os preços da habitação.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "construir casas públicas para baixar os preços. Essa nova política de habitação é o que o Bloco garantirá.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Garantir regras de descanso para trabalhadores por turnos, incluindo ao fim de semana e entre turnos.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Vamos mudar a vida de quem trabalha por turnos e garantir regras para o seu descanso, nos fim-de-semana e entre turnos.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Garantir a antecipação da idade da reforma para trabalhadores por turnos.",
+    "categoria": [
+      "emprego",
+      "segurança social"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "garantindo a antecipação da idade da reforma e a atribuição obrigatória de um subsídio por turnos de pelo menos 30% do salário.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Atribuir obrigatoriamente um subsídio por turnos de pelo menos 30% do salário a trabalhadores por turnos.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "a atribuição obrigatória de um subsídio por turnos de pelo menos 30% do salário.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar impostos sobre as grandes fortunas acima de 3,5 milhões de euros com taxa progressiva entre 1,7% e 3,5%.",
+    "categoria": [
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Este imposto aplica-se a fortunas acima dos 3.500 salários mínimos nacionais - cerca de três milhões de euros, sendo aplicada uma taxa progressiva entre 1,7% e 3,5%.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Impor leques salariais nas grandes empresas para que um administrador não ganhe mais num mês do que um trabalhador num ano.",
+    "categoria": [
+      "economia",
+      "emprego"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Vamos impor leques salariais nas grandes empresas para que um administrador não possa ganhar mais num mês do que um trabalhador num ano.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Impedir a privatização da TAP.",
+    "categoria": [
+      "economia",
+      "transportes"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Com o Bloco de Esquerda, não haverá privatização da TAP, nem dos hospitais, nem dos comboios.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Impedir a privatização dos hospitais públicos.",
+    "categoria": [
+      "saúde",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Com o Bloco de Esquerda, não haverá privatização da TAP, nem dos hospitais, nem dos comboios.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Impedir a privatização dos comboios.",
+    "categoria": [
+      "transportes",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Com o Bloco de Esquerda, não haverá privatização da TAP, nem dos hospitais, nem dos comboios.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reduzir a semana de trabalho para quatro dias.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Com o Bloco, a semana de trabalho será reduzida para quatro dias e o salário mínimo alcançará os mil euros em 2026.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aumentar o salário mínimo para mil euros em 2026.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "o salário mínimo alcançará os mil euros em 2026.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Garantir o subsídio de refeição também no setor privado.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "O subsídio de refeição vai ser garantido também no setor privado.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Garantir reforma completa aos 40 anos de descontos.",
+    "categoria": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "o progresso será transformado em descanso, com a reforma completa aos 40 anos de descontos e com pensões dignas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Renacionalizar as empresas energéticas privatizadas para recuperar o controlo da infraestrutura energética.",
+    "categoria": [
+      "energia",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "recuperar o controle da infraestrutura energética, com a renacionalização das empresas privatizadas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Investir em transportes públicos gratuitos em todo o território nacional.",
+    "categoria": [
+      "transportes",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "investir em transportes públicos gratuitos em todo o território.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reflorestar o país em parceria com as comunidades locais.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "reflorestar o país em parceria com as comunidades locais, proteger o bem estar animal e a biodiversidade.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Garantir o acesso ao aborto seguro.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Lutamos pelos direitos das mulheres, pelo acesso ao aborto seguro e pela igualdade completa.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Garantir acesso ao ensino da língua portuguesa e a documentos legais para pessoas migrantes.",
+    "categoria": [
+      "imigração",
+      "educação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "políticas capazes de acolher e incluir pessoas que precisam de nós - acesso ao ensino da língua portuguesa e a documentos legais.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Criar o Serviço Nacional de Cuidados para proteger crianças, pessoas com deficiência e idosos.",
+    "categoria": [
+      "saúde",
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Vamos criar o Serviço Nacional de Cuidados para proteger as crianças, para garantir independência e autonomia às pessoas com deficiência, para viver a velhice com qualidade de vida.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Garantir segurança para os dados fornecidos na internet e impedir que algoritmos opacos escolham o que utilizadores veem nas redes sociais.",
+    "categoria": [
+      "tecnologia",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Queremos segurança para os dados que fornecemos na internet e impedir que sejam algoritmos opacos a escolher por nós o que vemos nas redes sociais.",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Reconhecer o Estado da Palestina.",
+    "categoria": [
+      "outros"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Vamos reconhecer o Estado da Palestina, defender a autodeterminação do Saara Ocidental, apoiar o direito internacional.",
+    "_validation_score": 0.9
+  }
+]

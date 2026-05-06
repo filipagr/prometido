@@ -1,0 +1,610 @@
+[
+  {
+    "text": "Estabelecer um teto nas rendas com valores máximos de acordo com a localização e as características dos imóveis.",
+    "context": "Vamos estabelecer um teto nas rendas, ou seja, valores máximos de acordo com a localização e as características dos imóveis.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Parar a construção de novos hotéis.",
+    "context": "parar a construção de hotéis; reduzir o alojamento local onde o turismo é excessivo.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o alojamento local nas zonas onde o turismo é excessivo.",
+    "context": "reduzir o alojamento local onde o turismo é excessivo; acabar com os vistos gold.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta concretização: não especifica números, prazos ou critérios de medição (quanto é 'excessivo'?)"
+  },
+  {
+    "text": "Acabar com os vistos gold.",
+    "context": "acabar com os vistos gold e construir casas públicas para baixar os preços.",
+    "topics": [
+      "habitação",
+      "imigração"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Construir casas públicas para baixar os preços da habitação.",
+    "context": "construir casas públicas para baixar os preços. Essa nova política de habitação é o que o Bloco garantirá.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir regras de descanso para trabalhadores por turnos, incluindo ao fim de semana e entre turnos.",
+    "context": "Vamos mudar a vida de quem trabalha por turnos e garantir regras para o seu descanso, nos fim-de-semana e entre turnos.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a antecipação da idade da reforma para trabalhadores por turnos.",
+    "context": "garantindo a antecipação da idade da reforma e a atribuição obrigatória de um subsídio por turnos de pelo menos 30% do salário.",
+    "topics": [
+      "emprego",
+      "segurança social"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Atribuir obrigatoriamente um subsídio por turnos de pelo menos 30% do salário a trabalhadores por turnos.",
+    "context": "a atribuição obrigatória de um subsídio por turnos de pelo menos 30% do salário.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar impostos sobre as grandes fortunas acima de 3,5 milhões de euros com taxa progressiva entre 1,7% e 3,5%.",
+    "context": "Este imposto aplica-se a fortunas acima dos 3.500 salários mínimos nacionais - cerca de três milhões de euros, sendo aplicada uma taxa progressiva entre 1,7% e 3,5%.",
+    "topics": [
+      "economia",
+      "administração pública"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado: removida a referência a 'salários mínimos' para maior clareza e redução de caracteres (mantendo o essencial: valor e taxa)."
+  },
+  {
+    "text": "Criar impostos justos sobre as empresas digitais para financiar serviços públicos e salários justos.",
+    "context": "Queremos gerar receitas para financiar os serviços públicos e salários justos, através de impostos justos sobre as empresas digitais e as grandes fortunas.",
+    "topics": [
+      "economia",
+      "tecnologia"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Vaga e não concreta: faltam números, prazos, taxas específicas ou definição clara de 'empresas digitais'"
+  },
+  {
+    "text": "Impor leques salariais nas grandes empresas para que um administrador não ganhe mais num mês do que um trabalhador num ano.",
+    "context": "Vamos impor leques salariais nas grandes empresas para que um administrador não possa ganhar mais num mês do que um trabalhador num ano.",
+    "topics": [
+      "economia",
+      "emprego"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Corrigido: 'possa ganhar mais' simplificado para 'não ganhe mais' (mais direto e claro)."
+  },
+  {
+    "text": "Contratar médicos e profissionais para o Serviço Nacional de Saúde com carreiras e salários que respeitem o seu trabalho.",
+    "context": "Vamos mudar a vida na saúde, com a contratação de médicos e profissionais para o SNS, com carreiras e salários que respeitem o seu trabalho.",
+    "topics": [
+      "saúde",
+      "emprego"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Falta concretização: sem números de contratações, prazos, ou valores salariais específicos"
+  },
+  {
+    "text": "Impedir a privatização da TAP.",
+    "context": "Com o Bloco de Esquerda, não haverá privatização da TAP, nem dos hospitais, nem dos comboios.",
+    "topics": [
+      "economia",
+      "transportes"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Impedir a privatização dos hospitais públicos.",
+    "context": "Com o Bloco de Esquerda, não haverá privatização da TAP, nem dos hospitais, nem dos comboios.",
+    "topics": [
+      "saúde",
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Impedir a privatização dos comboios.",
+    "context": "Com o Bloco de Esquerda, não haverá privatização da TAP, nem dos hospitais, nem dos comboios.",
+    "topics": [
+      "transportes",
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Travar as explorações mineiras feitas contra as populações.",
+    "context": "As explorações mineiras feitas contra as populações serão travadas.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Vaga e sem concretização. Falta: como travar (legislação, bloqueio, etc.), quais explorações, prazo, medida específica."
+  },
+  {
+    "text": "Investigar a circulação do dinheiro que paga favores para combater a corrupção.",
+    "context": "a corrupção será vencida porque se investigará a circulação do dinheiro que paga favores.",
+    "topics": [
+      "justiça",
+      "administração pública"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Diagnóstico/objetivo genérico, não promessa concreta. Falta: mecanismo específico, agência responsável, prazo."
+  },
+  {
+    "text": "Reduzir a semana de trabalho para quatro dias.",
+    "context": "Com o Bloco, a semana de trabalho será reduzida para quatro dias e o salário mínimo alcançará os mil euros em 2026.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": "Concreta: número (4 dias), medida nomeada (semana trabalho), verificável. Falta apenas prazo explícito.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o salário mínimo para mil euros em 2026.",
+    "context": "o salário mínimo alcançará os mil euros em 2026.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": "Muito concreta: valor específico (1000€), ano (2026), indicador claro.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Substituir o falso outsourcing por contratos de trabalho verdadeiros.",
+    "context": "O falso outsourcing é só uma forma de pagar menos pelo mesmo trabalho e deve ser substituído por contratos verdadeiros.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Vaga em execução. Falta: quais sectores, como implementar, prazo, critério de 'verdadeiro contrato'."
+  },
+  {
+    "text": "Garantir o subsídio de refeição também no setor privado.",
+    "context": "O subsídio de refeição vai ser garantido também no setor privado.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta: benefício nomeado (subsídio refeição), sector alvo (privado), verificável. Falta apenas prazo.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Combater a exploração laboral pelas plataformas digitais.",
+    "context": "a exploração pelas plataformas digitais vai ser combatida.",
+    "topics": [
+      "emprego",
+      "tecnologia"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.35,
+    "validation_reason": "Objetivo genérico sem mecanismo. Falta: ações específicas, regulação concreta, prazo."
+  },
+  {
+    "text": "Garantir reforma completa aos 40 anos de descontos.",
+    "context": "o progresso será transformado em descanso, com a reforma completa aos 40 anos de descontos e com pensões dignas.",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Muito concreta: critério (40 anos descontos), benefício (reforma completa), verificável.",
+    "review_changed": true,
+    "review_note": "Removido artigo 'a' para melhor fluidez e clareza."
+  },
+  {
+    "text": "Garantir pensões dignas.",
+    "context": "com a reforma completa aos 40 anos de descontos e com pensões dignas.",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.85,
+    "is_valid": false,
+    "validation_score": 0.2,
+    "validation_reason": "Genérico e subjectivo. 'Pensões dignas' é valor, não promessa mensurável. Falta: valor, indexação, prazo."
+  },
+  {
+    "text": "Cumprir a transição ambiental até 2030.",
+    "context": "Com o Bloco, a transição ambiental será cumprida até 2030.",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.96,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Diagnóstico/objetivo amplo sem concretização. Falta: metas setoriais, investimento, medidas específicas."
+  },
+  {
+    "text": "Apostar na produção de energia renovável descentralizada.",
+    "context": "apostar na produção renovável descentralizada e recuperar o controle da infraestrutura energética.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Directriz genérica. Falta: volume investimento, tecnologias, prazo, número de instalações."
+  },
+  {
+    "text": "Renacionalizar as empresas energéticas privatizadas para recuperar o controlo da infraestrutura energética.",
+    "context": "recuperar o controle da infraestrutura energética, com a renacionalização das empresas privatizadas.",
+    "topics": [
+      "energia",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Concreta: acção (renacionalizar), alvo nomeado (empresas energéticas privatizadas), objetivo claro.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Investir em transportes públicos gratuitos em todo o território nacional.",
+    "context": "investir em transportes públicos gratuitos em todo o território.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": "Muito concreta: medida (transportes gratuitos), abrangência (nacional), verificável. Falta apenas prazo.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Substituir viagens curtas de avião por comboio.",
+    "context": "substituir viagens curtas de avião por comboio, reduzir o tempo e a poluição das deslocações para o trabalho.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Vaga em implementação. Falta: quais rotas, investimento em comboio, prazo, critério de 'curta'."
+  },
+  {
+    "text": "Melhorar a circulação suave nas cidades.",
+    "context": "melhorar a circulação suave nas cidades, tornar o território e as infraestruturas mais resistentes às tempestades.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.2,
+    "validation_reason": "Muito vaga e subjectiva. 'Circulação suave' não é mensurável. Falta: ações concretas, indicadores."
+  },
+  {
+    "text": "Tornar o território e as infraestruturas mais resistentes às tempestades.",
+    "context": "tornar o território e as infraestruturas mais resistentes às tempestades.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Vaga e não verificável. Falta especificar quais infraestruturas, que tipo de resistência, prazos ou medidas concretas (investimento, legislação, etc.)."
+  },
+  {
+    "text": "Reconverter produções poluentes.",
+    "context": "Vamos reconverter produções poluentes, reflorestar o país em parceria com as comunidades locais.",
+    "topics": [
+      "ambiente",
+      "economia"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.2,
+    "validation_reason": "Extremamente vaga. Não especifica quais produções, para quê reconvertê-las, em quanto tempo, ou como."
+  },
+  {
+    "text": "Reflorestar o país em parceria com as comunidades locais.",
+    "context": "reflorestar o país em parceria com as comunidades locais, proteger o bem estar animal e a biodiversidade.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta e verificável: ação clara (reflorestar), método definido (parceria com comunidades), escala (país). Falta prazo ou número de hectares/árvores.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Proteger o bem-estar animal e a biodiversidade.",
+    "context": "proteger o bem estar animal e a biodiversidade.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.2,
+    "validation_reason": "Muito genérica. Não especifica ações, medidas legislativas, ou metas concretas."
+  },
+  {
+    "text": "Travar a exploração extrativista, a agricultura intensiva e as indústrias poluentes.",
+    "context": "travar a exploração extrativista, a agricultura intensiva e as indústrias poluentes que ameaçam o futuro da nossa terra.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Diagnóstico/objetivo genérico sem ações concretas. Falta especificar como travar (legislação? investimento? interdição?) e prazos."
+  },
+  {
+    "text": "Garantir o acesso ao aborto seguro.",
+    "context": "Lutamos pelos direitos das mulheres, pelo acesso ao aborto seguro e pela igualdade completa.",
+    "topics": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta e verificável: ação clara (garantir acesso), medida definida (aborto seguro), facilmente auditável. Falta detalhe sobre mecanismos (legislação, serviços).",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir às pessoas com deficiência as condições para o seu reconhecimento e independência.",
+    "context": "Vamos garantir às pessoas com deficiência as condições para o seu reconhecimento e independência.",
+    "topics": [
+      "direitos sociais",
+      "segurança social"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Vaga. 'Garantir condições' é indefinido. Falta especificar quais condições (acesso, subsídios, emprego, acessibilidade?) e como."
+  },
+  {
+    "text": "Garantir acesso ao ensino da língua portuguesa e a documentos legais para pessoas migrantes.",
+    "context": "políticas capazes de acolher e incluir pessoas que precisam de nós - acesso ao ensino da língua portuguesa e a documentos legais.",
+    "topics": [
+      "imigração",
+      "educação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta: duas ações específicas (ensino de português, acesso a documentos legais), público-alvo definido (migrantes), verificável. Falta prazo e números.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Responsabilizar as empresas pelas condições de vida de quem contratam (trabalhadores migrantes).",
+    "context": "responsabilização das empresas pelas condições de vida de quem contratam.",
+    "topics": [
+      "imigração",
+      "emprego"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Promessa de resultado (responsabilização) sem ação concreta. Falta especificar mecanismos de fiscalização, sanções ou legislação."
+  },
+  {
+    "text": "Enfrentar sem tibiezas a violência e o abuso policial no combate ao racismo estrutural.",
+    "context": "enfrentar sem tibiezas a violência e o abuso policial.",
+    "topics": [
+      "segurança",
+      "direitos sociais"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Diagnóstico/objetivo vago. Falta ações concretas (legislação? formação? inspeção?), prazos ou medidas verificáveis."
+  },
+  {
+    "text": "Criar o Serviço Nacional de Cuidados para proteger crianças, pessoas com deficiência e idosos.",
+    "context": "Vamos criar o Serviço Nacional de Cuidados para proteger as crianças, para garantir independência e autonomia às pessoas com deficiência, para viver a velhice com qualidade de vida.",
+    "topics": [
+      "saúde",
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta e verificável: instituição nomeada (Serviço Nacional de Cuidados), públicos-alvo específicos (3 grupos definidos), ação clara (criar). Falta prazo e orçamento.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir segurança para os dados fornecidos na internet e impedir que algoritmos opacos escolham o que utilizadores veem nas redes sociais.",
+    "context": "Queremos segurança para os dados que fornecemos na internet e impedir que sejam algoritmos opacos a escolher por nós o que vemos nas redes sociais.",
+    "topics": [
+      "tecnologia",
+      "direitos sociais"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Duas ações concretas identificáveis (segurança de dados, controlo de algoritmos), domínio específico (redes sociais), verificável. Falta prazo e mecanismos detalhados.",
+    "review_changed": true,
+    "review_note": "Removido 'os' antes de 'utilizadores' para melhorar clareza e fluidez da leitura."
+  },
+  {
+    "text": "Criar mecanismos de proteção contra a manipulação de conteúdos e o cyberbullying.",
+    "context": "Queremos mecanismos de proteção contra a manipulação de conteúdos e o cyberbullying.",
+    "topics": [
+      "tecnologia",
+      "segurança"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Vago. 'Criar mecanismos' é genérico. Falta especificar quais mecanismos, como implementar, responsabilidades, prazos."
+  },
+  {
+    "text": "Criar serviços públicos digitais para uma internet aberta, democrática e inclusiva.",
+    "context": "Queremos serviços públicos digitais para uma internet aberta, democrática e inclusiva.",
+    "topics": [
+      "tecnologia",
+      "administração pública"
+    ],
+    "confidence": 0.91,
+    "is_valid": false,
+    "validation_score": 0.35,
+    "validation_reason": "Genérica. 'Serviços públicos digitais' é indefinido. Falta exemplos concretos, prazos ou medidas específicas."
+  },
+  {
+    "text": "Reconhecer o Estado da Palestina.",
+    "context": "Vamos reconhecer o Estado da Palestina, defender a autodeterminação do Saara Ocidental, apoiar o direito internacional.",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Muito concreta e verificável: ação clara (reconhecer), entidade específica (Estado da Palestina), facilmente auditável. Possível prazo implícito.",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Defender a autodeterminação do Saara Ocidental.",
+    "context": "Vamos reconhecer o Estado da Palestina, defender a autodeterminação do Saara Ocidental, apoiar o direito internacional.",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.2,
+    "validation_reason": "Não é concreta nem verificável. Falta acção específica, prazo ou medida nomeada. 'Defender' é genérico. Não especifica como, quando ou com que recursos."
+  },
+  {
+    "text": "Opor-se ao aumento da despesa militar e defender a organização da defesa europeia fora da NATO e da influência de Washington.",
+    "context": "O aumento da despesa militar é errado e não vai garantir a paz. A União Europeia tem os meios militares necessários para se defender, mas tem que organizá-los fora da NATO.",
+    "topics": [
+      "segurança",
+      "outros"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Mistura dois elementos: uma oposição (diagnóstico/valor) com uma proposta vaga. 'Organizar a defesa fora da NATO' carece de concretude - não especifica mecanismo, estrutura, prazo ou acção verificável. É mais uma posição ideológica que uma promessa exequível."
+  }
+]

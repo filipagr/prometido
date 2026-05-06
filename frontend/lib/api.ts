@@ -158,10 +158,10 @@ const PARTIES_TTL_MS = 5 * 60_000;   // 5 min
 const ELECTIONS_TTL_MS = 5 * 60_000; // 5 min
 
 export const getParties = () =>
-  cachedFetch("prometido:parties", PARTIES_TTL_MS, () => apiFetch<Party[]>("/parties"));
+  cachedFetch("arquivo:parties", PARTIES_TTL_MS, () => apiFetch<Party[]>("/parties"));
 
 export const getElections = () =>
-  cachedFetch("prometido:elections", ELECTIONS_TTL_MS, () => apiFetch<Election[]>("/elections"));
+  cachedFetch("arquivo:elections", ELECTIONS_TTL_MS, () => apiFetch<Election[]>("/elections"));
 
 export const getParty = (id: string) => apiFetch<PartyDetail>(`/party/${id}`);
 export const getPromise = (id: string) => apiFetch<PromiseDetail>(`/promise/${id}`);

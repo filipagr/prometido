@@ -1,4 +1,4 @@
-# Prometido — Scope
+# Arquivo Eleitoral — Scope
 
 ## Deadline
 **6 de maio de 2026** — 2.5 semanas a partir de 18 de abril
@@ -20,7 +20,7 @@
 - **Governing vs opposition:** documentado em `data/context/elections_history.md`. Usado para contextualizar as promessas (ex: "este partido governou neste mandato"), mas sem atribuição de cumprido/não cumprido.
 
 ### Nota sobre cumprido/não cumprido
-**Fora do scope.** Verificar cumprimento é genuinamente difícil e subjectivo. O valor do Prometido está em tornar os programas eleitorais acessíveis e pesquisáveis — muitos partidos não disponibilizam programas antigos online, e precisar do Arquivo.pt para aceder a um programa de 2019 demonstra exactamente o problema que este projecto resolve. A comparação entre eleições e a pesquisa por tema são suficientemente úteis sem a camada de verificação.
+**Fora do scope.** Verificar cumprimento é genuinamente difícil e subjectivo. O valor do Arquivo Eleitoral está em tornar os programas eleitorais acessíveis e pesquisáveis — muitos partidos não disponibilizam programas antigos online, e precisar do Arquivo.pt para aceder a um programa de 2019 demonstra exactamente o problema que este projecto resolve. A comparação entre eleições e a pesquisa por tema são suficientemente úteis sem a camada de verificação.
 
 ### Nota sobre cobertura
 Alguns partidos têm histórico mais curto (Chega 2019+, Livre 2019+, IL 2019+, PAN 2015+). BE 2025 publicou apenas um manifesto de 2 páginas. A interface mostra transparentemente a fonte e cobertura de cada promessa.

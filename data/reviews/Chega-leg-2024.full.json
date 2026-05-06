@@ -1,0 +1,866 @@
+[
+  {
+    "text": "Criar o crime de enriquecimento ilícito relativo ao período de exercício do cargo pelos titulares de cargos políticos e altos cargos públicos.",
+    "context": "Criar o crime de enriquecimento ilícito relativo ao período de exercício do cargo pelos titulares de cargos políticos.",
+    "topics": [
+      "justiça",
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Ampliar a incriminação de recebimentos indevidos, obtenção irregular de benefícios, tráfico de influências, com apreensão imediata de vantagens obtidas.",
+    "context": "Ampliar a incriminação de recebimentos indevidos, obtenção irregular de benefícios, todo o tipo de tráfico de influências.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'garantia de' para melhorar fluidez e reduzir caracteres (mantém significado)."
+  },
+  {
+    "text": "Reformar o sistema de apreensão, confisco e devolução ao Estado do património e produto do crime económico-financeiro.",
+    "context": "Reformar o sistema de apreensão, confisco e devolução ao Estado do produto do crime económico-financeiro.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida cláusula final sobre apreensão antes da condenação (redundante) para cumprir 250 caracteres e manter clareza."
+  },
+  {
+    "text": "Implementar medidas de proteção do denunciante e premiar arguidos que colaborem e revelem arrependimento.",
+    "context": "Implementar medidas de protecção do denunciante e de premiar os arguidos que colaborem, forneçam elementos de investigação.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida palavra duplicada 'colaborante' e redundância; texto melhor estruturado."
+  },
+  {
+    "text": "Aumentar as penas e garantir penas mínimas que não possibilitem a suspensão para crimes de tráfico de influência, corrupção e negócio económico.",
+    "context": "Aumentar as penas, garantir penas mínimas que não possibilitem a suspensão da pena e aumentar o prazo de prescrição de alguns crimes.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada referência final ('participação económica em negócio' → 'negócio económico') para clareza."
+  },
+  {
+    "text": "Criar sanções acessórias de proibição de exercício de funções públicas por 10 anos para condenados por corrupção.",
+    "context": "Criar sanções acessórias como a proibição de exercício de funções públicas por 10 anos, incapacidade activa para desempenho de cargos públicos.",
+    "topics": [
+      "justiça",
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Proibir titulares de cargos políticos e altos cargos públicos de exercerem cargos em instituições tuteladas pelo Governo sem período de nojo de 8 anos.",
+    "context": "Proibir os titulares de cargos políticos e altos cargos públicos exercerem quaisquer cargos ou funções em quaisquer instituições tuteladas pelo Governo, sem período de nojo de 8 anos.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'cumprir um' para melhorar fluidez e reduzir caracteres (mantém significado)."
+  },
+  {
+    "text": "Assegurar que ex-titulares de cargos políticos estão vitaliciamente impedidos de exercer cargos em empresas com as quais negociaram em nome de entidades públicas.",
+    "context": "Assegurar que os titulares e ex-titulares de cargos políticos estão vitaliciamente impedidos de exercer quaisquer cargos em quaisquer empresas com as quais estabeleceram negociações.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Especificado 'ex-titulares' (removido 'titulares e') por maior precisão da promessa."
+  },
+  {
+    "text": "Alterar o Código de Conduta dos Deputados para inserir formação sobre questões éticas do exercício do mandato.",
+    "context": "Alterar o Código de Conduta dos Deputados, no sentido de inserir formação sobre questões éticas, associadas ao exercício do mandato.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'associadas ao' para melhorar fluidez e reduzir caracteres."
+  },
+  {
+    "text": "Criar um registo de transparência da representação de interesses junto da Assembleia da República com código de conduta e sanções para o lobbying.",
+    "context": "Regulamentar as regras de transparência aplicáveis a entidades privadas que realizam representação legítima de Interesses junto de entidades públicas.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Texto reescrito: original era contextual; versão simplificada mantém essência e fica standalone."
+  },
+  {
+    "text": "Tornar obrigatória a publicação anual da lista das entidades públicas a quem foram atribuídos subsídios, detalhando montantes e fins.",
+    "context": "Tornar obrigatória a publicação anual da lista das entidades públicas reclassificadas, fundações, associações, IPSS, institutos a quem foram atribuídos subsídios.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Promover auditoria financeira externa às contas do Governo das últimas duas legislaturas e às contas dos partidos políticos dos últimos 3 anos.",
+    "context": "Promover uma auditoria financeira externa às contas do Governo, relativa às últimas duas legislaturas; bem como auditoria financeira externa às contas dos Partidos Políticos.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância e simplificada estrutura mantendo clareza e significado."
+  },
+  {
+    "text": "Assegurar que pelo menos metade dos membros do Conselho Superior de Magistratura sejam juízes eleitos pelos seus pares.",
+    "context": "Assegurar que pelo menos metade dos membros do Conselho Superior de Magistratura devem ser juízes eleitos pelos seus pares.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Adotar o princípio da universalidade da publicação das decisões judiciais, tornando acessíveis na internet as decisões finais dos tribunais de primeira instância.",
+    "context": "Adoptar o princípio da universalidade da publicação das decisões judiciais nas diversas instâncias, passando as decisões finais dos tribunais de primeira instância a ser acessíveis através da internet.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reformulado para melhor clareza e fluidez, mantendo o significado original."
+  },
+  {
+    "text": "Preencher lugares vagos na carreira dos oficiais de justiça com recrutamento de emergência de 300 efetivos para comarcas com maiores carências.",
+    "context": "Proceder ao recrutamento de emergência de 300 efectivos, a distribuir pelos vários grupos de pessoal da carreira de funcionário judicial, para as comarcas com maiores carências.",
+    "topics": [
+      "justiça",
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo redundante para melhor fluidez."
+  },
+  {
+    "text": "Assegurar a digitalização de todos os processos em todos os tribunais, incluindo o Tribunal Constitucional, e melhorar as plataformas de submissão.",
+    "context": "Assegurar a digitalização de todos os processos em todos os tribunais, incluindo o Tribunal Constitucional.",
+    "topics": [
+      "justiça",
+      "tecnologia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reduzido para caber nos 250 caracteres, mantendo elementos essenciais da promessa."
+  },
+  {
+    "text": "Registar todos os atos processuais em áudio e vídeo, com transcrição automática, nos tribunais.",
+    "context": "Assegurar o registo de todos os actos processuais em áudio e vídeo, com transcrição automática.",
+    "topics": [
+      "justiça",
+      "tecnologia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Introduzir a pena de prisão perpétua com possibilidade de revisão após cumprimento de parte da pena.",
+    "context": "Introduzir a pena de prisão perpétua com possibilidade de revisão depois de cumprida uma parte da pena.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'depois de cumprida' por 'após cumprimento de' para melhor clareza e concisão."
+  },
+  {
+    "text": "Introduzir no Código Penal a sanção acessória de tratamento para inibição da líbido de carácter temporário e para reincidentes.",
+    "context": "Introduzir no nosso Código Penal a sanção acessória de tratamento para a inibição da líbido, mais comumente conhecida como 'castração química', de carácter temporário e para reincidentes.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida expressão coloquial entre parênteses para maior formalidade e redução de caracteres."
+  },
+  {
+    "text": "Criar o Provedor da Criança e adaptar os sistemas judiciais e extrajudiciais aos direitos, interesses e necessidades específicas das crianças.",
+    "context": "Criar o Provedor da Criança e adaptar os sistemas judiciais e extrajudiciais aos direitos, interesses e necessidades específicas das crianças.",
+    "topics": [
+      "justiça",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Promessa concreta mas 'adaptar sistemas' é vagamente formulado; 'Criar o Provedor da Criança' é claro",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer a residência alternada como regime privilegiado na regulação do exercício das responsabilidades parentais, excetuando contextos de violência doméstica.",
+    "context": "Estabelecer a residência alternada como regime privilegiado na regulação do exercício das responsabilidades parentais, exceptuando contextos de violência doméstica.",
+    "topics": [
+      "justiça",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reverter a Lei n.º 55/2023, de 8 de setembro, que clarifica o regime sancionatório relativo à detenção de droga para consumo.",
+    "context": "Reverter a Lei n.º 55/2023, de 08 de Setembro que clarifica o regime sancionatório relativo à detenção de droga para consumo independentemente da quantidade.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância ('independentemente da quantidade' é implicado); normalizado formato de data (08 → 8, Setembro → setembro)."
+  },
+  {
+    "text": "Implementar um plano de contingência urgente para eliminar as pendências nos Tribunais Administrativos e Fiscais.",
+    "context": "Implementar um plano de contingência urgente para eliminar as pendências nos Tribunais Administrativos e Fiscais.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Ação identificada mas 'plano de contingência urgente' carece de detalhes operacionais específicos",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aprovar lei de programação plurianual para a justiça, respondendo à falta de equipamentos e à necessidade de modernização, incluindo plano de recuperação de edifícios.",
+    "context": "Aprovar a lei de programação plurianual para a justiça, por forma a dar resposta à falta de equipamentos ou necessidade de modernização dos existentes.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas 'lei de programação plurianual' sem valores ou prazos específicos",
+    "review_changed": true,
+    "review_note": "Simplificado 'a lei' → 'lei'; alterada estrutura para maior clareza ('por forma a' → 'respondendo a')."
+  },
+  {
+    "text": "Equiparar o suplemento de risco entre as várias forças de segurança, tendo por referência o suplemento de missão da Polícia Judiciária, aplicando-o também à PSP e à GNR.",
+    "context": "Equiparar o suplemento de risco entre as várias forças de segurança, tendo por referência o suplemento de missão auferido pela Polícia Judiciária, e aplicá-lo também à PSP e à GNR.",
+    "topics": [
+      "segurança"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'auferido' (implícito); simplificada construção para melhor fluidez."
+  },
+  {
+    "text": "Consagrar a carreira de agente das forças de segurança como profissão de desgaste rápido, permitindo a pré-aposentação.",
+    "context": "Consagrar a carreira de agente das forças de segurança como profissão de desgaste rápido, permitindo a pré-aposentação.",
+    "topics": [
+      "segurança",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Medida identificada mas sem prazo ou critérios específicos para pré-aposentação",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criminalizar o incitamento ao ódio contra membros dos órgãos de polícia criminal e dos órgãos judiciais.",
+    "context": "Criminalizar o incitamento ao ódio contra os membros dos órgãos de polícia criminal e órgãos judiciais, assegurando o respeito pelos seus membros.",
+    "topics": [
+      "segurança",
+      "justiça"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo repetido ('os membros dos' → 'membros dos'); normalizada estrutura paralela."
+  },
+  {
+    "text": "Regulamentar o uso de bodycams para proteção dos membros das forças de segurança.",
+    "context": "Regulamentar o uso de bodycams, para protecção dos próprios membros das forças de segurança.",
+    "topics": [
+      "segurança"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Ação clara mas 'regulamentar o uso' é vago quanto a conteúdo e implementação",
+    "review_changed": true,
+    "review_note": "Normalizada ortografia ('protecção' → 'proteção'); simplificada redação."
+  },
+  {
+    "text": "Expandir a rede de câmaras de vigilância (CCTV) nas zonas de diversão noturna, nas áreas com mais problemas de segurança e no exterior das esquadras.",
+    "context": "Expandir a rede de câmaras de vigilância (CCTV) nas zonas de diversão nocturna, nas zonas com mais problemas de segurança e no exterior das esquadras.",
+    "topics": [
+      "segurança"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Promessa identificada mas sem números específicos de câmaras ou cronograma",
+    "review_changed": true,
+    "review_note": "Normalizada ortografia ('nocturna' → 'noturna'); substituído 'zonas' por 'áreas' para evitar repetição."
+  },
+  {
+    "text": "Reconhecer aos membros das Forças de Segurança o direito à filiação partidária e o direito à greve.",
+    "context": "Reconhecer aos membros das Forças de Segurança o direito à filiação partidária, bem como o direito à greve.",
+    "topics": [
+      "segurança",
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância ('bem como' → manutenção de 'e'); simplificada estrutura mantendo clareza."
+  },
+  {
+    "text": "Garantir vaga na rede pública de creches aos filhos dos profissionais das Forças de Segurança.",
+    "context": "Garantir vaga na rede pública de creches aos filhos dos profissionais das Forças de Segurança.",
+    "topics": [
+      "segurança",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reconhecer e implementar a carreira profissional de Bombeiro Voluntário, assegurando índices salariais compatíveis e seguros de vida e acidentes de trabalho 24h/dia.",
+    "context": "Proceder ao reconhecimento e implementação da carreira profissional de Bombeiro (Voluntários), assegurar índices salariais compatíveis com a categoria profissional.",
+    "topics": [
+      "segurança",
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'Proceder ao reconhecimento e implementação' para 'Reconhecer e implementar'. Removida redundância e melhorada clareza sem alterar significado."
+  },
+  {
+    "text": "Regularizar as dívidas do SNS aos Bombeiros para reforço da sustentabilidade financeira das Associações Humanitárias de Bombeiros.",
+    "context": "Regularizar as dívidas por parte da Direção Executiva do SNS aos Bombeiros, para reforço da sustentabilidade financeira das Associações Humanitárias de Bombeiros.",
+    "topics": [
+      "segurança",
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'por parte da Direção Executiva do' para apenas 'do' para melhor fluidez e clareza."
+  },
+  {
+    "text": "Reconhecer a profissão de bombeiro e sapador florestal como de desgaste rápido, possibilitando a reforma antecipada.",
+    "context": "Reconhecer a profissão de bombeiro e sapador florestal como de desgaste rápido, possibilitando a reforma antecipada.",
+    "topics": [
+      "segurança",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Evoluir o Serviço Nacional de Saúde para um Sistema Nacional de Saúde, com integração do setor público, privado e social, formalizando parcerias público-privadas estratégicas.",
+    "context": "Evoluir o Serviço Nacional de Saúde para um Sistema Nacional de Saúde, com a integração de todo o Sector Público, Privado e Social.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Promessa vaga. 'Evoluir para Sistema Nacional de Saúde' é diagnóstico/objetivo genérico sem medidas concretas, prazos ou ações nomeadas específicas."
+  },
+  {
+    "text": "Reformar a Lei de Bases da Saúde com novos modelos de gestão e parcerias público-privadas, alterando o Estatuto do SNS e revogando a previsão do diretor executivo.",
+    "context": "Reformar a Lei de Bases da Saúde introduzindo novos modelos de gestão e parcerias público-privadas (PPP's) e alterar o Estatuto do Serviço Nacional de Saúde.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'introduzindo' por 'com' para melhor fluidez. Clarificado sujeito da segunda ação ('Estatuto do SNS' em vez de repetir Lei)."
+  },
+  {
+    "text": "Assegurar que quando se esgotem os tempos máximos de resposta do SNS, o Estado referencie os utentes para atendimento nos setores privado ou social.",
+    "context": "Assegurar que sempre que se verifique o esgotamento dos tempos máximos de resposta garantidos (TMRG), o Estado tem a obrigação de referenciar os utentes para atendimento nos sectores privado ou social.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'sempre que se verifique o esgotamento dos' para 'quando se esgotem os'. Removida redundância 'garantidos' desnecessária."
+  },
+  {
+    "text": "Criar o Cheque de Saúde Mental assegurando o acesso aos cuidados necessários quando o SNS não consiga garantir resposta.",
+    "context": "Criar o Cheque de Saúde Mental assegurando o acesso aos cuidados de saúde mental necessários sempre que o SNS não consiga garantir resposta.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.87,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'de saúde mental' repetido após 'cuidados' para melhor concisão. Simplificado 'sempre que' para 'quando'."
+  },
+  {
+    "text": "Avançar com a construção dos Hospitais do Seixal, Algarve, Lisboa Oriental e Oeste.",
+    "context": "Avançar com a construção do Hospital do Seixal, do Algarve, Lisboa Oriental e do Oeste.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Alterado 'Hospital do Seixal, do Algarve...' para 'Hospitais do Seixal, Algarve...' para clareza gramatical (plural coerente)."
+  },
+  {
+    "text": "Revogar a Lei n.º 22/2023, de 25 de maio, que regula as condições em que a morte medicamente assistida não é punível.",
+    "context": "Revogar a Lei n.º 22/2023, de 25 de maio que regula as condições em que a morte medicamente assistida não é punível.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Revogar a Portaria n.º 411-A/2023, que regula o Índice de Desempenho das Equipas das Unidades de Saúde Familiares.",
+    "context": "Revogar a Portaria nº 411-A/2023, que regula o Índice de Desempenho das Equipas das Unidades de Saúde Familiares.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Introduzir o 'Vale Cuidador', comparticipação atribuída às famílias que optem por cuidar dos seus idosos em casa.",
+    "context": "Introdução do 'Vale Cuidador', que consubstancia uma comparticipação atribuída às famílias que optem por cuidar dos seus idosos em casa.",
+    "topics": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Revogar imediatamente o AIMI (Adicional ao Imposto Municipal sobre Imóveis).",
+    "context": "Revogar imediatamente o AIMI (Adicional ao Imposto Municipal sobre Imóveis).",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Abolir o IMT (Imposto Municipal sobre Transmissões Onerosas de Imóveis) na aquisição de habitação própria permanente.",
+    "context": "Abolir o IMT (Imposto Municipal sobre Transmissões Onerosas de Imóveis) na aquisição de habitação própria permanente.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Abolir a obrigação de pagar IMI (Imposto Municipal sobre Imóveis) para habitação própria permanente.",
+    "context": "Abolir a obrigação de pagar IMI (Imposto Municipal sobre Imóveis) quando se trate de habitação própria permanente.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionada a explicação da sigla IMI para clareza e melhorada a estrutura gramatical."
+  },
+  {
+    "text": "Isentar do pagamento de IVA a construção da primeira habitação.",
+    "context": "Isentar do pagamento de IVA a construção da primeira habitação.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aplicar taxa autónoma de 10% aos rendimentos de arrendamento para habitação permanente com duração inferior a dez anos, e 5% para contratos superiores a dez anos.",
+    "context": "Aplicar a taxa autónoma de 10% aos rendimentos provenientes de rendas de contratos de arrendamento para habitação permanente celebrados com duração inferior a dez anos; taxa de 5% para contratos superiores a 10 anos.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado mantendo o significado; removida repetição desnecessária e melhorada clareza."
+  },
+  {
+    "text": "Criar a Plataforma de Registo de Arrendatários Municipais (PRAM) para assegurar a máxima eficiência na utilização da habitação pública.",
+    "context": "Criar a Plataforma de Registo de Arrendatários Municipais (PRAM) para assegurar a máxima eficiência na utilização da habitação pública.",
+    "topics": [
+      "habitação",
+      "tecnologia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um modelo de licenciamento simplificado, reduzindo a documentação exigida e os procedimentos administrativos.",
+    "context": "Criar um Novo Modelo de Licenciamento Simplificado, reduzindo a quantidade de documentos exigidos e simplificando os procedimentos administrativos.",
+    "topics": [
+      "habitação",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta mas vaga: não especifica qual modelo, quantos documentos ou quais procedimentos",
+    "review_changed": true,
+    "review_note": "Removida capitalização desnecessária de 'Novo Modelo' e simplificada a redação mantendo o conceito."
+  },
+  {
+    "text": "Reverter a possibilidade de arrendamento forçado de habitações devolutas, a revogação dos vistos gold e as limitações ao alojamento local, aprovados no Programa Mais Habitação.",
+    "context": "Reverter a possibilidade de arrendamento forçado de habitações devolutas; a revogação dos vistos gold e as limitações ao alojamento local, aprovados no Programa Mais Habitação.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Não é promessa positiva: é uma rejeição/revogação de medidas de outro partido. É reactiva, não propositiva"
+  },
+  {
+    "text": "Restabelecer o Crédito Jovem Bonificado com linhas de crédito e taxas de juro bonificadas para jovens até aos 35 anos na aquisição da primeira habitação.",
+    "context": "Restabelecer o Crédito Jovem Bonificado com linhas de crédito específicas destinadas a jovens que desejam adquirir a sua primeira habitação; taxas de juro bonificadas para os empréstimos concedidos a jovens até aos 35 anos.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada a estrutura mantendo todas as informações essenciais; melhorada fluidez."
+  },
+  {
+    "text": "Ampliar o leque de beneficiários do Programa Porta 65 Jovem e simplificar o seu processo de acesso.",
+    "context": "Ampliar o leque de beneficiários do Programa Porta 65 Jovem, bem como simplificar o seu processo de acesso.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Vaga: não especifica como ampliar nem como simplificar",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Recuperar integralmente o tempo de serviço congelado a educadores e professores do ensino básico e secundário, num prazo máximo de quatro anos.",
+    "context": "Recuperar integralmente o tempo de serviço congelado a educadores e professores do ensino básico e secundário, num prazo máximo de quatro anos.",
+    "topics": [
+      "educação",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Renomear o Ministério do Ensino e extinguir organismos ministeriais não fundamentais para dar prioridade à alocação de verbas a alunos e escolas.",
+    "context": "Renomear o Ministério do Ensino, combater o desperdício financeiro causado pela máquina burocrática intermédia, extinguindo todos os organismos ministeriais não fundamentais.",
+    "topics": [
+      "educação",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado e clarificado: removido 'todos os' e 'absolutamente' para melhor fluidez mantendo o significado."
+  },
+  {
+    "text": "Reintroduzir exames nacionais no final de cada ciclo do ensino básico (4.º, 6.º e 9.º anos) e secundário (11.º e 12.º anos) com consequências efetivas na transição ou reprovação.",
+    "context": "Reintroduzir exames nacionais no final de cada um dos três ciclos do ensino básico (4.º, 6.º e 9.º anos) e do ensino secundário (11.º e 12º anos) com consequências efectivas na transição ou reprovação dos alunos.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Condensado: 'três ciclos do ensino básico' simplificado para 'cada ciclo', removido 'dos alunos' para ganhar espaço (213 chars)."
+  },
+  {
+    "text": "Extinguir o Projeto MAIA no final do presente ano letivo.",
+    "context": "Extinguir o Projecto MAIA no final do presente ano lectivo, dando resposta às reivindicações dos professores contra a burocracia.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a universalidade da gratuidade dos manuais escolares para todos os alunos do ensino obrigatório.",
+    "context": "Garantir a universalidade da gratuidade dos manuais escolares para todos os alunos do ensino obrigatório.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir que a disciplina de Cidadania e Desenvolvimento passe a ser opcional com currículo que assegure imparcialidade ideológica.",
+    "context": "Garantir que a disciplina de Cidadania e Desenvolvimento passe a ser opcional e o seu currículo assegure imparcialidade ideológica.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas condicional: \"passe a ser opcional\" é clara, mas \"assegure imparcialidade\" é vaga",
+    "review_changed": true,
+    "review_note": "Reescrito: 'e o seu currículo assegure' para 'com currículo que assegure' (mais conciso e claro)."
+  },
+  {
+    "text": "Atribuir ajudas de custo a professores do Ensino Básico e Secundário deslocados a mais de 100 km da residência e permitir dedução de alojamento em IRS.",
+    "context": "Atribuir ajudas de custo a professores do Ensino Básico e Secundário que se encontrem deslocados a mais de 100 kms da sua residência oficial.",
+    "topics": [
+      "educação",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Condensado: removido 'sua oficial' e 'em' desnecessários, substituído 'possibilitar' por 'permitir' (mais direto, 158 chars)."
+  },
+  {
+    "text": "Isentar totalmente de propinas alunos em estágios profissionais obrigatórios em cursos de Ensino Superior.",
+    "context": "Isentar totalmente do pagamento de propinas para alunos a frequentar estágios profissionais obrigatórios em cursos do Ensino Superior transversal a todas as áreas de estudo.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado: 'do pagamento de propinas os' para 'de propinas alunos', removido 'a frequentar' redundante (107 chars)."
+  },
+  {
+    "text": "Determinar o fim da cobrança de taxas de admissão e emolumentos pela prestação de provas de doutoramentos.",
+    "context": "Determinar o fim da cobrança de taxas de admissão e emolumentos pela prestação de provas de doutoramentos.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Introduzir o princípio da despolitização e despartidarização das instituições do ensino superior.",
+    "context": "Introduzir o princípio da despolitização e despartidarização das instituições do ensino superior para garantir a sua autonomia, liberdade intelectual, qualidade e prestígio.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.2,
+    "validation_reason": "Não é concreta: não especifica acções, prazos ou medidas nomeadas. 'Introduzir o princípio' é vago e dificilmente verificável. Parece um valor/objetivo genérico."
+  },
+  {
+    "text": "Reverter a extinção do Serviço de Estrangeiros e Fronteiras e repor sua estrutura orgânica, atribuições e estatuto jurídico e operacional.",
+    "context": "Reverter a extinção do Serviço de Estrangeiros e Fronteiras e, consequentemente, repor a sua estrutura orgânica, as suas atribuições e o seu estatuto jurídico e operacional.",
+    "topics": [
+      "imigração",
+      "segurança"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Condensado: 'a sua' para 'sua', 'as suas atribuições e o seu' para 'atribuições e' (removido artigo redundante, 141 chars)."
+  },
+  {
+    "text": "Estabelecer quotas anuais para a imigração assentes nas qualificações, nas reais necessidades do mercado de trabalho e nas mais-valias que os imigrantes possam trazer a Portugal.",
+    "context": "Estabelecer quotas anuais para a imigração assentes nas qualificações, nas reais necessidades do mercado de trabalho do país.",
+    "topics": [
+      "imigração"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Parcialmente concreta: menciona 'quotas anuais' (verificável) mas os critérios são vagos ('mais-valias que possam trazer'). Falta: números específicos, prazo de implementação, como serão determinadas as necessidades do mercado."
+  },
+  {
+    "text": "Revogar o acordo de mobilidade entre os países da CPLP e acabar com a autorização de residência automática aos imigrantes da CPLP.",
+    "context": "Revogar o acordo de mobilidade entre os países da Comunidade dos Países de Língua Portuguesa (CPLP) e, consequentemente, acabar com a autorização de residência automática aos imigrantes da CPLP.",
+    "topics": [
+      "imigração"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  }
+]

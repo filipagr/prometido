@@ -181,7 +181,7 @@ Promessas de partidos que perderam (ou que ganharam mas não governaram) têm um
 | PàF (Portugal à Frente) | 2015 | PSD + CDS-PP |
 | AD (Aliança Democrática) | 2024, 2025 | PSD + CDS-PP |
 
-**Nota sobre CDU:** O PCP lidera a CDU. As promessas estão nos programas do PCP/CDU. No Prometido, atribuídas ao `party_id = 'PCP'`. O Arquivo.pt tem páginas em `cdu.pt` e `pcp.pt`.
+**Nota sobre CDU:** O PCP lidera a CDU. As promessas estão nos programas do PCP/CDU. No Arquivo Eleitoral, atribuídas ao `party_id = 'PCP'`. O Arquivo.pt tem páginas em `cdu.pt` e `pcp.pt`.
 
 **Nota sobre AD/PàF:** O PSD lidera a coligação. As promessas do programa AD estão atribuídas ao `party_id = 'PSD'`. O CDS não tem programa autónomo nestas eleições.
 

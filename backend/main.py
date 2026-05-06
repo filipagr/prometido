@@ -1,7 +1,7 @@
 """
 backend/main.py
 
-FastAPI app principal do Prometido.
+FastAPI app principal do Arquivo Eleitoral.
 Serve os endpoints da API consumidos pelo frontend Next.js.
 """
 
@@ -25,7 +25,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Prometido API",
+    title="Arquivo Eleitoral API",
     description="O que prometeram. Onde está a prova.",
     version="0.1.0",
     lifespan=lifespan,
@@ -33,7 +33,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://prometido.pt", "https://prometido-app.vercel.app"],
+    allow_origins=["http://localhost:3000", "https://arquivoeleitoral.pt", "https://www.arquivoeleitoral.pt", "https://prometido-app.vercel.app"],
     # Aceita também previews do Vercel (frontend-*.vercel.app, *-filipagrs-projects.vercel.app, etc.)
     allow_origin_regex=r"https://([a-z0-9-]+\.)*vercel\.app",
     allow_methods=["GET"],
@@ -49,4 +49,4 @@ app.include_router(compare_router, prefix="/api")
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "project": "prometido"}
+    return {"status": "ok", "project": "arquivo-eleitoral"}

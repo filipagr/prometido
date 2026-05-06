@@ -1,0 +1,622 @@
+[
+  {
+    "texto_original": "Criar tetos máximos para rendas inferiores aos valores definidos na Portaria n.º 277-A/2010, considerando área, qualidade, certificação energética, localização e tipologia.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Controlar as rendas: Criar tetos máximos para rendas inferiores aos valores definidos na Portaria n.o 277-A/2010.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aplicar apoios imediatos ao pagamento de rendas, acompanhados de medidas que aumentem a disponibilidade de casas e impeçam rendas especulativas.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "No imediato, devem ser aplicados apoios ao pagamento de rendas, acompanhados de medidas que aumentem a disponibilidade de casas.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Utilizar a Caixa Geral de Depósitos para aplicar uma política de juros baixos no crédito à habitação própria e permanente, reduzindo o custo dos empréstimos.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "O banco público deve utilizar a sua posição dominante no mercado do crédito à habitação para aplicar uma política de juros baixos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aumentar a contribuição sobre o setor bancário criada em 2011, revertendo o aumento para políticas de habitação.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "O Bloco defende o aumento da contribuição sobre o setor bancário criada em 2011... destinada a financiar políticas de habitação.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Afetar uma quota de 25% da nova construção para habitação a arrendar em regime de renda condicionada.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Com esta medida será afetada uma quota de 25% do produto de obras de construção... para habitação a arrendar sob o regime de renda condicionada.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Construir publicamente novos alojamentos destinados ao arrendamento a custos acessíveis, integrados na malha urbana.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Construção pública de novos alojamentos destinados ao arrendamento a custos acessíveis, integrados na malha urbana.",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Mobilizar imediatamente edifícios públicos devolutos ou sem utilização para habitação a custos acessíveis.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Mobilização imediata de edifícios públicos devolutos ou sem utilização para habitação a custos acessíveis.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Usar instrumentos de posse administrativa para converter edifícios habitacionais devolutos em habitação a custos controlados.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.85,
+    "_context": "Uso de instrumentos da política de solos - posse administrativa - para conversão de edifícios habitacionais devolutos em habitação a custos controlados.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Reforçar o IHRU e criar um Serviço Nacional de Habitação com orçamento e programação plurianual.",
+    "categoria": [
+      "habitação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Reforço do IHRU e criação de um Serviço Nacional de Habitação com orçamento e programação plurianual.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Proibir a venda de casas a não residentes, salvaguardando portugueses no estrangeiro e estrangeiros residentes em Portugal.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "O Bloco propõe a proibição da venda de casas a não residentes, salvaguardando naturalmente o direito de aquisição de imóveis a portugueses residentes no estrangeiro.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Suspender a emissão de títulos para novos empreendimentos turísticos nas zonas de pressão habitacional até 2030.",
+    "categoria": [
+      "habitação",
+      "turismo"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Suspensão da emissão de títulos para novos empreendimentos turísticos nas zonas de pressão habitacional até 2030.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Impor em cada freguesia um máximo de 5% de fogos dedicados ao Alojamento Local.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Imposição, em cada freguesia, de um máximo de 5% de fogos dedicados ao Alojamento Local.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Fixar prazo de dois anos para as licenças de Alojamento Local, renováveis até cumprimento dos rácios fixados, com prioridade a titulares com apenas um registo.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Fixação do prazo de dois anos para as licenças de Alojamento Local, renováveis por períodos iguais, até ao cumprimento dos rácios fixados.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Alargar a isenção de IMI de 3 para 8 anos para imóveis de habitação própria e permanente com valor até 125.000€ e rendimento familiar até 153.300€.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Aumentar o período de isenção em sede de IMI para os imóveis que se destinem à habitação própria e permanente... VPT não exceda 125.000€.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reduzir em 50% as taxas de IMT na compra de habitação própria e permanente, compensada por aumento equivalente nas taxas para habitações secundárias.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Redução em 50% das taxas de IMT na compra de habitação própria e permanente, compensada por um aumento equivalente nas taxas aplicáveis a habitações secundárias.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Eliminar as isenções e benefícios fiscais em sede de IRC, IMT e IMI a fundos de investimento imobiliário.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Eliminação das isenções e benefícios fiscais em sede de IRC, IMT e IMI a fundos de investimento imobiliário.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar mecanismo de mutualização e repartição da receita de IMT pelos municípios para quebrar o vínculo entre especulação imobiliária e receita autárquica.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criação de mecanismo de mutualização e repartição da receita da IMT pelos municípios de forma a quebrar o atual vínculo entre especulação imobiliária e receita autárquica.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Terminar o regime do residente não habitual com efeito imediato para novos requerentes e cessação dos seus efeitos para atuais beneficiários.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Fim do regime do residente não habitual, com aplicação imediata para novos requerentes e cessação dos seus efeitos para os atuais beneficiários.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reintroduzir o prazo mínimo de 5 anos para contratos de arrendamento.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reintrodução do prazo mínimo de 5 anos para contratos de arrendamento.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Combater os despejos garantindo alternativa habitacional e relatório social prévio, com suspensão do despejo até seu cumprimento.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Combater os despejos, garantindo alternativa habitacional e que todos os processos de despejo são acompanhados de relatório social.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Regularizar os contratos de arrendamento informais com garantia de que o processo se executa sem ameaça de despejo.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Regularização dos contratos de arrendamento informais, com garantia de que o processo de regularização se executa sem a ameaça de despejo.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Consagrar na lei a dação em cumprimento, garantindo que a entrega da casa ao banco extingue a dívida associada.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Consagração da 'dação em cumprimento', garantindo que a entrega da casa ao banco extingue a dívida associada.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Consagrar na lei a impenhorabilidade da casa própria e permanente morada de família.",
+    "categoria": [
+      "habitação",
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Consagração da impenhorabilidade de casa própria e permanente/morada de família.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Incluir a caução no apoio do programa Porta 65.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Inclusão da caução no apoio do programa Porta 65.",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Criar regime de exclusividade para médicos do SNS com majoração de 40% do salário e 50% nos pontos para progressão na carreira.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criação de regime de exclusividade, com majoração de 40% sobre o salário... e de 50% nos pontos para progressão na carreira.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Estabelecer um enfermeiro de referência para cada família no SNS e rever o quadro de competências destes profissionais.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Estabelecimento de um enfermeiro de referência para cada família e da revisão do quadro de competências e atribuições destes profissionais.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Introduzir Técnicos Auxiliares de Saúde nas equipas de saúde familiar para apoio às atividades de enfermagem e cuidados domiciliários.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Introdução de Técnicos Auxiliares de Saúde nas equipas de saúde familiar, para apoio às atividades de enfermagem.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Abrir imediatamente concursos para contratação em unidades de saúde onde existam horas extraordinárias acima do limite legal ou tempos de espera acima do recomendado.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Abertura imediata de concursos para contratação em todas as unidades de saúde onde existam horas extraordinárias anuais que superem o limite legal.",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Reduzir para 12 horas semanais o horário de urgência exigido aos médicos, libertando tempo para consultas e cirurgias.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Redução para as 12h do horário semanal de urgência exigido aos médicos, libertando o restante tempo para consultas e cirurgias.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar uma rede pública de Centros de Diagnóstico e Terapêutica.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criação de uma rede pública de Centros de Diagnóstico e Terapêutica.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Contratar médicos dentistas para os centros de saúde, garantindo um dentista por 25.000 habitantes ou por 10.000-25.000 em concelhos pequenos.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Contratar médicos dentistas em número suficiente para garantir, nos centros de saúde, um médico dentista por 25 mil habitantes.",
+    "_validation_score": 0.98
+  },
+  {
+    "texto_original": "Criar a carreira de médico dentista no Serviço Nacional de Saúde.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar a carreira de médico dentista no Serviço Nacional de Saúde.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Contratar psicólogos para os centros de saúde, garantindo um psicólogo por 5.000 habitantes.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Contratar psicólogos em número suficiente para garantir, nos centros de saúde, um psicólogo por 5 mil habitantes.",
+    "_validation_score": 0.98
+  },
+  {
+    "texto_original": "Contratar profissionais para colocar em funcionamento uma equipa comunitária de saúde mental por cada 50 a 100 mil habitantes.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Contratar profissionais para colocar em funcionamento uma equipa comunitária de saúde mental por cada 50 a 100 mil habitantes.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Contratar nutricionistas para os centros de saúde, garantindo o rácio mínimo de um nutricionista por 12.000 habitantes.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Contratar nutricionistas em número suficiente para garantir, nos centros de saúde, o rácio mínimo de um nutricionista por 12 mil habitantes.",
+    "_validation_score": 0.98
+  },
+  {
+    "texto_original": "Comparticipação pelo escalão A (90%) de todos os medicamentos prescritos a pessoas com doença crónica ou pluripatologia.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Comparticipação pelo escalão A, correspondente a 90%, de todos os medicamentos prescritos a pessoas com doença crónica ou pluripatologia.",
+    "_validation_score": 0.98
+  },
+  {
+    "texto_original": "Comparticipação a 100% de medicamentos para pessoas com rendimento inferior ao salário mínimo nacional (11.480€ anuais em 2024).",
+    "categoria": [
+      "saúde",
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Comparticipação a 100% de medicamentos para pessoas com rendimento inferior ao SMN (em 2024: €11.480 anuais).",
+    "_validation_score": 0.98
+  },
+  {
+    "texto_original": "Comparticipação entre 50% e 90% do Estado para aquisição de óculos, aparelhos auditivos e próteses dentárias, com 100% para rendimentos abaixo do salário mínimo.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Comparticipação do Estado para a aquisição de óculos e lentes, aparelhos auditivos e próteses dentárias prescritas a beneficiários do SNS, fixada entre os 50% e os 90%.",
+    "_validation_score": 0.98
+  },
+  {
+    "texto_original": "Comparticipação a 100% da nutrição entérica prescrita e distribuição gratuita de dispositivos semi-automáticos de insulina a crianças e jovens com diabetes tipo 1.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Comparticipação a 100% da nutrição entérica prescrita, distribuição gratuita dos novos dispositivos semi-automáticos de insulina a todas as crianças e jovens com diabetes tipo 1.",
+    "_validation_score": 0.98
+  },
+  {
+    "texto_original": "Rever todas as carreiras da saúde no prazo de um ano, aumentando todos os salários em pelo menos três posições remuneratórias, com mínimo de 150 euros.",
+    "categoria": [
+      "saúde",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Todas as carreiras da saúde devem ser revistas no prazo de um ano, de forma a aumentar todos os salários em pelo menos três posições remuneratórias, num valor mínimo de 150 euros.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Excluir o SNS da aplicação da Lei dos Compromissos.",
+    "categoria": [
+      "saúde",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Excluir o SNS da aplicação da Lei dos Compromissos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Integrar no SNS os hospitais entregues à gestão das Santas Casas da Misericórdia (Serpa, Anadia e Fafe).",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Integração no SNS dos hospitais que o governo PSD/CDS entregou (e que o PS manteve) à gestão das Santas Casas da Misericórdia (Serpa, Anadia e Fafe).",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Revogar o decreto-lei que regula as parcerias público-privado no SNS e a legislação que permite a privatização dos cuidados de saúde primários através das USF-C.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Revogar o decreto-lei que regula as parcerias de gestão na área da saúde e abre portas a novas parcerias público-privado no SNS, da legislação que permite a privatização dos cuidados de saúde primários através das USF-C.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Colocar o Laboratório Nacional do Medicamento a produzir medicamentos com faltas persistentes e rupturas no mercado.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Colocar o Laboratório Nacional do Medicamento a produzir medicamentos que registem faltas persistentes e rupturas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Regulamentar com urgência a lei da despenalização da morte assistida.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "O Bloco de Esquerda assume o firme compromisso... de exigir que o Governo que resultar das eleições regulamente com urgência a lei da despenalização da morte assistida.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aumentar o salário mínimo para 900 euros em 2024, com aumentos anuais correspondentes à inflação mais 50 euros.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Uma nova trajetória para o aumento do salário mínimo, com aumento intercalar para 900 euros já em 2024 e aumentos anuais correspondentes ao efeito da inflação adicionado de 50 euros.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Repor os montantes e períodos de concessão dos subsídios de desemprego pré-troika, com valor máximo vinculado a três salários mínimos.",
+    "categoria": [
+      "segurança social",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reposição dos montantes e dos períodos de concessão dos subsídios de desemprego do período pré-troika... Valor máximo do subsídio de desemprego vinculado a três salários mínimos.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Aumentar em 500 euros a remuneração de entrada dos técnicos superiores na administração pública, com reajuste nos níveis seguintes.",
+    "categoria": [
+      "administração pública",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reforço salarial para os trabalhadores qualificados, iniciado na administração pública: aumento de 500 euros na posição de entrada dos técnicos superiores.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aumentar o peso dos salários no PIB para 55% até ao final da legislatura.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Aumentar a parte dos salários na repartição da riqueza para mais de metade do PIB até ao final da legislatura... O Bloco propõe a meta de 55% para a legislatura.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Retomar o valor das compensações por despedimento para 30 dias por cada ano trabalhado.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Retoma do valor das compensações por despedimento anteriores ao corte da troika (30 dias por cada ano trabalhado).",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Definir leques salariais de referência com máximo de 1 para 12 nas empresas, excluindo de apoios públicos as que ultrapassem esse leque.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Definir leques salariais de referência (máximo de 1 para 12)... As empresas que ultrapassem esse leque serão excluídas de qualquer apoio público e benefício fiscal.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Consagrar na lei o subsídio de alimentação para todos os trabalhadores do setor privado com valor mínimo igual ao do setor público.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Consagrar na lei o subsídio de alimentação para todos os trabalhadores e trabalhadoras do privado, com valor mínimo igual ao do setor público.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reduzir progressivamente o horário de trabalho, fixando por lei nesta legislatura o período normal de trabalho no máximo em 35 horas.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Redução progressiva do horário de trabalho, fixando por lei, nesta legislatura, o período normal de trabalho, no máximo, nas 35 horas.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Consagrar na lei a possibilidade de opção pela semana de 4 dias sem perda de rendimento.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Consagrar na lei a possibilidade de opção (também por iniciativa do trabalhador) pela semana de 4 dias, vinculada à redução do horário de trabalho semanal e sem perda de rendimento.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Acabar com a caducidade unilateral dos instrumentos de regulação coletiva de trabalho e repor o tratamento mais favorável ao trabalhador.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Relançar as convenções coletivas... com o fim da caducidade unilateral dos instrumentos de regulação coletiva de trabalho e a reposição do tratamento mais favorável ao trabalhador.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Restringir a contratação a prazo apenas a situações de substituição temporária, pico ou sazonalidade, eliminando exceções legais que permitem sucessão de contratos.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Restringir a contratação a prazo apenas às situações de substituição temporária e de pico ou sazonalidade de atividade, eliminando as exceções legais.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Revogar o alargamento do período experimental para jovens à procura do primeiro emprego e desempregados de longa duração, introduzido em 2019.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Revogação do alargamento do período experimental para jovens a procura do primeiro emprego e desempregados de longa duração, introduzido em 2019.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Devolver os três dias de férias retirados pela direita, repondo a norma dos 25 dias.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Devolver os três dias de férias retirados pela direita (regresso à norma dos 25 dias, sem depender de outro critério).",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Repor o valor das compensações por despedimento para um mês por cada ano prestado e impedir despedimentos em empresas com resultados positivos.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Combater a facilitação dos despedimentos, com a reposição do valor das compensações... (um mês por cada ano de trabalho prestado) e impedindo despedimentos... em empresas com resultados positivos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Alargar os direitos de parentalidade, incluindo licença inicial do pai, aumento da licença partilhada e redução de horário nos primeiros três anos de vida da criança.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Alargar os direitos de parentalidade (licença inicial do pai, aumento da licença partilhada, redução de horário nos primeiros três anos de vida da criança).",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Alterar as regras de atualização das pensões, integrando crescimento e inflação, garantindo que nenhuma pensão perde poder de compra.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Alterar as regras de atualização das pensões, integrando no cálculo os valores do crescimento e da inflação, garantindo que nenhuma pensão perde poder de compra.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Aumentar o valor mínimo das pensões para garantir que carreiras com 20 ou mais anos de descontos fiquem acima do limiar de pobreza.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Aumentar o valor mínimo das pensões, de modo a garantir que... o valor das pensões de carreiras contributivas com 20 ou mais anos de descontos fica sempre acima do limiar de pobreza.",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Eliminar o fator de sustentabilidade das pensões.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Eliminação do 'fator de sustentabilidade'. Depois de todas as alterações aprovadas entre 2017 e 2020 ele já só se aplica a cerca de 10% das pensões requeridas.",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Permitir reforma antecipada para pessoas com 15 ou mais anos de descontos e incapacidade igual ou superior a 60%.",
+    "categoria": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reforma antecipada para pessoas com 15 ou mais anos de descontos com incapacidade igual ou superior a 60%.",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Alargar o acesso ao Complemento Solidário para Idosos elevando seu valor de referência ao limiar da pobreza, com 14 prestações por ano.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Alargamento do acesso ao Complemento Solidário para Idosos (CSI), elevando o seu valor de referência a ser calculado a partir do valor do limiar da pobreza, com 14 prestações por ano.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar uma contribuição de 0,75% sobre o valor acrescentado das grandes empresas para financiar a Segurança Social.",
+    "categoria": [
+      "segurança social",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "O Bloco propôs ainda uma outra fonte de financiamento da Segurança Social: uma contribuição de 0,75% sobre o valor acrescentado das grandes empresas.",
+    "_validation_score": 0.93
+  }
+]

@@ -45,7 +45,8 @@ CREATE TABLE IF NOT EXISTS promises (
     election_id             TEXT REFERENCES elections(id),
     text                    TEXT NOT NULL,
     context                 TEXT,
-    topic                   TEXT,
+    topic                   TEXT,               -- tópico primário
+    topics                  TEXT,               -- JSON array com todos os tópicos (ex: ["habitação","economia"])
     tier                    INTEGER,
     extraction_confidence   REAL,
     validation_score        REAL,

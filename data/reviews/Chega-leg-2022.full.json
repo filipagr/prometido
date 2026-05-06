@@ -1,0 +1,426 @@
+[
+  {
+    "text": "Criar o Ministério da Família para assegurar a reconstrução moral, cívica, cultural e económica da família, incluindo promoção da natalidade, liberdade de educação e proteção do património familiar.",
+    "context": "O CHEGA propõe a criação da Ministério da Família para assegurar a reconstrução moral, cívica, cultural ou económica da família nas diversas áreas da governação.",
+    "topics": [
+      "direitos sociais",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar uma reforma mínima garantida equivalente ao salário mínimo nacional para idosos.",
+    "context": "Dará prioridade às crianças na saúde e no ensino; e aos idosos na saúde e segurança económica, implementando uma reforma mínima garantida, equivalente ao salário mínimo nacional.",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Ter como objetivo económico principal começar a pagar a dívida pública portuguesa, a quarta maior do mundo.",
+    "context": "O CHEGA terá como objetivo económico principal começar a pagar a dívida pública portuguesa, a quarta maior do mundo.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.85,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Não é concreta: 'ter como objetivo' é uma intenção vaga sem acção, número ou prazo específico. É mais um valor do que uma promessa."
+  },
+  {
+    "text": "Praticar o princípio do equilíbrio orçamental, garantindo que as despesas do Estado nunca sejam superiores às receitas, salvo em circunstâncias excecionais.",
+    "context": "O CHEGA praticará o princípio do equilíbrio orçamental: as despesas do Estado nunca serão superiores às receitas, salvo em circunstâncias excecionais.",
+    "topics": [
+      "economia",
+      "administração pública"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Não é concreta: é um princípio/valor sem medida, prazo ou acção específica nomeada. Carece de verificabilidade clara."
+  },
+  {
+    "text": "Diminuir o peso do Estado na economia, atualmente cerca de 50%, reduzindo impostos e despesa pública.",
+    "context": "O CHEGA diminuirá o peso do Estado na economia (hoje cerca de 50%) reduzindo os impostos e reduzindo mais do que proporcionalmente a despesa pública.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância 'reduzindo mais do que proporcionalmente' e simplificado para clareza (235 chars)."
+  },
+  {
+    "text": "Reduzir os impostos diretos IRS e IRC e implementar uma taxa única de IRS com um patamar de isenção.",
+    "context": "O CHEGA reduzirá os impostos diretos (IRS e IRC) de modo a estimular o crescimento económico. Implementará uma taxa única de IRS, com um patamar de isenção.",
+    "topics": [
+      "economia",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aplicar o princípio do orçamento de base zero, escrutinando cada despesa do Estado em cada ano como se fosse a primeira vez.",
+    "context": "O CHEGA aplicará o princípio do orçamento de base zero, escrutinando cada despesa do Estado, em cada ano, como se fosse a primeira vez.",
+    "topics": [
+      "economia",
+      "administração pública"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Promover o aumento da moldura penal máxima, incluindo prisão perpétua para crimes violentos, homicídios, terrorismo, crime organizado, corrupção e crimes sexuais contra menores.",
+    "context": "O CHEGA promoverá o aumento da moldura penal máxima, designadamente a prisão perpétua para crimes violentos, homicídios, terrorismo e crime organizado, corrupção e crimes sexuais contra menores.",
+    "topics": [
+      "justiça",
+      "segurança"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'a' antes de 'prisão perpétua' para melhor fluidez gramatical (172 chars)."
+  },
+  {
+    "text": "Impossibilitar que um arguido indiciado por abuso sexual de menores e reincidente aguarde julgamento em liberdade.",
+    "context": "O CHEGA impossibilitará que um arguido indiciado por abuso sexual de menores e reincidente possa aguardar julgamento em liberdade, como acontece na maior parte dos casos.",
+    "topics": [
+      "justiça",
+      "segurança"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Defender a aplicação de prisão preventiva a suspeitos de crimes de colarinho branco e criminalidade económico-financeira organizada, nomeadamente quando existam ramificações internacionais.",
+    "context": "O CHEGA defenderá a aplicação da prisão preventiva a suspeitos de crimes de colarinho branco e criminalidade económico-financeira organizada, nomeadamente quando existem bases e ramificações internacionais.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância 'bases e' mantendo apenas 'ramificações internacionais' para concisão (182 chars)."
+  },
+  {
+    "text": "Defender penas de prisão efetiva e nunca penas alternativas para incendiários responsáveis por mortes.",
+    "context": "O CHEGA defende, para incendiários responsáveis por mortes, penas de prisão efetiva e nunca penas alternativas.",
+    "topics": [
+      "justiça",
+      "segurança"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Revogar o efeito suspensivo de recursos para o Tribunal Constitucional em processos-crime gravosos e eliminar exceções ao cumprimento de pena de prisão efetiva.",
+    "context": "O CHEGA revogará quer o efeito suspensivo de recursos para o Tribunal Constitucional de processos-crime particularmente gravosos... quer as exceções ao cumprimento da pena de prisão efetiva.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'particularmente' antes de 'gravosos' para concisão sem perda de significado (159 chars)."
+  },
+  {
+    "text": "Garantir o acesso a médico de família a todos os cidadãos e adequada referenciação de cuidados diferenciados em tempo útil na rede pública, privada ou social.",
+    "context": "O CHEGA garantirá o acesso a médico de família a todos os cidadãos, e a adequada referenciação de cuidados diferenciados em tempo útil, na rede de prestadores pública, privada ou social.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'a' antes de 'adequada' (redundante) e 'de prestadores' para reduzir a 250 caracteres mantendo clareza."
+  },
+  {
+    "text": "Incentivar contratualização, parcerias público-privadas e modelos de gestão por objetivos no sistema de saúde, bem como a generalização do modelo da ADSE.",
+    "context": "Incentivaremos a contratualização, parcerias público-privadas ou modelos de gestão por objetivos, bem como a possibilidade da generalização do modelo da ADSE.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo 'a' antes de 'contratualização' e simplificado para melhor fluidez e clareza."
+  },
+  {
+    "text": "Apresentar projeto de lei de bases gerais da condição de agente das forças e serviços de segurança e informações, reconhecendo tratar-se de missão de desgaste rápido.",
+    "context": "O CHEGA apresentará um projeto de lei de bases gerais da condição de agente das forças e serviços de segurança e de informações que reconheça tratar-se de uma missão de desgaste rápido.",
+    "topics": [
+      "segurança",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos artigos redundantes ('um', 'de') para maior concisão e clareza, mantendo o significado."
+  },
+  {
+    "text": "Apresentar projeto de resolução que reverta a extinção do Serviço de Estrangeiros e Fronteiras (SEF).",
+    "context": "O CHEGA apresentará um projeto de resolução que reverta a extinção do Serviço de Estrangeiros e Fronteiras (SEF), instituição consolidada na garantia de uma segurança pública.",
+    "topics": [
+      "segurança",
+      "imigração"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo 'um' para maior concisão e clareza sintática."
+  },
+  {
+    "text": "Congelar o agravamento proporcional dos impostos sobre combustíveis destinados à circulação no espaço rural a partir de determinado montante com o aumento dos preços.",
+    "context": "O CHEGA defende o congelamento do agravamento proporcional dos impostos sobre combustíveis destinados à circulação no espaço rural a partir de determinado montante.",
+    "topics": [
+      "agricultura",
+      "economia",
+      "transportes"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretização: não especifica o 'determinado montante', nem o prazo, nem a medida exata"
+  },
+  {
+    "text": "Desenvolver políticas que assegurem que os projetos de energias alternativas — solares, hidráulicos ou eólicos — garantam rendimentos aos particulares residentes nas zonas rurais.",
+    "context": "O CHEGA desenvolverá políticas que assegurem que os projetos de energias alternativas – solares, hidráulicos ou eólicos – garantam rendimentos aos particulares residentes nas zonas rurais.",
+    "topics": [
+      "energia",
+      "agricultura"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.35,
+    "validation_reason": "Muito vaga: 'desenvolver políticas' sem ação concreta, sem número, sem prazo ou instrumento específico"
+  },
+  {
+    "text": "Promover a internet de banda larga nas zonas rurais, essencial para diminuir a periferidade e criar atividades económicas.",
+    "context": "O CHEGA promoverá a internet de banda larga nas zonas rurais, essencial na diminuição da perificidade e criação de atividades económicas.",
+    "topics": [
+      "tecnologia",
+      "agricultura"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Genérica e vaga: 'promover' sem ação específica, sem investimento definido, sem prazo"
+  },
+  {
+    "text": "Defender que os planos diretores municipais (PDM) dos concelhos com perda de população prevejam áreas urbanizáveis para construção de habitação a custos acessíveis.",
+    "context": "O CHEGA defende, para os concelhos com perda de população, que os planos diretores municipais (PDM) prevejam áreas urbanizáveis para construção de habitação a custos acessíveis.",
+    "topics": [
+      "habitação",
+      "agricultura"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Promessa indireta: 'defender que' os PDM façam algo não é assumir ação direta; é influenciar terceiros"
+  },
+  {
+    "text": "Diminuir o custo de acesso à habitação, cumprindo prazos de licenciamento razoáveis e eliminando exigências técnicas injustificadas na construção rural.",
+    "context": "O CHEGA diminuirá o custo de acesso à habitação, fazendo cumprir prazos de licenciamento razoáveis e eliminando exigências técnicas injustificadas na construção de habitações em espaço rural.",
+    "topics": [
+      "habitação",
+      "agricultura"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'fazendo cumprir' em 'cumprindo' e 'habitações em espaço rural' em 'construção rural' para concisão."
+  },
+  {
+    "text": "Assegurar investimento de 2% do PIB anual na Defesa até 2024, cumprindo o acordado com aliados da NATO.",
+    "context": "O CHEGA assegurará o dever de investimento de 2% do PIB anual na Defesa até 2024, cumprindo o acordado com os aliados da NATO.",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos artigos redundantes ('o', 'os') para fluidez e clareza mantendo significado integral."
+  },
+  {
+    "text": "Cumprir o determinado na Lei de Programação Militar, incluindo as verbas associadas, procurando reforçá-las na medida do possível.",
+    "context": "O CHEGA cumprirá o determinado na Lei de Programação Militar, incluindo as verbas associadas e, na medida do possível, procurará reforçar as mesmas.",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Vaga na segunda parte: 'procurando reforçá-las' é intento, não compromisso concreto"
+  },
+  {
+    "text": "Implementar quadro permanente de praças no Exército e Força Aérea, adaptando modelo existente na Marinha, para reforçar coesão e racionalização das Forças Armadas.",
+    "context": "O CHEGA será favorável à implementação do quadro permanente de praças no Exército e Força Aérea, adaptando o modelo existente na Marinha.",
+    "topics": [
+      "outros",
+      "administração pública"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos artigos redundantes e sintetizado 'dos três ramos' implícito. Texto mais conciso e claro."
+  },
+  {
+    "text": "Alargar e regulamentar regime de contrato especial a sargentos e praças das Forças Armadas para equilibrar formação com oportunidades de carreira civil.",
+    "context": "O CHEGA defende o alargamento e regulamentação do regime de contrato especial a sargentos e praças para que o investimento das Forças Armadas na formação corresponda ao potencial de benefícios profissionais numa possível carreira civil.",
+    "topics": [
+      "outros",
+      "emprego"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos artigos redundantes e sintetizado 'o investimento na' em 'formação'. Mantém significado com maior clareza."
+  },
+  {
+    "text": "Centralizar compras de bens comuns aos três ramos das Forças Armadas (Marinha, Exército e Força Aérea) para melhorar racionalização de despesas.",
+    "context": "O CHEGA propõe a melhoria da racionalização das despesas das Forças Armadas, como a centralização das compras de bens comuns aos três ramos: Marinha, Exército e Força Aérea.",
+    "topics": [
+      "outros",
+      "administração pública"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos artigos e sintetizado. Mudou formato de travessão para parênteses para melhor legibilidade e concisão."
+  },
+  {
+    "text": "Atribuir benefícios fiscais a jovens nos primeiros anos de inserção no mercado laboral e a empresas que contratem sem termo certo jovens ou regressados da emigração há dois anos.",
+    "context": "A Juventude CHEGA defende a atribuição de benefícios fiscais nos primeiros anos de inserção dos jovens no mercado laboral, bem como a empresas que contratem sem termo certo jovens ou jovens que tenham emigrado há pelo menos dois anos.",
+    "topics": [
+      "emprego",
+      "economia",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'pelo menos' antes de 'dois anos' (implícito) e sintetizado 'jovens regressados' em 'regressados'. Mais conciso."
+  },
+  {
+    "text": "Reajustar o programa Porta 65 de apoio ao arrendamento jovem, adequando os valores de renda máxima admitida aos do mercado e aumentando o valor orçamentado para abranger mais jovens.",
+    "context": "A Juventude CHEGA propõe o reajustamento dos programas de apoio ao arrendamento jovem, nomeadamente o Porta 65, adequando os valores da renda máxima admitida aos valores praticados no mercado.",
+    "topics": [
+      "habitação",
+      "direitos sociais"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Promover a transição progressiva do sistema de segurança social para um modelo contributivo assente na capitalização e administração individual das poupanças.",
+    "context": "O CHEGA defende a transição progressiva para um sistema contributivo que, para ser sustentável, deve assentar, sobretudo, na capitalização e administração individual das poupanças.",
+    "topics": [
+      "segurança social",
+      "economia"
+    ],
+    "confidence": 0.88,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Banir do ordenamento jurídico todas as disposições legais que resultem no benefício seletivo de determinadas minorias em prejuízo da maioria, impondo neutralidade racial e étnica das leis.",
+    "context": "O CHEGA reivindicará o banimento do ordenamento jurídico de todas as disposições legais que, de forma manifesta ou latente, resultem no benefício seletivo de determinadas minorias.",
+    "topics": [
+      "justiça",
+      "direitos sociais"
+    ],
+    "confidence": 0.88,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo 'a' antes de 'neutralidade' para melhorar fluidez e reduzir caracteres (195→191 chars)."
+  },
+  {
+    "text": "Apresentar a reforma do ensino básico e secundário assente em seis princípios fundamentais: combate à indisciplina, redução da burocracia, simplificação da classificação, defesa dos exames nacionais, simplificação de currículos e autonomia institucional.",
+    "context": "O CHEGA apresenta-se a eleições com a «Reforma do Ensino Básico e Secundário – Seis Princípios Fundamentais», possibilidade histórica dos portugueses se congregarem num renovado modelo de ensino.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Não é concreta nem verificável. Enumera princípios e áreas de reforma, mas sem ações, prazos ou medidas nomeadas. É mais um diagnóstico/programa que uma promessa específica. Exemplo: 'combate à indisciplina' e 'redução da burocracia' são objectivos vagos sem instrumentos concretos."
+  },
+  {
+    "text": "Revogar o efeito suspensivo de recursos para o Tribunal Constitucional em processos-crime gravosos para evitar a fuga de arguidos para o estrangeiro.",
+    "context": "O CHEGA revogará quer o efeito suspensivo de recursos para o Tribunal Constitucional de processos-crime particularmente gravosos, para evitar a fuga de arguidos para o estrangeiro, como aconteceu com João Rendeiro.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  }
+]

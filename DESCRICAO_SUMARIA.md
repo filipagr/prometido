@@ -1,4 +1,4 @@
-# Prometido — Descrição Sumária
+# Arquivo Eleitoral — Descrição Sumária
 ### Candidatura ao Prémio Arquivo.pt 2026
 
 ---
@@ -9,11 +9,11 @@ Em fevereiro de 2005, o Partido Socialista publicou no seu site as *Bases Progra
 
 O Arquivo.pt capturou essas páginas. O programa eleitoral do PS de 2005 está acessível em `arquivo.pt/noFrame/replay/20050127000000/http://www.ps.pt/bases/bases_programaticas.pdf` — congelado no momento em que foi publicado, com o timestamp visível, inalterado.
 
-**O Prometido usa esta capacidade única do Arquivo.pt para criar o primeiro sistema português de documentação e pesquisa de promessas eleitorais baseado em fontes primárias arquivadas.**
+**O Arquivo Eleitoral usa esta capacidade única do Arquivo.pt para criar o primeiro sistema português de documentação e pesquisa de promessas eleitorais baseado em fontes primárias arquivadas.**
 
 O utilizador pesquisa por tema ("habitação", "salário mínimo", "SNS"), por partido, ou por eleição. Para cada promessa encontrada, existe um link directo para a página original no Arquivo.pt — não uma citação jornalística, não uma memória de segunda mão. A própria página do partido, congelada no tempo, com o toolbar do arquivo visível. O utilizador verifica por si.
 
-A feature central do Prometido é a comparação: "O que prometeram PS, PSD e Bloco de Esquerda sobre habitação entre 2015 e 2022?" — as promessas dos três partidos aparecem lado a lado, cada uma com a sua fonte arquivada. É a ferramenta que um jornalista usa na véspera de eleições. É o que um cidadão partilha nas redes sociais quando quer confrontar um político com o que disse.
+A feature central do Arquivo Eleitoral é a comparação: "O que prometeram PS, PSD e Bloco de Esquerda sobre habitação entre 2015 e 2022?" — as promessas dos três partidos aparecem lado a lado, cada uma com a sua fonte arquivada. É a ferramenta que um jornalista usa na véspera de eleições. É o que um cidadão partilha nas redes sociais quando quer confrontar um político com o que disse.
 
 ---
 
@@ -27,7 +27,7 @@ O **Museu de Promessas Quebradas** (Portugal, 2025) é curadoria manual de cerca
 
 Internacionalmente, ferramentas como o **PolitiFact** (EUA) ou o **Polimeter** (Canadá) dependem de *newsrooms* permanentes com jornalistas dedicados a rever cada promessa manualmente. São caras, lentas, e não existem para Portugal.
 
-O Prometido resolve o problema de uma forma diferente: em vez de curadoria humana exaustiva, usa o Arquivo.pt como fonte primária e automação (Claude API) para extracção e validação. A curadoria humana fica reservada para os casos ambíguos — uma fracção do total.
+O Arquivo Eleitoral resolve o problema de uma forma diferente: em vez de curadoria humana exaustiva, usa o Arquivo.pt como fonte primária e automação (Claude API) para extracção e validação. A curadoria humana fica reservada para os casos ambíguos — uma fracção do total.
 
 **O gap que preenchemos:** nenhum projeto existente combina promessas eleitorais portuguesas + fontes primárias arquivadas + comparação entre partidos + evidência de implementação. É o primeiro.
 
@@ -37,7 +37,7 @@ O Prometido resolve o problema de uma forma diferente: em vez de curadoria human
 
 ### Hierarquia de fontes
 
-O Prometido usa uma hierarquia de três tiers de confiança de fonte, visível na interface para cada promessa:
+O Arquivo Eleitoral usa uma hierarquia de três tiers de confiança de fonte, visível na interface para cada promessa:
 
 | Tier | Fonte | Uso |
 |------|-------|-----|
@@ -69,7 +69,7 @@ O pipeline corre em sete passos:
 
 ### Transparência de limitações
 
-O Prometido comunica as suas limitações directamente na interface. O Bloco de Esquerda em 2005 é um exemplo: o site `bloco.org` não foi crawlado pelo Arquivo.pt na janela eleitoral desse ano, pelo que não existe fonte Tier 1 disponível. Esta lacuna está documentada na página de partido e na página "Como funciona" — não escondemos o que não sabemos.
+O Arquivo Eleitoral comunica as suas limitações directamente na interface. O Bloco de Esquerda em 2005 é um exemplo: o site `bloco.org` não foi crawlado pelo Arquivo.pt na janela eleitoral desse ano, pelo que não existe fonte Tier 1 disponível. Esta lacuna está documentada na página de partido e na página "Como funciona" — não escondemos o que não sabemos.
 
 ### Stack técnica
 
@@ -116,23 +116,23 @@ O dataset estruturado — promessas com partido, eleição, tópico, tier de fon
 
 ### Sustentabilidade
 
-O Prometido não depende de uma equipa editorial permanente. O pipeline de extracção pode ser re-executado para novas eleições com configuração mínima. A arquitectura foi desenhada para crescer: suporta todos os partidos com assento parlamentar e todas as eleições desde 2002, com cobertura condicionada pelo que o Arquivo.pt preservou.
+O Arquivo Eleitoral não depende de uma equipa editorial permanente. O pipeline de extracção pode ser re-executado para novas eleições com configuração mínima. A arquitectura foi desenhada para crescer: suporta todos os partidos com assento parlamentar e todas as eleições desde 2002, com cobertura condicionada pelo que o Arquivo.pt preservou.
 
 ---
 
 ## 6. Conclusão e próximos passos
 
-O Prometido demonstra que é possível construir infraestrutura de *accountability* democrático usando o Arquivo.pt como fonte primária e automação para escalar o que antes seria impossível sem uma redacção permanente.
+O Arquivo Eleitoral demonstra que é possível construir infraestrutura de *accountability* democrático usando o Arquivo.pt como fonte primária e automação para escalar o que antes seria impossível sem uma redacção permanente.
 
 A versão submetida é um MVP deliberadamente focado — quatro partidos, seis eleições, com metodologia documentada e limitações comunicadas. A arquitectura suporta a expansão para todos os nove partidos com assento parlamentar e todas as eleições legislativas desde 2002.
 
 O passo seguinte natural é a abertura de uma API pública para investigadores, que permitiria a outros projectos construir sobre este dataset. A médio prazo, a extensão a eleições presidenciais e autárquicas alargaria o âmbito do projecto.
 
-O Arquivo.pt torna possível um tipo de memória democrática que não existia. O Prometido usa essa memória para criar accountability. *O que prometeram. Onde está a prova.*
+O Arquivo.pt torna possível um tipo de memória democrática que não existia. O Arquivo Eleitoral usa essa memória para criar accountability. *O que prometeram. Onde está a prova.*
 
 ---
 
-*Nota sobre o Público:* O Prometido usa o Público como fonte prioritária de Tier 3 — artigos do Público arquivados são usados tanto para corroboração de promessas (citação directa do partido a prometer) como para verificação de cumprimento (reportagem posterior sobre o que aconteceu). A distinção entre citação directa e paráfrase jornalística, central à metodologia do Prometido, é particularmente relevante para o jornalismo de qualidade do Público.
+*Nota sobre o Público:* O Arquivo Eleitoral usa o Público como fonte prioritária de Tier 3 — artigos do Público arquivados são usados tanto para corroboração de promessas (citação directa do partido a prometer) como para verificação de cumprimento (reportagem posterior sobre o que aconteceu). A distinção entre citação directa e paráfrase jornalística, central à metodologia do Arquivo Eleitoral, é particularmente relevante para o jornalismo de qualidade do Público.
 
 ---
 

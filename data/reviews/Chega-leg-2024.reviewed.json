@@ -1,0 +1,578 @@
+[
+  {
+    "texto_original": "Criar o crime de enriquecimento ilícito relativo ao período de exercício do cargo pelos titulares de cargos políticos e altos cargos públicos.",
+    "categoria": [
+      "justiça",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criar o crime de enriquecimento ilícito relativo ao período de exercício do cargo pelos titulares de cargos políticos.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Ampliar a incriminação de recebimentos indevidos, obtenção irregular de benefícios, tráfico de influências, com apreensão imediata de vantagens obtidas.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Ampliar a incriminação de recebimentos indevidos, obtenção irregular de benefícios, todo o tipo de tráfico de influências.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reformar o sistema de apreensão, confisco e devolução ao Estado do património e produto do crime económico-financeiro.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reformar o sistema de apreensão, confisco e devolução ao Estado do produto do crime económico-financeiro.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Implementar medidas de proteção do denunciante e premiar arguidos que colaborem e revelem arrependimento.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Implementar medidas de protecção do denunciante e de premiar os arguidos que colaborem, forneçam elementos de investigação.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aumentar as penas e garantir penas mínimas que não possibilitem a suspensão para crimes de tráfico de influência, corrupção e negócio económico.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Aumentar as penas, garantir penas mínimas que não possibilitem a suspensão da pena e aumentar o prazo de prescrição de alguns crimes.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar sanções acessórias de proibição de exercício de funções públicas por 10 anos para condenados por corrupção.",
+    "categoria": [
+      "justiça",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criar sanções acessórias como a proibição de exercício de funções públicas por 10 anos, incapacidade activa para desempenho de cargos públicos.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Proibir titulares de cargos políticos e altos cargos públicos de exercerem cargos em instituições tuteladas pelo Governo sem período de nojo de 8 anos.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Proibir os titulares de cargos políticos e altos cargos públicos exercerem quaisquer cargos ou funções em quaisquer instituições tuteladas pelo Governo, sem período de nojo de 8 anos.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Assegurar que ex-titulares de cargos políticos estão vitaliciamente impedidos de exercer cargos em empresas com as quais negociaram em nome de entidades públicas.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Assegurar que os titulares e ex-titulares de cargos políticos estão vitaliciamente impedidos de exercer quaisquer cargos em quaisquer empresas com as quais estabeleceram negociações.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Alterar o Código de Conduta dos Deputados para inserir formação sobre questões éticas do exercício do mandato.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Alterar o Código de Conduta dos Deputados, no sentido de inserir formação sobre questões éticas, associadas ao exercício do mandato.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar um registo de transparência da representação de interesses junto da Assembleia da República com código de conduta e sanções para o lobbying.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Regulamentar as regras de transparência aplicáveis a entidades privadas que realizam representação legítima de Interesses junto de entidades públicas.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Tornar obrigatória a publicação anual da lista das entidades públicas a quem foram atribuídos subsídios, detalhando montantes e fins.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Tornar obrigatória a publicação anual da lista das entidades públicas reclassificadas, fundações, associações, IPSS, institutos a quem foram atribuídos subsídios.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Promover auditoria financeira externa às contas do Governo das últimas duas legislaturas e às contas dos partidos políticos dos últimos 3 anos.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Promover uma auditoria financeira externa às contas do Governo, relativa às últimas duas legislaturas; bem como auditoria financeira externa às contas dos Partidos Políticos.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Assegurar que pelo menos metade dos membros do Conselho Superior de Magistratura sejam juízes eleitos pelos seus pares.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Assegurar que pelo menos metade dos membros do Conselho Superior de Magistratura devem ser juízes eleitos pelos seus pares.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Adotar o princípio da universalidade da publicação das decisões judiciais, tornando acessíveis na internet as decisões finais dos tribunais de primeira instância.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Adoptar o princípio da universalidade da publicação das decisões judiciais nas diversas instâncias, passando as decisões finais dos tribunais de primeira instância a ser acessíveis através da internet.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Preencher lugares vagos na carreira dos oficiais de justiça com recrutamento de emergência de 300 efetivos para comarcas com maiores carências.",
+    "categoria": [
+      "justiça",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Proceder ao recrutamento de emergência de 300 efectivos, a distribuir pelos vários grupos de pessoal da carreira de funcionário judicial, para as comarcas com maiores carências.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Assegurar a digitalização de todos os processos em todos os tribunais, incluindo o Tribunal Constitucional, e melhorar as plataformas de submissão.",
+    "categoria": [
+      "justiça",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Assegurar a digitalização de todos os processos em todos os tribunais, incluindo o Tribunal Constitucional.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Registar todos os atos processuais em áudio e vídeo, com transcrição automática, nos tribunais.",
+    "categoria": [
+      "justiça",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Assegurar o registo de todos os actos processuais em áudio e vídeo, com transcrição automática.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Introduzir a pena de prisão perpétua com possibilidade de revisão após cumprimento de parte da pena.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Introduzir a pena de prisão perpétua com possibilidade de revisão depois de cumprida uma parte da pena.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Introduzir no Código Penal a sanção acessória de tratamento para inibição da líbido de carácter temporário e para reincidentes.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Introduzir no nosso Código Penal a sanção acessória de tratamento para a inibição da líbido, mais comumente conhecida como 'castração química', de carácter temporário e para reincidentes.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar o Provedor da Criança e adaptar os sistemas judiciais e extrajudiciais aos direitos, interesses e necessidades específicas das crianças.",
+    "categoria": [
+      "justiça",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criar o Provedor da Criança e adaptar os sistemas judiciais e extrajudiciais aos direitos, interesses e necessidades específicas das crianças.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Estabelecer a residência alternada como regime privilegiado na regulação do exercício das responsabilidades parentais, excetuando contextos de violência doméstica.",
+    "categoria": [
+      "justiça",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Estabelecer a residência alternada como regime privilegiado na regulação do exercício das responsabilidades parentais, exceptuando contextos de violência doméstica.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reverter a Lei n.º 55/2023, de 8 de setembro, que clarifica o regime sancionatório relativo à detenção de droga para consumo.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Reverter a Lei n.º 55/2023, de 08 de Setembro que clarifica o regime sancionatório relativo à detenção de droga para consumo independentemente da quantidade.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Implementar um plano de contingência urgente para eliminar as pendências nos Tribunais Administrativos e Fiscais.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Implementar um plano de contingência urgente para eliminar as pendências nos Tribunais Administrativos e Fiscais.",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Aprovar lei de programação plurianual para a justiça, respondendo à falta de equipamentos e à necessidade de modernização, incluindo plano de recuperação de edifícios.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Aprovar a lei de programação plurianual para a justiça, por forma a dar resposta à falta de equipamentos ou necessidade de modernização dos existentes.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Equiparar o suplemento de risco entre as várias forças de segurança, tendo por referência o suplemento de missão da Polícia Judiciária, aplicando-o também à PSP e à GNR.",
+    "categoria": [
+      "segurança"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Equiparar o suplemento de risco entre as várias forças de segurança, tendo por referência o suplemento de missão auferido pela Polícia Judiciária, e aplicá-lo também à PSP e à GNR.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Consagrar a carreira de agente das forças de segurança como profissão de desgaste rápido, permitindo a pré-aposentação.",
+    "categoria": [
+      "segurança",
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Consagrar a carreira de agente das forças de segurança como profissão de desgaste rápido, permitindo a pré-aposentação.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criminalizar o incitamento ao ódio contra membros dos órgãos de polícia criminal e dos órgãos judiciais.",
+    "categoria": [
+      "segurança",
+      "justiça"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criminalizar o incitamento ao ódio contra os membros dos órgãos de polícia criminal e órgãos judiciais, assegurando o respeito pelos seus membros.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Regulamentar o uso de bodycams para proteção dos membros das forças de segurança.",
+    "categoria": [
+      "segurança"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Regulamentar o uso de bodycams, para protecção dos próprios membros das forças de segurança.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Expandir a rede de câmaras de vigilância (CCTV) nas zonas de diversão noturna, nas áreas com mais problemas de segurança e no exterior das esquadras.",
+    "categoria": [
+      "segurança"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Expandir a rede de câmaras de vigilância (CCTV) nas zonas de diversão nocturna, nas zonas com mais problemas de segurança e no exterior das esquadras.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Reconhecer aos membros das Forças de Segurança o direito à filiação partidária e o direito à greve.",
+    "categoria": [
+      "segurança",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reconhecer aos membros das Forças de Segurança o direito à filiação partidária, bem como o direito à greve.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir vaga na rede pública de creches aos filhos dos profissionais das Forças de Segurança.",
+    "categoria": [
+      "segurança",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Garantir vaga na rede pública de creches aos filhos dos profissionais das Forças de Segurança.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reconhecer e implementar a carreira profissional de Bombeiro Voluntário, assegurando índices salariais compatíveis e seguros de vida e acidentes de trabalho 24h/dia.",
+    "categoria": [
+      "segurança",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Proceder ao reconhecimento e implementação da carreira profissional de Bombeiro (Voluntários), assegurar índices salariais compatíveis com a categoria profissional.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Regularizar as dívidas do SNS aos Bombeiros para reforço da sustentabilidade financeira das Associações Humanitárias de Bombeiros.",
+    "categoria": [
+      "segurança",
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Regularizar as dívidas por parte da Direção Executiva do SNS aos Bombeiros, para reforço da sustentabilidade financeira das Associações Humanitárias de Bombeiros.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Reconhecer a profissão de bombeiro e sapador florestal como de desgaste rápido, possibilitando a reforma antecipada.",
+    "categoria": [
+      "segurança",
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Reconhecer a profissão de bombeiro e sapador florestal como de desgaste rápido, possibilitando a reforma antecipada.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reformar a Lei de Bases da Saúde com novos modelos de gestão e parcerias público-privadas, alterando o Estatuto do SNS e revogando a previsão do diretor executivo.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reformar a Lei de Bases da Saúde introduzindo novos modelos de gestão e parcerias público-privadas (PPP's) e alterar o Estatuto do Serviço Nacional de Saúde.",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Assegurar que quando se esgotem os tempos máximos de resposta do SNS, o Estado referencie os utentes para atendimento nos setores privado ou social.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Assegurar que sempre que se verifique o esgotamento dos tempos máximos de resposta garantidos (TMRG), o Estado tem a obrigação de referenciar os utentes para atendimento nos sectores privado ou social.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Criar o Cheque de Saúde Mental assegurando o acesso aos cuidados necessários quando o SNS não consiga garantir resposta.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criar o Cheque de Saúde Mental assegurando o acesso aos cuidados de saúde mental necessários sempre que o SNS não consiga garantir resposta.",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Avançar com a construção dos Hospitais do Seixal, Algarve, Lisboa Oriental e Oeste.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Avançar com a construção do Hospital do Seixal, do Algarve, Lisboa Oriental e do Oeste.",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Revogar a Lei n.º 22/2023, de 25 de maio, que regula as condições em que a morte medicamente assistida não é punível.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Revogar a Lei n.º 22/2023, de 25 de maio que regula as condições em que a morte medicamente assistida não é punível.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Revogar a Portaria n.º 411-A/2023, que regula o Índice de Desempenho das Equipas das Unidades de Saúde Familiares.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Revogar a Portaria nº 411-A/2023, que regula o Índice de Desempenho das Equipas das Unidades de Saúde Familiares.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Introduzir o 'Vale Cuidador', comparticipação atribuída às famílias que optem por cuidar dos seus idosos em casa.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Introdução do 'Vale Cuidador', que consubstancia uma comparticipação atribuída às famílias que optem por cuidar dos seus idosos em casa.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Revogar imediatamente o AIMI (Adicional ao Imposto Municipal sobre Imóveis).",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Revogar imediatamente o AIMI (Adicional ao Imposto Municipal sobre Imóveis).",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Abolir o IMT (Imposto Municipal sobre Transmissões Onerosas de Imóveis) na aquisição de habitação própria permanente.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Abolir o IMT (Imposto Municipal sobre Transmissões Onerosas de Imóveis) na aquisição de habitação própria permanente.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Abolir a obrigação de pagar IMI (Imposto Municipal sobre Imóveis) para habitação própria permanente.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Abolir a obrigação de pagar IMI (Imposto Municipal sobre Imóveis) quando se trate de habitação própria permanente.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Isentar do pagamento de IVA a construção da primeira habitação.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Isentar do pagamento de IVA a construção da primeira habitação.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aplicar taxa autónoma de 10% aos rendimentos de arrendamento para habitação permanente com duração inferior a dez anos, e 5% para contratos superiores a dez anos.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Aplicar a taxa autónoma de 10% aos rendimentos provenientes de rendas de contratos de arrendamento para habitação permanente celebrados com duração inferior a dez anos; taxa de 5% para contratos superiores a 10 anos.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar a Plataforma de Registo de Arrendatários Municipais (PRAM) para assegurar a máxima eficiência na utilização da habitação pública.",
+    "categoria": [
+      "habitação",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criar a Plataforma de Registo de Arrendatários Municipais (PRAM) para assegurar a máxima eficiência na utilização da habitação pública.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um modelo de licenciamento simplificado, reduzindo a documentação exigida e os procedimentos administrativos.",
+    "categoria": [
+      "habitação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar um Novo Modelo de Licenciamento Simplificado, reduzindo a quantidade de documentos exigidos e simplificando os procedimentos administrativos.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Restabelecer o Crédito Jovem Bonificado com linhas de crédito e taxas de juro bonificadas para jovens até aos 35 anos na aquisição da primeira habitação.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Restabelecer o Crédito Jovem Bonificado com linhas de crédito específicas destinadas a jovens que desejam adquirir a sua primeira habitação; taxas de juro bonificadas para os empréstimos concedidos a jovens até aos 35 anos.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Ampliar o leque de beneficiários do Programa Porta 65 Jovem e simplificar o seu processo de acesso.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Ampliar o leque de beneficiários do Programa Porta 65 Jovem, bem como simplificar o seu processo de acesso.",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Recuperar integralmente o tempo de serviço congelado a educadores e professores do ensino básico e secundário, num prazo máximo de quatro anos.",
+    "categoria": [
+      "educação",
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Recuperar integralmente o tempo de serviço congelado a educadores e professores do ensino básico e secundário, num prazo máximo de quatro anos.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Renomear o Ministério do Ensino e extinguir organismos ministeriais não fundamentais para dar prioridade à alocação de verbas a alunos e escolas.",
+    "categoria": [
+      "educação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Renomear o Ministério do Ensino, combater o desperdício financeiro causado pela máquina burocrática intermédia, extinguindo todos os organismos ministeriais não fundamentais.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reintroduzir exames nacionais no final de cada ciclo do ensino básico (4.º, 6.º e 9.º anos) e secundário (11.º e 12.º anos) com consequências efetivas na transição ou reprovação.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Reintroduzir exames nacionais no final de cada um dos três ciclos do ensino básico (4.º, 6.º e 9.º anos) e do ensino secundário (11.º e 12º anos) com consequências efectivas na transição ou reprovação dos alunos.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Extinguir o Projeto MAIA no final do presente ano letivo.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Extinguir o Projecto MAIA no final do presente ano lectivo, dando resposta às reivindicações dos professores contra a burocracia.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Garantir a universalidade da gratuidade dos manuais escolares para todos os alunos do ensino obrigatório.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Garantir a universalidade da gratuidade dos manuais escolares para todos os alunos do ensino obrigatório.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir que a disciplina de Cidadania e Desenvolvimento passe a ser opcional com currículo que assegure imparcialidade ideológica.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Garantir que a disciplina de Cidadania e Desenvolvimento passe a ser opcional e o seu currículo assegure imparcialidade ideológica.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Atribuir ajudas de custo a professores do Ensino Básico e Secundário deslocados a mais de 100 km da residência e permitir dedução de alojamento em IRS.",
+    "categoria": [
+      "educação",
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Atribuir ajudas de custo a professores do Ensino Básico e Secundário que se encontrem deslocados a mais de 100 kms da sua residência oficial.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Isentar totalmente de propinas alunos em estágios profissionais obrigatórios em cursos de Ensino Superior.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Isentar totalmente do pagamento de propinas para alunos a frequentar estágios profissionais obrigatórios em cursos do Ensino Superior transversal a todas as áreas de estudo.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Determinar o fim da cobrança de taxas de admissão e emolumentos pela prestação de provas de doutoramentos.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Determinar o fim da cobrança de taxas de admissão e emolumentos pela prestação de provas de doutoramentos.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reverter a extinção do Serviço de Estrangeiros e Fronteiras e repor sua estrutura orgânica, atribuições e estatuto jurídico e operacional.",
+    "categoria": [
+      "imigração",
+      "segurança"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Reverter a extinção do Serviço de Estrangeiros e Fronteiras e, consequentemente, repor a sua estrutura orgânica, as suas atribuições e o seu estatuto jurídico e operacional.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Revogar o acordo de mobilidade entre os países da CPLP e acabar com a autorização de residência automática aos imigrantes da CPLP.",
+    "categoria": [
+      "imigração"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Revogar o acordo de mobilidade entre os países da Comunidade dos Países de Língua Portuguesa (CPLP) e, consequentemente, acabar com a autorização de residência automática aos imigrantes da CPLP.",
+    "_validation_score": 0.92
+  }
+]

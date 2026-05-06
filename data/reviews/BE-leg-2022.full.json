@@ -1,0 +1,869 @@
+[
+  {
+    "text": "Aumentar o salário mínimo nacional a um ritmo anual de pelo menos 10% ao longo da legislatura, para diminuir a diferença em relação ao salário mínimo de Espanha.",
+    "context": "Recuperação do salário mínimo que, tendo alcançado 705 euros em janeiro de 2022, deve continuar a aumentar ao longo da legislatura a um ritmo anual de, pelo menos, 10%.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Revogar o corte da troika na majoração das horas extraordinárias e recuperar o descanso compensatório.",
+    "context": "Reversão da 'flexibilização' do trabalho suplementar... deve ser revogado o corte da troika na majoração das horas extra e recuperado o descanso compensatório.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Recuperar os montantes e os períodos de concessão do subsídio de desemprego do período pré-troika.",
+    "context": "Recuperação dos montantes e os períodos de concessão do subsídio de desemprego do período pré-troika.",
+    "topics": [
+      "segurança social",
+      "emprego"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar a norma que obriga trabalhadores a abdicarem da compensação por despedimento ilícito para poderem contestar o despedimento.",
+    "context": "Eliminação da norma que obriga os trabalhadores, para contestarem despedimentos ilícitos, a abdicarem da compensação a que têm direito.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Proibir o recurso ao outsourcing para funções equivalentes em empresas que tenham efetuado despedimentos.",
+    "context": "Proibição de recurso ao outsourcing para funções equivalentes em empresas que fizeram despedimentos.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Repor o valor das compensações por despedimento em 30 dias por cada ano trabalhado, revertendo o corte da troika.",
+    "context": "Retoma do valor das compensações por despedimento anteriores ao corte da troika (30 dias por cada ano trabalhado).",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alterar o quadro legal da negociação coletiva, revogando as alterações que reduziram a capacidade negocial dos sindicatos e bloquearam as atualizações salariais.",
+    "context": "Alteração do quadro legal da negociação coletiva, revogando as alterações que reduziram a capacidade negocial dos sindicatos.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Falta especificidade: não indica quais alterações serão revogadas nem qual será o novo quadro legal exato"
+  },
+  {
+    "text": "Consagrar na lei o subsídio de alimentação para todos os trabalhadores do setor privado, com valor mínimo igual ao do setor público.",
+    "context": "Consagração na lei do subsídio de alimentação para todos os trabalhadores e trabalhadoras do privado, com valor mínimo igual ao do setor público.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Corrigido 'sector' para 'setor' (ortografia atualizada); removido 'e trabalhadoras' para concisão sem perda de significado."
+  },
+  {
+    "text": "Definir leques salariais de referência nos setores público e privado, excluindo de apoios públicos e contratação pública as empresas que os ultrapassem.",
+    "context": "Definição de leques salariais de referência, nos setores público e privado... As empresas que ultrapassem esse leque serão excluídas de qualquer apoio público e benefício fiscal.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.65,
+    "validation_reason": "Falta concretude: não especifica quais são os 'leques salariais de referência' nem como serão definidos"
+  },
+  {
+    "text": "Reduzir o horário de trabalho para 35 horas semanais no setor privado e abrir a possibilidade da semana de 4 dias.",
+    "context": "Redução do horário de trabalho para as 35 horas e abertura à possibilidade da semana de 4 dias.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Corrigido 'sector' para 'setor'; adicionado 'setor privado' para clareza standalone."
+  },
+  {
+    "text": "Revogar o alargamento do período experimental para jovens à procura do primeiro emprego e desempregados de longa duração.",
+    "context": "Revogação do alargamento do período experimental para jovens à procura do primeiro emprego e desempregados de longa duração.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Restringir a utilização de contratos a prazo apenas às situações de substituição temporária e de pico ou sazonalidade de atividade.",
+    "context": "Restrição da utilização dos contratos a prazo apenas às situações de substituição temporária e de pico ou sazonalidade de atividade.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar obrigação de celebração de contratos entre trabalhadores e plataformas digitais, eliminando a figura do intermediário consagrada pela 'Lei Uber'.",
+    "context": "Obrigar à celebração de contratos entre trabalhadores e plataformas digitais... eliminando também a figura do intermediário, que foi consagrada pela 'Lei Uber'.",
+    "topics": [
+      "emprego",
+      "tecnologia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Limitar a duração do trabalho temporário a um máximo de seis meses, com obrigação de vinculação à empresa utilizadora ao fim desse prazo.",
+    "context": "Limitação dos fundamentos e da duração do trabalho temporário a um máximo de seis meses; obrigação de vinculação à empresa utilizadora ao fim de seis meses.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Devolver os três dias de férias retirados pela direita, regressando à norma dos 25 dias de férias.",
+    "context": "Devolução dos três dias de férias retirados pela direita (regresso à norma dos 25 dias, sem depender de outro critério).",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Impedir despedimentos, exceto por justa causa, em empresas com resultados positivos no ano anterior.",
+    "context": "Impedindo despedimentos, exceto por justa causa, em empresas com resultados positivos no ano anterior.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar o despedimento por inadaptação do Código do Trabalho.",
+    "context": "Eliminando o despedimento por inadaptação, que dá origem a abusos sistemáticos.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar os direitos de parentalidade, incluindo aumento da licença do pai, da licença partilhada e redução de horário nos primeiros 3 anos de vida da criança.",
+    "context": "Alargar os direitos de parentalidade (licença inicial do pai, aumento da licença partilhada, redução de horário nos primeiros 3 anos de vida da criança).",
+    "topics": [
+      "direitos sociais",
+      "emprego"
+    ],
+    "confidence": 0.94,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta mas sem números específicos (quanto aumenta licença do pai? quanto a redução de horário?)",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reconhecer e enquadrar no Código do Trabalho o trabalho doméstico assalariado e o trabalho profissional associado aos cuidados.",
+    "context": "Reconhecer e enquadrar no Código do Trabalho o trabalho doméstico assalariado e o trabalho profissional associado aos cuidados.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.94,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Relançar a contratação coletiva, garantindo o fim da caducidade unilateral dos instrumentos de regulação coletiva de trabalho e a reposição do tratamento mais favorável ao trabalhador.",
+    "context": "Relançamento da contratação coletiva... garantindo o fim da caducidade unilateral dos instrumentos de regulação coletiva de trabalho, a reposição do tratamento mais favorável ao trabalhador.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar o 'fator de sustentabilidade' das pensões, que tem aplicação residual após alterações de 2017-2020.",
+    "context": "Eliminação do 'fator de sustentabilidade'. Depois de todas as alterações aprovadas entre 2017 e 2020 ele já só tem uma aplicação residual (cerca de 10% das pensões requeridas).",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Retirar o corte aplicado a quem se reformou entre 2014 e 2018 com penalizações elevadas que não existiriam sob as regras atuais.",
+    "context": "Retirada do corte aplicado a quem se reformou entre 2014 e 2018 com elevadas penalizações que não existiriam sob as regras de hoje.",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o valor mínimo das pensões de carreiras contributivas de 20 ou mais anos de descontos para acima do limiar de pobreza.",
+    "context": "Aumento do valor mínimo das pensões, de modo a garantir que... o valor das pensões de carreiras contributivas de 20 ou mais anos de descontos fica sempre acima do limiar de pobreza.",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas vaga quanto ao valor exato ('acima do limiar de pobreza' não é número preciso)",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Introduzir uma contribuição de 0,75% sobre o Valor Acrescentado Líquido das grandes empresas para a Segurança Social.",
+    "context": "Uma contribuição de 0,75% sobre o valor acrescentado das grandes empresas (que exclui todas as micro, pequenas e médias empresas), o que representaria um acréscimo de receitas de cerca de 300 milhões de euros/ano.",
+    "topics": [
+      "segurança social",
+      "economia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar o acesso ao Complemento Solidário para Idosos (CSI), elevando o seu valor de referência e eliminando definitivamente a norma que contabiliza rendimentos dos filhos.",
+    "context": "Alargamento do acesso ao Complemento Solidário para Idosos (CSI), elevando o seu valor de referência e eliminando definitivamente a norma que contabiliza os rendimentos dos filhos.",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta mas 'elevando o seu valor' sem especificar quanto",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o orçamento do SNS em percentagem do PIB, acabando com o subfinanciamento crónico.",
+    "context": "Aumento do orçamento do SNS em percentagem do PIB, acabando com o subfinanciamento crónico e proporcionando margem para um efetivo investimento.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Vaga: 'em percentagem do PIB' sem número específico; 'acabar com subfinanciamento' é diagnóstico",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um plano plurianual de investimentos associado a uma carta nacional de equipamentos de saúde, com dotação própria, para renovação e aquisição de novos equipamentos.",
+    "context": "Criação de um plano plurianual de investimentos associado a uma carta nacional de equipamentos de saúde, com dotação própria.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas 'dotação própria' sem valor especificado",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Excluir o SNS da aplicação da Lei dos Compromissos.",
+    "context": "Exclusão do SNS da aplicação da Lei dos Compromissos.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um regime de carreira em exclusividade para os profissionais do SNS, opcional e com incentivos associados.",
+    "context": "Criação de um regime de carreira em exclusividade para os profissionais do SNS que seja atrativo, opcional e com incentivos associados.",
+    "topics": [
+      "saúde",
+      "administração pública"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "'Incentivos associados' sem especificação concreta do que são",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar as taxas moderadoras em todos os atos programados, prescritos ou referenciados no SNS, incluindo exames, consultas e tratamentos hospitalares.",
+    "context": "Eliminação das taxas moderadoras em todos os atos programados, prescritos ou referenciados, nomeadamente exames, consultas e tratamentos em contexto hospitalar.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir um médico e equipa de saúde familiar para todas as pessoas, incluindo contratação de médicos de família recém-especializados que não concorreram aos concursos do SNS.",
+    "context": "Garantia de um médico e equipa de saúde familiar para todas as pessoas... Contratação dos vários médicos de família recém-especializados que não concorreram aos concursos lançados pelo SNS.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o número de vagas para formação em Medicina Geral e Familiar, em especial nas regiões mais carenciadas como Lisboa e Vale do Tejo.",
+    "context": "Aumento do número de vagas para formação em Medicina Geral e Familiar, em especial nas regiões mais carenciadas de médico de família, como é o caso de Lisboa e Vale do Tejo.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Redimensionar os Agrupamentos de Centros de Saúde para um máximo de 100 mil utentes nas áreas de grande concentração demográfica e 50 mil nas restantes.",
+    "context": "Redimensionamento dos Agrupamentos de Centros de Saúde para um máximo de 100 mil utentes nas áreas de grande concentração demográfica e 50 000 nas restantes.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar novas Unidades de Saúde Familiar (USF), removendo barreiras administrativas como quotas estabelecidas arbitrariamente.",
+    "context": "Criação de novas Unidades de Saúde Familiar (USF) e remoção de qualquer barreira administrativa (como o caso da quotas estabelecidas arbitrariamente) para a criação ou evolução de USF.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta mas menos específica quanto ao número de USF a criar",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar Gabinetes de Prevenção e Tratamento de Ansiedade e Depressão nos centros de saúde.",
+    "context": "Criação de Gabinetes de Prevenção e Tratamento de Ansiedade e Depressão nos centros de saúde.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Disponibilizar cuidados de saúde oral nos cuidados de saúde primários.",
+    "context": "Disponibilização de cuidados de saúde oral.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta mas falta especificação de prazo ou número de centros",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Contratar pelo menos 400 trabalhadores para o INEM, entre técnicos de emergência pré-hospitalar, enfermeiros, psicólogos e médicos.",
+    "context": "Contratação de pelo menos 400 trabalhadores para o INEM, entre técnicos de emergência pré-hospitalar, enfermeiros, psicólogos e médicos.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um concurso anual de contratação no INEM para repor os profissionais que tenham abandonado o Instituto no ano anterior.",
+    "context": "Instituição de um concurso anual de contratação, de forma a repor os profissionais que tenham abandonado o Instituto no ano anterior.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Executar o Plano Nacional de Saúde Mental, dotando-o do orçamento necessário, com implementação urgente das equipas de saúde mental na comunidade.",
+    "context": "Execução do Plano Nacional de Saúde Mental dotando-o do orçamento necessário, destacando-se a implementação urgente das equipas de saúde mental na comunidade.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Pouco concreta: 'Plano Nacional de Saúde Mental' já existe; 'implementação urgente' é vago; falta prazo, número de equipas ou orçamento específico"
+  },
+  {
+    "text": "Concretizar a transformação do Laboratório Militar num laboratório nacional de produção de medicamentos articulado com a investigação científica.",
+    "context": "Concretizar a transformação do Laboratório Militar num laboratório nacional de produção de medicamentos articulado com a investigação científica para melhorar o acesso a medicamentos.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Revogar o decreto-lei n.º 23/2020 que estabelece regras para parcerias de gestão na área da saúde e abre portas a novas PPP no SNS.",
+    "context": "Revogação do decreto-lei n.º 23/2020, de 22 de maio, que estabelece as regras para a celebração de contratos de parceria de gestão na área da saúde.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir as emissões e a pegada ambiental do setor da saúde, tornando os hospitais e centros de saúde neutros em carbono até 2027.",
+    "context": "Redução das emissões e da pegada ambiental do setor, nomeadamente tornando os hospitais e centros de saúde neutros em carbono até 2027.",
+    "topics": [
+      "saúde",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reforçar o Rendimento Social de Inserção, aumentando já em 2022 o valor de referência e diminuindo a diferença de capitação entre membros do agregado.",
+    "context": "Reforço do Rendimento Social de Inserção, aumentando já em 2022 o valor de referência do RSI e diminuição da diferença da capitação entre os membros do agregado.",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'do RSI' redundante após 'valor de referência' e 'da' antes de 'capitação' para maior clareza e fluidez."
+  },
+  {
+    "text": "Retomar o salário mínimo nacional como referência do valor mínimo do subsídio de desemprego contributivo, revertendo regras pós-troika.",
+    "context": "Retomando o salário mínimo nacional como referência do valor mínimo do subsídio de desemprego contributivo (e não o IAS, que ainda por cima é inferior ao limiar de pobreza).",
+    "topics": [
+      "segurança social",
+      "emprego"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma nova prestação social 'Rendimento Social de Cidadania' que unifique os apoios não contributivos e garanta que ninguém fica abaixo do limiar de pobreza.",
+    "context": "Criação uma nova prestação social que unifique os apoios não contributivos... funcionaria como uma prestação diferencial capaz de garantir que ninguém fica abaixo do limiar de pobreza.",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta na intenção mas 'ninguém fica abaixo do limiar de pobreza' carece de valor específico",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Investir num programa nacional de 'Housing First' (Casas Primeiro) que em quatro anos dê resposta a todas as situações de sem-abrigo identificadas.",
+    "context": "Deve haver um investimento substancial num programa nacional de 'Housing First'... Em quatro anos, este programa deve dar resposta ao conjunto de situações identificadas.",
+    "topics": [
+      "habitação",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma estratégia nacional para a erradicação da pobreza e exclusão social, garantindo ampla participação em todas as fases do processo.",
+    "context": "Criação de uma estratégia nacional para a erradicação da pobreza e exclusão social, garantindo uma ampla participação em todas as fases do processo.",
+    "topics": [
+      "direitos sociais"
+    ],
+    "confidence": 0.93,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretização: não especifica acções, prazos ou medidas nomeadas. 'Estratégia nacional' é muito genérica."
+  },
+  {
+    "text": "Criar um Serviço Nacional de Cuidados que desenvolva uma rede de respostas públicas na área da infância, velhice, dependência e autonomia, de caráter universal e tendencialmente gratuito.",
+    "context": "Propõe a criação de um Serviço Nacional de Cuidados, que desenvolva em todo o território uma rede de respostas públicas na área da infância, da velhice, da dependência e da promoção da autonomia.",
+    "topics": [
+      "saúde",
+      "direitos sociais",
+      "segurança social"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Descarbonizar os transportes com soluções ferroviárias ao nível urbano, suburbano e sub-regional.",
+    "context": "Descarbonização dos modos de transportes, com soluções ferroviárias ao nível dos transportes urbanos, suburbanos e sub-regionais.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta concretização: não especifica acção, números, prazos ou medidas. 'Soluções ferroviárias' é vago."
+  },
+  {
+    "text": "Reduzir o custo dos transportes públicos em direção à gratuitidade, começando pelos jovens até 18 anos, pessoas com 65 ou mais anos e pessoas com deficiência.",
+    "context": "Redução do custo dos transportes públicos em direção à gratuitidade, começando pelos jovens até aos 18 anos, pessoas com 65 ou mais anos e pessoas com deficiência.",
+    "topics": [
+      "transportes",
+      "direitos sociais"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar zonas centrais de grande restrição à circulação automóvel, abrangendo 100 hectares em Lisboa e 40 hectares no Porto em quatro anos.",
+    "context": "Criação de zonas centrais de grande restrição à circulação automóvel... abrangendo em quatro anos 100 hectares em Lisboa (Baixa, Chiado e Avenida da Liberdade) e 40 hectares no Porto.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Expandir o Metro Sul do Tejo às fases previstas (Seixal, Barreiro, Moita) e prolongar a Montijo e Alcochete, num total de 40 km.",
+    "context": "Expansão do Metro Sul do Tejo às fases de desenvolvimento já previstas (Seixal, Barreiro, Moita) e posterior prolongamento a Montijo e Alcochete, num total de 40 km.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar três novas linhas semicirculares na Margem Norte de Lisboa para veículos ferroviários ligeiros de superfície, cobrindo a Circular Regional Exterior (30 km).",
+    "context": "Três novas linhas semicirculares na Margem norte para veículos ferroviários ligeiros de superfície... Circular Regional Exterior de Lisboa, ligando... num total de 30 km.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada descrição redundante mantendo informação essencial; reduzida de 271 para 218 caracteres."
+  },
+  {
+    "text": "Criar uma linha de Metro Ligeiro de Superfície em Oeiras ligando as linhas de Cascais e Sintra, num total de 17 km.",
+    "context": "Linha de Metro Ligeiro de Superfície no traçado do antigo SATU em Oeiras ligando transversalmente as linhas de Cascais e de Sintra (Oeiras - Tagus Park - Lagoas Park - Cacém), num total de 17km.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida especificidade do traçado (SATU) e locais intermédios para maior clareza; reduzida de 253 para 162 caracteres."
+  },
+  {
+    "text": "Investir 4.200 milhões de euros ao longo de dez anos nas duas áreas metropolitanas para transportes ferroviários.",
+    "context": "Este programa de intervenção nas duas áreas metropolitanas envolve um investimento estimado em 4.200 milhões de euros ao longo de dez anos, um esforço anual de cerca de 420 milhões de euros.",
+    "topics": [
+      "transportes",
+      "economia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar o Sistema de Mobilidade do Mondego, ligando os municípios de Lousã, Miranda do Corvo e Coimbra em metropolitano ligeiro de superfície, num total de 40 km.",
+    "context": "O sistema de Mobilidade do Mondego, ligando os municípios de Lousã, Miranda do Corvo e Coimbra em metropolitano ligeiro de superfície, num total de 40 km.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o tram-train do Algarve, ligando Faro a Portimão via aeroporto, num total de 63 km.",
+    "context": "O tram-train do Algarve, ligando Faro a Portimão, via aeroporto, e as diferentes cidades que se localizam junto à orla costeira algarvia, num total de 63km.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar o Plano Ferroviário Nacional com investimento global de 9.000 milhões de euros até 2040, cerca de 450 milhões de euros por ano.",
+    "context": "Este programa inscrito no Plano Ferroviário Nacional envolve um investimento global (infraestrutura + material circulante) estimado em 9000 milhões de euros até 2040, cerca de 450 milhões de euros/ano.",
+    "topics": [
+      "transportes",
+      "economia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Construir travessia exclusivamente ferroviária do Tejo no âmbito do Plano Ferroviário Nacional.",
+    "context": "Construção de travessias ferroviárias em vários pontos do território, suprindo ligações em falta, começando pela travessia exclusivamente ferroviária do Tejo.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.55,
+    "validation_reason": "Muito vaga: não especifica localização exacta, dimensão ou prazo. 'Travessia exclusivamente ferroviária' carece de detalhes de implementação."
+  },
+  {
+    "text": "Renovar e modernizar 50% da frota da CP nas próximas duas décadas, adquirindo 150 novos veículos de tração e novas composições Alfa, com investimento de 2.500 milhões de euros.",
+    "context": "Plano de Modernização e Renovação do Material Circulante da CP para renovar/modernizar 50% da frota nas próximas duas décadas: 150 novos veículos de tração... (2500 M€).",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Antecipar o fim das PPP rodoviárias, começando pela eliminação de portagens nas autoestradas de acesso ao interior sem alternativas rodoviárias (A22, A23, A24, A25).",
+    "context": "Antecipação do fim das PPP rodoviárias, começando pela eliminação das portagens para as auto-estradas de acesso às regiões do interior do país (A22, A23, A24, A25).",
+    "topics": [
+      "transportes",
+      "economia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reescrito para melhor fluidez: 'das portagens' em vez de 'das portagens para as auto-estradas'."
+  },
+  {
+    "text": "Aumentar a capacidade instalada de energia renovável em 50% até 2030, com 6 GW adicionais de produção solar centralizada, 2 GW de solar em autoconsumo e 1 GW de eólica.",
+    "context": "O Bloco propõe um aumento de 50% da capacidade instalada até 2030... 6 gigawatts adicionais de produção solar centralizada, 2 gigawatts adicionais de produção solar em autoconsumo, 1 gigawatt adicional de produção eólica.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Lançar concursos regionais para instalação de sistemas fotovoltaicos em edifícios públicos, com objetivo de 500 MW instalados, representando investimento de 450 milhões de euros.",
+    "context": "Lançamento de concursos regionais para a instalação de sistemas fotovoltaicos em edifícios públicos, com o objetivo de atingir uma potência instalada de 500 MW. Este programa representa um investimento de aproximadamente 450M€.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Financiar sistemas de autoconsumo comunitários com objetivo de 1.500 MW instalados, com investimento de 1.300 milhões de euros.",
+    "context": "Financiamento de sistemas de autoconsumo comunitários... O objetivo será atingir uma potência instalada de 1500 MW, com um investimento de 1300M€.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar programa de eficiência energética e conforto térmico no parque habitacional, com investimento de 150 milhões de euros por ano, focado em famílias em risco de pobreza energética.",
+    "context": "Um programa com vista a massificação da eficiência e conforto térmico no parque habitacional no valor de 150M€/ano. Este programa pretende abranger as famílias em risco de pobreza energética.",
+    "topics": [
+      "energia",
+      "habitação",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Falta prazo específico (apenas refere 'por ano' sem horizonte temporal claro)",
+    "review_changed": true,
+    "review_note": "Removido 'Um' inicial para clareza; ajustado para 'no valor de' implícito no investimento anual referido."
+  }
+]
