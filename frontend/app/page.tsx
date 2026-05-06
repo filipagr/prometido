@@ -71,7 +71,7 @@ export default function HomePage() {
             Em breve — todas as legislativas desde 1975
           </div>
 
-          <h1 className="text-[2.75rem] sm:text-5xl font-semibold text-neutral-950 mb-4 tracking-[-0.03em] leading-[1.15]">
+          <h1 className="text-[2rem] sm:text-[2.75rem] lg:text-5xl font-semibold text-neutral-950 mb-4 tracking-[-0.03em] leading-[1.15]">
             O que prometeram.
             <br />
             Onde está escrito.
