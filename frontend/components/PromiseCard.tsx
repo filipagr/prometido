@@ -65,13 +65,14 @@ export default function PromiseCard({ promise, showParty = true, showElection = 
       </span>
     );
   }
-  if (promise.topic) {
+  const topicsToShow = promise.topics ?? (promise.topic ? [promise.topic] : []);
+  topicsToShow.forEach((t, i) => {
     metaParts.push(
-      <span key="topic" className="text-neutral-400">
-        {TOPIC_LABELS[promise.topic] ?? promise.topic}
+      <span key={`topic-${i}`} className="text-neutral-400">
+        {TOPIC_LABELS[t] ?? t}
       </span>
     );
-  }
+  });
 
   return (
     <article className="bg-white border border-neutral-200 rounded-xl overflow-hidden hover:border-neutral-300 hover:shadow-[0_1px_4px_rgba(0,0,0,0.06)] transition-all duration-150 relative group/card">

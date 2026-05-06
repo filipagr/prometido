@@ -1,0 +1,591 @@
+[
+  {
+    "texto_original": "Aumentar o salário mínimo nacional para 1150 euros em 2028, com metas definidas para o rácio do SMN em relação ao PIB per capita ou ao salário médio.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "compromisso de subida do salário mínimo nacional ao longo da legislatura até aos 1150 euros, em 2028",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Implementar a semana de 35 horas de trabalho e 25 dias de férias de forma imediata, com objetivo de atingir 30 horas semanais e 30 dias de férias até 2030.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "atingir 30h semanais e 30 dias de férias anuais até 2030, através da implementação imediata das 35 horas semanais",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um programa piloto de Rendimento Básico Incondicional com valor global de cerca de 30 milhões de euros, com duração superior a dois anos e monitorização.",
+    "categoria": [
+      "segurança social",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "O valor global a considerar para o projeto-piloto deve ser de cerca de 30 milhões de euros",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aumentar a consignação de IRS de 0,5% para 1%, permitindo que até 4 entidades diferentes sejam beneficiadas pelo valor da consignação.",
+    "categoria": [
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "do aumento a consignação de IRS de 0,5% para 1%, permitindo ainda que um máximo de 4 entidades diferentes possam ser beneficiadas",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar uma sobretaxa extraordinária progressiva em sede de IRC sobre lucros de empresas nos setores da energia, banca, seguros, imobiliário, distribuição alimentar e armamento com lucro igual ou superior a 1,5 milhões de euros.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "criação de uma sobretaxa extraordinária progressiva, a cobrar em sede de IRC, sobre o lucro de empresas nos setores da energia, da banca, seguros, imobiliário",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Alcançar 10% de habitação pública em Portugal, correspondendo a 600 mil fogos a longo prazo, através de investimento contínuo em construção, reabilitação e conservação.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "como forma de garantir o acesso das pessoas a habitações nos grandes centros urbanos... a longo prazo, os 600 mil fogos",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Implementar o Programa Ajuda de Casa, que financia até 30% do valor de mercado do imóvel sob forma de empréstimo de capital próprio para compra da primeira habitação.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "financiamento até 30% do valor de mercado do imóvel, sob a forma de um empréstimo de capital próprio para ajudar no valor de entrada",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Eliminar as propinas no 1.º ciclo do ensino superior e no ano curricular do 2.º ciclo, regulamentando as propinas da parte não escolar do 2.º ciclo com tetos máximos.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Eliminar as propinas no 1.º ciclo e no ano curricular/parte escolar do 2º ciclo, e regulamentar o valor das propinas relativas ao ano de dissertação",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar o Fundo Estratégico da Ciência e Tecnologia como mecanismo permanente de financiamento do sistema científico, assegurado através de impostos sobre a atividade económica.",
+    "categoria": [
+      "educação",
+      "economia"
+    ],
+    "confianca_extracao": 0.94,
+    "_context": "Criação de um Fundo Estratégico da Ciência e Tecnologia, mecanismo permanente de financiamento do sistema científico",
+    "_validation_score": 0.82
+  },
+  {
+    "texto_original": "Estabelecer investimento global em I&D de 3% do PIB até 2030, com 50% de despesa pública e 50% privada, alinhando Portugal à média europeia.",
+    "categoria": [
+      "educação",
+      "economia"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "um investimento global em I&D de 3% do PIB até 2030, com uma parcela relativa de 50% de despesa pública e 50% de despesa privada",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Aumentar a dotação orçamental para a Cultura até 1% do PIB nacional, direcionado para o Ministério da Cultura e articulação com outras áreas de políticas públicas.",
+    "categoria": [
+      "cultura"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "que deve atingir 1% do Produto Interno Bruto nacional, direcionado para o Ministério da Cultura",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Reduzir o número de utentes por médico de família para menos de 1500 utentes no Serviço Nacional de Saúde.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "garantir que o número de utentes de cada médico de família permite um acompanhamento efetivo, reduzindo o número de utentes para menos de 1500 utentes por médico",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Alargar o prazo para a Interrupção Voluntária da Gravidez (IVG) das atuais 10 semanas para 14 semanas e remover o período obrigatório de reflexão de três dias.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "alargando o prazo para as 14 semanas, já que o atual limite de 10 semanas é curto... removendo o período obrigatório de reflexão de três dias",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Legalizar e regulamentar o consumo e a venda de canábis, incluindo para uso recreativo, com etiquetagem informativa obrigatória e venda restrita a adultos.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Legalizar e regulamentar o consumo e a venda de canábis, incluindo para uso recreativo, com a obrigatoriedade da etiquetagem informativa",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Criar o Estatuto do Doente Crónico com envolvimento das associações de doentes, estabelecendo critérios de prevenção, diagnóstico, tratamento e reabilitação.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar o Estatuto do Doente Crónico, uma iniciativa abrangente com o envolvimento das associações de doentes",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Assegurar seis dias anuais de 'Licença para Saúde' pagos pela entidade empregadora, sem necessidade de justificação ou comprovativo médico.",
+    "categoria": [
+      "emprego",
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Assegurar seis dias (ou quarenta e oito horas) anuais de 'Licença para Saúde' que forneçam uma margem razoável para lidar com questões de saúde",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aumentar progressivamente a licença parental para 16 meses, com período mínimo obrigatório de gozo por cada pai, passando para 120 dias na primeira fase.",
+    "categoria": [
+      "direitos sociais",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "do aumento progressivo da licença parental para 16 meses... com um período mínimo obrigatório de gozo de licença por cada um dos pais; (numa primeira fase passar já para 120 dias)",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas, devendo a formação religiosa ser deixada ao critério das famílias",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Incluir a educação na primeira infância na Lei de Bases do Sistema Educativo e integrar as creches na rede pública de escolas.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "incluir a educação na primeira infância na Lei de Bases do Sistema Educativo e integrar as creches na rede pública de escolas",
+    "_validation_score": 0.82
+  },
+  {
+    "texto_original": "Garantir que todas as crianças a partir dos 3 anos têm vaga em jardins de infância públicos, aumentando o número de vagas disponíveis.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "garantir que todas as crianças a partir dos 3 anos têm vaga em jardins de infância públicos, aumentando o número de vagas",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Assumir a redução de 65% das emissões nacionais de gases com efeito de estufa até 2030, ultrapassando a meta governamental de 55%.",
+    "categoria": [
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Assumir uma redução de 65% das emissões nacionais de gases com efeito de estufa até 2030, ultrapassando a meta de até 55% assumida pelo governo no PNEC 2030",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Concretizar 100% de renováveis na eletricidade consumida em Portugal em 2030.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "concretizando 100% de renováveis na eletricidade consumida em Portugal em 2030",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Abandonar a venda de veículos com motor a combustão interna a partir de 2030, com apoio à troca por veículos menos poluentes.",
+    "categoria": [
+      "ambiente",
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "abandonar a venda de veículos com motor a combustão interna a partir de 2030, garantindo o apoio à troca de veículos a combustíveis fósseis por veículos menos poluentes",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reduzir a velocidade máxima em zonas urbanas para 30 km/h e promover áreas de coexistência com velocidade máxima de 20 km/h.",
+    "categoria": [
+      "transportes",
+      "segurança"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "reduzindo a velocidade máxima em zonas urbanas para 30 km/h, promovendo as área de coexistência com velocidade máxima de 20 km/h",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Alargar o âmbito do Passe Ferroviário Nacional aos comboios Intercidades e urbanos ainda não incluídos, mantendo o valor mensal atual.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Alargar o âmbito territorial do Passe Ferroviário Nacional, aos comboios Intercidades e aos comboios Urbanos nos trajetos que ainda não estão incluídos",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Reativar os serviços ferroviários noturnos Lusitânia e Sud-Expresso em 2024, como parte da estratégia ferroviária nacional.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "reativando, em 2024, dos serviços ferroviários noturnos Lusitânia e Sud-Expresso",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Reduzir em 50% os tempos de viagem ferroviária no eixo Setúbal-Lisboa-Porto-Braga-Vigo até 2030 e garantir serviços frequentes entre Lisboa e Madrid.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "que reduza em 50% os tempos da viagem ferroviária no eixo Setúbal-Lisboa-Porto-Braga-Vigo até 2030 e garantindo serviços frequentes entre Lisboa e Madrid",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Realizar em 2026 o referendo à Regionalização, promovendo debate nacional sobre descentralização do poder político.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Realizar em 2026 o referendo à Regionalização, promovendo um amplo debate nacional sobre a importância de descentralizar o poder político",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Criar uma agência pública independente que centralize as funções do Mecanismo Nacional Anticorrupção, da Entidade de Contas e Financiamentos Políticos e da Entidade para a Transparência.",
+    "categoria": [
+      "administração pública",
+      "justiça"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Criar uma agência pública independente que centralize as funções do Mecanismo Nacional Anticorrupção, da Entidade de Contas e Financiamentos Políticos",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Abolir as atividades tauromáquicas em Portugal e abolir a secção de tauromaquia no Conselho Nacional de Cultura.",
+    "categoria": [
+      "direitos sociais",
+      "cultura"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Abolir as atividades tauromáticas em Portugal, abolindo-se também a secção de tauromaquia no Conselho Nacional de Cultura",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Eliminar o programa dos Vistos Gold e Green em todo o território nacional e excluir a autorização de residência para atividade de investimento dos critérios para aquisição da nacionalidade.",
+    "categoria": [
+      "imigração",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Acabar com a venda de cidadania, pondo fim ao programa dos Vistos Gold e Green, assim como excluir a autorização de residência para atividade de investimento",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Alterar a Lei da Nacionalidade para que qualquer pessoa nascida em território português tenha a nacionalidade portuguesa de forma imediata e definitiva.",
+    "categoria": [
+      "imigração",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "qualquer pessoa que nasça ou tenha nascido em território português tenha a nacionalidade portuguesa de forma imediata e definitiva",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar uma Agência Nacional para a Inteligência Artificial com funções de regulação, desenvolvimento e capacitação no setor público e privado.",
+    "categoria": [
+      "tecnologia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar a Agência Nacional para a Inteligência Artificial (IA), com o propósito de: desenvolver e inovação, no incentivo à investigação científica",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Implementar quotas de habitação acessível em empreendimentos urbanísticos de grande dimensão, com pelo menos 20% das frações destinadas a habitação acessível em investimentos com mais de 6 frações habitacionais.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "nos investimentos com mais de seis frações habitacionais pelo menos 20% sejam destinados à habitação acessível",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Tornar permanente e incondicional a redução do IVA de 23% para 6% em todos os serviços essenciais de fornecimento de energia, incluindo gás engarrafado.",
+    "categoria": [
+      "energia",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Tornar permanente e incondicional a redução do escalão do IVA de 23% para 6% em todos serviços essenciais de fornecimento de energia",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Assumir a meta de 80% de taxa de reciclagem em Portugal até 2030, com investimento em novo mobiliário urbano e adequação das frotas de recolha.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "assumindo a meta de atingir uma taxa de reciclagem final de 80% em 2030",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Concluir até 2026 todos os Planos de Gestão das áreas classificadas na Rede Natura 2000 em falta e a revisão dos Planos de Ordenamento das Áreas Protegidas.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Concluir, até 2026, todos os Planos de Gestão das áreas classificadas na Rede Natura 2000 em falta",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Proteger legalmente 30% da superfície terrestre e marinha, com pelo menos 10% em regime estrito em terra e 10% no mar.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "protegendo legalmente 30% da superfície terrestre e marinha e, de forma estrita, pelo menos 10% em terra e 10% no mar",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Eliminar a utilização de glifosato em Portugal no prazo de 5 anos, com apoio à transição para agricultores.",
+    "categoria": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Eliminar a utilização de glifosato em Portugal no prazo de 5 anos, apoiando agricultores e agricultoras no processo de transição",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Criar o Observatório da Alimentação e um sistema de planeamento alimentar intersectorial articulado com o Plano Estratégico da PAC 2023-2027.",
+    "categoria": [
+      "agricultura",
+      "saúde"
+    ],
+    "confianca_extracao": 0.94,
+    "_context": "Criar o Observatório da Alimentação e um sistema de planeamento alimentar intersectorial, que preveja instrumentos de política a todas a escalas",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Acompanhar o programa Cheque-Livro para jovens de 18 anos e aumentar o seu valor até ao final da legislatura.",
+    "categoria": [
+      "cultura",
+      "educação"
+    ],
+    "confianca_extracao": 0.94,
+    "_context": "Acompanhar a implementação do programa Cheque-Livro para jovens de 18 anos pela DGLAB e aumentar o seu valor até final da legislatura",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar a Biblioteca Nacional Eduardo Lourenço, uma grande biblioteca pública de dimensão europeia e internacional.",
+    "categoria": [
+      "cultura"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Criar a Biblioteca Nacional Eduardo Lourenço, uma grande biblioteca pública de dimensão europeia e internacional.",
+    "_validation_score": 0.82
+  },
+  {
+    "texto_original": "Taxar os lucros das plataformas de streaming e Video On Demand, implementando a transposição da diretiva europeia do audiovisual para diversificar o financiamento cultural.",
+    "categoria": [
+      "cultura",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Taxar os lucros das plataformas de streaming e de Video On Demand, implementando de forma ambiciosa a transposição da diretiva europeia do audiovisual",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Planear a convergência das pensões de valor reduzido com o salário mínimo nacional até ao final da legislatura.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Planear a convergência das pensões de valor reduzido com o salário mínimo nacional até ao final da legislatura",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reclassificar o Parque Natural do Sudoeste Alentejano e Costa Vicentina como Parque Nacional.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Reclassificação do Parque Natural do Sudoeste Alentejano e Costa Vicentina, como Parque Nacional",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um gabinete técnico-científico de apoio à atividade legislativa na Assembleia da República para fornecer informação científica atualizada.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar um gabinete técnico-científico de apoio à atividade de legislação na Assembleia da República de forma a fornecer a informação científica",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Aumentar o Indexante de Apoios Sociais com aumentos anuais sucessivos e graduais acima da inflação.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "através do aumento do Indexante de Apoios Sociais (IAS) com aumentos anuais sucessivos e graduais, acima do valor da inflação",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Restabelecer o acesso ao Rendimento Social de Inserção e aumentar o seu valor, com majoração para agregados monoparentais com dependentes até aos 6 anos.",
+    "categoria": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Restabelecimento do acesso ao Rendimento Social de Inserção e do aumento do seu valor, considerando igualmente a majoração dos agregados familiares monoparentais",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Introduzir imposto sucessório para grandes heranças e doações, constituindo uma 'herança social' transferida a cada cidadão na maioridade.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "da introdução do imposto sucessório para grandes heranças e grandes doações, que venha a constituir uma 'herança social'",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reduzir o horário de funcionamento de estabelecimentos de venda e serviços até às 22h, incluindo centros comerciais, com encerramento aos domingos.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reduzir o horário de funcionamento dos estabelecimentos de venda ao público e de prestação de serviços até às 22h, incluindo os localizados nos centros comerciais",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Revogar o Decreto-Lei 11/2023 ('Simplex Ambiental'), promovendo um procedimento de consulta alargada com envolvimento extensivo das partes interessadas.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Revogar o Decreto-Lei 11/2023, conhecido por 'Simplex Ambiental', promovendo um procedimento de consulta alargada",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Incluir na Revisão Constitucional as categorias de identidade de género, expressão de género e características sexuais no artigo 13.º da Constituição.",
+    "categoria": [
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "incluir, numa Revisão Constitucional, as categorias da identidade de género, expressão de género e características sexuais no artigo 13.º da Constituição",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Aprovar uma Lei-quadro antidiscriminação que proíba expressamente a discriminação por orientação sexual, identidade de género, expressão de género e características sexuais.",
+    "categoria": [
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "aprovar uma Lei-quadro antidiscriminação que inclua expressamente a proibição de discriminação em razão da orientação sexual, identidade de género",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Alargar as regras de registo civil para reconhecimento de marcadores legais de género como não-binária e género fluído, abolindo a exclusividade binária.",
+    "categoria": [
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "alargar as regras de registo civil para reconhecimento de outros marcadores legais de género (por exemplo: não-binária, género fluído), abolindo a exclusividade de uma perspetiva binária",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Permitir o voto a partir dos 16 anos através de revisão constitucional.",
+    "categoria": [
+      "administração pública",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Promovendo, numa revisão constitucional, que: permita o voto a partir dos 16 anos",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar um círculo nacional de compensação para as eleições legislativas com listas semi-abertas e rever os círculos eleitorais.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "reveja os círculos eleitorais e leve à criação de um Círculo Nacional de Compensação para as eleições legislativas e listas semi-abertas",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Permitir à diáspora a votação por correspondência em todos os atos eleitorais, incluindo presidenciais e do Conselho das Comunidades Portuguesas.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "possibilite à diáspora a votação por correspondência em todos os atos eleitorais, incluindo as presidenciais e do Conselho das Comunidades Portuguesas",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Expandir e assegurar a rede de Áreas Marinhas Protegidas para cobrir pelo menos 30% da área marinha, sendo 10% de uso restrito.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Expandir e assegurar a rede de Áreas Marinhas Protegidas para cobrir, pelo menos e num curto espaço de tempo, os 30% da área marinha, sendo 10% de uso restrito",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Fazer cumprir a Lei de Bases do Clima de 2021 mediante orçamentos de carbono, revisão do regime jurídico dos hidrocarbonetos e criação do Portal de Ação Climática.",
+    "categoria": [
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Fazer cumprir a Lei de Bases do Clima, aprovada em 2021... com a criação de orçamentos de carbono, com a revisão do regime jurídico dos hidrocarbonetos",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Manter Portugal livre da exploração de combustíveis fósseis e hidrocarbonetos e do fracking.",
+    "categoria": [
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Manter Portugal livre da exploração de combustíveis fósseis e hidrocarbonetos e da utilização de técnicas como a exploração de gás de xisto através da fratura hidráulica (fracking)",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Eliminar os estágios não remunerados ou pagos abaixo do salário mínimo, os falsos recibos verdes, os falsos estágios e o falso trabalho independente.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "erradicar os estágios não remunerados ou pagos abaixo do salário mínimo, os falsos recibos verdes, os falsos estágios e o falso trabalho independente",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir a representação obrigatória de trabalhadores nos órgãos sociais executivos de todas as empresas maiores que PME.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "todas as empresas maiores que uma Pequena ou Média Empresa (PME) tenham obrigatoriamente representantes dos trabalhadores nos seus órgãos sociais executivos",
+    "_validation_score": 0.88
+  }
+]

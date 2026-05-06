@@ -1,0 +1,528 @@
+[
+  {
+    "texto_original": "Aumentar o Salário Mínimo Nacional até 1250 euros em 2029.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 1.0,
+    "_context": "um compromisso de subida do Salário Mínimo Nacional (SMN) ao longo da legislatura até aos 1250 euros, em 2029",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar imposto sucessório para grandes heranças e doações, constituindo uma 'herança social' transferida na maioridade.",
+    "categoria": [
+      "economia",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "da criação do imposto sucessório para grandes heranças e grandes doações, com o objetivo de constituir uma 'herança social'",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar sobretaxa extraordinária progressiva em IRC sobre lucros de empresas com lucro ≥1,5M€ em energia, banca, seguros, imobiliário, distribuição alimentar e armamento.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "da criação de uma sobretaxa extraordinária progressiva, em sede de IRC, sobre o lucro de empresas dos setores da energia, banca, seguros, imobiliário",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Possibilitar a consignação do IRS a um máximo de 4 entidades beneficiárias distintas.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "de possibilitar a consignação do IRS a um máximo de 4 entidades beneficiárias distintas",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Criar o Estatuto de Bem Público, identificando e categorizando água, infraestruturas, CTT, REN e Caixa Geral de Depósitos como bens de interesse comum.",
+    "categoria": [
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar o Estatuto de Bem Público, a nível nacional e europeu: identificando e categorizando como Bem Público todos os bens de interesse comum",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Separar a banca comercial da banca de investimento para que o risco especulativo não recaia sobre o Estado nem depositantes.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Separar a banca comercial da banca de investimento, para que o risco da atividade especulativa não recaia sobre o Estado nem sobre depositantes.",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Legislar para que em caso de falência empresarial, trabalhadores recebam subsídios de desemprego como capital para transformar o negócio em cooperativa.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "criando legislação que, em caso de falência de uma empresa privada, permita aos trabalhadores receber o valor dos subsídios de desemprego como capital para recuperarem o negócio transformando-o numa cooperativa",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar estrutura pública de apoio ao cooperativismo com linha de crédito e apoio técnico para novas cooperativas sociais.",
+    "categoria": [
+      "economia",
+      "emprego"
+    ],
+    "confianca_extracao": 0.88,
+    "_context": "Criar uma estrutura pública de apoio e fomento à economia social e ao cooperativismo, dotada de orçamentação adequada",
+    "_validation_score": 0.86
+  },
+  {
+    "texto_original": "Incluir indicadores de desenvolvimento sustentável como PIB Verde e Poupança Genuína na monitorização das políticas governativas.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.85,
+    "_context": "Diversificar os indicadores de desenvolvimento nacional, passando a incluir na monitorização e avaliação das políticas indicadores de desenvolvimento sustentável, como o PIB Verde ou a Poupança Genuína",
+    "_validation_score": 0.89
+  },
+  {
+    "texto_original": "Realizar anualmente um debate parlamentar de alto nível sobre o Estado do Ambiente em Portugal.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Realizar anualmente um debate parlamentar de alto nível sobre o Estado do Ambiente em Portugal.",
+    "_validation_score": 0.91
+  },
+  {
+    "texto_original": "Criar um Gabinete para a Transição para estudar e promover estratégias de desenvolvimento sustentável, com consulta obrigatória do Governo.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "criando um Gabinete para a Transição, para estudar e promover as estratégias para a transição para um modelo de desenvolvimento sustentável, que seja uma estrutura de consulta obrigatória do Governo",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Revisar as taxas e escalões do IRS, promovendo maior progressividade e aumentando o limite do primeiro escalão para convergir com a mediana dos salários.",
+    "categoria": [
+      "economia",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "uma revisão das taxas e escalões do IRS, promovendo o aumento da sua progressividade, nomeadamente pela revisão do IRS Jovem e do aumento do limite do primeiro escalão",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Alargar a experiência da semana de 4 dias de trabalho no setor privado e administração pública, sem perda de remuneração.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "alargando a experiência da semana de 4 dias de trabalho no setor privado e na administração pública, promovendo a redução efetiva do horário de trabalho sem perda de remuneração",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Implementar 35 horas semanais de trabalho e 25 dias de férias imediatamente, com meta de 30 horas e 30 dias de férias até 2030.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "atingindo as 30 horas de trabalho semanais e 30 dias de férias anuais até 2030, através da implementação imediata das 35 horas semanais de trabalho e dos 25 dias de férias",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Consagrar o Carnaval como feriado obrigatório.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "consagrando o Carnaval como feriado obrigatório e possibilitando o gozo de feriados, quando estes são ao fim-de-semana, nos dias úteis",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reduzir o horário de funcionamento de estabelecimentos comerciais, com encerramento até às 22h nos dias úteis e sábados, e aos domingos e feriados.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reduzir o horário de funcionamento dos estabelecimentos comerciais e de prestação de serviços, determinando o seu encerramento até às 22h nos dias úteis e sábados e o encerramento aos domingos e feriados.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Assegurar seis dias anuais de 'Licença para Saúde' pagos pela entidade empregadora, sem justificação ou comprovativo médico.",
+    "categoria": [
+      "emprego",
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Assegurar seis dias de trabalho (ou quarenta e oito horas) anuais de 'Licença para Saúde' pagos pela entidade empregadora",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Obrigar ao pagamento do subsídio de alimentação e rever os valores mínimos por tipo de pagamento.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "através da obrigatoriedade do pagamento do subsídio de alimentação, revisão dos valores mínimos por tipo de pagamento e dos limites de isenção fiscal",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Garantir que empresas maiores que PME tenham representantes obrigatórios dos trabalhadores nos órgãos sociais executivos.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "garantir uma efetiva representatividade dos trabalhadores nos processos de decisão, através da alteração ao regime das Sociedades Comerciais que assegure que todas as empresas maiores que uma PME tenham obrigatoriamente representantes dos trabalhadores nos seus órgãos sociais executivos",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Erradicar estágios não remunerados ou com remuneração inferior ao salário mínimo, falsos recibos verdes e trabalho independente fraudulento.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "erradicar os estágios não remunerados ou com remuneração inferior ao salário mínimo, os falsos recibos verdes, os falsos estágios e o falso trabalho independente",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Obrigar os anúncios de emprego a apresentar a remuneração mínima associada ao cargo.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "regular os anúncios de emprego para garantir um mercado de trabalho mais transparente, nomeadamente obrigando os anúncios de emprego a apresentar a remuneração mínima associada ao cargo",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aumentar progressivamente a licença parental até 16 meses, com pelo menos 6 meses pagos a 100%.",
+    "categoria": [
+      "direitos sociais",
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "do aumento progressivo da licença parental para 16 meses, reforçando a iniciativa legislativa cidadã que propunha pelo menos 6 meses de licença parental inicial pagos a 100%",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar período de licença parental acrescida de até 14 semanas, paga na totalidade, para pais cujos filhos necessitem internamento neonatal de mais de 7 dias.",
+    "categoria": [
+      "direitos sociais",
+      "saúde"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "da criação de um período de licença parental acrescida de até 14 semanas, paga na totalidade, para os pais cujos filhos necessitem internamento neonatal de mais de 7 dias",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Planear a convergência das pensões de valor reduzido com o salário mínimo nacional até ao final da legislatura.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Planear a convergência das pensões de valor reduzido com o salário mínimo nacional até ao final da legislatura",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Restabelecer o acesso ao Rendimento Social de Inserção e aumentar o seu valor, com majoração para agregados monoparentais e dependentes até 6 anos.",
+    "categoria": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "restabelecimento do acesso ao Rendimento Social de Inserção e do aumento do seu valor, considerando igualmente a majoração dos agregados familiares monoparentais e dos dependentes até aos 6 anos de idade",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Criar um programa piloto de Rendimento Básico Incondicional com verba de 30 milhões de euros e duração superior a dois anos.",
+    "categoria": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "preveja a verba de 30 milhões de euros para o projeto-piloto; tenha um quadro temporal superior a dois anos",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Estudar a criação de uma herança social de cerca de 5 mil euros por criança nascida em Portugal, financiada pela tributação de grandes fortunas e heranças.",
+    "categoria": [
+      "direitos sociais",
+      "economia"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Estudar a criação de uma herança social...segundo o qual cada criança nascida em Portugal recebe um montante...no valor médio de 5 mil euros para usar na vida adulta.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar um dividendo da automação, contribuição extraordinária aplicada a empresas que despeçam trabalhadores pela introdução de sistemas de automação ou IA.",
+    "categoria": [
+      "emprego",
+      "tecnologia",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "da criação de um dividendo da automação, uma contribuição extraordinária ou suplementar aplicada às organizações e empresas que despeçam trabalhadores ou extingam postos de trabalho pela introdução de sistemas de automação",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar licença climática remunerada de dois dias para trabalhadores impossibilitados de deslocar-se por condições climatéricas extremas.",
+    "categoria": [
+      "emprego",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "criação da licença climática remunerada permitindo aos trabalhadores que não percam dois dias de remuneração em caso de impossibilidade de desempenharem as suas funções porque as condições climatéricas extremas impedem a sua deslocação",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Assumir redução de 65% das emissões nacionais de gases com efeito de estufa até 2030, superando a meta de 55% do PNEC 2030.",
+    "categoria": [
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Assumir uma redução de 65% das emissões nacionais de gases com efeito de estufa até 2030, ultrapassando a meta de até 55% assumida pelo governo no PNEC 2030",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Atingir 100% de renováveis na eletricidade consumida em Portugal em 2030.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "concretizando 100% de renováveis na eletricidade consumida em Portugal em 2030",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar o programa 'Um painel solar em cada telhado' para acelerar a produção renovável distribuída.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Propomos o programa 'Um painel solar em cada telhado', para acelerar a produção renovável distribuída.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Tornar permanente e incondicional a redução do IVA de 23% para 6% em todos os serviços essenciais de fornecimento de energia, incluindo gás engarrafado.",
+    "categoria": [
+      "energia",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Tornar permanente e incondicional a redução do escalão do IVA de 23% para 6% em todos serviços essenciais de fornecimento de energia, sem limite de consumo ou potência",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Isentar do pagamento de tarifas de acesso às redes as comunidades de energia renovável sem fins lucrativos ou com participantes em pobreza energética.",
+    "categoria": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "isentando do pagamento das tarifas de acesso às redes as comunidades de energia renovável comprovadamente sem fins lucrativos e/ou que incluam uma percentagem de participantes em pobreza energética",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Garantir licenciamento de UPACs com potência inferior a 100 kW em menos de um mês.",
+    "categoria": [
+      "energia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "garantindo o licenciamento em menos de um mês para UPACs pequenas com potência inferior a 100 kW",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Investir 1000 milhões de euros anuais em habitação pública para atingir 10% de habitação pública até 2040.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "atribuir 1 000 milhões de euros anuais para a habitação pública, com vista a alcançar, a longo prazo, os 600 mil fogos",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Executar as 26.000 frações financiadas pelo PRR até 2026 e financiar as restantes 33.000 candidaturas via 1º Direito com financiamento a 100% pelo OE.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "garantir a execução das 26.000 frações financiadas pelo Plano de Recuperação e Resiliência até 2026; financiar as restantes 33.000 candidaturas apresentadas, via 1º Direito e com financiamento a 100%",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Reintroduzir a caducidade das licenças de Alojamento Local e a sua não transmissibilidade na venda de imóvel.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "reintroduzir a caducidade das licenças de AL e a sua não transmissibilidade no ato de venda e compra do imóvel",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar o Programa Ajuda de Casa, financiando até 30% do valor de mercado do imóvel como empréstimo de capital próprio para acesso à primeira habitação.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "financiará até 30% do valor de mercado do imóvel, sob a forma de um empréstimo de capital próprio, representando uma importante ajuda para fazer face ao valor da entrada",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Retomar o Programa 3C – Casa, Conforto e Clima, com comparticipação financeira a 100% até 100.000€ pelo Fundo Ambiental para edifícios existentes.",
+    "categoria": [
+      "habitação",
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "retomando o Programa 3C - Casa, Conforto e Clima...através de um programa de incentivos de comparticipação financeira, pelo Fundo Ambiental, a 100% até ao limite de 100.000€",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Implementar políticas de zonamento inclusivo com construção de 20% de habitação acessível em empreendimentos urbanísticos de grande dimensão.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Implementar políticas de zonamento inclusivo, para construção de 20% de habitação acessível em empreendimentos urbanísticos de grande dimensão",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Eliminar as propinas no 1.º ciclo e no ano curricular do 2.º ciclo do ensino superior.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Eliminar as propinas no 1.º ciclo e no ano curricular/parte escolar do 2º ciclo",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Atingir até 2030 60% de jovens com 20 anos a frequentar o ensino superior e 50% de graduados com educação terciária na faixa etária 25-35 anos.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Apoiar a frequência do ensino superior - universitário e politécnico - de forma a atingir até 2030 60% de jovens com 20 anos frequentando o ensino superior e 50% de graduados com educação terciária na faixa etária 25-35 anos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas, devendo a formação religiosa ser deixada ao critério das famílias",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um Fundo Estratégico da Ciência e Tecnologia para financiamento estável das Unidades de I&D, com eixos Re.Capacitar, Re.Equipar e Re.Edificar.",
+    "categoria": [
+      "educação",
+      "economia"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Criação de um Fundo Estratégico da Ciência e Tecnologia, mecanismo permanente de financiamento do sistema científico, assegurado através dos impostos e taxas sobre a atividade económica.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Estabelecer investimento global em I&D de 3% do PIB até 2030, com 50% de despesa pública e 50% privada.",
+    "categoria": [
+      "educação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "correspondentes a um investimento global em I&D de 3% do PIB até 2030, com uma parcela relativa de 50% de despesa pública e 50% de despesa privada",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um Programa Nacional de Asilo Científico e Captação de Talento para 100 investigadores por ano, com dotação de 15 milhões de euros.",
+    "categoria": [
+      "educação",
+      "imigração"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criação de um Programa Nacional de Asilo Científico e Captação de Talento...Numa fase inicial, este programa irá incidir em 100 investigadores por ano...numa dotação orçamental estimada de 15 milhões de euros.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Fazer coincidir o pagamento das bolsas da FCT com a data efetiva de início do plano de trabalhos.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Fazer coincidir retroativamente o pagamento das bolsas da Fundação para a Ciência e Tecnologia (FCT) com a data efetiva de início do plano de trabalhos",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Tornar obrigatória a existência de Gabinetes de Apoio Psicológico nas instituições de ensino superior, com rácio de 1 psicólogo para 500 estudantes.",
+    "categoria": [
+      "educação",
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Tornar obrigatória a existência de Gabinetes de Apoio Psicológico em todas as unidades orgânicas das Instituições de Ensino Superior, cumprindo o rácio recomendado de 1 Psicólogo para 500 Estudantes.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aumentar o financiamento da cultura para 1% do PIB nacional, direcionado para o Ministério da Cultura.",
+    "categoria": [
+      "cultura"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Aumentar e diversificar o financiamento da cultura, que deve atingir 1% do Produto Interno Bruto nacional, direcionado para o Ministério da Cultura",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar a rede de 'Casas da Criação', espaços culturais abertos à comunidade com oficinas de artes a nível nacional.",
+    "categoria": [
+      "cultura"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Promover uma rede de 'Casas da Criação', como uma rede de espaços culturais abertos à comunidade e ao encontro intergeracional, com oficinas de artes de acesso democratizado",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Acompanhar o programa Cheque-Livro para jovens de 18 anos e aumentar o seu valor até ao final da legislatura.",
+    "categoria": [
+      "cultura"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Acompanhar a implementação do programa Cheque-Livro para jovens de 18 anos pela DGLAB e aumentar o seu valor até ao final da legislatura",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar a Biblioteca Nacional Eduardo Lourenço, uma grande biblioteca pública de dimensão europeia e internacional.",
+    "categoria": [
+      "cultura"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar a Biblioteca Nacional Eduardo Lourenço, uma grande biblioteca pública de dimensão europeia e internacional, com o objetivo de concretizar uma verdadeira 'Casa da Europa'",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Taxar os lucros das plataformas de streaming e vídeo on demand de forma mais ambiciosa, diversificando fontes de financiamento para produção cultural.",
+    "categoria": [
+      "cultura",
+      "economia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Taxar os lucros das plataformas de streaming e de Video On Demand, implementando de forma mais ambiciosa a transposição da diretiva europeia do audiovisual",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Criar o Passe de Mobilidade Nacional abrangendo transporte urbano, suburbano, regional e mobilidade ativa em todos os modos.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criar o Passe de Mobilidade Nacional, juntamente com as diversas Autoridades de Transportes...que abranja o transporte urbano, suburbano, regional, de médio curso e flexível nos modos rodoviário, ferroviário, fluvial e de mobilidade ativa.",
+    "_validation_score": 0.85
+  }
+]

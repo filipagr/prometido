@@ -12,6 +12,8 @@ GET /api/search
 Usa FTS5 se ?q= presente, caso contrário filtros directos.
 """
 
+import json
+
 from fastapi import APIRouter, Query
 from fastapi.responses import JSONResponse
 
@@ -36,7 +38,7 @@ def search(
     if q:
         # FTS5 full-text search
         base_query = """
-            SELECT p.id, p.text, p.topic, p.party_id, p.election_id, p.tier, p.status,
+            SELECT p.id, p.text, p.topic, p.topics, p.party_id, p.election_id, p.tier, p.status,
                    p.extraction_confidence, p.validation_score,
                    pg.archived_url, pg.timestamp, pg.source_type,
                    pt.name as party_name, pt.short_name as party_short_name, pt.color as party_color,
@@ -54,7 +56,7 @@ def search(
         params: list = [q + "*"]
     else:
         base_query = """
-            SELECT p.id, p.text, p.topic, p.party_id, p.election_id, p.tier, p.status,
+            SELECT p.id, p.text, p.topic, p.topics, p.party_id, p.election_id, p.tier, p.status,
                    p.extraction_confidence, p.validation_score,
                    pg.archived_url, pg.timestamp, pg.source_type,
                    pt.name as party_name, pt.short_name as party_short_name, pt.color as party_color,
@@ -104,6 +106,7 @@ def search(
             "id": r["id"],
             "text": r["text"],
             "topic": r["topic"],
+            "topics": json.loads(r["topics"]) if r["topics"] else [r["topic"]],
             "party": {"id": r["party_id"], "name": r["party_name"], "short_name": r["party_short_name"], "color": r["party_color"]},
             "election": {"id": r["election_id"], "date": r["election_date"], "description": r["election_desc"]},
             "tier": r["tier"],

@@ -85,6 +85,7 @@ export type PromiseItem = {
   id: string;
   text: string;
   topic: string;
+  topics?: string[];
   tier: number;
   status: string;
   confidence?: number;

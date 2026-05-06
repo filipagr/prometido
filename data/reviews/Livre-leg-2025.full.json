@@ -1,0 +1,874 @@
+[
+  {
+    "text": "Aumentar o Salário Mínimo Nacional até 1250 euros em 2029.",
+    "context": "um compromisso de subida do Salário Mínimo Nacional (SMN) ao longo da legislatura até aos 1250 euros, em 2029",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 1.0,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar imposto sucessório para grandes heranças e doações, constituindo uma 'herança social' transferida na maioridade.",
+    "context": "da criação do imposto sucessório para grandes heranças e grandes doações, com o objetivo de constituir uma 'herança social'",
+    "topics": [
+      "economia",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado: removido 'com objetivo de' redundante e ajustado para melhor fluidez mantendo o significado."
+  },
+  {
+    "text": "Aumentar as taxas do adicional de solidariedade sobre o setor bancário.",
+    "context": "do aumento das taxas do adicional de solidariedade sobre o setor bancário",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Não especifica magnitude da alteração (quanto aumentar?), nem prazo. Muito vaga para ser verificável."
+  },
+  {
+    "text": "Criar sobretaxa extraordinária progressiva em IRC sobre lucros de empresas com lucro ≥1,5M€ em energia, banca, seguros, imobiliário, distribuição alimentar e armamento.",
+    "context": "da criação de uma sobretaxa extraordinária progressiva, em sede de IRC, sobre o lucro de empresas dos setores da energia, banca, seguros, imobiliário",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reduzido para 250 chars: movidas as categorias para o final e abreviado 'igual ou superior a 1,5 milhões de euros'."
+  },
+  {
+    "text": "Possibilitar a consignação do IRS a um máximo de 4 entidades beneficiárias distintas.",
+    "context": "de possibilitar a consignação do IRS a um máximo de 4 entidades beneficiárias distintas",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o Estatuto de Bem Público, identificando e categorizando água, infraestruturas, CTT, REN e Caixa Geral de Depósitos como bens de interesse comum.",
+    "context": "Criar o Estatuto de Bem Público, a nível nacional e europeu: identificando e categorizando como Bem Público todos os bens de interesse comum",
+    "topics": [
+      "economia",
+      "administração pública"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Restruturado para clareza: simplificadas as referências ao bem público mantendo os exemplos específicos mencionados."
+  },
+  {
+    "text": "Suspender privatizações, concessões e parcerias público-privadas.",
+    "context": "suspendendo as privatizações, as concessões e as parcerias público-privadas, colocando-os ao serviço da comunidade",
+    "topics": [
+      "economia",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Demasiado vaga: não especifica prazo, âmbito ou condições. 'Suspender' é ambíguo (permanente? temporal?). Difícil de verificar concretamente."
+  },
+  {
+    "text": "Separar a banca comercial da banca de investimento para que o risco especulativo não recaia sobre o Estado nem depositantes.",
+    "context": "Separar a banca comercial da banca de investimento, para que o risco da atividade especulativa não recaia sobre o Estado nem sobre depositantes.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.87,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Legislar para que em caso de falência empresarial, trabalhadores recebam subsídios de desemprego como capital para transformar o negócio em cooperativa.",
+    "context": "criando legislação que, em caso de falência de uma empresa privada, permita aos trabalhadores receber o valor dos subsídios de desemprego como capital para recuperarem o negócio transformando-o numa cooperativa",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado mantendo essência: 'Criar legislação que' substituído por 'Legislar para' e compactado para clareza."
+  },
+  {
+    "text": "Criar estrutura pública de apoio ao cooperativismo com linha de crédito e apoio técnico para novas cooperativas sociais.",
+    "context": "Criar uma estrutura pública de apoio e fomento à economia social e ao cooperativismo, dotada de orçamentação adequada",
+    "topics": [
+      "economia",
+      "emprego"
+    ],
+    "confidence": 0.88,
+    "is_valid": true,
+    "validation_score": 0.86,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado: removido 'fomento à economia social' redundante, mantendo os elementos essenciais."
+  },
+  {
+    "text": "Criar incentivos fiscais ao investimento em cooperativas, através de isenções parciais ou redução da taxa de retenção na fonte.",
+    "context": "Criar incentivos fiscais ao investimento em cooperativas, através de isenções parciais ou pela redução da taxa de retenção na fonte",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Vaga quanto ao tipo e magnitude de incentivos ('isenções parciais' e 'redução' sem números). Difícil de verificar sem especificação."
+  },
+  {
+    "text": "Incluir indicadores de desenvolvimento sustentável como PIB Verde e Poupança Genuína na monitorização das políticas governativas.",
+    "context": "Diversificar os indicadores de desenvolvimento nacional, passando a incluir na monitorização e avaliação das políticas indicadores de desenvolvimento sustentável, como o PIB Verde ou a Poupança Genuína",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.85,
+    "is_valid": true,
+    "validation_score": 0.89,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Condensado removendo 'como o' desnecessário; mantém significado completo sob 250 chars."
+  },
+  {
+    "text": "Realizar anualmente um debate parlamentar de alto nível sobre o Estado do Ambiente em Portugal.",
+    "context": "Realizar anualmente um debate parlamentar de alto nível sobre o Estado do Ambiente em Portugal.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.91,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um Gabinete para a Transição para estudar e promover estratégias de desenvolvimento sustentável, com consulta obrigatória do Governo.",
+    "context": "criando um Gabinete para a Transição, para estudar e promover as estratégias para a transição para um modelo de desenvolvimento sustentável, que seja uma estrutura de consulta obrigatória do Governo",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.87,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Apoiar o Banco Português do Fomento como banco de desenvolvimento descentralizado territorialmente, articulado com a Caixa Geral de Depósitos.",
+    "context": "do Banco Português do Fomento, que deverá ser um verdadeiro banco de desenvolvimento com presença descentralizada a nível territorial",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.55,
+    "validation_reason": "Não é promessa clara do Livre: usa verbo 'apoiar' (ação indirecta) e refere-se a instituição já existente. Más formulada como promessa de criação/implementação concreta."
+  },
+  {
+    "text": "Revisar as taxas e escalões do IRS, promovendo maior progressividade e aumentando o limite do primeiro escalão para convergir com a mediana dos salários.",
+    "context": "uma revisão das taxas e escalões do IRS, promovendo o aumento da sua progressividade, nomeadamente pela revisão do IRS Jovem e do aumento do limite do primeiro escalão",
+    "topics": [
+      "economia",
+      "direitos sociais"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar a experiência da semana de 4 dias de trabalho no setor privado e administração pública, sem perda de remuneração.",
+    "context": "alargando a experiência da semana de 4 dias de trabalho no setor privado e na administração pública, promovendo a redução efetiva do horário de trabalho sem perda de remuneração",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'na' antes de 'administração' para maior concisão. Mantém significado e clareza."
+  },
+  {
+    "text": "Implementar 35 horas semanais de trabalho e 25 dias de férias imediatamente, com meta de 30 horas e 30 dias de férias até 2030.",
+    "context": "atingindo as 30 horas de trabalho semanais e 30 dias de férias anuais até 2030, através da implementação imediata das 35 horas semanais de trabalho e dos 25 dias de férias",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos 'as' e 'semanais' repetido para melhor fluidez. Reduzido de 238 para 206 caracteres mantendo clareza."
+  },
+  {
+    "text": "Consagrar o Carnaval como feriado obrigatório.",
+    "context": "consagrando o Carnaval como feriado obrigatório e possibilitando o gozo de feriados, quando estes são ao fim-de-semana, nos dias úteis",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o horário de funcionamento de estabelecimentos comerciais, com encerramento até às 22h nos dias úteis e sábados, e aos domingos e feriados.",
+    "context": "Reduzir o horário de funcionamento dos estabelecimentos comerciais e de prestação de serviços, determinando o seu encerramento até às 22h nos dias úteis e sábados e o encerramento aos domingos e feriados.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'dos estabelecimentos comerciais' para 'de estabelecimentos comerciais' e ajustado final para melhor legibilidade (200 chars)."
+  },
+  {
+    "text": "Assegurar seis dias anuais de 'Licença para Saúde' pagos pela entidade empregadora, sem justificação ou comprovativo médico.",
+    "context": "Assegurar seis dias de trabalho (ou quarenta e oito horas) anuais de 'Licença para Saúde' pagos pela entidade empregadora",
+    "topics": [
+      "emprego",
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'de trabalho' e reorganizado para maior clareza e concisão (190 chars)."
+  },
+  {
+    "text": "Obrigar ao pagamento do subsídio de alimentação e rever os valores mínimos por tipo de pagamento.",
+    "context": "através da obrigatoriedade do pagamento do subsídio de alimentação, revisão dos valores mínimos por tipo de pagamento e dos limites de isenção fiscal",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Falta especificação de valores mínimos concretos para o subsídio de alimentação",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir que empresas maiores que PME tenham representantes obrigatórios dos trabalhadores nos órgãos sociais executivos.",
+    "context": "garantir uma efetiva representatividade dos trabalhadores nos processos de decisão, através da alteração ao regime das Sociedades Comerciais que assegure que todas as empresas maiores que uma PME tenham obrigatoriamente representantes dos trabalhadores nos seus órgãos sociais executivos",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Restruturado para melhor clareza: 'todas as empresas maiores que uma PME' simplificado para 'empresas maiores que PME'. Reduzido para 190 chars."
+  },
+  {
+    "text": "Erradicar estágios não remunerados ou com remuneração inferior ao salário mínimo, falsos recibos verdes e trabalho independente fraudulento.",
+    "context": "erradicar os estágios não remunerados ou com remuneração inferior ao salário mínimo, os falsos recibos verdes, os falsos estágios e o falso trabalho independente",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Promessa com múltiplas acções concretas, mas 'erradicar' é algo ambicioso sem métrica específica",
+    "review_changed": true,
+    "review_note": "Ajustado 'falso trabalho independente' para 'trabalho independente fraudulento' para maior clareza. Mantém significado original (224 chars)."
+  },
+  {
+    "text": "Obrigar os anúncios de emprego a apresentar a remuneração mínima associada ao cargo.",
+    "context": "regular os anúncios de emprego para garantir um mercado de trabalho mais transparente, nomeadamente obrigando os anúncios de emprego a apresentar a remuneração mínima associada ao cargo",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar progressivamente a licença parental até 16 meses, com pelo menos 6 meses pagos a 100%.",
+    "context": "do aumento progressivo da licença parental para 16 meses, reforçando a iniciativa legislativa cidadã que propunha pelo menos 6 meses de licença parental inicial pagos a 100%",
+    "topics": [
+      "direitos sociais",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar período de licença parental acrescida de até 14 semanas, paga na totalidade, para pais cujos filhos necessitem internamento neonatal de mais de 7 dias.",
+    "context": "da criação de um período de licença parental acrescida de até 14 semanas, paga na totalidade, para os pais cujos filhos necessitem internamento neonatal de mais de 7 dias",
+    "topics": [
+      "direitos sociais",
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Planear a convergência das pensões de valor reduzido com o salário mínimo nacional até ao final da legislatura.",
+    "context": "Planear a convergência das pensões de valor reduzido com o salário mínimo nacional até ao final da legislatura",
+    "topics": [
+      "segurança social"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Prazo definido (fim da legislatura) mas falta métrica quantitativa clara de convergência",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Restabelecer o acesso ao Rendimento Social de Inserção e aumentar o seu valor, com majoração para agregados monoparentais e dependentes até 6 anos.",
+    "context": "restabelecimento do acesso ao Rendimento Social de Inserção e do aumento do seu valor, considerando igualmente a majoração dos agregados familiares monoparentais e dos dependentes até aos 6 anos de idade",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Falta valor concreto de aumento do RSI e montantes específicos das majorações",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um programa piloto de Rendimento Básico Incondicional com verba de 30 milhões de euros e duração superior a dois anos.",
+    "context": "preveja a verba de 30 milhões de euros para o projeto-piloto; tenha um quadro temporal superior a dois anos",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estudar a criação de uma herança social de cerca de 5 mil euros por criança nascida em Portugal, financiada pela tributação de grandes fortunas e heranças.",
+    "context": "Estudar a criação de uma herança social...segundo o qual cada criança nascida em Portugal recebe um montante...no valor médio de 5 mil euros para usar na vida adulta.",
+    "topics": [
+      "direitos sociais",
+      "economia"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância «das grandes fortunas e heranças» para «de grandes fortunas e heranças» (mais conciso e natural)."
+  },
+  {
+    "text": "Criar um dividendo da automação, contribuição extraordinária aplicada a empresas que despeçam trabalhadores pela introdução de sistemas de automação ou IA.",
+    "context": "da criação de um dividendo da automação, uma contribuição extraordinária ou suplementar aplicada às organizações e empresas que despeçam trabalhadores ou extingam postos de trabalho pela introdução de sistemas de automação",
+    "topics": [
+      "emprego",
+      "tecnologia",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar licença climática remunerada de dois dias para trabalhadores impossibilitados de deslocar-se por condições climatéricas extremas.",
+    "context": "criação da licença climática remunerada permitindo aos trabalhadores que não percam dois dias de remuneração em caso de impossibilidade de desempenharem as suas funções porque as condições climatéricas extremas impedem a sua deslocação",
+    "topics": [
+      "emprego",
+      "ambiente"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a implementação da Lei de Bases do Clima, com revisão de orçamentos de carbono e do regime jurídico dos hidrocarbonetos.",
+    "context": "Fazer cumprir a Lei de Bases do Clima, com a revisão de orçamentos de carbono e do regime jurídico dos hidrocarbonetos",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Não é concreta: 'Garantir a implementação' é vaga; menciona leis e revisões sem acções específicas, prazos ou medidas nomeadas. É mais um compromisso genérico de conformidade legal."
+  },
+  {
+    "text": "Assumir redução de 65% das emissões nacionais de gases com efeito de estufa até 2030, superando a meta de 55% do PNEC 2030.",
+    "context": "Assumir uma redução de 65% das emissões nacionais de gases com efeito de estufa até 2030, ultrapassando a meta de até 55% assumida pelo governo no PNEC 2030",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Atingir 100% de renováveis na eletricidade consumida em Portugal em 2030.",
+    "context": "concretizando 100% de renováveis na eletricidade consumida em Portugal em 2030",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o programa 'Um painel solar em cada telhado' para acelerar a produção renovável distribuída.",
+    "context": "Propomos o programa 'Um painel solar em cada telhado', para acelerar a produção renovável distribuída.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Tornar permanente e incondicional a redução do IVA de 23% para 6% em todos os serviços essenciais de fornecimento de energia, incluindo gás engarrafado.",
+    "context": "Tornar permanente e incondicional a redução do escalão do IVA de 23% para 6% em todos serviços essenciais de fornecimento de energia, sem limite de consumo ou potência",
+    "topics": [
+      "energia",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Isentar do pagamento de tarifas de acesso às redes as comunidades de energia renovável sem fins lucrativos ou com participantes em pobreza energética.",
+    "context": "isentando do pagamento das tarifas de acesso às redes as comunidades de energia renovável comprovadamente sem fins lucrativos e/ou que incluam uma percentagem de participantes em pobreza energética",
+    "topics": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância 'do pagamento das tarifas' para 'do pagamento de tarifas'. Simplificada condição 'comprovadamente sem fins lucrativos ou com participantes' para maior clareza."
+  },
+  {
+    "text": "Garantir licenciamento de UPACs com potência inferior a 100 kW em menos de um mês.",
+    "context": "garantindo o licenciamento em menos de um mês para UPACs pequenas com potência inferior a 100 kW",
+    "topics": [
+      "energia"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Investir 1000 milhões de euros anuais em habitação pública para atingir 10% de habitação pública até 2040.",
+    "context": "atribuir 1 000 milhões de euros anuais para a habitação pública, com vista a alcançar, a longo prazo, os 600 mil fogos",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o Serviço Nacional de Habitação (SNH) para garantir o direito universal à habitação e regular o mercado de arrendamento.",
+    "context": "Criar o Serviço Nacional de Habitação (SNH) para consolidar a habitação como um verdadeiro pilar do Estado Social.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Não é concreta: 'Criar' e 'Garantir' sem acções específicas, prazos ou medidas verificáveis. É mais uma declaração de intenção institucional."
+  },
+  {
+    "text": "Executar as 26.000 frações financiadas pelo PRR até 2026 e financiar as restantes 33.000 candidaturas via 1º Direito com financiamento a 100% pelo OE.",
+    "context": "garantir a execução das 26.000 frações financiadas pelo Plano de Recuperação e Resiliência até 2026; financiar as restantes 33.000 candidaturas apresentadas, via 1º Direito e com financiamento a 100%",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Alterado 'Garantir a execução' para 'Executar' por brevidade e clareza, mantendo o significado (248 chars)."
+  },
+  {
+    "text": "Implementar e alargar a Nova Geração de Cooperativismo para a Promoção de Habitação Acessível, com projetos-piloto e protocolos entre Estado, autarquias e setor cooperativo.",
+    "context": "Implementar e alargar a Nova Geração de Cooperativismo para a Promoção de Habitação Acessível, aprovada no âmbito do Mais Habitação mas que carece de regulamentação",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.55,
+    "validation_reason": "Pouco concreta: 'Implementar e alargar' com apenas 'projetos-piloto' e 'protocolos' vagos, sem números, prazos ou medidas específicas de execução."
+  },
+  {
+    "text": "Reintroduzir a caducidade das licenças de Alojamento Local e a sua não transmissibilidade na venda de imóvel.",
+    "context": "reintroduzir a caducidade das licenças de AL e a sua não transmissibilidade no ato de venda e compra do imóvel",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'no ato de venda e compra do imóvel' para 'na venda de imóvel' sem perda de significado (231 chars)."
+  },
+  {
+    "text": "Criar o Programa Ajuda de Casa, financiando até 30% do valor de mercado do imóvel como empréstimo de capital próprio para acesso à primeira habitação.",
+    "context": "financiará até 30% do valor de mercado do imóvel, sob a forma de um empréstimo de capital próprio, representando uma importante ajuda para fazer face ao valor da entrada",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Retomar o Programa 3C – Casa, Conforto e Clima, com comparticipação financeira a 100% até 100.000€ pelo Fundo Ambiental para edifícios existentes.",
+    "context": "retomando o Programa 3C - Casa, Conforto e Clima...através de um programa de incentivos de comparticipação financeira, pelo Fundo Ambiental, a 100% até ao limite de 100.000€",
+    "topics": [
+      "habitação",
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reorganizada estrutura para melhor fluxo de leitura, removida redundância de 'pelo Fundo Ambiental a 100%' (247 chars)."
+  },
+  {
+    "text": "Criar o Fundo de Emergência para a Habitação para prevenir despejos e situações de sem-abrigo.",
+    "context": "Efetivar o Fundo de Emergência para a Habitação, garantindo um apoio eficaz a pessoas que fiquem sem a sua habitação ou em situação de sem-abrigo",
+    "topics": [
+      "habitação",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretização: sem número de beneficiários, montante de financiamento, prazo ou mecanismo específico de implementação."
+  },
+  {
+    "text": "Implementar políticas de zonamento inclusivo com construção de 20% de habitação acessível em empreendimentos urbanísticos de grande dimensão.",
+    "context": "Implementar políticas de zonamento inclusivo, para construção de 20% de habitação acessível em empreendimentos urbanísticos de grande dimensão",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar as propinas no 1.º ciclo e no ano curricular do 2.º ciclo do ensino superior.",
+    "context": "Eliminar as propinas no 1.º ciclo e no ano curricular/parte escolar do 2º ciclo",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o Fundo de Apoio ao Estudante do Ensino Superior para aquisição de materiais e outros apoios.",
+    "context": "criando o Fundo de Apoio ao Estudante do Ensino Superior, financiado em parte por impostos de beneficiários do mesmo com altos rendimentos e pelas empresas altamente lucrativas",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta concretização: sem montante de financiamento, número de beneficiários ou critérios de elegibilidade específicos."
+  },
+  {
+    "text": "Atingir até 2030 60% de jovens com 20 anos a frequentar o ensino superior e 50% de graduados com educação terciária na faixa etária 25-35 anos.",
+    "context": "Apoiar a frequência do ensino superior - universitário e politécnico - de forma a atingir até 2030 60% de jovens com 20 anos frequentando o ensino superior e 50% de graduados com educação terciária na faixa etária 25-35 anos.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'a frequentar' por 'frequentando' (coerência verbal) e removido contexto desnecessário sobre 'universitário e politécnico'."
+  },
+  {
+    "text": "Incluir as creches na rede pública de escolas e assegurar rede de creches públicas em todo o país.",
+    "context": "incluir a educação na primeira infância na Lei de Bases do Sistema Educativo e integrar as creches na rede pública de escolas; assegurar a existência de uma rede de creches públicas em todo o país",
+    "topics": [
+      "educação",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Parcialmente vaga: 'em todo o país' carece de cronograma e número de creches a criar."
+  },
+  {
+    "text": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas.",
+    "context": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas, devendo a formação religiosa ser deixada ao critério das famílias",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um Fundo Estratégico da Ciência e Tecnologia para financiamento estável das Unidades de I&D, com eixos Re.Capacitar, Re.Equipar e Re.Edificar.",
+    "context": "Criação de um Fundo Estratégico da Ciência e Tecnologia, mecanismo permanente de financiamento do sistema científico, assegurado através dos impostos e taxas sobre a atividade económica.",
+    "topics": [
+      "educação",
+      "economia"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer investimento global em I&D de 3% do PIB até 2030, com 50% de despesa pública e 50% privada.",
+    "context": "correspondentes a um investimento global em I&D de 3% do PIB até 2030, com uma parcela relativa de 50% de despesa pública e 50% de despesa privada",
+    "topics": [
+      "educação",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um Programa Nacional de Asilo Científico e Captação de Talento para 100 investigadores por ano, com dotação de 15 milhões de euros.",
+    "context": "Criação de um Programa Nacional de Asilo Científico e Captação de Talento...Numa fase inicial, este programa irá incidir em 100 investigadores por ano...numa dotação orçamental estimada de 15 milhões de euros.",
+    "topics": [
+      "educação",
+      "imigração"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Fazer coincidir o pagamento das bolsas da FCT com a data efetiva de início do plano de trabalhos.",
+    "context": "Fazer coincidir retroativamente o pagamento das bolsas da Fundação para a Ciência e Tecnologia (FCT) com a data efetiva de início do plano de trabalhos",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'retroativamente' do contexto, pois não consta do texto original e pode alterar o significado da promessa."
+  },
+  {
+    "text": "Majorar todas as bolsas de doutoramento, pós-doutoramento e contratos de investigação em até 10% da despesa total para cobrir gastos de investigação.",
+    "context": "Majorar todas as bolsas de doutoramento, pós-doutoramento e contratos de investigação de uma verba até 10% da despesa total da bolsa ou contrato para cobrir gastos relacionados com a atividade de investigação",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.65,
+    "validation_reason": "Impreciso: 'até 10%' é vago; falta clarificação se é sobre todas as bolsas ou apenas algumas, e em que período."
+  },
+  {
+    "text": "Tornar obrigatória a existência de Gabinetes de Apoio Psicológico nas instituições de ensino superior, com rácio de 1 psicólogo para 500 estudantes.",
+    "context": "Tornar obrigatória a existência de Gabinetes de Apoio Psicológico em todas as unidades orgânicas das Instituições de Ensino Superior, cumprindo o rácio recomendado de 1 Psicólogo para 500 Estudantes.",
+    "topics": [
+      "educação",
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o financiamento da cultura para 1% do PIB nacional, direcionado para o Ministério da Cultura.",
+    "context": "Aumentar e diversificar o financiamento da cultura, que deve atingir 1% do Produto Interno Bruto nacional, direcionado para o Ministério da Cultura",
+    "topics": [
+      "cultura"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar a rede de 'Casas da Criação', espaços culturais abertos à comunidade com oficinas de artes a nível nacional.",
+    "context": "Promover uma rede de 'Casas da Criação', como uma rede de espaços culturais abertos à comunidade e ao encontro intergeracional, com oficinas de artes de acesso democratizado",
+    "topics": [
+      "cultura"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas sem número específico de casas ou prazo definido",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Acompanhar o programa Cheque-Livro para jovens de 18 anos e aumentar o seu valor até ao final da legislatura.",
+    "context": "Acompanhar a implementação do programa Cheque-Livro para jovens de 18 anos pela DGLAB e aumentar o seu valor até ao final da legislatura",
+    "topics": [
+      "cultura"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas 'aumentar até ao final da legislatura' é vago em quanto; falta valor específico",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar a Biblioteca Nacional Eduardo Lourenço, uma grande biblioteca pública de dimensão europeia e internacional.",
+    "context": "Criar a Biblioteca Nacional Eduardo Lourenço, uma grande biblioteca pública de dimensão europeia e internacional, com o objetivo de concretizar uma verdadeira 'Casa da Europa'",
+    "topics": [
+      "cultura"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Concreta (nome, tipo) mas sem prazo, localização ou orçamento específicos",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Taxar os lucros das plataformas de streaming e vídeo on demand de forma mais ambiciosa, diversificando fontes de financiamento para produção cultural.",
+    "context": "Taxar os lucros das plataformas de streaming e de Video On Demand, implementando de forma mais ambiciosa a transposição da diretiva europeia do audiovisual",
+    "topics": [
+      "cultura",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Promessa de acção mas 'mais ambiciosa' é vago; falta taxa ou valor específico",
+    "review_changed": true,
+    "review_note": "Padronizou-se 'Video On Demand' para 'vídeo on demand' (minúsculas e sem maiúsculas desnecessárias) para melhor fluidez textual."
+  },
+  {
+    "text": "Criar o Passe de Mobilidade Nacional abrangendo transporte urbano, suburbano, regional e mobilidade ativa em todos os modos.",
+    "context": "Criar o Passe de Mobilidade Nacional, juntamente com as diversas Autoridades de Transportes...que abranja o transporte urbano, suburbano, regional, de médio curso e flexível nos modos rodoviário, ferroviário, fluvial e de mobilidade ativa.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas sem prazo ou detalhes de implementação/cobertura geográfica",
+    "review_changed": true,
+    "review_note": "Removida vírgula após 'Nacional' para melhor clareza sintática e fluidez da leitura."
+  }
+]
