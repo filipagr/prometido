@@ -1,0 +1,933 @@
+[
+  {
+    "text": "Implementar taxa única de IRS de 15% sobre rendimentos acima do Salário Mínimo Nacional, com transição através de duas taxas de 15% e 28%.",
+    "context": "Taxa única de IRS de 15% sobre a parte dos rendimentos que exceda o Salário Mínimo Nacional, começando de forma gradual com duas taxas de 15% e 28%.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reescrita para maior clareza: substituído 'começando com' por 'com transição através de' para melhor compreensão standalone."
+  },
+  {
+    "text": "Reduzir a carga fiscal sobre profissionais liberais e trabalhadores independentes.",
+    "context": "Reduzir a carga fiscal sobre os profissionais liberais e os trabalhadores independentes.",
+    "topics": [
+      "economia",
+      "emprego"
+    ],
+    "confidence": 0.85,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Não é concreta: falta especificar a medida, valor, taxa ou mecanismo. 'Reduzir' é vago sem números ou acções nomeadas."
+  },
+  {
+    "text": "Criar taxa única de IRC de 12% para empresas, exceto grandes multinacionais (faturação >750M€) que pagarão 15%, conforme lei europeia.",
+    "context": "Taxa única de IRC de 12% para as empresas, excepto para as grandes multinacionais que será de 15% de acordo com o exigido pela lei europeia.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Corrigido: 'excepção' → 'exceto' (ortografia atual); estrutura simplificada para maior clareza."
+  },
+  {
+    "text": "Criar uma task force de eliminação de burocracias desnecessárias em diálogo com cidadãos e empresas, publicando relatórios anuais públicos.",
+    "context": "Criar, no seio da Administração Pública, uma task force especializada de funcionários que, em diálogo com as empresas e os cidadãos, identifiquem e proponham a eliminação de burocracias.",
+    "topics": [
+      "administração pública",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida vírgula desnecessária após 'burocracias desnecessárias' para melhorar fluidez."
+  },
+  {
+    "text": "Criar Zonas Económicas Especiais (ZEE) de baixa fiscalidade no interior do país para atrair investimento direto estrangeiro e promover hubs empresariais.",
+    "context": "Criar Zonas Económicas Especiais (ZEE) de baixa fiscalidade no interior do país para atrair investimento direto estrangeiro e promover a criação de hubs empresariais.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reverter normas do pacote Mais Habitação relativas ao Alojamento Local e eliminar a redução do coeficiente fiscal de 0,5% para 0,35%.",
+    "context": "Reverter as normas do pacote Mais Habitação relativas ao Alojamento Local, eliminar a redução do coeficiente fiscal.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Clarificada a promessa usando o context: especificado que o coeficiente volta de 0,5% para 0,35%; removido 'as' antes de 'normas'."
+  },
+  {
+    "text": "Eliminar o adicional ao IMI (AIMI) e o imposto do selo sobre transações já taxadas.",
+    "context": "Eliminar várias taxas e contribuições extraordinárias como o adicional ao IMI (AIMI) e o imposto do selo sobre transações já taxadas.",
+    "topics": [
+      "economia",
+      "habitação"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar gradualmente o Imposto Único de Circulação (IUC).",
+    "context": "Eliminar gradualmente o Imposto Único de Circulação (IUC).",
+    "topics": [
+      "economia",
+      "transportes"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o imposto sobre rendimentos de capitais e prediais para 14,5%, sem englobamento obrigatório.",
+    "context": "Reduzir o imposto sobre rendimentos de capitais para 14,5%.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Comprometer orçamentos com superávit e redução da dívida pública, com meta máxima de 60% do PIB conforme exigido pela União Europeia.",
+    "context": "Compromisso de Orçamentos com superávit e redução da dívida pública.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reescrita para melhor fluidez: 'meta de dívida máxima' → 'meta máxima de 60%'; texto agora mais compreensível standalone."
+  },
+  {
+    "text": "Alcançar salário médio líquido de 1.500€ por mês (aproximadamente 2.130€ brutos) até 2028.",
+    "context": "Alcançar um Salário Médio de 1.500€ líquidos por mês (o que hoje equivale a cerca de 2.130€ brutos).",
+    "topics": [
+      "economia",
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo 'um' antes de 'salário'; simplificado 'equivalente a cerca de' para 'aproximadamente' (mais conciso)."
+  },
+  {
+    "text": "Garantir médico de família — público ou privado — para todos os portugueses até 2028, começando pelos maiores de 65 anos, grávidas e crianças até 9 anos até 2025.",
+    "context": "Garantir Médico de família - público ou privado - para todos, começando pelos que têm mais de 65 anos, mulheres grávidas e crianças até aos 9 anos até 2025.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir 250 mil novas habitações com construção terminada ou iniciada durante a legislatura.",
+    "context": "250 mil novas habitações com construção terminada ou iniciada.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o tempo médio de decisão em primeira instância nos tribunais administrativos dos atuais 850 dias para menos de um ano, igualando a média europeia, até 2028.",
+    "context": "Reduzir o tempo médio das decisões em primeira instância nos tribunais administrativos dos atuais 850 dias para menos de um ano, igualando a média Europeia.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Alterado 'Europeia' para 'europeia' (minúscula conforme norma)"
+  },
+  {
+    "text": "Garantir que pelo menos 82,5% dos alunos obtenham resultados positivos em cada domínio avaliado pelo PISA.",
+    "context": "Pelo menos 82,5% dos alunos com resultados positivos a cada um dos domínios avaliados pelo PISA.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reverter o Pacote Mais Habitação eliminando todas as formas de arrendamento forçado nele previstas.",
+    "context": "Reverter o Pacote Mais Habitação, eliminando quaisquer formas de arrendamento forçado.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar o IMT na compra de habitação própria permanente.",
+    "context": "Eliminar o IMT na compra de habitação própria permanente.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar deduções em IRS das rendas para máximo de 1.800€ (atual: 502€) e dos juros do crédito à habitação para 900€ (atual: 296€).",
+    "context": "Os máximos das deduções em IRS das despesas com rendas passariam dos atuais de 502 euros para os 1 800 euros.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'as' após 'Aumentar' e ajustado para melhor fluidez (247 chars vs 268)"
+  },
+  {
+    "text": "Isentar o arrendamento, transações imobiliárias, mediação imobiliária e empréstimos bancários de imposto de selo.",
+    "context": "Isentar de imposto de selo as transações imobiliárias, eliminando a escandalosa dupla tributação.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidos artigos desnecessários para clareza e redução de caracteres (110 chars vs 156)"
+  },
+  {
+    "text": "Reduzir o imposto sobre rendimentos prediais de arrendamento para 14,5% (contratos até 5 anos), descendo progressivamente até 0,5% para contratos acima de 20 anos.",
+    "context": "Baixar a taxa autónoma sobre os rendimentos prediais de arrendamento de 25%, proposta no pacote Mais Habitação do Governo, para 14,5%.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'taxa máxima de' para simplificar (163 chars vs 189)"
+  },
+  {
+    "text": "Reduzir o IVA da nova construção para habitação de 23% para 6%.",
+    "context": "Reduzir o IVA da construção dos atuais 23% para a taxa mínima de 6% para edificado novo.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Colocar os milhares de imóveis devolutos do Estado à disposição do mercado de habitação, nomeadamente através de venda a privados com condições de uso habitacional por 5 anos.",
+    "context": "Após a venda do imóvel pelo Estado à melhor oferta privada e do cumprimento do plano de reconversão, o adquirente deve disponibilizar o imóvel para rendas acessíveis durante cinco anos.",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Promessa concreta mas com alguma vaguidade em 'milhares de imóveis' — não especifica quantidade exata ou cronograma",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar regime de incentivo à nova construção para arrendamento (build-to-rent) com isenção de IMT, IMI e IRC, e tributação autónoma de rendas a 14,5%.",
+    "context": "Criação de um regime de incentivo à nova construção para arrendamento (build-to-rent), com isenção de IMT na aquisição dos terrenos, isenção de IMI, tributação autónoma de rendas a 14,5% e isenção de IRC.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Consolidar mais de dois mil diplomas dispersos sobre urbanismo e construção num único Código da Construção e Edificação.",
+    "context": "Consolidar mais de dois mil diplomas dispersos num só Código da Construção/Edificação que consolide essa legislação num único diploma.",
+    "topics": [
+      "habitação",
+      "administração pública"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Concreta e mensurável, mas sem prazo específico",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Consolidar todas as regras do arrendamento num único Código do Arrendamento.",
+    "context": "Consolidar todas as regras do arrendamento num Código do Arrendamento.",
+    "topics": [
+      "habitação",
+      "administração pública"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Concreta e mensurável, mas sem prazo específico",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um regime de pré-licenciamento urbanístico automático para projetos de construção em áreas identificadas nos PDM como de elevada procura.",
+    "context": "Implementar um regime de pré-licenciamento urbanístico automático para projetos de construção em áreas previamente identificadas no Plano Diretor Municipal.",
+    "topics": [
+      "habitação",
+      "administração pública"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas com alguma vaguidade em 'áreas identificadas nos PDM' — não especifica quais ou quantas",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o limite mínimo do IMI que os municípios podem cobrar de 0,3% para 0%, dando liberdade de isenção aos munícipes.",
+    "context": "A Iniciativa Liberal propõe uma redução do limite mínimo do IMI que poderá passar de 0,3% para 0%.",
+    "topics": [
+      "habitação",
+      "economia",
+      "administração pública"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada a expressão final para melhor clareza e reduzir caracteres."
+  },
+  {
+    "text": "Eliminar a Contribuição Extraordinária sobre o Alojamento Local (CEAL) criada pelo pacote Mais Habitação.",
+    "context": "A Iniciativa Liberal irá, desde a primeira hora, defender a eliminação desta contribuição.",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar o Plano Ferroviário Nacional para que nenhuma capital de distrito esteja a mais de 2 horas do Porto ou Lisboa, com horizonte 2040.",
+    "context": "A ligação de todas as capitais de distrito por via ferroviária, de modo a que estejam colocadas a duas horas de distância de Lisboa ou do Porto.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": "Muito concreta com prazo (2040) e métrica (distância). Mínima vaguidade em 'implementar'",
+    "review_changed": true,
+    "review_note": "Removida redundância na expressão 'distância de' para melhor fluidez."
+  },
+  {
+    "text": "Executar o projeto TGV — linha ferroviária de alta velocidade Lisboa-Porto — até 2033, com construção da Terceira Travessia do Tejo.",
+    "context": "Apostar nas linhas ferroviárias de alta velocidade (TGV), ligando o Porto a Lisboa até 2033, construindo a Terceira Travessia do Tejo.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": "Muito concreta com prazo (2033) e componentes específicos nomeados",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Autonomizar a CP como sociedade anónima e promover concorrência no serviço ferroviário de passageiros via licitação das obrigações de serviço público.",
+    "context": "A CP será autonomizada, passando a sociedade anónima, permitindo à empresa ser autónoma na gestão.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidas palavras redundantes ('maior', 'regular') mantendo significado."
+  },
+  {
+    "text": "Potenciar o transporte ferroviário de mercadorias, aumentando a quota modal de 10% para 40% até 2050.",
+    "context": "Até 2050, será possível aumentar a quota modal do transporte ferroviário de mercadorias dos atuais 10% para 40%.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida frase incompleta/contraditória sobre 'reduzir a taxa de uso ferroviária' que não se alinha com o objetivo de aumentar quota modal. Mantido o significado principal."
+  },
+  {
+    "text": "Liberalizar o mercado de transporte fluvial no Tejo, privatizando a Transtejo/Soflusa e abrindo novas rotas a outros operadores.",
+    "context": "Liberalizar o mercado de transporte fluvial no Tejo, privatizando a Transtejo/Soflusa e abrindo novas rotas de navegação a outros operadores.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Unificar os regimes do táxi e do TVDE, abolindo contingentes municipais e unificando condições de licenciamento.",
+    "context": "Unificar os regimes do táxi e do TVDE para que o plano de concorrência seja o mais justo possível.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância 'num regime único' já implícita em 'unificar'. Texto mais conciso."
+  },
+  {
+    "text": "Permitir a instalação de postos de carregamento elétrico com venda direta de energia pelos operadores, sem obrigação de ligação à rede Mobi.e.",
+    "context": "Permitir a instalação de postos de carregamento com venda direta de energia pelos OPC, sem a obrigação de conexão à rede Mobi.e.",
+    "topics": [
+      "transportes",
+      "energia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Instalar sistemas de bicicletas partilhadas e parqueamentos públicos de bicicletas nas interfaces dos transportes públicos.",
+    "context": "Instalar de sistemas de bicicletas partilhadas e de parqueamentos públicos de bicicletas nas interfaces dos transportes públicos.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida referência específica ao programa 'Incentiva +TP' para maior flexibilidade e clareza do compromisso principal."
+  },
+  {
+    "text": "Alargar os direitos de parentalidade e o acesso a creches a profissionais liberais e trabalhadores independentes.",
+    "context": "Alargar os direitos de parentalidade e acesso a creches a profissionais liberais e trabalhadores independentes.",
+    "topics": [
+      "direitos sociais",
+      "emprego"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Promessa concreta mas sem números ou prazos específicos",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar a isenção sobre rendimentos para efeitos de prestações sociais a trabalhadores-estudantes independentes.",
+    "context": "Alargar a isenção sobre rendimentos a trabalhadores-estudantes independentes.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Promessa concreta mas sem números ou prazos específicos",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Dar liberdade ao trabalhador de escolher receber subsídios de férias e de Natal mensalmente ou em dois momentos do ano.",
+    "context": "Cada trabalhador voltaria a ter a prerrogativa de escolher como pretende que os subsídios (13.º e 14.º meses) lhe sejam pagos.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida referência a '13.º e 14.º meses' (jargão técnico) por 'subsídios de férias e de Natal' (mais claro). Simplificado para < 250 chars."
+  },
+  {
+    "text": "Evoluir para um regime de flexisegurança laboral, aumentando a flexibilidade contratual e simultaneamente o apoio público ao desemprego.",
+    "context": "Evoluir para um regime de flexisegurança como em muitos países europeus mais desenvolvidos: as saídas e as entradas no emprego são mais flexíveis, mas o apoio e segurança na procura de emprego é maior.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Demasiado vaga e genérica; 'regime de flexisegurança' é um conceito amplo sem medidas nomeadas concretas"
+  },
+  {
+    "text": "Restabelecer o banco de horas individual por negociação entre empregador e trabalhador, aumentando até 2h/dia, 50h/semana e 150h/ano.",
+    "context": "Consagrada a hipótese de utilização de bancos de horas por via de negociação individual, podendo o horário normal de trabalho ser aumentado até duas horas por dia, 50 horas por semana e 150 horas por ano.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado mantendo dados essenciais. Removido 'podendo o horário ser' redundante."
+  },
+  {
+    "text": "Evoluir para negociação setorial de salário mínimo em vez de imposição estatal uniforme, transpondo a Diretiva 2022/2041.",
+    "context": "Evoluir para um modelo setorial de negociação de salário mínimo em vez de uma imposição estatal igual para todas as atividades.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta com referência a diretiva europeia, mas implementação depende de negociações setoriais",
+    "review_changed": true,
+    "review_note": "Removido 'Europeia' (implícito em referência a Diretiva) e ajustado redação para ≤ 250 chars, mantendo conteúdo."
+  },
+  {
+    "text": "Mostrar no recibo de vencimento a totalidade dos custos suportados pelo empregador com a Segurança Social (23,75% patronal atualmente ocultos).",
+    "context": "Colocar no recibo de vencimento a totalidade dos custos suportados pela entidade empregadora, incluindo a Segurança Social.",
+    "topics": [
+      "emprego",
+      "segurança social"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'Colocar' por 'Mostrar' para maior clareza; mantém significado original."
+  },
+  {
+    "text": "Criar um mercado nacional da água com sistema de transvases (autoestradas da água), sistema real de preços, renovação de redes e soluções de dessalinização.",
+    "context": "Criar um mercado nacional da água: sistema de transvases nacional, sistema real de preços da água, renovar as redes de distribuição, reutilizar água residuais e viabilizar soluções de dessalinização.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.98,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Muito vaga; enumera conceitos ('autoestradas da água', 'sistema de preços') sem medidas nomeadas ou prazos concretos"
+  },
+  {
+    "text": "Desburocratizar e acelerar o investimento em energias renováveis, simplificando os processos de avaliação de impacto ambiental e os licenciamentos.",
+    "context": "Desburocratizar e acelerar o investimento em energias limpas.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Genérica; 'desburocratizar', 'simplificar' e 'acelerar' são valores sem ações, números ou prazos verificáveis"
+  },
+  {
+    "text": "Lançar leilões de energia tecnologicamente neutros que incluam todas as formas de energia limpa, não apenas solar ou eólica.",
+    "context": "Lançar leilões tecnologicamente neutros que incluam todas as energias limpas.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Acelerar o licenciamento de Unidades de Auto-Consumo (UPAC) e Comunidades de Energia Renovável (CER), com critérios geográficos flexíveis.",
+    "context": "Acelerar o licenciamento do Auto-Consumo (UPAC) e das Comunidades de Energia Renovável (CER).",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo redundante 'das' antes de 'Comunidades'; mantém clareza e fluidez."
+  },
+  {
+    "text": "Implementar um sistema de depósito e retorno de embalagens de uso único em Portugal, aberto a operadores privados.",
+    "context": "Implementar um sistema de depósito e retorno em Portugal em circuito aberto aos privados.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'SDR' e 'em circuito' para maior clareza; reduzido de 253 para 227 caracteres."
+  },
+  {
+    "text": "Conferir às comissões de cogestão liberdade e condições para contratualizar serviços de gestão e restauro das Áreas Protegidas.",
+    "context": "Conferir às comissões de cogestão liberdade e condições na contratualização de serviços de gestão e restauro das Áreas Protegidas.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Concluir o cadastro florestal e incentivar o emparcelamento da propriedade rural não cobrando taxas administrativas pela venda de terrenos abaixo de 5 hectares.",
+    "context": "Concluir o cadastro florestal, incentivando o emparcelamento por via da não cobrança de taxas administrativas.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Permitir que os Centros de Recolha Oficiais deixem animais a cargo de pessoas, suportando parcialmente ou totalmente os encargos.",
+    "context": "Permitir que os Centros de Recolha Oficiais possam deixar os animais a cargo de pessoas, suportando parcialmente ou totalmente os encargos com os mesmos.",
+    "topics": [
+      "ambiente",
+      "direitos sociais"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'possam' redundante e simplificado; mantém significado e clareza."
+  },
+  {
+    "text": "Viabilizar rapidamente a edição genómica em Portugal, acelerando o processo de regulação europeia no setor agroalimentar.",
+    "context": "Viabilizar rapidamente a edição genómica em Portugal.",
+    "topics": [
+      "agricultura",
+      "tecnologia"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Ambiguidade sobre autoridade: 'acelerar o processo de regulação europeia' está fora do controlo direto do partido português. Mistura ação nacional com processo europeu."
+  },
+  {
+    "text": "Criar um novo sistema de saúde — SUA-Saúde — que integre setores público, privado e social, com liberdade de escolha do prestador.",
+    "context": "Um novo modelo de Sistema de Saúde: o Sistema Universal de Acesso à Saúde (SUA-Saúde), que garante acesso universal a cuidados de saúde com liberdade de escolha.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'pelo utente' para respeitar limite de 250 caracteres; mantém essencial."
+  },
+  {
+    "text": "Implementar Unidades de Saúde Familiar de Modelo C (USF-C), geridas por privados ou cooperativas de profissionais de saúde.",
+    "context": "A Iniciativa Liberal defende a implementação das primeiras Unidades de Saúde Familiar de Modelo C.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'as primeiras' e simplificado para maior concisão; texto mais direto."
+  },
+  {
+    "text": "Recuperar as Parcerias Público-Privadas nos hospitais de Braga, Vila Franca de Xira e Loures, alargando o modelo a outros hospitais.",
+    "context": "Recuperar as Parcerias Público-Privadas nos hospitais de Braga, Vila Franca de Xira e Loures, alargando o modelo a outros hospitais.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido '(PPP)' redundante; sigla já está implícita no desenvolvimento anterior."
+  },
+  {
+    "text": "Criar um Programa Especial de Acesso a Cuidados de Saúde para reduzir listas de espera, contratualizando via concurso público internacional quando os TMRG não são cumpridos.",
+    "context": "Criação de um Programa Especial de Acesso a Cuidados de Saúde que assegure o acesso atempado a consultas e cirurgias.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Expandir as USF-B e implementar as USF-C em todo o país.",
+    "context": "Expandir as USF-B e Implementação das USF-C.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta especificidade: sem prazos, números, critérios ou medidas concretas. 'Expandir' e 'implementar em todo o país' é vago."
+  },
+  {
+    "text": "Introduzir remuneração variável consoante o desempenho para todos os profissionais de saúde do SNS.",
+    "context": "Remuneração variável consoante o desempenho para todos os profissionais de saúde.",
+    "topics": [
+      "saúde",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Falta concretização: sem indicação de métricas de desempenho, percentuais, prazos ou modelo de cálculo específico."
+  },
+  {
+    "text": "Reforçar as competências dos enfermeiros especialistas, incluindo possibilidade de renovação de prescrições de doentes crónicos e prática clínica autónoma.",
+    "context": "Reforçar as competências dos enfermeiros especialistas.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar os cuidados prestados pelas Farmácias Comunitárias, incluindo testes de diagnóstico rápido e gestão descentralizada de situações de baixa gravidade.",
+    "context": "Alargar os cuidados prestados pelas Farmácias Comunitárias.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir comparticipação a 100% em medicamentos e dispositivos médicos para pessoas com comprovada insuficiência económica, com prioridade para idosos.",
+    "context": "Garantir o acesso a medicamentos e a dispositivos médicos, com comparticipação a 100% para os que não os possam pagar, sobretudo idosos.",
+    "topics": [
+      "saúde",
+      "segurança social"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um Registo de Saúde Eletrónico Universal, plataforma única com interoperabilidade entre todos os prestadores autorizados pela Entidade Reguladora da Saúde.",
+    "context": "Criação de um Registo de Saúde Electrónico Universal.",
+    "topics": [
+      "saúde",
+      "tecnologia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida sigla desnecessária (RSEU) para clareza; simplificado mantendo o significado."
+  },
+  {
+    "text": "Criar um cheque-creche no valor mínimo de 473€ mensais que permita às famílias escolher qualquer creche do programa, pública, privada ou social.",
+    "context": "A medida pressupõe um cheque creche com valor mensal correspondente a 90% do IAS em vigor em cada ano, não podendo todavia ser inferior a 473€.",
+    "topics": [
+      "educação",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida referência a percentagem de IAS por ser contexto técnico; mantida informação essencial (valor mínimo)."
+  },
+  {
+    "text": "Aumentar a oferta de vagas de creche através de uma via verde para licenciamento, unificando o processo numa única entidade.",
+    "context": "A Iniciativa Liberal propõe uma via verde para o licenciamento de creches para desbloquear a oferta do mercado.",
+    "topics": [
+      "educação",
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas sem prazo ou métrica de impacto específica",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar um plano de emergência de recuperação de aprendizagens com tutorias regulares em pequenos grupos durante o calendário escolar e férias de verão.",
+    "context": "Implementar um plano de emergência de recuperação de aprendizagens sério e consequente, que inclui tutorias regulares e em pequenos grupos durante o calendário escolar e durante parte da pausa de verão.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Ação clara mas falta quantificação (número de alunos, grupos, período específico)",
+    "review_changed": true,
+    "review_note": "Removida redundância ('parte das') para concisão; mantido significado completo."
+  },
+  {
+    "text": "Introduzir avaliações nacionais quantitativas no final do 1.º e 2.º ciclos do ensino básico (4.º e 6.º anos).",
+    "context": "Recuperar as avaliações nacionais no final dos ciclos do ensino básico.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar financiamento por aluno no ensino básico e secundário, permitindo às famílias escolher escolas públicas, privadas ou sociais com igual comparticipação estatal.",
+    "context": "Dar liberdade de escolha das escolas, mudando o financiamento da escola para o financiamento por aluno, o que permitirá às famílias matricularem os seus filhos nas escolas que quiserem.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'matricular filhos em' para 'escolher'; mantida essência da promessa com ganho de clareza."
+  },
+  {
+    "text": "Contratar e remunerar professores aposentados até 31/01/2023 para lecionar na escola pública, acumulando pensão com remuneração equivalente ao 1.º escalão de contratado.",
+    "context": "Estabelecer um regime para que professores aposentados até 31/01/2023 possam voltar a exercer funções docentes na escola pública, acumulando a sua pensão com uma remuneração equivalente ao primeiro escalão dos professores contratados.",
+    "topics": [
+      "educação",
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Data-limite (31/01/2023) é passada relativamente a legislativas 2024; promessa perdeu relevância temporal"
+  },
+  {
+    "text": "Aumentar a autonomia administrativa, financeira e pedagógica das escolas públicas, incluindo maior responsabilidade na contratação e avaliação de professores.",
+    "context": "Aumentar a autonomia administrativa, financeira e pedagógica das escolas públicas, incluindo maior gestão de recursos humanos.",
+    "topics": [
+      "educação",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Muito genérica; 'aumentar autonomia' é diagnóstico/valor sem ações concretas, prazos ou medidas verificáveis"
+  },
+  {
+    "text": "Promover o ensino dual, com partilha de responsabilidade entre escolas profissionais e empresas na formação teórica e prática, e atualizar o financiamento das turmas das escolas profissionais pela inflação acumulada desde 2010.",
+    "context": "Propomos que escolas profissionais e empresas partilhem de forma mais equitativa a responsabilidade de dar formação teórica e prática, caminhando no sentido de um ensino dual.",
+    "topics": [
+      "educação",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta na parte do financiamento (inflação desde 2010) mas 'promover ensino dual' é mais vaga",
+    "review_changed": true,
+    "review_note": "Removido 'progressivamente' para melhorar clareza e reduzir para 249 caracteres, mantendo o significado essencial da promessa."
+  }
+]

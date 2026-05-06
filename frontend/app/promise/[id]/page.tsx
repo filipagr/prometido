@@ -103,15 +103,18 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
         {promise.source.source_type !== "direct" && <StatusBadge status={promise.status} />}
       </div>
 
-      {/* Topic pill */}
-      {promise.topic && (
-        <div className="mb-6">
-          <Link
-            href={`/search?topic=${encodeURIComponent(promise.topic)}`}
-            className="inline-flex items-center text-[12px] text-neutral-600 bg-neutral-100 hover:bg-neutral-200 px-2.5 py-1 rounded-full font-medium transition-colors duration-150"
-          >
-            {TOPIC_LABELS[promise.topic] ?? promise.topic}
-          </Link>
+      {/* Topic pills */}
+      {(promise.topics ?? [promise.topic]).filter(Boolean).length > 0 && (
+        <div className="mb-6 flex flex-wrap gap-2">
+          {(promise.topics ?? [promise.topic]).filter(Boolean).map((t) => (
+            <Link
+              key={t}
+              href={`/search?topic=${encodeURIComponent(t)}`}
+              className="inline-flex items-center text-[12px] text-neutral-600 bg-neutral-100 hover:bg-neutral-200 px-2.5 py-1 rounded-full font-medium transition-colors duration-150"
+            >
+              {TOPIC_LABELS[t] ?? t}
+            </Link>
+          ))}
         </div>
       )}
 

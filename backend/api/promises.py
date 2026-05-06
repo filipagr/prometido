@@ -4,6 +4,8 @@ GET /api/promises         — lista de promessas (para curadoria interna)
 PATCH /api/promise/{id}/status  — actualizar status manualmente (curadoria)
 """
 
+import json
+
 from fastapi import APIRouter, HTTPException, Body
 
 from backend.database import get_connection
@@ -51,6 +53,7 @@ def get_promise(promise_id: str):
         "text": p["text"],
         "context": p["context"],
         "topic": p["topic"],
+        "topics": json.loads(p["topics"]) if p["topics"] else [p["topic"]],
         "tier": p["tier"],
         "status": p["status"],
         "status_note": p["status_note"],

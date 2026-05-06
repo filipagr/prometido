@@ -1,0 +1,942 @@
+[
+  {
+    "text": "Aumentar o salário mínimo nacional para €1000 até ao final da legislatura.",
+    "context": "através do aumento do salário mínimo nacional para € 1000 até ao final da legislatura",
+    "topics": [
+      "economia",
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar as 35 horas semanais de trabalho imediatamente, com progressão até 30 horas semanais em 2030.",
+    "context": "através da implementação imediata das 35 horas semanais de trabalho e dos 25 dias de férias com progressão até 2030 para 30h semanais",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar os dias de férias anuais para 25 dias imediatamente, com progressão para 30 dias em 2030.",
+    "context": "implementação imediata das 35 horas semanais de trabalho e dos 25 dias de férias com progressão até 2030 para 30h semanais e 30 dias de férias anuais",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer uma retribuição horária mínima garantida de 10 euros (a preços de 2021) para trabalhadores independentes.",
+    "context": "estabelecendo uma Retribuição Horária Mínima Garantida de 10 euros (a preços de 2021)",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Convertidas maiúsculas desnecessárias em minúsculas para melhor clareza."
+  },
+  {
+    "text": "Aumentar progressivamente a licença parental para 16 meses, com período mínimo de 120 dias de tempo conjunto inicialmente.",
+    "context": "aumento progressivo da licença parental para 16 meses, com maiores incentivos para que seja repartida entre ambos os pais, com períodos mais longos de tempo conjunto (numa primeira fase passar já para 120 dias)",
+    "topics": [
+      "direitos sociais",
+      "emprego"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reescrito para maior clareza: substituído 'período mínimo conjunto de 120 dias inicialmente' por 'período mínimo de 120 dias de tempo conjunto inicialmente'."
+  },
+  {
+    "text": "Testar e implementar faseadamente um Rendimento Básico Incondicional para todos os cidadãos.",
+    "context": "Testar, com vista à implementação faseada, um Rendimento Básico Incondicional, que distribua a riqueza nacional produzida",
+    "topics": [
+      "segurança social",
+      "economia"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta concretude: não especifica âmbito (universalidade), valor, cronograma ou método de implementação. 'Testar e implementar faseadamente' é vago."
+  },
+  {
+    "text": "Restabelecer o acesso ao Rendimento Social de Inserção e aumentar o seu valor.",
+    "context": "através do restabelecimento do acesso ao Rendimento Social de Inserção e do aumento do seu valor",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Pouca concretude: 'restabelecer' e 'aumentar' carecem de métrica, valor ou prazo específico."
+  },
+  {
+    "text": "Aumentar o Indexante de Apoios Sociais (IAS) com aumentos anuais sucessivos e graduais.",
+    "context": "através do aumento do Indexante de Apoios Sociais (IAS) com aumentos anuais sucessivos e graduais",
+    "topics": [
+      "segurança social",
+      "direitos sociais"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Muito vaga: 'aumentos anuais sucessivos e graduais' sem especificar percentual, valor ou calendário."
+  },
+  {
+    "text": "Assumir uma redução de 65% das emissões nacionais de gases com efeito de estufa até 2030.",
+    "context": "Assumir uma redução de 65% das emissões nacionais de gases com efeito de estufa até 2030",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Concretizar 100% de energias renováveis na eletricidade consumida em Portugal em 2030.",
+    "context": "concretizando 100% de renováveis na eletricidade consumida em Portugal em 2030",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Declarar a emergência climática nacional e criar uma task-force para a crise climática com base legal para implementar medidas urgentes.",
+    "context": "Declarar a emergência climática nacional, atribuindo ao desafio de combate às alterações climáticas a urgência civilizacional; criando uma Task-force para a crise climática",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Convertida maiúscula desnecessária 'Task-force' em minúscula e ajustado para melhor fluidez."
+  },
+  {
+    "text": "Rejeitar o Tratado da Carta da Energia e pugnar pela saída coordenada dos Estados-Membros da UE deste acordo.",
+    "context": "Rejeitar o Tratado da Carta da Energia, pugnando no âmbito das instituições europeias para uma saída coordenada dos vários Estados-Membros da UE",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o escalão do IVA de 23% para 6% em todos os serviços essenciais de fornecimento de energia, incluindo eletricidade e gás engarrafado.",
+    "context": "Reduzir o escalão do IVA de 23% para 6% em todos serviços essenciais de fornecimento de energia, mais concretamente na eletricidade e no gás engarrafado",
+    "topics": [
+      "energia",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionada preposição 'em' antes de 'todos' para melhor correção gramatical."
+  },
+  {
+    "text": "Rejeitar a mineração a céu aberto para extração de lítio, sujeitando concessões a Avaliações Ambientais Estratégicas.",
+    "context": "Rejeitar a mineração a céu aberto, para extração de lítio ou outros minérios necessários à transição energética sempre que as condições naturais de jazida minerais o permitam",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alcançar 10% de habitação pública nos grandes centros urbanos, reabilitando imóveis devolutos do Estado para arrendamento.",
+    "context": "Alcançar 10% de habitação pública, como forma de garantir o acesso dos cidadãos a habitações nos grandes centros urbanos",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o Programa Ajuda de Casa, financiando até 30% do valor de mercado do imóvel para compra de primeira habitação própria.",
+    "context": "Assegurar a ajuda à compra da primeira casa, através do Programa Ajuda de Casa, que consiste no financiamento até 30% do valor de mercado do imóvel",
+    "topics": [
+      "habitação"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reformular os programas públicos de apoio ao arrendamento de habitações por jovens, aumentando o tempo de apoio para 36 meses.",
+    "context": "Reformular os programas públicos de apoio ao arrendamento de habitações por jovens... aumentando o tempo de apoio para o mínimo de 36 meses",
+    "topics": [
+      "habitação",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'o mínimo de' para melhorar clareza e respeitar limite de caracteres (mantém significado)."
+  },
+  {
+    "text": "Reformular o cálculo do IMI, aumentando o limiar de isenção para habitação permanente em imóveis com valor até 80 mil euros e rendimentos até 30 mil euros anuais.",
+    "context": "alargamento dos critérios para isenção do pagamento de IMI no caso de habitação permanente (aumento dos valores patrimoniais para 80 000 euros e dos rendimentos de referência para 30 000 euros anuais)",
+    "topics": [
+      "habitação",
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado para maior clareza: 'de habitação permanente para imóveis' → 'para habitação permanente em imóveis'; '80.000 euros' → '80 mil euros'."
+  },
+  {
+    "text": "Acabar com o programa dos Vistos Gold e Green em todo o território nacional.",
+    "context": "reformulação da legislação para acabar com os Vistos Gold em todo o território nacional",
+    "topics": [
+      "habitação",
+      "imigração"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Eliminar as propinas no 1.º ciclo do ensino superior e regulamentar o valor das propinas do 2.º ciclo com tetos máximos.",
+    "context": "Eliminar as propinas no 1º ciclo e regulamentar o valor das propinas relativas ao 2ºciclo e à formação pós-graduada através do estabelecimento de tetos máximos",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'e redução progressiva' (estava truncado/ambíguo no escopo) para clareza e conformidade com limite de caracteres."
+  },
+  {
+    "text": "Integrar as creches na rede pública de escolas, garantindo escola pública viável desde os 4 meses de idade.",
+    "context": "Garantir a escola pública como uma opção viável desde os 4 meses, integrando as creches na rede pública de escolas",
+    "topics": [
+      "educação",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas.",
+    "context": "Retirar a Disciplina de Educação Moral e Religiosa do currículo das escolas públicas, devendo a formação religiosa ser deixada ao critério das famílias",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Dotar as escolas públicas de sistemas de ventilação, filtração e monitorização da qualidade do ar para prevenir infeções respiratórias.",
+    "context": "Dotar as escolas públicas de sistemas de ventilação, filtração e monitorização da qualidade do ar, de forma a prevenir a disseminação de infeções respiratórias como a COVID-19",
+    "topics": [
+      "educação",
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'como a COVID-19' (exemplo datado) para maior generalidade e respeitar limite de caracteres."
+  },
+  {
+    "text": "Eliminar as taxas moderadoras e co-pagamentos no Serviço Nacional de Saúde.",
+    "context": "Facilitar e tornar mais equitativo o acesso aos cuidados de saúde e de prevenção da doença, eliminando as taxas moderadoras/co-pagamentos",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído '/' por 'e' para melhor legibilidade e fluidez do texto."
+  },
+  {
+    "text": "Reduzir o número de utentes por médico de família para menos de 1500 utentes por médico.",
+    "context": "garantindo que o número de utentes de cada médico de família permite um acompanhamento efetivo (reduzir o número de utentes para menos de 1500 utentes por médico)",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Não renovar os contratos das Parcerias Público-Privadas no Serviço Nacional de Saúde.",
+    "context": "Reforçar e reorganizar o Serviço Nacional de Saúde com base em comunidades locais, assegurando a sua gestão pública e não renovando os contratos das Parcerias Público-Privadas",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida expressão 'atualmente em curso' (redundante) para maior concisão e clareza."
+  },
+  {
+    "text": "Legalizar o consumo e venda de canábis, incluindo para uso recreativo, com etiquetagem informativa e venda restrita a adultos.",
+    "context": "Legalizar o consumo e a venda de canábis, incluindo para uso recreativo, com a obrigatoriedade da etiquetagem informativa, da informação sobre os riscos e com a venda restrita a adultos",
+    "topics": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'a' antes de 'venda' para melhor fluidez gramatical."
+  },
+  {
+    "text": "Despenalizar e legislar a morte assistida, assegurando apoio médico e psicológico especializado.",
+    "context": "Dignificar o fim de vida e possibilitar uma morte digna, através da despenalização e legislação da morte assistida",
+    "topics": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Investir em investigação e desenvolvimento até atingir 3% do PIB em I&D até 2030, com 1/3 de despesa pública e 2/3 privada.",
+    "context": "cumprir as metas de investimento em investigação e desenvolvimento declaradas como objetivo para Portugal, correspondentes a um investimento global em I&D de 3% do PIB até 2030",
+    "topics": [
+      "educação",
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Atingir o objetivo de 60% de jovens com 20 anos a frequentar o ensino superior em 2030.",
+    "context": "atingindo o objetivo de 60% de jovens com 20 anos frequentando o ensino superior em 2030",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Prorrogar bolsas de doutoramento, pós-doutoramento e contratos a termo em contexto pandémico por mínimo 6 meses.",
+    "context": "Prorrogar a duração de bolsas de doutoramento, pós-doutoramento e contratos a termo em contexto pandémico, por um período mínimo de 6 meses",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida palavra 'um período' para concisão, mantendo clareza da intenção."
+  },
+  {
+    "text": "Criar um gabinete técnico-científico de apoio à atividade legislativa na Assembleia da República.",
+    "context": "Criar um gabinete técnico-científico de apoio à atividade de legislação na Assembleia da República de forma a fornecer a informação científica e dados atualizados",
+    "topics": [
+      "administração pública",
+      "educação"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar o financiamento da cultura para 1% da receita total do Orçamento de Estado.",
+    "context": "Aumentar e diversificar o financiamento da cultura, que deve atingir 1% da receita total do Orçamento de Estado",
+    "topics": [
+      "cultura"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'do' redundante antes de 'Estado' e ajustado para melhor concordância."
+  },
+  {
+    "text": "Eliminar imediatamente os subsídios a espetáculos que promovam maus-tratos a animais, como a tauromaquia.",
+    "context": "Os subsídios a espetáculos que promovam maus-tratos a animais, como a tauromaquia, devem ser imediatamente eliminados",
+    "topics": [
+      "cultura",
+      "outros"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Abolir as atividades tauromáquicas em Portugal, incluindo a secção de tauromaquia no Conselho Nacional de Cultura.",
+    "context": "Abolir as atividades tauromáquicas em Portugal, abolindo-se também a secção de tauromaquia no Conselho Nacional de Cultura",
+    "topics": [
+      "cultura",
+      "outros"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir em 50% os tempos de viagem ferroviária no eixo Setúbal-Lisboa-Porto-Braga-Vigo até 2030 e renovar a ligação Lisboa-Madrid.",
+    "context": "Investir no transporte ferroviário, reduzindo em 50% os tempos da viagem ferroviária no eixo Setúbal-Lisboa-Porto-Braga-Vigo até 2030 e renovando a ligação Lisboa-Madrid",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Alterado 'da viagem' para 'de viagem' (correção gramatical) e removido artigo redundante para melhor fluidez."
+  },
+  {
+    "text": "Abandonar a venda de veículos com motor a combustão interna a partir de 2030.",
+    "context": "abandonar a venda de veículos com motor a combustão interna a partir de 2030",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir a velocidade máxima em zonas urbanas para 30 km/h, com áreas de coexistência a 20 km/h.",
+    "context": "reduzindo a velocidade máxima em zonas urbanas para 30 km/h, promovendo as área de coexistência com velocidade máxima de 20 km/h",
+    "topics": [
+      "transportes",
+      "segurança"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir que o preço de uma viagem de avião não possa ser inferior ao da mesma viagem de comboio no território nacional.",
+    "context": "garantir que o preço de uma viagem de avião não possa ser inferior ao da mesma viagem de comboio no território nacional",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Promessa vaga e difícil de verificar; não especifica mecanismo de implementação nem como garantir o cumprimento por operadores privados. É mais um objetivo aspiracional."
+  },
+  {
+    "text": "Retirar a isenção de impostos sobre o combustível às companhias aéreas.",
+    "context": "retirando a isenção dos impostos sobre o combustível às companhias aéreas",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Combater os paraísos fiscais, proibindo transferências de capitais entre o setor bancário e paraísos fiscais não transparentes, incluindo o off-shore da Madeira.",
+    "context": "Combater os paraísos fiscais, defendendo a proibição, no âmbito da União Europeia, das transferências de capitais entre o setor bancário e os paraísos fiscais... eliminar os paraísos fiscais na União Europeia, incluindo o off-shore da Madeira",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado para melhor clareza: removidas referências redundantes a 'União Europeia' e reformulado com verbo paralelo 'proibindo'."
+  },
+  {
+    "text": "Introduzir o imposto sucessório para grandes heranças.",
+    "context": "da introdução do imposto sucessório para grandes heranças",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Não especifica valores mínimos, escalas de tributação ou critério de 'grandes heranças'; é demasiado genérica para ser verificável."
+  },
+  {
+    "text": "Criar uma taxa universal sobre o carbono no quadro de uma reforma fiscal ambiental.",
+    "context": "Criar uma taxa universal sobre o carbono, no quadro de uma reforma fiscal ambiental, internalizando dessa forma as externalidades geradas",
+    "topics": [
+      "ambiente",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.55,
+    "validation_reason": "Muito genérica; não especifica taxa, âmbito, sectores abrangidos ou cronograma de implementação."
+  },
+  {
+    "text": "Separar a banca comercial da banca de investimento para que o risco especulativo não recaia sobre o Estado ou depositantes.",
+    "context": "Separar a banca comercial da banca de investimento, para que o risco da atividade especulativa não recaia sobre o Estado nem sobre os depositantes",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o Observatório da Alimentação em articulação com o Plano Estratégico da PAC 2023-2027.",
+    "context": "Criar o Observatório da Alimentação, em plena articulação com o Plano Estratégico da PAC 2023–2027",
+    "topics": [
+      "agricultura",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida vírgula para melhor fluidez. Simplicidade mantida."
+  },
+  {
+    "text": "Aprovar um Plano Nacional de Promoção da Agricultura Biológica com meta de 25% da superfície agrícola útil em modo de produção biológico.",
+    "context": "Aprovar um Plano Nacional de Promoção da Agricultura Biológica, criando condições para cumprir a meta de 25% da superfície agrícola útil dedicada ao modo de produção biológico",
+    "topics": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado: removido 'criando condições para cumprir' (pressuposto); reformulado finalizador para maior concisão."
+  },
+  {
+    "text": "Proibir a colheita noturna mecanizada de produtos agrícolas para proteger espécies selvagens.",
+    "context": "Proibir a colheita noturna mecanizada de produtos agrícolas, travando o impacto negativo sobre espécies selvagens",
+    "topics": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta e verificável, mas 'noturna mecanizada' poderia ser mais específica quanto ao período horário exato",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma taxa municipal de entulho aplicada proporcionalmente à quantidade de demolições e lixo criado em obra.",
+    "context": "Estabelecer uma Taxa Municipal de Entulho a aplicar ao nível de transformação e investimento de forma proporcional à quantidade de demolições e consequente entulho e lixo criado em obra",
+    "topics": [
+      "habitação",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Expandir a rede de Áreas Marinhas Protegidas para cobrir pelo menos 10% de todos os habitats marinhos.",
+    "context": "Expandir a rede de Áreas Marinhas Protegidas para cobrir, pelo menos, 10% de todos os habitats, regulamentado-as e fiscalizando-as de forma eficaz e justa",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alterar a lei da nacionalidade para que qualquer pessoa nascida em território português tenha a nacionalidade portuguesa de forma imediata e definitiva.",
+    "context": "Alterar a lei da nacionalidade de modo a que qualquer pessoa que nasça ou tenha nascido em território português tenha a nacionalidade portuguesa de forma imediata e definitiva",
+    "topics": [
+      "imigração",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'de modo a que qualquer pessoa nascida' para 'para que qualquer pessoa nascida' por clareza e concisão."
+  },
+  {
+    "text": "Permitir o voto a partir dos 16 anos nas eleições.",
+    "context": "Alargar, facilitar e fomentar o voto, permitindo o voto a partir dos 16 anos",
+    "topics": [
+      "direitos sociais",
+      "outros"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar Assembleias Cidadãs compostas por participantes escolhidos aleatoriamente para deliberar em conjunto com a Assembleia da República.",
+    "context": "criando Assembleias Cidadãs, compostas por participantes escolhidos de forma aleatória e de modo a garantir a maior representatividade possível, que funcionem como câmaras de deliberação",
+    "topics": [
+      "outros",
+      "administração pública"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": "Concreta na estrutura, mas falta prazo para implementação",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Promover uma reforma do sistema eleitoral com um círculo nacional de compensação e listas semi-abertas.",
+    "context": "Promover uma reforma do sistema eleitoral, de forma a garantir maior diversidade e pluralidade à Assembleia da República, com um sistema eleitoral mais justo, representativo e proporcional... através de um círculo nacional de compensação e listas semi-abertas",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Promessa clara mas 'semi-abertas' é conceito que pode ter interpretações diferentes",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma agência pública independente que centralize as funções do Conselho de Prevenção da Corrupção, da Entidade de Contas e Financiamentos Políticos e da Entidade para a Transparência.",
+    "context": "Criar uma agência pública independente que centralize as funções do Conselho de Prevenção da Corrupção, da Entidade de Contas e Financiamentos Políticos e da futura Entidade para a Transparência",
+    "topics": [
+      "administração pública",
+      "justiça"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Ilegalizar as chamadas 'terapias de conversão' dirigidas a pessoas LGBTQI+.",
+    "context": "ilegalizar as chamadas 'terapias de conversão' dirigidas a pessoas LGBTQI+, práticas essas equivalentes a tortura, sejam estas de teor religioso, psicoterapêutico ou outro",
+    "topics": [
+      "direitos sociais",
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Capitalizada primeira letra e mantida clareza standalone, removendo contexto de definição."
+  },
+  {
+    "text": "Descriminalizar a 'Ofensa à Honra do Presidente da República' (artigo 328.º do CP) como crime autónomo.",
+    "context": "Descriminalizar a 'Ofensa à Honra do Presidente da República' (artigo 328.º do CP) como crime autónomo contra a realização do Estado de direito",
+    "topics": [
+      "justiça",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o escalão do IVA de 23% para 6% nos serviços veterinários e na alimentação para animais de companhia.",
+    "context": "Reduzir o escalão do IVA de 23% para 6% nos serviços veterinários e na alimentação para animais de companhia",
+    "topics": [
+      "outros",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.98,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Proibir a utilização de animais em atividades de entretenimento, exceto com fins pedagógicos.",
+    "context": "Proibir a utilização de animais em atividades de entretenimento, sejam estas em meio terrestre, aquático ou aéreo, exceto aquelas atividades que, cumprindo com fins pedagógicos, visam consciencializar os cidadãos",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Concreta mas 'fins pedagógicos' é critério que pode gerar controvérsia interpretativa",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Proibir o transporte de animais vivos em percursos longos na indústria pecuária, limitando-o à via terrestre e a períodos máximos de 4 horas.",
+    "context": "Proibir, na indústria pecuária, o transporte de animais vivos em percursos longos, limitando este transporte à via terrestre... durante períodos que não ultrapassem as 4h de duração",
+    "topics": [
+      "outros",
+      "agricultura"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reordenação para clareza: movida 'na indústria pecuária' para após o verbo; melhorada fluidez geral."
+  },
+  {
+    "text": "Suspender a criação de animais de companhia para venda, estudando o efetivo populacional adequado e regulando a atividade.",
+    "context": "Suspender a criação de animais de companhia para venda, estudando-se o efetivo populacional adequado à dimensão portuguesa",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.96,
+    "is_valid": false,
+    "validation_score": 0.65,
+    "validation_reason": "Contém duas acções: proibição + estudo futuro. A segunda parte ('estudando...regulando') é vaga no prazo e outcome, enfraquecendo o carácter de promessa concreta"
+  },
+  {
+    "text": "Alargar o prazo de denúncia para vítimas de crimes sexuais de seis meses para dois anos.",
+    "context": "alargamento do prazo de denúncia para vítimas de crimes sexuais de seis meses para dois anos",
+    "topics": [
+      "justiça",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Alterado 'Alargamento' para 'Alargar' (verbo no infinitivo) para coerência com formato de promessa ativa."
+  },
+  {
+    "text": "Assumir a meta de atingir uma taxa de reciclagem de 80% em 2030.",
+    "context": "Introduzir nova ambição nas metas estabelecidas para a reciclagem em Portugal, assumindo a meta de atingir uma taxa de reciclagem final de 80% em 2030",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'final' (redundante com contexto); mantida essência e sob limite de caracteres."
+  },
+  {
+    "text": "Criar um Sistema Nacional de Remuneração dos Serviços dos Ecossistemas com mecanismos de pagamento de longa duração.",
+    "context": "Criar um Sistema Nacional de Remuneração dos Serviços dos Ecossistemas à escala nacional, que acelere o mapeamento e valorização dos serviços dos ecossistemas em todo o território",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'com contratos de' para 'de' para melhor fluidez; mantida essência."
+  },
+  {
+    "text": "Abolir o uso de munições com chumbo na caça em todo o território nacional.",
+    "context": "Abolir o uso de munições com chumbo na caça em todo o território nacional, terminando desta forma com a contaminação progressiva de solos, água, pessoas e animais",
+    "topics": [
+      "ambiente",
+      "outros"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Concretizar o PNPOT — Programa Nacional da Política de Ordenamento do Território — atribuindo-lhe papel referencial e criando condições para o seu cumprimento.",
+    "context": "Concretizar o PNPOT — Programa Nacional da Política de Ordenamento do Território, conferindo-lhe o papel referencial que lhe cabe",
+    "topics": [
+      "administração pública",
+      "ambiente"
+    ],
+    "confidence": 0.94,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Promessa vaga e genérica. 'Concretizar' e 'atribuindo-lhe papel referencial' não são ações específicas, mensuráveis ou com prazo definido. Não especifica como nem quando."
+  },
+  {
+    "text": "Criar um passe de mobilidade nacional acessível a toda a população, utilizável nas redes locais de transporte.",
+    "context": "criando um 'passe de mobilidade nacional', acessível a toda a população, e que possa ser usado nas redes locais",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidas aspas desnecessárias em 'passe de mobilidade nacional'; melhorada clareza."
+  },
+  {
+    "text": "Subsidiar o passe de transportes públicos para todos os estudantes nos percursos entre a casa e a escola.",
+    "context": "subsidiando o passe para todos os estudantes nos percursos entre a casa e a escola",
+    "topics": [
+      "transportes",
+      "educação"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Limitar drasticamente a publicidade aos jogos de azar, tanto no espaço público como na internet e televisão.",
+    "context": "Limitar drasticamente a publicidade aos jogos de azar, tanto no espaço público como na internet e televisão",
+    "topics": [
+      "direitos sociais",
+      "saúde"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Promessa vaga. 'Limitar drasticamente' é impreciso e não é verificável. Não especifica o tipo de limitação, percentagem de redução ou prazo."
+  },
+  {
+    "text": "Fechar as 'Portas Giratórias' entre público e privado, aumentando o período de nojo de passagem de cargos públicos para o setor privado.",
+    "context": "Fechar as Portas Giratórias entre público e privado, aumentando o período de nojo de passagem de cargos públicos para o setor privado dentro do mesmo setor",
+    "topics": [
+      "administração pública",
+      "justiça"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Promessa pouco concreta. 'Aumentando o período de nojo' não especifica para quanto tempo (6 meses? 1 ano? 2 anos?). 'Fechar as Portas Giratórias' é diagnóstico/objetivo genérico, não ação específica."
+  },
+  {
+    "text": "Garantir o abastecimento gratuito de quantitativos mínimos de água, gás e eletricidade para combater a pobreza.",
+    "context": "garantindo os provimentos básicos de água, gás e eletricidade através do abastecimento gratuito de quantitativos mínimos",
+    "topics": [
+      "direitos sociais",
+      "energia"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  }
+]

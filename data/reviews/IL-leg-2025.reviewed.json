@@ -1,0 +1,536 @@
+[
+  {
+    "texto_original": "Criar isenção total de IRS até ao Salário Mínimo Nacional, via aumento da dedução específica e eliminação do atual sistema de mínimo de existência.",
+    "categoria": [
+      "economia",
+      "emprego"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Isenção total até ao Salário Mínimo Nacional por via do aumento da dedução específica até esse montante e retirada do atual sistema de mínimo de existência.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aplicar um sistema de duas taxas de IRS: 15% para rendimentos brutos até 26.768€ e 28% para rendimentos acima desse valor, até 2030.",
+    "categoria": [
+      "economia",
+      "emprego"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Aplicação de um sistema de duas taxas de IRS, a primeira de 15% para rendimentos brutos de 26.768 e 28% para rendimentos acima desse valor.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Revogar gradualmente a Derrama Estadual, eliminando o primeiro escalão em 2026 e completando a eliminação até 2030.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Propomos que esta revogação se faça de forma gradual, revogando já em 2026 o primeiro escalão da derrama estadual, e um consequente plano progressivo de eliminação até 2030.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reduzir a taxa de IRC para 15%, com reduções faseadas de 2 pontos percentuais por ano até ao final da legislatura.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Uma redução faseada da taxa base de IRC até aos 15%, pelo menos, até ao final da legislatura, com uma cadência mínima de 2 pontos percentuais por ano.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Eliminar as tributações autónomas em IRS e IRC de forma gradual, com objetivo de extinção até 2030.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Propomos uma redução gradual até ao final da legislatura, com o objetivo de acabar com as tributações autónomas até 2030.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reduzir a taxa de imposto sobre rendimentos prediais de 25% para 15%.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A Iniciativa Liberal propõe reduzir a taxa de imposto sobre os rendimentos prediais para 15%.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reduzir o IVA da construção de edificado novo de 23% para a taxa mínima de 6%.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A Iniciativa Liberal propõe uma redução do IVA da construção dos atuais 23% para a taxa mínima de 6% para edificado novo.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um regime de pré-licenciamento urbanístico automático para projetos de construção em áreas de elevada procura identificadas no PDM.",
+    "categoria": [
+      "habitação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "A Iniciativa Liberal propõe que se deve implementar um regime de pré-licenciamento urbanístico automático para projetos de construção em áreas previamente identificadas no Plano Diretor Municipal (PDM).",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Consolidar mais de dois mil diplomas dispersos sobre urbanismo e construção num único Código da Construção.",
+    "categoria": [
+      "habitação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal pretende a criação de um Código da Construção/Edificação que consolide e simplifique significativamente essa legislação num único diploma.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um Código Único do Arrendamento que sistematize toda a legislação sobre arrendamento num único diploma coerente.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "A Iniciativa Liberal quer sistematizar a legislação sobre arrendamento num único diploma, coerente e integrado, que inclua as normas do Código Civil, NRAU e demais legislação avulsa.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Revogar o direito de preferência do Estado e autarquias nas transações particulares de imóveis para habitação.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "É urgente revogar esta medida para garantir que o Estado não é um bloqueador de acesso à habitação por cidadãos que tiveram o trabalho de procurar e negociar um imóvel.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um sistema multipilar de pensões com três pilares: repartição pública, capitalização obrigatória com contas individuais e capitalização voluntária com incentivos fiscais.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Modelo Multipilar Proposto: Pilar I – Repartição Pública; Pilar II – Capitalização Obrigatória com contas individuais; Pilar III – Capitalização Voluntária com incentivos fiscais.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar o pilar de capitalização voluntária para pensões, acessível a todos os trabalhadores e empresas, com contas individuais, incentivos fiscais e total transparência.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A primeira fase é a mais urgente: a criação do Pilar de Capitalização Voluntária, acessível a todos os trabalhadores e empresas, com contas individuais, incentivos fiscais e total transparência.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar contas de poupança e investimento isentas de impostos, permitindo investir até 20 mil euros por ano, com isenção total sobre juros, dividendos e mais-valias.",
+    "categoria": [
+      "segurança social",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Estas contas permitirão investir até 20 mil euros por ano, com isenção total de impostos sobre juros, dividendos e mais-valias.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um sistema de pensões ocupacionais onde empresas contribuem para pensões de trabalhadores com incentivos fiscais e o trabalhador escolhe entre vários fundos.",
+    "categoria": [
+      "segurança social",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Com esta proposta, as empresas poderão contribuir adicionalmente para a pensão dos seus trabalhadores, com incentivos fiscais. O trabalhador escolherá entre vários fundos de pensões.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar o Sistema Universal de Acesso à Saúde (SUA-Saúde), modelo centrado no utente com liberdade de escolha plena, não apenas dentro do SNS.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "O SUA-Saúde é, assim, uma solução estrutural, corajosa e inovadora, que garante a todas as pessoas, sem exceção, o seu direito constitucional à saúde.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar uma entidade reguladora da saúde verdadeiramente independente, com novos poderes de regulação e fiscalização concorrencial, clínica e financeira.",
+    "categoria": [
+      "saúde",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe uma nova Entidade Reguladora da Saúde, verdadeiramente independente, dotada de novos poderes e competências ao nível da regulação e da fiscalização concorrencial, clínica e financeira.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Criar um programa de acesso a cuidados de saúde que permita recurso a prestadores externos por concurso público quando se preveja incumprimento dos TMRG.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "A Iniciativa Liberal propõe a criação de um Programa Especial de Acesso a Cuidados de Saúde, que permita o recurso a prestadores externos, nacionais ou internacionais, por concurso público, sempre que se preveja incumprimento dos TMRG.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar o Registo de Saúde Eletrónico Universal (RSEU), plataforma digital única e integrada com toda a informação clínica de cada cidadão, acessível a prestadores autorizados.",
+    "categoria": [
+      "saúde",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe a criação do Registo de Saúde Eletrónico Universal (RSEU), uma plataforma digital única, integrada e segura, que reúne toda a informação clínica de cada cidadão.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Integrar os sistemas do SNS, AIMA e Autoridade Tributária para verificação imediata do estatuto do utente e gestão eficaz de cobranças a não residentes.",
+    "categoria": [
+      "saúde",
+      "tecnologia",
+      "imigração"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Propomos a integração dos sistemas do SNS, AIMA e Autoridade Tributária, para que se possa verificar de imediato o estatuto do utente e garantir uma gestão eficaz.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar um Certificado de Incapacidade Recorrente e Intermitente, com validade anual, para pessoas com doenças crónicas com episódios incapacitantes repetidos.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "A Iniciativa Liberal propõe a criação de um certificado de incapacidade recorrente e intermitente, com validade anual e sujeito a avaliação clínica, destinado a pessoas com doenças crónicas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reformular a fase de instrução criminal para combater morosidade, recentrando-a na função de controlo judicial da acusação.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "A Iniciativa Liberal defende uma reformulação da fase de instrução criminal, de forma a combater a morosidade e a instrumentalização deste momento processual.",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Alargar o prazo de prescrição para denúncia de crimes sexuais contra menores até aos 30 anos de idade da vítima.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A Iniciativa Liberal propõe que o prazo de prescrição para denúncia de crimes sexuais contra menores seja alargado até aos 30 anos de idade da vítima.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um Juízo de Competência Especializada para o Direito dos Estrangeiros nos tribunais.",
+    "categoria": [
+      "justiça",
+      "imigração"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe a criação de um Juízo de Competência Especializada para o Direito dos Estrangeiros, assegurando uma resposta mais célere, justa e adequada.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Implementar juízos de competência especializada em urbanismo, ambiente e ordenamento do território, já previstos na lei.",
+    "categoria": [
+      "justiça",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "A Iniciativa Liberal defende a implementação urgente dos juízos de competência especializada em urbanismo, ambiente e ordenamento do território, já previstos no Estatuto dos Tribunais Administrativos e Fiscais.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar uma plataforma digital única para o sistema judicial, unificando as soluções eletrónicas das jurisdições comum, administrativa e fiscal.",
+    "categoria": [
+      "justiça",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe a criação de uma plataforma digital única para todo o sistema judicial, unificando as atuais soluções eletrónicas das jurisdições comum e administrativa e fiscal.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um círculo nacional de compensação nas eleições legislativas para garantir que todos os votos contam por igual.",
+    "categoria": [
+      "outros"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal defende a criação de um círculo nacional de compensação nas eleições legislativas, para garantir que todos os votos contam por igual, independentemente do círculo eleitoral.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Eliminar o dia de reflexão em todas as eleições e referendos, nacionais e locais.",
+    "categoria": [
+      "outros"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A Iniciativa Liberal propõe a extinção do dia de reflexão em todas as eleições e referendos, nacionais e locais.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Implementar voto em mobilidade pleno para todas as eleições, permitindo votar em qualquer mesa com cadernos eleitorais digitalizados.",
+    "categoria": [
+      "outros"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe a implementação plena do voto em mobilidade para todas as eleições, permitindo que qualquer eleitor possa votar em qualquer mesa de voto.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Privatizar a TAP, a Caixa Geral de Depósitos e a RTP.",
+    "categoria": [
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A privatização da TAP, da Caixa Geral de Depósitos (CGD) e da RTP, que têm representado, historicamente, grandes encargos injustificáveis para os contribuintes.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Conceder ou privatizar a CP - Comboios de Portugal e a Transtejo/Soflusa, garantindo maior concorrência e melhor qualidade de serviço.",
+    "categoria": [
+      "transportes",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A concessão ou privatização de serviços públicos de transporte de passageiros, incluindo a CP - Comboios de Portugal e a Transtejo/Soflusa.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Alienar participações estatais em empresas de setores não essenciais, como a Companhia das Lezírias e o Circuito do Estoril.",
+    "categoria": [
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A alienação de participações estatais em empresas de setores não essenciais, como a Companhia das Lezírias, o Circuito do Estoril e outras entidades do setor empresarial do estado.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Alienar os 25% do capital do Novo Banco detidos pelo Estado via DGTF e Fundo de Resolução.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Alienação dos 25% do capital do Novo Banco detido pelo Estado via DGTF e Fundo de Resolução.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Iniciar processo de privatização da RTP, S.A., com possibilidade de venda total ou em partes e abertura de concurso para produção de conteúdos de serviço público.",
+    "categoria": [
+      "cultura",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Iniciar um processo de privatização da RTP, S.A., com os seguintes pressupostos: Criar a possibilidade de ser vendida como um todo ou em partes.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar programa de redução gradual de funcionários administrativos na Administração Pública, com regra de uma nova contratação para cada duas saídas voluntárias.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe um programa de redução gradual do número de funcionários administrativos, com uma regra de substituição de apenas uma nova contratação para cada duas saídas voluntárias.",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Criar um GovTech Testbed para testar soluções inovadoras em contexto real na Administração Pública, com vista à adoção em larga escala.",
+    "categoria": [
+      "administração pública",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar um 'GovTech Testbed' colocando o estado na dinâmica da inovação e no ecossistema de novas tecnologias.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Reformar o Código dos Contratos Públicos para aumentar transparência, agilidade e competitividade, incluindo revisão das regras das centrais de compras setoriais.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.94,
+    "_context": "A Iniciativa Liberal defende, assim, uma reforma do Código dos Contratos Públicos. É possível fazê-lo sem perder a capacidade de fiscalização necessária, aumentando a competitividade entre fornecedores.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Regulamentar obrigatoriamente a atividade de lobbying, com inscrição em Registo de Transparência e publicação da pegada legislativa em projetos de lei.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A regulamentação da atividade de lobbying. As entidades consideradas lobistas que pretendam exercer atividade de representação de interesses se devem obrigatoriamente inscrever no Registo de Transparência.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Reformar a CReSAP, tornando-a entidade independente com poder vinculativo para impedir nomeações sem base no mérito, alargando alcance a institutos públicos e empresas com capital estatal.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "É igualmente urgente reformar a CReSAP e transformá-la numa entidade independente e com poder vinculativo, capaz de impedir nomeações sem base no mérito, alargando o seu alcance a institutos públicos e empresas com capital do Estado.",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Criar Conselho de Ética, Nomeações e Remunerações para conduzir concursos públicos internacionais para cargos estratégicos como Governador do Banco de Portugal.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Cargos estratégicos como o Governador do Banco de Portugal devem ser escolhidos através da realização de concursos públicos internacionais, promovidos por um novo Conselho de Ética, Nomeações e Remunerações.",
+    "_validation_score": 0.82
+  },
+  {
+    "texto_original": "Aprovar lei que formaliza o Plano Ferroviário Nacional com horizonte 2040, incluindo ligação de todas as capitais de distrito a menos de duas horas de Lisboa ou Porto.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Executar os projetos já previstos no Plano Nacional de Infraestruturas 2030 e formalizar o Plano Ferroviário Nacional em lei da República para execução até 2040.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Construir linhas ferroviárias de alta velocidade (TGV) ligando Porto a Lisboa até 2033, incluindo a Terceira Travessia do Tejo, com expansão posterior para Braga, Viseu e Vigo.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Apostar nas linhas ferroviárias de alta velocidade (TGV), ligando o Porto a Lisboa até 2033, construindo a Terceira Travessia do Tejo, e expandindo subsequentemente para Braga, Viseu e Vigo.",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Implementar linhas de metro de superfície em cidades de média a grande dimensão como Braga, Aveiro e Setúbal.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Apostar no metro de superfície em cidades de média a grande dimensão tais como Braga, Aveiro e Setúbal.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Implementar sistemas de Metrobus/BRT em cidades de média dimensão como Guimarães, Leiria, Viseu e Faro, e expandir o atual em Coimbra.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Promover os sistemas de Metrobus/BRT em cidades de média dimensão onde seja recomendável a implantação de sistemas de mobilidade urbana de altas prestações, tal como será o caso em Guimarães, Leiria, Viseu e Faro.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Liberalizar o mercado de transporte fluvial no Tejo, privatizando a Transtejo/Soflusa e abrindo novas rotas de navegação a outros operadores.",
+    "categoria": [
+      "transportes",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Liberalizar o mercado de transporte fluvial no Tejo, privatizando a Transtejo/Soflusa e abrindo novas rotas de navegação a outros operadores.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Autonomizar a CP, SA, tornando-a sociedade anónima com total autonomia de gestão e objetivos claros a cumprir num mercado concorrencial.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A CP será autonomizada, passando a sociedade anónima, permitindo à empresa ser totalmente autónoma na gestão e com objetivos claros a cumprir.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Aumentar a quota modal do transporte ferroviário de mercadorias dos atuais 10% para 40% até 2050, através do programa Mercadorias 2030.",
+    "categoria": [
+      "transportes",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal considera que, até 2050, será possível aumentar a quota modal do transporte ferroviário de mercadorias dos atuais 10% para 40%.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um mercado nacional da água com sistema de preços dinâmicos que reflita a disponibilidade regional, incluindo interligação de bacias hidrográficas e viabilização da dessalinização.",
+    "categoria": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.94,
+    "_context": "Criar condições para que haja um real sistema de preços da água que reflita a disponibilidade de água nas diferentes regiões do país.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar um Código Florestal Simplificado que agregue toda a regulamentação do setor florestal num único diploma, reduzindo processos de licenciamento e financiamento.",
+    "categoria": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Precisamos de um Código Florestal Simplificado que agregue os regulamentos e os processos sobre o setor, encetando um trabalho conjunto com o público e os agentes económicos.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Concluir o cadastro da propriedade rural e incentivar o emparcelamento, sem cobrar taxas administrativas pela venda de terrenos abaixo de 5 hectares.",
+    "categoria": [
+      "agricultura"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Concluir o cadastro da propriedade rural; Incentivar o emparcelamento, não cobrando taxas administrativas pela venda de terrenos abaixo de 5 hectares.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Atingir 80% de produção de energia renovável até 2030.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Propomos uma rota de abundância energética, com a meta de atingir 80% de produção renovável até 2030.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Lançar leilões de energia tecnologicamente neutros, abertos a todas as soluções de energia não-fóssil sem discriminação por tecnologia.",
+    "categoria": [
+      "energia"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Seguindo as recomendações da OCDE, devemos lançar leilões tecnologicamente neutros, defendendo o princípio da neutralidade tecnológica.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Implementar o sistema de depósito e reembolso de embalagens de uso único até ao final de 2025.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal defende que este sistema entre em vigor até ao final de 2025 e que, desde já, seja estudada a inclusão de outros materiais.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar uma plataforma interministerial para agilização de decisões nos setores ambiental, florestal, agrícola, piscícola e marítimo, com prazos vinculativos e penalizações por incumprimento.",
+    "categoria": [
+      "ambiente",
+      "agricultura",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "A Iniciativa Liberal propõe a criação de uma Plataforma Interministerial para a Agilização de Decisões, que centralize e coordene as decisões nos setores digitalmente.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar o 'vale ensino', consolidando os atuais vales infância e educação num único instrumento com isenção de IRS para trabalhadores e majoração de IRC para empresas.",
+    "categoria": [
+      "educação",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Consideramos a reformulação do atual regime e a consolidação dos vales infância e educação num único instrumento: o 'vale ensino', com aplicação abrangente e com pleno enquadramento fiscal equivalente ao dos vales infância.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Substituir a disciplina de TIC por um novo modelo de ensino computacional com literacia digital, pensamento computacional e inteligência artificial integrados no currículo.",
+    "categoria": [
+      "educação",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe substituir a atual disciplina de TIC por um novo modelo de ensino computacional, assente em literacia digital, pensamento computacional e inteligência artificial.",
+    "_validation_score": 0.85
+  }
+]

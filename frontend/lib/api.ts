@@ -97,6 +97,7 @@ export type PromiseItem = {
 };
 
 export type PromiseDetail = PromiseItem & {
+  topics: string[];
   context?: string;
   status_note?: string;
   confidence: { extraction: number; validation: number };

@@ -1,0 +1,583 @@
+[
+  {
+    "texto_original": "Implementar taxa única de IRS de 15% sobre rendimentos acima do Salário Mínimo Nacional, com transição através de duas taxas de 15% e 28%.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Taxa única de IRS de 15% sobre a parte dos rendimentos que exceda o Salário Mínimo Nacional, começando de forma gradual com duas taxas de 15% e 28%.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar taxa única de IRC de 12% para empresas, exceto grandes multinacionais (faturação >750M€) que pagarão 15%, conforme lei europeia.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Taxa única de IRC de 12% para as empresas, excepto para as grandes multinacionais que será de 15% de acordo com o exigido pela lei europeia.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar uma task force de eliminação de burocracias desnecessárias em diálogo com cidadãos e empresas, publicando relatórios anuais públicos.",
+    "categoria": [
+      "administração pública",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Criar, no seio da Administração Pública, uma task force especializada de funcionários que, em diálogo com as empresas e os cidadãos, identifiquem e proponham a eliminação de burocracias.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar Zonas Económicas Especiais (ZEE) de baixa fiscalidade no interior do país para atrair investimento direto estrangeiro e promover hubs empresariais.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Criar Zonas Económicas Especiais (ZEE) de baixa fiscalidade no interior do país para atrair investimento direto estrangeiro e promover a criação de hubs empresariais.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Reverter normas do pacote Mais Habitação relativas ao Alojamento Local e eliminar a redução do coeficiente fiscal de 0,5% para 0,35%.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reverter as normas do pacote Mais Habitação relativas ao Alojamento Local, eliminar a redução do coeficiente fiscal.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Eliminar o adicional ao IMI (AIMI) e o imposto do selo sobre transações já taxadas.",
+    "categoria": [
+      "economia",
+      "habitação"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Eliminar várias taxas e contribuições extraordinárias como o adicional ao IMI (AIMI) e o imposto do selo sobre transações já taxadas.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Eliminar gradualmente o Imposto Único de Circulação (IUC).",
+    "categoria": [
+      "economia",
+      "transportes"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Eliminar gradualmente o Imposto Único de Circulação (IUC).",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Reduzir o imposto sobre rendimentos de capitais e prediais para 14,5%, sem englobamento obrigatório.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir o imposto sobre rendimentos de capitais para 14,5%.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Comprometer orçamentos com superávit e redução da dívida pública, com meta máxima de 60% do PIB conforme exigido pela União Europeia.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Compromisso de Orçamentos com superávit e redução da dívida pública.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Alcançar salário médio líquido de 1.500€ por mês (aproximadamente 2.130€ brutos) até 2028.",
+    "categoria": [
+      "economia",
+      "emprego"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Alcançar um Salário Médio de 1.500€ líquidos por mês (o que hoje equivale a cerca de 2.130€ brutos).",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir médico de família — público ou privado — para todos os portugueses até 2028, começando pelos maiores de 65 anos, grávidas e crianças até 9 anos até 2025.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir Médico de família - público ou privado - para todos, começando pelos que têm mais de 65 anos, mulheres grávidas e crianças até aos 9 anos até 2025.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir 250 mil novas habitações com construção terminada ou iniciada durante a legislatura.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "250 mil novas habitações com construção terminada ou iniciada.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reduzir o tempo médio de decisão em primeira instância nos tribunais administrativos dos atuais 850 dias para menos de um ano, igualando a média europeia, até 2028.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir o tempo médio das decisões em primeira instância nos tribunais administrativos dos atuais 850 dias para menos de um ano, igualando a média Europeia.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Garantir que pelo menos 82,5% dos alunos obtenham resultados positivos em cada domínio avaliado pelo PISA.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Pelo menos 82,5% dos alunos com resultados positivos a cada um dos domínios avaliados pelo PISA.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reverter o Pacote Mais Habitação eliminando todas as formas de arrendamento forçado nele previstas.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reverter o Pacote Mais Habitação, eliminando quaisquer formas de arrendamento forçado.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Eliminar o IMT na compra de habitação própria permanente.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Eliminar o IMT na compra de habitação própria permanente.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Aumentar deduções em IRS das rendas para máximo de 1.800€ (atual: 502€) e dos juros do crédito à habitação para 900€ (atual: 296€).",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Os máximos das deduções em IRS das despesas com rendas passariam dos atuais de 502 euros para os 1 800 euros.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Isentar o arrendamento, transações imobiliárias, mediação imobiliária e empréstimos bancários de imposto de selo.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Isentar de imposto de selo as transações imobiliárias, eliminando a escandalosa dupla tributação.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Reduzir o imposto sobre rendimentos prediais de arrendamento para 14,5% (contratos até 5 anos), descendo progressivamente até 0,5% para contratos acima de 20 anos.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Baixar a taxa autónoma sobre os rendimentos prediais de arrendamento de 25%, proposta no pacote Mais Habitação do Governo, para 14,5%.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Reduzir o IVA da nova construção para habitação de 23% para 6%.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir o IVA da construção dos atuais 23% para a taxa mínima de 6% para edificado novo.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Colocar os milhares de imóveis devolutos do Estado à disposição do mercado de habitação, nomeadamente através de venda a privados com condições de uso habitacional por 5 anos.",
+    "categoria": [
+      "habitação"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Após a venda do imóvel pelo Estado à melhor oferta privada e do cumprimento do plano de reconversão, o adquirente deve disponibilizar o imóvel para rendas acessíveis durante cinco anos.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar regime de incentivo à nova construção para arrendamento (build-to-rent) com isenção de IMT, IMI e IRC, e tributação autónoma de rendas a 14,5%.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criação de um regime de incentivo à nova construção para arrendamento (build-to-rent), com isenção de IMT na aquisição dos terrenos, isenção de IMI, tributação autónoma de rendas a 14,5% e isenção de IRC.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Consolidar mais de dois mil diplomas dispersos sobre urbanismo e construção num único Código da Construção e Edificação.",
+    "categoria": [
+      "habitação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Consolidar mais de dois mil diplomas dispersos num só Código da Construção/Edificação que consolide essa legislação num único diploma.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Consolidar todas as regras do arrendamento num único Código do Arrendamento.",
+    "categoria": [
+      "habitação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Consolidar todas as regras do arrendamento num Código do Arrendamento.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um regime de pré-licenciamento urbanístico automático para projetos de construção em áreas identificadas nos PDM como de elevada procura.",
+    "categoria": [
+      "habitação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Implementar um regime de pré-licenciamento urbanístico automático para projetos de construção em áreas previamente identificadas no Plano Diretor Municipal.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reduzir o limite mínimo do IMI que os municípios podem cobrar de 0,3% para 0%, dando liberdade de isenção aos munícipes.",
+    "categoria": [
+      "habitação",
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "A Iniciativa Liberal propõe uma redução do limite mínimo do IMI que poderá passar de 0,3% para 0%.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Eliminar a Contribuição Extraordinária sobre o Alojamento Local (CEAL) criada pelo pacote Mais Habitação.",
+    "categoria": [
+      "habitação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "A Iniciativa Liberal irá, desde a primeira hora, defender a eliminação desta contribuição.",
+    "_validation_score": 1.0
+  },
+  {
+    "texto_original": "Implementar o Plano Ferroviário Nacional para que nenhuma capital de distrito esteja a mais de 2 horas do Porto ou Lisboa, com horizonte 2040.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "A ligação de todas as capitais de distrito por via ferroviária, de modo a que estejam colocadas a duas horas de distância de Lisboa ou do Porto.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Executar o projeto TGV — linha ferroviária de alta velocidade Lisboa-Porto — até 2033, com construção da Terceira Travessia do Tejo.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Apostar nas linhas ferroviárias de alta velocidade (TGV), ligando o Porto a Lisboa até 2033, construindo a Terceira Travessia do Tejo.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Autonomizar a CP como sociedade anónima e promover concorrência no serviço ferroviário de passageiros via licitação das obrigações de serviço público.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A CP será autonomizada, passando a sociedade anónima, permitindo à empresa ser autónoma na gestão.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Potenciar o transporte ferroviário de mercadorias, aumentando a quota modal de 10% para 40% até 2050.",
+    "categoria": [
+      "transportes",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Até 2050, será possível aumentar a quota modal do transporte ferroviário de mercadorias dos atuais 10% para 40%.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Liberalizar o mercado de transporte fluvial no Tejo, privatizando a Transtejo/Soflusa e abrindo novas rotas a outros operadores.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Liberalizar o mercado de transporte fluvial no Tejo, privatizando a Transtejo/Soflusa e abrindo novas rotas de navegação a outros operadores.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Unificar os regimes do táxi e do TVDE, abolindo contingentes municipais e unificando condições de licenciamento.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Unificar os regimes do táxi e do TVDE para que o plano de concorrência seja o mais justo possível.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Permitir a instalação de postos de carregamento elétrico com venda direta de energia pelos operadores, sem obrigação de ligação à rede Mobi.e.",
+    "categoria": [
+      "transportes",
+      "energia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Permitir a instalação de postos de carregamento com venda direta de energia pelos OPC, sem a obrigação de conexão à rede Mobi.e.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Instalar sistemas de bicicletas partilhadas e parqueamentos públicos de bicicletas nas interfaces dos transportes públicos.",
+    "categoria": [
+      "transportes",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Instalar de sistemas de bicicletas partilhadas e de parqueamentos públicos de bicicletas nas interfaces dos transportes públicos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Alargar os direitos de parentalidade e o acesso a creches a profissionais liberais e trabalhadores independentes.",
+    "categoria": [
+      "direitos sociais",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Alargar os direitos de parentalidade e acesso a creches a profissionais liberais e trabalhadores independentes.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Alargar a isenção sobre rendimentos para efeitos de prestações sociais a trabalhadores-estudantes independentes.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Alargar a isenção sobre rendimentos a trabalhadores-estudantes independentes.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Dar liberdade ao trabalhador de escolher receber subsídios de férias e de Natal mensalmente ou em dois momentos do ano.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Cada trabalhador voltaria a ter a prerrogativa de escolher como pretende que os subsídios (13.º e 14.º meses) lhe sejam pagos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Restabelecer o banco de horas individual por negociação entre empregador e trabalhador, aumentando até 2h/dia, 50h/semana e 150h/ano.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Consagrada a hipótese de utilização de bancos de horas por via de negociação individual, podendo o horário normal de trabalho ser aumentado até duas horas por dia, 50 horas por semana e 150 horas por ano.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Evoluir para negociação setorial de salário mínimo em vez de imposição estatal uniforme, transpondo a Diretiva 2022/2041.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Evoluir para um modelo setorial de negociação de salário mínimo em vez de uma imposição estatal igual para todas as atividades.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Mostrar no recibo de vencimento a totalidade dos custos suportados pelo empregador com a Segurança Social (23,75% patronal atualmente ocultos).",
+    "categoria": [
+      "emprego",
+      "segurança social"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Colocar no recibo de vencimento a totalidade dos custos suportados pela entidade empregadora, incluindo a Segurança Social.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Lançar leilões de energia tecnologicamente neutros que incluam todas as formas de energia limpa, não apenas solar ou eólica.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Lançar leilões tecnologicamente neutros que incluam todas as energias limpas.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Acelerar o licenciamento de Unidades de Auto-Consumo (UPAC) e Comunidades de Energia Renovável (CER), com critérios geográficos flexíveis.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Acelerar o licenciamento do Auto-Consumo (UPAC) e das Comunidades de Energia Renovável (CER).",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Implementar um sistema de depósito e retorno de embalagens de uso único em Portugal, aberto a operadores privados.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Implementar um sistema de depósito e retorno em Portugal em circuito aberto aos privados.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Conferir às comissões de cogestão liberdade e condições para contratualizar serviços de gestão e restauro das Áreas Protegidas.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Conferir às comissões de cogestão liberdade e condições na contratualização de serviços de gestão e restauro das Áreas Protegidas.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Concluir o cadastro florestal e incentivar o emparcelamento da propriedade rural não cobrando taxas administrativas pela venda de terrenos abaixo de 5 hectares.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Concluir o cadastro florestal, incentivando o emparcelamento por via da não cobrança de taxas administrativas.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Permitir que os Centros de Recolha Oficiais deixem animais a cargo de pessoas, suportando parcialmente ou totalmente os encargos.",
+    "categoria": [
+      "ambiente",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Permitir que os Centros de Recolha Oficiais possam deixar os animais a cargo de pessoas, suportando parcialmente ou totalmente os encargos com os mesmos.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar um novo sistema de saúde — SUA-Saúde — que integre setores público, privado e social, com liberdade de escolha do prestador.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Um novo modelo de Sistema de Saúde: o Sistema Universal de Acesso à Saúde (SUA-Saúde), que garante acesso universal a cuidados de saúde com liberdade de escolha.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Implementar Unidades de Saúde Familiar de Modelo C (USF-C), geridas por privados ou cooperativas de profissionais de saúde.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "A Iniciativa Liberal defende a implementação das primeiras Unidades de Saúde Familiar de Modelo C.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Recuperar as Parcerias Público-Privadas nos hospitais de Braga, Vila Franca de Xira e Loures, alargando o modelo a outros hospitais.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Recuperar as Parcerias Público-Privadas nos hospitais de Braga, Vila Franca de Xira e Loures, alargando o modelo a outros hospitais.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar um Programa Especial de Acesso a Cuidados de Saúde para reduzir listas de espera, contratualizando via concurso público internacional quando os TMRG não são cumpridos.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Criação de um Programa Especial de Acesso a Cuidados de Saúde que assegure o acesso atempado a consultas e cirurgias.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reforçar as competências dos enfermeiros especialistas, incluindo possibilidade de renovação de prescrições de doentes crónicos e prática clínica autónoma.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Reforçar as competências dos enfermeiros especialistas.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Alargar os cuidados prestados pelas Farmácias Comunitárias, incluindo testes de diagnóstico rápido e gestão descentralizada de situações de baixa gravidade.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Alargar os cuidados prestados pelas Farmácias Comunitárias.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Garantir comparticipação a 100% em medicamentos e dispositivos médicos para pessoas com comprovada insuficiência económica, com prioridade para idosos.",
+    "categoria": [
+      "saúde",
+      "segurança social"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir o acesso a medicamentos e a dispositivos médicos, com comparticipação a 100% para os que não os possam pagar, sobretudo idosos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um Registo de Saúde Eletrónico Universal, plataforma única com interoperabilidade entre todos os prestadores autorizados pela Entidade Reguladora da Saúde.",
+    "categoria": [
+      "saúde",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criação de um Registo de Saúde Electrónico Universal.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um cheque-creche no valor mínimo de 473€ mensais que permita às famílias escolher qualquer creche do programa, pública, privada ou social.",
+    "categoria": [
+      "educação",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "A medida pressupõe um cheque creche com valor mensal correspondente a 90% do IAS em vigor em cada ano, não podendo todavia ser inferior a 473€.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aumentar a oferta de vagas de creche através de uma via verde para licenciamento, unificando o processo numa única entidade.",
+    "categoria": [
+      "educação",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "A Iniciativa Liberal propõe uma via verde para o licenciamento de creches para desbloquear a oferta do mercado.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Implementar um plano de emergência de recuperação de aprendizagens com tutorias regulares em pequenos grupos durante o calendário escolar e férias de verão.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Implementar um plano de emergência de recuperação de aprendizagens sério e consequente, que inclui tutorias regulares e em pequenos grupos durante o calendário escolar e durante parte da pausa de verão.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Introduzir avaliações nacionais quantitativas no final do 1.º e 2.º ciclos do ensino básico (4.º e 6.º anos).",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Recuperar as avaliações nacionais no final dos ciclos do ensino básico.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Implementar financiamento por aluno no ensino básico e secundário, permitindo às famílias escolher escolas públicas, privadas ou sociais com igual comparticipação estatal.",
+    "categoria": [
+      "educação"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Dar liberdade de escolha das escolas, mudando o financiamento da escola para o financiamento por aluno, o que permitirá às famílias matricularem os seus filhos nas escolas que quiserem.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Promover o ensino dual, com partilha de responsabilidade entre escolas profissionais e empresas na formação teórica e prática, e atualizar o financiamento das turmas das escolas profissionais pela inflação acumulada desde 2010.",
+    "categoria": [
+      "educação",
+      "emprego"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Propomos que escolas profissionais e empresas partilhem de forma mais equitativa a responsabilidade de dar formação teórica e prática, caminhando no sentido de um ensino dual.",
+    "_validation_score": 0.85
+  }
+]
