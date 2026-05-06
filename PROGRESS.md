@@ -1,10 +1,10 @@
 # Arquivo Eleitoral — Progress Log
 
 ## Estado atual
-**Fase:** Semana 3 — Pipeline de qualidade a correr. A fazer: importar reviews → push → vídeo → submissão.
+**Fase:** Pós-submissão — limpeza e qualidade dos dados.
 **Data:** 6 de maio de 2026
-**Próximo passo:** pipeline termina → revisar JSONs em data/reviews/ → importar → push → vídeo → submeter até 23:59h.
-**Totais actuais na DB:** 7.576 promessas válidas · 9 partidos · 9 eleições (2002–2025) · 55 combinações partido×eleição (+ CDS 2002 link adicionado, sem promessas extraídas ainda).
+**Próximo passo:** git push → continuar validação partido a partido.
+**Totais actuais na DB:** 12.015 promessas válidas · 9 partidos · 9 eleições (2002–2025).
 
 **URLs de deploy:**
 - Frontend (Vercel): https://frontend-rosy-six-72.vercel.app (subdomínio actual, projecto renomeado de `prometido-app` → `frontend`)
@@ -412,6 +412,34 @@ Links encontrados no Arquivo.pt para quando se adicionar eleições anteriores a
   - A verificar: se está arquivada no Arquivo.pt via CDX API (`https://arquivo.pt/wayback/cdx/search/cdx?url=bloco.org/media/PROGRAMA_BLOCO_2024.pdf&output=json&limit=10`). Se não estiver, actualizar `archived_url` na DB para o URL directo.
 - **Arquivo.pt não está na allowlist de rede do sandbox** — pesquisa via CDX API tem de ser feita no browser ou adicionando arquivo.pt em Settings → Capabilities.
 - **BE 2024 — corrigido:** Filipa arquivou manualmente o PDF no Arquivo.pt (`https://arquivo.pt/wayback/20260505224129/https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf`). DB actualizada via SQL (`archived_pages` — 1 row). ⚠ Confirmar que o PDF abre correctamente antes da submissão.
+
+### Sessão 11 — 6 maio 2026 (Cowork) — limpeza e qualidade dos dados
+
+#### Reimports por extracção defeituosa (PDF de duas colunas)
+- **IL 2025:** 158 promessas garbled apagadas → 63 reimportadas de `IL-leg-2025.full.json` (validadas)
+- **Livre 2024:** 65 apagadas → 66 reimportadas de `Livre-leg-2024.full.json`
+- **Livre 2022:** 128 apagadas → 70 reimportadas de `Livre-leg-2022.full.json`
+
+#### Correcções de texto
+- **PAN 2015:** 32 promessas sem contexto suficiente corrigidas — prefixos "Através de...", letras soltas ("A)", "B)"), referências externas resolvidos usando campo `context`
+- **PAN 2024:** 7 promessas truncadas completadas a partir do txt de origem
+- **PCP 2025:** 32 não-promessas invalidadas (estatísticas, narrativa política, títulos de secção); 4 truncadas corrigidas; 359 → 327 válidas
+- **PCP 2024:** 29 não-promessas invalidadas; 20 correcções de tópico; 26 limpezas de texto (prefixos "O PCP defende:", newlines embutidos, numeração); 1 promessa com 3 compromissos separados por ponto-e-vírgula dividida em 3
+
+#### PS 2025 — reextracção completa
+- Problema: extracção original (262 itens) criava uma linha por quebra de linha → 257/262 truncados
+- Solução: parser sobre o TXT que limpa quebras de página, junta linhas de continuação, desambigua secções de promessas
+- Resultado: **1 244 promessas completas** (vs. 261 truncadas)
+- Passe de qualidade adicional: 8 não-promessas invalidadas (labels geográficos, frases-intro), 28 finais com ":" normalizados, 9 gerúndios/conectores corrigidos
+
+#### Totais actualizados
+| Partido | Antes | Depois |
+|---------|-------|--------|
+| PS | 1 802 | 2 785 |
+| PCP | 899 | 840 |
+| IL | ~158 garbled | 1 085 |
+| Livre | ~193 garbled | 313 |
+| **Total** | **11 091** | **12 015** |
 
 ### Sessão 9 — 29 abril 2026 (Cowork)
 - **Bug:** site mostrava "Não foi possível carregar os dados" — todos os pedidos à API bloqueados por CORS.

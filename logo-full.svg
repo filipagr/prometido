@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="20" viewBox="0 0 170 20" fill="none">
+  <rect width="20" height="20" rx="5" fill="#171717"/>
+  <rect x="5" y="5" width="4" height="10" rx="1.5" fill="white" fill-opacity="0.95"/>
+  <rect x="11" y="5" width="4" height="6" rx="1.5" fill="white" fill-opacity="0.6"/>
+  <text x="28" y="10" dominant-baseline="middle" font-family="Geist, 'Geist Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600" font-size="15" letter-spacing="-0.15" fill="#171717">Arquivo Eleitoral</text>
+</svg>

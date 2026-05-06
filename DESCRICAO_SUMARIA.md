@@ -79,24 +79,26 @@ Python + FastAPI + SQLite (FTS5) no backend. Next.js + Tailwind CSS no frontend.
 
 ## 4. Resultados
 
-O MVP cobre **PS, PSD, Bloco de Esquerda e PCP** nas eleições legislativas de **2005, 2009, 2011, 2015, 2019 e 2022** — as eleições com melhor cobertura no arquivo para estes partidos.
+O Arquivo Eleitoral cobre **9 partidos** nas **9 eleições legislativas de 2002 a 2025** — a cobertura completa do parlamento português nas últimas duas décadas.
 
-A cobertura validada para 2005 e 2009 é a seguinte:
+| Partido | Promessas |
+|---------|-----------|
+| PS | 2 785 |
+| PAN | 2 322 |
+| PSD / AD | 1 331 |
+| Chega | 1 314 |
+| BE | 1 302 |
+| IL | 1 085 |
+| PCP | 840 |
+| CDS | 723 |
+| Livre | 313 |
+| **Total** | **12 015** |
 
-| Partido | 2005 | 2009 |
-|---------|------|------|
-| PS | ✅ Boa (387+ páginas, inclui `bases_programaticas.pdf`) | ⚠️ Parcial |
-| PSD | ⚠️ Parcial (133 PDFs) | ✅ Boa (270+ páginas) |
-| BE | ❌ Fraca (site não crawlado em 2005) | ✅ Boa (417 páginas) |
-| PCP | ✅ Boa (500 páginas) | ⚠️ Parcial |
-
-Exemplo concreto de promessa extraída do programa do PS de 2005 (Bases Programáticas, página arquivada em 27 de janeiro de 2005):
+Cada promessa está ligada à página original arquivada no Arquivo.pt. Exemplo do programa do PS de 2005 (Bases Programáticas, arquivado a 27 de janeiro de 2005):
 
 > *"O PS compromete-se a aumentar o salário mínimo nacional para 450 euros até ao final da legislatura."*
 
 Fonte: `arquivo.pt/noFrame/replay/20050127000000/http://www.ps.pt/bases/bases_programaticas.pdf` — acessível hoje, como estava em 2005.
-
-Para os 10-15 casos demonstrativos com verificação de cumprimento, a curadoria manual identifica artigos posteriores arquivados que confirmam, negam ou qualificam o cumprimento de cada promessa — com link directo para o artigo no Arquivo.pt.
 
 ---
 
@@ -104,7 +106,7 @@ Para os 10-15 casos demonstrativos com verificação de cumprimento, a curadoria
 
 ### Para jornalistas
 
-Um jornalista que cobre a campanha eleitoral de 2025 pode pesquisar "habitação" e ver, lado a lado, o que PS, PSD, BE e IL prometeram sobre o tema nas últimas quatro eleições — com a fonte primária arquivada para cada promessa. O tempo de pesquisa que antes levava horas (procurar programas antigos, verificar se existem no arquivo, ler documentos longos) reduz-se a segundos.
+Um jornalista que cobre a campanha eleitoral de 2025 pode pesquisar "habitação" e ver, lado a lado, o que PS, PSD, BE e IL prometeram sobre o tema nas últimas nove eleições — com a fonte primária arquivada para cada promessa. O tempo de pesquisa que antes levava horas (procurar programas antigos, verificar se existem no arquivo, ler documentos longos) reduz-se a segundos.
 
 ### Para cidadãos
 
@@ -124,7 +126,7 @@ O Arquivo Eleitoral não depende de uma equipa editorial permanente. O pipeline 
 
 O Arquivo Eleitoral demonstra que é possível construir infraestrutura de *accountability* democrático usando o Arquivo.pt como fonte primária e automação para escalar o que antes seria impossível sem uma redacção permanente.
 
-A versão submetida é um MVP deliberadamente focado — quatro partidos, seis eleições, com metodologia documentada e limitações comunicadas. A arquitectura suporta a expansão para todos os nove partidos com assento parlamentar e todas as eleições legislativas desde 2002.
+A versão submetida cobre os nove partidos com assento parlamentar e todas as eleições legislativas desde 2002, com metodologia documentada e revisão humana dos casos ambíguos.
 
 O passo seguinte natural é a abertura de uma API pública para investigadores, que permitiria a outros projectos construir sobre este dataset. A médio prazo, a extensão a eleições presidenciais e autárquicas alargaria o âmbito do projecto.
 
