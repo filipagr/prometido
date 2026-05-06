@@ -66,13 +66,18 @@ export default function HomePage() {
         <div className="absolute inset-0 dot-grid opacity-60 pointer-events-none" />
 
         <div className="relative max-w-5xl mx-auto px-4 pt-20 pb-16 text-center">
+          <div className="inline-flex items-center gap-2 bg-neutral-100 border border-neutral-200 rounded-full px-3 py-1 text-[12px] text-neutral-500 mb-5">
+            <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 shrink-0" />
+            Em breve — programas eleitorais portugueses desde 1975
+          </div>
+
           <h1 className="text-[2.75rem] sm:text-5xl font-semibold text-neutral-950 mb-4 tracking-[-0.03em] leading-[1.15]">
             O que prometeram.
             <br />
             Onde está escrito.
           </h1>
 
-          <p className="text-[15px] text-neutral-600 max-w-md mx-auto mb-8 leading-relaxed">
+          <p className="text-[15px] text-neutral-600 max-w-lg mx-auto mb-8 leading-relaxed">
             Pesquisa e compara promessas eleitorais de 9 partidos portugueses
             desde 2002, com ligação directa ao programa original.
           </p>
