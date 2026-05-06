@@ -25,7 +25,7 @@ def get_promise(promise_id: str):
     conn = get_connection()
 
     p = conn.execute(
-        """SELECT p.*, pg.archived_url, pg.timestamp, pg.url as source_url,
+        """SELECT p.*, pg.archived_url, pg.timestamp, pg.url as source_url, pg.source_type,
                   pt.name as party_name, pt.color as party_color, pt.short_name,
                   e.date as election_date, e.description as election_desc
            FROM promises p
@@ -74,6 +74,7 @@ def get_promise(promise_id: str):
             "original_url": p["source_url"],
             "archived_date": p["timestamp"][:8] if p["timestamp"] else None,
             "archived_datetime": p["timestamp"],
+            "source_type": p["source_type"] or "arquivo_pt",
         },
         "verification_sources": [
             {

@@ -211,7 +211,27 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 
 ## Bloqueadores / riscos activos
 
-- **BE 2024 — URL arquivada corrigida ⚠ confirmar:** link original (`noFrame/replay/20240130205205/...`) estava quebrado ("Failed to load PDF document"). Filipa arquivou manualmente `https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf` no Arquivo.pt — novo URL: `https://arquivo.pt/wayback/20260505224129/https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf`. DB actualizada. **Ainda por confirmar se o PDF abre correctamente no novo URL — testar antes da submissão.**
+- **BE 2024 — link actualizado (fonte não oficial):** link do Arquivo.pt estava quebrado. Actualizado para URL directo `https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf` com `source_type = 'direct'`.
+- **CDS 2009 — URL corrigida:** link anterior (`asnossasrespostas.pdf`) estava errado. Substituído por PDF do programa eleitoral: `https://arquivo.pt/wayback/20091001090903mp_/http://cds.pt/items/programaeleitoralCDS.pdf`. DB actualizada.
+- **CDS 2011 — link actualizado (fonte não oficial):** PDF encontrado em tretas.org (`https://tretas.org/Eleições/Legislativas2011?action=AttachFile&do=get&target=2011-05-14_Programa_Eleitoral_do_CDS-PP.pdf`). DB actualizada com `source_type = 'direct'`.
+- **CDS 2019 — link actualizado (fonte não oficial):** o Arquivo.pt arquivou a página do programa (`https://arquivo.pt/wayback/20190908015338/https://fazsentido.cds.pt/programa.html`) mas o PDF falha ao carregar. DB actualizada para apontar ao PDF directamente em ephemerajpp.com (`https://ephemerajpp.com/wp-content/uploads/2019/08/programaeleitoral_legislativascds19.pdf`) — está online e em processo de ser arquivado, mas não é o site oficial do CDS.
+- **CDS 2002 — link encontrado mas sem promessas na DB:** `https://arquivo.pt/wayback/20091001090732mp_/http://cds.pt/items/ProgramadeGoverno2002.pdf` — pode ser útil no futuro se se quiser extrair promessas de 2002.
+
+#### CDS — fontes históricas (pré-2002, para expansão futura)
+
+Links encontrados no Arquivo.pt para quando se adicionar eleições anteriores ao 25 de Abril / pós-25 de Abril:
+
+| Ano | URL | Notas |
+|-----|-----|-------|
+| 1999 | https://arquivo.pt/wayback/20091001090839mp_/http://cds.pt/items/ProgramadeGoverno1999.pdf | — |
+| 1995 | https://arquivo.pt/wayback/20091001090743mp_/http://cds.pt/items/ProgramadeGoverno1995.pdf | — |
+| 1991 | https://arquivo.pt/wayback/20091001090804mp_/http://cds.pt/items/ProgramaEleitoral1991.pdf | — |
+| 1987 | https://arquivo.pt/wayback/20091001090914mp_/http://cds.pt/items/ManifestoEleitoral1987.pdf | — |
+| 1985 | https://arquivo.pt/wayback/20091001090941mp_/http://cds.pt/items/ProgramadeGoverno1985.pdf | — |
+| 1983 | https://arquivo.pt/wayback/20091001090818mp_/http://cds.pt/items/ManifestoEleitoral1983.pdf | — |
+| 1980 | https://arquivo.pt/wayback/20110120234815mp_/http://cds.pt/pdf/mo%E7%F5es/programas/Manifesto_Eleitoral_Legislativas_1980_AD_Revisto.pdf | Coligação AD (com PSD e PPM) |
+| 1979 | https://arquivo.pt/wayback/20091001090927mp_/http://cds.pt/items/ProgramaEleitoraldeGovernoAD1979.pdf | Coligação AD (com PSD e PPM) |
+| 1976 | https://arquivo.pt/wayback/20091001090852mp_/http://cds.pt/items/ManifestoEleitoralCDS_Alternativa76.pdf | Primeira eleição pós-25 de Abril |
 - **BE 2025:** só manifesto de 2 páginas — poucas promessas extraídas, reflecte escolha do partido.
 - **CDU 2011:** não é um programa completo — 24 promessas (compromisso eleitoral).
 - **Cumprido/não cumprido:** fora do scope (decisão 20 abril) — ver SCOPE.md.
@@ -310,7 +330,51 @@ Todas as eleições extraídas com `scripts/extract_pdf_api.py` (Claude API, PDF
 - **Verificação de promessas com Arquivo.pt:** plano de usar a API `textsearch` do Arquivo.pt para pesquisar artigos de imprensa arquivados durante o mandato de cada partido, e propor vereditos com LLM + revisão humana. Hierarquia de evidência: DRE (legislação) > imprensa > ausência de cobertura.
 - **Diário da República no Arquivo.pt:** confirmado que o Arquivo.pt cobre o DRE — permite verificação via legislação publicada, mais rigorosa que cobertura jornalística.
 
+#### Validação de links Arquivo.pt — IL
+- Todos os links verificados e a funcionar correctamente no Arquivo.pt. ✓
+
+#### Validação de links Arquivo.pt — Livre
+- Todos os links verificados e a funcionar correctamente no Arquivo.pt. ✓
+
+#### Validação de links Arquivo.pt — PCP
+- Todos os links verificados e a funcionar correctamente no Arquivo.pt. ✓
+
+#### Validação de links Arquivo.pt — PSD
+- Restantes anos verificados e a funcionar correctamente. ✓
+- **2002:** PDF do arquivo.pt dava erro — actualizado para link directo `https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2002.pdf` (`source_type = direct`). Arquivo pedido mas ainda não activo: `https://arquivo.pt/wayback/20260506002354/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2002.pdf` — actualizar DB quando estiver disponível.
+- **2025:** link directo `https://www.psd.pt/sites/default/files/2025-10/Programa%20Eleitoral%20AD%20Legislativas%202025.pdf` (`source_type = direct`). Arquivo pedido mas ainda não activo: `https://arquivo.pt/wayback/20260506002134/https://www.psd.pt/sites/default/files/2025-10/Programa%20Eleitoral%20AD%20Legislativas%202025.pdf` — actualizar DB quando estiver disponível.
+
+#### Validação de links Arquivo.pt — PS
+- **2002, 2005, 2009, 2011, 2015, 2019:** todos actualizados para PDFs directos em `ps.pt/wp-content/uploads/` — estavam a apontar para a página geral de programas.
+- **2022, 2024:** actualizados para PDFs directos em `ps.pt/wp-content/uploads/`.
+- **2025:** link directo `https://ps.pt/wp-content/uploads/2025/04/programa-eleitoral.pdf` (`source_type = direct`). Arquivo pedido manualmente mas ainda não activo: `https://arquivo.pt/wayback/20260506001450/https://ps.pt/wp-content/uploads/2025/04/programa-eleitoral.pdf` — actualizar DB quando estiver disponível.
+
+#### PS — fontes históricas (pré-2002, para expansão futura)
+
+| Ano | URL |
+|-----|-----|
+| 1999 | https://arquivo.pt/wayback/20240310124235mp_/https://ps.pt/wp-content/uploads/2021/03/1999.10.out_Programa.do_.Partido.Socialista.e.da_.Nova_.Maioria.para_.a.Legislatura.1999.2003.pdf |
+| 1995 | https://arquivo.pt/wayback/20240310124239mp_/https://ps.pt/wp-content/uploads/2024/01/1995-P-Eleitoral-PS-Nova-Maioria_Legislativas_1995_.pdf |
+| 1991 | https://arquivo.pt/wayback/20240310124314mp_/https://ps.pt/wp-content/uploads/2021/03/1991.6.out_Programa.de_.Governo.do_.Partido.Socialista_Eleicoes.Legislativas.1991.pdf |
+| 1987 | https://arquivo.pt/wayback/20240310124311mp_/https://ps.pt/wp-content/uploads/2021/03/1987.19.jul_Portugal.para_.Todos_Para.um_.Portugal.Moderno.e.Solidario_Programa.para_.um_.Governo.do_.PS_.pdf |
+| 1985 | https://arquivo.pt/wayback/20240310124304mp_/https://ps.pt/wp-content/uploads/2021/03/1985.6.out_Um.Pacto_.de_.Progresso.para_.4.anos_.Governo.1985-9.pdf |
+| 1983 | https://arquivo.pt/wayback/20240310124259mp_/https://ps.pt/wp-content/uploads/2021/03/1983.25.abr_A.Resposta.PS_.ao_.Portugal.em_.Crise_Manifesto-Programa.pdf |
+| 1980 | https://arquivo.pt/wayback/20240310124245mp_/https://ps.pt/wp-content/uploads/2021/03/1980.5.out_Frente.Repub_.Socialista_Prog.p.um_.Governo.da_.FRS_Garantir.o.Futuro.Governar.p.Todos_.pdf |
+| 1979 | https://arquivo.pt/wayback/20240310124240mp_/https://ps.pt/wp-content/uploads/2021/03/1979.12.dez_Intercalar_Mudar.em_.Paz_.a.Vida_.Portuguesa_MedidasparaumGovernoPS_PS.o.Direito.a.Liberdade.pdf |
+| 1976 | https://arquivo.pt/wayback/20240310124335mp_/https://ps.pt/wp-content/uploads/2021/03/1976.25.abr_Programa.para_.um_.Governo.PS_Vencer.a.Crise_.Reconstruir.o.Pais_.pdf |
+
+#### Validação de links Arquivo.pt — PAN
+- **2015:** actualizado para PDF directo (`legislativas2015.pan.com.pt`) — era homepage do microsite.
+- **2024:** actualizado para PDF directo (`pan.com.pt/files/...`) — era página de eleições.
+- Restantes anos verificados e a funcionar correctamente. ✓
+
+#### Validação de links Arquivo.pt — Chega
+- **Chega 2024:** DB aponta para link directo `https://partidochega.pt/wp-content/uploads/2025/10/Programa_Eleitoral_CHEGA_2024_LQ.pdf` (`source_type = direct`). Link do Arquivo.pt pedido mas ainda não disponível: `https://arquivo.pt/wayback/20260505234226/https://partidochega.pt/wp-content/uploads/2025/10/Programa_Eleitoral_CHEGA_2024_LQ.pdf` — actualizar DB quando estiver a funcionar.
+- **Chega 2025:** DB aponta para link directo `https://partidochega.pt/wp-content/uploads/2025/10/Programa-Eleitoral-CHEGA-2025.pdf` (`source_type = direct`). Link do Arquivo.pt pedido mas ainda não disponível: `https://arquivo.pt/wayback/20260505234306/https://partidochega.pt/wp-content/uploads/2025/10/Programa-Eleitoral-CHEGA-2025.pdf` — actualizar DB quando estiver a funcionar.
+
 #### Validação de links Arquivo.pt — BE
+- Todos os links verificados e a funcionar correctamente. ✓ (excepto 2024 que é link directo — ver secção BE 2024 acima)
+
 - Em curso: verificação manual dos URLs arquivados programa-a-programa.
 - **BE:** todos os links do Bloco de Esquerda estão funcionais **excepto BE 2024**.
   - URL problemática: `https://bloco.org/media/PROGRAMA_BLOCO_2024.pdf` — o visualizador de PDF retorna "Failed to load PDF document".

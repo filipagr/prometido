@@ -92,6 +92,7 @@ export type PromiseItem = {
   election: { id: string; date: string; description: string };
   archived_url: string;
   archived_date: string;
+  source_type: "arquivo_pt" | "direct";
 };
 
 export type PromiseDetail = PromiseItem & {
@@ -103,6 +104,7 @@ export type PromiseDetail = PromiseItem & {
     original_url: string;
     archived_date: string;
     archived_datetime: string;
+    source_type: "arquivo_pt" | "direct";
   };
   verification_sources: {
     id: string;

@@ -40,7 +40,7 @@ def compare(
     rows = conn.execute(
         f"""SELECT p.id, p.text, p.topic, p.status, p.tier,
                    p.party_id, p.election_id,
-                   pg.archived_url, pg.timestamp,
+                   pg.archived_url, pg.timestamp, pg.source_type,
                    pt.name as party_name, pt.color as party_color, pt.short_name,
                    e.date as election_date, e.description as election_desc
             FROM promises p
@@ -80,6 +80,7 @@ def compare(
             },
             "archived_url": r["archived_url"],
             "archived_date": r["timestamp"][:8] if r["timestamp"] else None,
+            "source_type": r["source_type"] or "arquivo_pt",
         })
 
     conn.close()

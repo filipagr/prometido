@@ -83,7 +83,7 @@ export default function PromiseCard({ promise, showParty = true, showElection = 
 
         {/* Footer */}
         <div className="mt-2.5">
-          <ArchiveLink archivedUrl={promise.archived_url} archivedDate={promise.archived_date} />
+          <ArchiveLink archivedUrl={promise.archived_url} archivedDate={promise.archived_date} sourceType={promise.source_type} />
         </div>
       </div>
     </article>

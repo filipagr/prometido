@@ -132,9 +132,17 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
       <div className="border-t border-neutral-100 my-8" />
 
       {/* Source */}
-      <div className="bg-white border border-neutral-200 rounded-xl px-4 py-3 mb-6 flex items-center justify-between gap-4">
+      <div className={`rounded-xl px-4 py-3 mb-6 flex items-center justify-between gap-4 ${
+        promise.source.source_type === "direct"
+          ? "bg-amber-50 border border-amber-200"
+          : "bg-white border border-neutral-200"
+      }`}>
         <div className="flex items-center gap-3 min-w-0">
-          <span className="text-[11px] font-semibold text-neutral-500 uppercase tracking-widest shrink-0">Fonte arquivada</span>
+          <span className={`text-[11px] font-semibold uppercase tracking-widest shrink-0 ${
+            promise.source.source_type === "direct" ? "text-amber-600" : "text-neutral-500"
+          }`}>
+            {promise.source.source_type === "direct" ? "⚠ Fonte não arquivada" : "Fonte arquivada"}
+          </span>
           {promise.source.archived_date && (
             <span className="text-[12px] text-neutral-400 tabular-nums shrink-0">
               {`${promise.source.archived_date.slice(6, 8)}/${promise.source.archived_date.slice(4, 6)}/${promise.source.archived_date.slice(0, 4)}`}
@@ -145,10 +153,15 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
           href={promise.source.archived_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-neutral-900 hover:bg-neutral-700 text-white text-[12px] font-medium rounded-lg transition-colors duration-150 shrink-0"
+          title={promise.source.source_type === "direct" ? "Fonte não arquivada oficialmente — este documento pode deixar de estar disponível" : undefined}
+          className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-white text-[12px] font-medium rounded-lg transition-colors duration-150 shrink-0 ${
+            promise.source.source_type === "direct"
+              ? "bg-amber-500 hover:bg-amber-600"
+              : "bg-neutral-900 hover:bg-neutral-700"
+          }`}
         >
           <ExternalLink size={12} />
-          Abrir no Arquivo.pt
+          {promise.source.source_type === "direct" ? "Abrir documento" : "Abrir no Arquivo.pt"}
         </a>
       </div>
 
