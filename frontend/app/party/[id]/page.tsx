@@ -131,9 +131,20 @@ export default function PartyPage({ params }: { params: Promise<{ id: string }> 
                 className="block bg-white border border-neutral-200 rounded-xl p-3.5 hover:border-neutral-300 hover:shadow-[0_1px_4px_rgba(0,0,0,0.06)] transition-all duration-150 group"
               >
                 <div className="flex items-center justify-between gap-2">
-                  <p className="font-medium text-[13px] text-neutral-800 group-hover:text-blue-700 transition-colors duration-150">
-                    {e.description}
-                  </p>
+                  <div className="flex items-center gap-1.5 min-w-0">
+                    <p className="font-medium text-[13px] text-neutral-800 group-hover:text-blue-700 transition-colors duration-150 truncate">
+                      {e.description}
+                    </p>
+                    {e.governed_role === "prime_minister" && (
+                      <span className="text-[10px] font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-md shrink-0">Governou</span>
+                    )}
+                    {e.governed_role === "coalition_partner" && (
+                      <span className="text-[10px] font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-md shrink-0">Coligação</span>
+                    )}
+                    {e.governed_role === "confidence_supply" && (
+                      <span className="text-[10px] font-medium text-neutral-500 bg-neutral-100 border border-neutral-200 px-1.5 py-0.5 rounded-md shrink-0">Apoio parl.</span>
+                    )}
+                  </div>
                   <span className="text-[11px] text-neutral-400 tabular-nums shrink-0">{e.promise_count}</span>
                 </div>
                 {(e.statuses.implemented + e.statuses.not_implemented + e.statuses.partial) > 0 && (

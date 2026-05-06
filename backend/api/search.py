@@ -40,12 +40,14 @@ def search(
                    p.extraction_confidence, p.validation_score,
                    pg.archived_url, pg.timestamp, pg.source_type,
                    pt.name as party_name, pt.short_name as party_short_name, pt.color as party_color,
-                   e.date as election_date, e.description as election_desc
+                   e.date as election_date, e.description as election_desc,
+                   eg.role as governed_role
             FROM promises_fts fts
             JOIN promises p ON fts.rowid = p.rowid
             LEFT JOIN archived_pages pg ON p.page_id = pg.id
             LEFT JOIN parties pt ON p.party_id = pt.id
             LEFT JOIN elections e ON p.election_id = e.id
+            LEFT JOIN election_governments eg ON eg.election_id = p.election_id AND eg.party_id = p.party_id
             WHERE fts.promises_fts MATCH ?
               AND p.is_valid = 1
         """
@@ -56,11 +58,13 @@ def search(
                    p.extraction_confidence, p.validation_score,
                    pg.archived_url, pg.timestamp, pg.source_type,
                    pt.name as party_name, pt.short_name as party_short_name, pt.color as party_color,
-                   e.date as election_date, e.description as election_desc
+                   e.date as election_date, e.description as election_desc,
+                   eg.role as governed_role
             FROM promises p
             LEFT JOIN archived_pages pg ON p.page_id = pg.id
             LEFT JOIN parties pt ON p.party_id = pt.id
             LEFT JOIN elections e ON p.election_id = e.id
+            LEFT JOIN election_governments eg ON eg.election_id = p.election_id AND eg.party_id = p.party_id
             WHERE p.is_valid = 1
         """
         params = []
@@ -108,6 +112,7 @@ def search(
             "archived_url": r["archived_url"],
             "archived_date": r["timestamp"][:8] if r["timestamp"] else None,
             "source_type": r["source_type"] or "arquivo_pt",
+            "governed_role": r["governed_role"],
         }
         for r in rows
     ]

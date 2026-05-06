@@ -44,11 +44,6 @@ export default function ArchiveLink({ archivedUrl, archivedDate, sourceType = "a
         <span className="font-sans not-italic text-amber-500" aria-label="fonte não arquivada">⚠</span>
       )}
       {label}
-      {archivedDate && (
-        <span className={isDirect ? "text-amber-400" : "text-neutral-500"}>
-          · {formatDate(archivedDate)}
-        </span>
-      )}
       <span className={`font-sans not-italic ${isDirect ? "text-amber-400" : "text-neutral-500"}`}>↗</span>
     </a>
   );

@@ -44,6 +44,25 @@ export default function PromiseCard({ promise, showParty = true, showElection = 
       </span>
     );
   }
+  if (promise.governed_role === "prime_minister") {
+    metaParts.push(
+      <span key="governed" className="text-[10px] font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-md">
+        Governou
+      </span>
+    );
+  } else if (promise.governed_role === "coalition_partner") {
+    metaParts.push(
+      <span key="governed" className="text-[10px] font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-md">
+        Coligação
+      </span>
+    );
+  } else if (promise.governed_role === "confidence_supply") {
+    metaParts.push(
+      <span key="governed" className="text-[10px] font-medium text-neutral-500 bg-neutral-100 border border-neutral-200 px-1.5 py-0.5 rounded-md">
+        Apoio parl.
+      </span>
+    );
+  }
   if (promise.topic) {
     metaParts.push(
       <span key="topic" className="text-neutral-400">
@@ -71,7 +90,7 @@ export default function PromiseCard({ promise, showParty = true, showElection = 
               </span>
             ))}
           </div>
-          <StatusBadge status={promise.status} />
+          {promise.source_type !== "direct" && <StatusBadge status={promise.status} />}
         </div>
 
         {/* Promise text */}

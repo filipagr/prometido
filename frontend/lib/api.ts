@@ -93,6 +93,7 @@ export type PromiseItem = {
   archived_url: string;
   archived_date: string;
   source_type: "arquivo_pt" | "direct";
+  governed_role: "prime_minister" | "coalition_partner" | "confidence_supply" | null;
 };
 
 export type PromiseDetail = PromiseItem & {
@@ -143,6 +144,7 @@ export type PartyElection = {
   description: string;
   promise_count: number;
   statuses: Record<string, number>;
+  governed_role: "prime_minister" | "coalition_partner" | "confidence_supply" | null;
 };
 
 export type PartyDetail = Party & {

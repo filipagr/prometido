@@ -99,7 +99,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
           {promise.party.short_name}
         </span>
         <span className="text-[13px] text-neutral-600">{promise.election.description}</span>
-        <StatusBadge status={promise.status} />
+        {promise.source.source_type !== "direct" && <StatusBadge status={promise.status} />}
       </div>
 
       {/* Topic pill */}

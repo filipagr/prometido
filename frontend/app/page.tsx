@@ -186,25 +186,17 @@ export default function HomePage() {
 
         {/* Compare feature */}
         <div>
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest">Comparar por tema</h2>
+          <h2 className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-4">Comparar por tema</h2>
+          <div className="flex items-center justify-between gap-6 bg-white border border-neutral-200 rounded-xl px-5 py-4">
+            <p className="text-[13px] text-neutral-500 leading-relaxed">
+              Vê lado a lado o que cada partido prometeu sobre o mesmo tema.
+            </p>
             <Link
               href="/compare"
-              className="text-[13px] font-medium text-neutral-600 hover:text-neutral-900 transition-colors shrink-0"
+              className="shrink-0 px-4 py-2 text-[13px] font-medium text-neutral-700 bg-white border border-neutral-300 hover:border-neutral-500 hover:text-neutral-900 rounded-lg transition-all duration-150"
             >
               Ver comparador →
             </Link>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {ALL_TOPICS.map((topic) => (
-              <Link
-                key={topic}
-                href={`/compare?topic=${encodeURIComponent(topic)}`}
-                className="px-3 py-1.5 text-[13px] font-medium bg-white hover:bg-neutral-50 text-neutral-700 hover:text-neutral-900 border border-neutral-200 hover:border-neutral-400 rounded-full transition-all duration-150"
-              >
-                {topic}
-              </Link>
-            ))}
           </div>
         </div>
 
