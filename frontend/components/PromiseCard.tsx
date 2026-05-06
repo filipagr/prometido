@@ -24,6 +24,8 @@ const TOPIC_LABELS: Record<string, string> = {
   cultura: "Cultura",
   desporto: "Desporto",
   "administração pública": "Adm. Pública",
+  "imigração": "Imigração",
+  "direitos sociais": "Direitos Sociais",
   outros: "Outros",
 };
 

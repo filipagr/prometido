@@ -16,7 +16,8 @@ const TOPIC_LABELS: Record<string, string> = {
   habitação: "Habitação", saúde: "Saúde", educação: "Educação", economia: "Economia",
   emprego: "Emprego", ambiente: "Ambiente", segurança: "Segurança", justiça: "Justiça",
   transportes: "Transportes", tecnologia: "Tecnologia", agricultura: "Agricultura",
-  cultura: "Cultura", desporto: "Desporto", "administração pública": "Adm. Pública", outros: "Outros",
+  cultura: "Cultura", desporto: "Desporto", "administração pública": "Adm. Pública",
+  "imigração": "Imigração", "direitos sociais": "Direitos Sociais", outros: "Outros",
 };
 
 function LoadingSkeleton({ slowWarning }: { slowWarning: boolean }) {

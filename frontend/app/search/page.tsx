@@ -7,7 +7,7 @@ import { search, getParties, getElections, type PromiseItem, type Party, type El
 import PromiseCard from "@/components/PromiseCard";
 import SearchBar from "@/components/SearchBar";
 
-const TOPICS = ["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia","administração pública","agricultura","cultura","desporto","outros"];
+const TOPICS = ["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia","administração pública","agricultura","cultura","desporto","imigração","direitos sociais","outros"];
 const PAGE_SIZE = 20;
 
 function SkeletonCard() {

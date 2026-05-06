@@ -8,7 +8,8 @@ import SearchBar from "@/components/SearchBar";
 const ALL_TOPICS = [
   "habitação", "saúde", "educação", "economia", "emprego",
   "ambiente", "segurança", "justiça", "transportes", "tecnologia",
-  "administração pública", "agricultura", "cultura", "desporto", "outros",
+  "administração pública", "agricultura", "cultura", "desporto",
+  "imigração", "direitos sociais", "outros",
 ];
 
 function partyAbbr(name: string): string {

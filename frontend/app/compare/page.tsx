@@ -7,7 +7,7 @@ import Link from "next/link";
 import { compare, getParties, getElections, type CompareResult, type Party, type Election } from "@/lib/api";
 import StatusBadge from "@/components/StatusBadge";
 
-const TOPICS = ["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia","administração pública","agricultura","cultura","desporto","outros"];
+const TOPICS = ["habitação","saúde","educação","economia","emprego","ambiente","segurança","justiça","transportes","tecnologia","administração pública","agricultura","cultura","desporto","imigração","direitos sociais","outros"];
 
 function Select({
   value,
