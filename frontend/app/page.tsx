@@ -68,7 +68,7 @@ export default function HomePage() {
         <div className="relative max-w-5xl mx-auto px-4 pt-20 pb-16 text-center">
           <div className="inline-flex items-center gap-2 bg-neutral-100 border border-neutral-200 rounded-full px-3 py-1 text-[12px] text-neutral-500 mb-5">
             <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 shrink-0" />
-            Em breve — programas eleitorais portugueses desde 1975
+            Em breve — todas as legislativas desde 1975
           </div>
 
           <h1 className="text-[2.75rem] sm:text-5xl font-semibold text-neutral-950 mb-4 tracking-[-0.03em] leading-[1.15]">
@@ -184,17 +184,17 @@ export default function HomePage() {
         {/* Compare feature */}
         <div>
           <h2 className="text-[11px] font-semibold text-neutral-600 uppercase tracking-widest mb-4">Comparar por tema</h2>
-          <div className="flex items-center justify-between gap-6 bg-white border border-neutral-200 rounded-xl px-5 py-4">
+          <Link
+            href="/compare"
+            className="flex items-center justify-between gap-6 bg-white border border-neutral-200 rounded-xl px-5 py-4 hover:border-neutral-400 hover:bg-neutral-50 transition-all duration-150 group"
+          >
             <p className="text-[13px] text-neutral-500 leading-relaxed">
               Vê lado a lado o que cada partido prometeu sobre o mesmo tema.
             </p>
-            <Link
-              href="/compare"
-              className="shrink-0 px-4 py-2 text-[13px] font-medium text-neutral-700 bg-white border border-neutral-300 hover:border-neutral-500 hover:text-neutral-900 rounded-lg transition-all duration-150"
-            >
+            <span className="shrink-0 text-[13px] font-medium text-neutral-700 group-hover:text-neutral-900 transition-colors duration-150">
               Ver comparador →
-            </Link>
-          </div>
+            </span>
+          </Link>
         </div>
 
       </div>
