@@ -120,7 +120,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
 
       {/* Promise blockquote */}
       <blockquote
-        className="text-[19px] font-normal text-neutral-900 leading-[1.65] border-l-[2px] pl-5 mb-2 tracking-[-0.01em]"
+        className="text-[16px] sm:text-[19px] font-normal text-neutral-900 leading-[1.65] border-l-[2px] pl-5 mb-2 tracking-[-0.01em]"
         style={{ borderColor: promise.party.color }}
       >
         {promise.text}
@@ -136,7 +136,7 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
       <div className="border-t border-neutral-100 my-8" />
 
       {/* Source */}
-      <div className={`rounded-xl px-4 py-3 mb-6 flex items-center justify-between gap-4 ${
+      <div className={`rounded-xl px-4 py-3 mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 ${
         promise.source.source_type === "direct"
           ? "bg-amber-50 border border-amber-200"
           : "bg-white border border-neutral-200"

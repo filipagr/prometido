@@ -102,21 +102,21 @@ export default function HomePage() {
         )}
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-6 max-w-xs mx-auto text-center">
+        <div className="grid grid-cols-3 gap-3 sm:gap-6 max-w-xs mx-auto text-center">
           {loading ? (
             <><StatSkeleton /><StatSkeleton /><StatSkeleton /></>
           ) : totalPromises > 0 ? (
             <>
               <div className="fade-in">
-                <p className="text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{totalPromises.toLocaleString("pt")}</p>
+                <p className="text-[1.25rem] sm:text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{totalPromises.toLocaleString("pt")}</p>
                 <p className="text-[11px] text-neutral-600 font-medium uppercase tracking-widest">promessas</p>
               </div>
               <div className="fade-in">
-                <p className="text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{partiesWithData.length}</p>
+                <p className="text-[1.25rem] sm:text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{partiesWithData.length}</p>
                 <p className="text-[11px] text-neutral-600 font-medium uppercase tracking-widest">partidos</p>
               </div>
               <div className="fade-in">
-                <p className="text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{electionsWithData.length}</p>
+                <p className="text-[1.25rem] sm:text-[1.75rem] font-semibold text-neutral-900 tabular-nums tracking-tight leading-none mb-1.5">{electionsWithData.length}</p>
                 <p className="text-[11px] text-neutral-600 font-medium uppercase tracking-widest">eleições</p>
               </div>
             </>

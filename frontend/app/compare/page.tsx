@@ -162,9 +162,9 @@ function ComparePage() {
         </div>
       ) : loading ? (
         <div className="overflow-x-auto -mx-4 px-4 scrollbar-hide">
-          <div className="flex gap-4 pb-4" style={{ minWidth: "840px" }}>
+          <div className="flex gap-4 pb-4" style={{ minWidth: "600px" }}>
             {Array.from({ length: 3 }).map((_, i) => (
-              <div key={i} className="flex-1 space-y-2.5" style={{ minWidth: "260px" }}>
+              <div key={i} className="flex-1 space-y-2.5" style={{ minWidth: "180px" }}>
                 <div className="skeleton h-5 w-20 rounded mb-4" />
                 {Array.from({ length: 3 }).map((_, j) => (
                   <div key={j} className="bg-white border border-neutral-200 rounded-xl p-4 space-y-2">
@@ -192,9 +192,9 @@ function ComparePage() {
           </p>
 
           <div className="overflow-x-auto -mx-4 px-4 scrollbar-hide">
-            <div className="flex gap-4 pb-6" style={{ minWidth: `${result.parties.length * 296}px` }}>
+            <div className="flex gap-4 pb-6" style={{ minWidth: `${result.parties.length * 220}px` }}>
               {result.parties.map((party) => (
-                <div key={party.id} className="flex-1 space-y-2.5" style={{ minWidth: "272px", maxWidth: "320px" }}>
+                <div key={party.id} className="flex-1 space-y-2.5" style={{ minWidth: "200px", maxWidth: "320px" }}>
                   <div
                     className="flex items-center gap-2 pb-2.5 border-b-[2px] pt-1"
                     style={{ borderColor: party.color }}

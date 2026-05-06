@@ -1,0 +1,515 @@
+[
+  {
+    "texto_original": "Criar o Ministério da Economia e das Alterações Climáticas, integrando as competências relativas às alterações climáticas no ministério responsável pelo desenvolvimento económico do país.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Incluir no Ministério da Economia a competência relativa às Alterações Climáticas, garantindo que o desenvolvimento do país seja realizado de forma ambientalmente sustentável.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar o Ministério do Ambiente, Biodiversidade e Proteção Animal como ministério autónomo.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Instituir o Ministério do Ambiente, Biodiversidade e Proteção Animal.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar o crime de Ecocídio no Código Penal português, tipificando-o como crime contra a humanidade e as gerações futuras.",
+    "categoria": [
+      "ambiente",
+      "justiça"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Instituir o crime de Ecocídio no Código penal.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Implementar e regulamentar a Lei de Bases do Clima, constituindo o órgão de consultoria e iniciando o reconhecimento do Clima como Património da Humanidade junto das Nações Unidas.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Proceder à implementação e regulamentação da Lei de Bases do Clima, nomeadamente a constituição do órgão de consultoria.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar uma Comissão Independente para o Clima, Energia e Transição, constituída por analistas, especialistas, representantes da sociedade civil e de comunidades vulneráveis.",
+    "categoria": [
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar uma Comissão Independente para o Clima, Energia e Transição, constituída por analistas e especialistas.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aumentar o investimento na IGAMAOT, reforçando o número de efetivos e garantindo a valorização das carreiras de inspeção.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.88,
+    "_context": "Aumentar o investimento na Inspeção-geral da Agricultura, do Mar, do Ambiente e do Ordenamento do Território (IGAMAOT), reforçando o número de efetivos.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Eliminar o regime de deferimento tácito nos processos de Avaliação de Impacte Ambiental e garantir que a avaliação não é condicionada por interesses económicos.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Alterar o regime de avaliação ambiental estratégica, eliminando-se o regime do deferimento tácito, atualmente previsto em processos de Avaliação de Impacte Ambiental (AIA).",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Garantir prazo mínimo de 30 dias de consulta pública nos processos de Avaliação de Impacte Ambiental, com sessões de esclarecimento e publicação das respostas aos cidadãos.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Modificar o regime de consulta pública nos processos de AIA, garantindo maior publicidade, um prazo mínimo de 30 dias de consulta pública.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aumentar a Rede Nacional de Áreas Marinhas Protegidas para pelo menos 30% das águas territoriais protegidas até 2030.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Aumentar a Rede Nacional de Áreas Marinhas Protegidas até pelo menos 30% das águas territoriais abrangidas por regimes de proteção até 2030.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Estabelecer um plano para a efetivação de 'no take zones' no âmbito das Áreas Marinhas Protegidas.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Estabelecer um plano para a efetivação de 'no take zones' no âmbito das Áreas Marinhas Protegidas.",
+    "_validation_score": 0.65
+  },
+  {
+    "texto_original": "Criar santuários marinhos em áreas devidamente monitorizadas, destinadas à devolução de animais que tenham estado em cativeiro.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar santuários marinhos em áreas devidamente monitorizadas, destinadas à devolução de animais que tenham estado em cativeiro.",
+    "_validation_score": 0.7
+  },
+  {
+    "texto_original": "Assegurar a colocação de ecoilhas em todos os portos marítimos para adequada separação, recolha e tratamento de resíduos e redes de pesca inutilizadas.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Assegurar a colocação de ecoilhas em todos os portos marítimos, com vista à adequada separação, recolha e tratamento de resíduos.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Abolir métodos de pesca destrutivos como o arrasto, as redes de emalhar e o uso de explosivos para matar ou atordoar peixes.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Abolir métodos de pesca destrutivos como o arrasto, as redes de emalhar ou o uso de explosivos para matar ou atordoar peixes.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Implementar um Programa de Remoção de Resíduos de Pesca e de plástico no Mar com métodos de extração neutros para a vida marinha.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Implementar um Programa de Remoção de Resíduos de Pesca e de plástico no Mar com métodos de extração neutros para a vida marinha.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Publicar a legislação sobre prevenção da contaminação e remediação da poluição do solo (ProSolos).",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Publicar a legislação sobre prevenção da contaminação e remediação da poluição do solo (ProSolos).",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Implementar um Regime de Cadastro Predial com a unificação da Matriz, Registo Predial e Cadastro Predial numa base transparente de acesso público.",
+    "categoria": [
+      "administração pública",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Implementar um Regime de Cadastro Predial com a unificação da Matriz, Registo Predial e Cadastro Predial numa base transparente de acesso público.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um sistema nacional de monitorização da qualidade do solo, contemplando a prevenção da sua contaminação e regeneração, nomeadamente em zonas de exploração pecuária.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar um sistema nacional de monitorização da qualidade do solo, contemplando a prevenção da sua contaminação, assim como a sua regeneração.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Refundar o programa de Gestão das Bacias Hidrográficas (PGARHs), priorizando a gestão ambiental dos rios.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.88,
+    "_context": "Proceder à refundação do programa de Gestão das Bacias Hidrográficas - os Planos de Gestão de Região Hidrográfica devem priorizar a gestão ambiental dos rios.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Implementar um secretariado técnico permanente para a Comissão de Acompanhamento e Desenvolvimento da Convenção de Albufeira e proceder à sua revisão.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.88,
+    "_context": "Implementar um secretariado técnico permanente para a Comissão de Acompanhamento e Desenvolvimento da Convenção de Albufeira, devendo a mesma ser alvo de revisão.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Estabelecer um quadro legislativo único para os rios que defina a sua personalidade jurídica e tipifique o crime de poluição de água.",
+    "categoria": [
+      "ambiente",
+      "justiça"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Estabelecer um quadro legislativo único para os rios que defina a sua personalidade jurídica e, objetivamente, o crime de poluição de água.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Realizar um levantamento independente a nível nacional de todas as ETARs existentes e publicar mensalmente os seus relatórios de monitorização em local público.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Realizar um levantamento independente a nível nacional de todas as ETARs existentes e os seus relatórios de monitorização de funcionamento da qualidade e quantidade de efluentes a publicar mensalmente em local público.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Instituir a obrigatoriedade de armazenamento das águas pluviais citadinas em bacias de retenção para uso em regadio, incluindo nos novos projetos urbanísticos.",
+    "categoria": [
+      "ambiente",
+      "habitação"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Instituir a obrigatoriedade de armazenamento das águas pluviais citadinas em bacias de retenção para uso em regadio, incluindo os novos projetos urbanísticos.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um atlas de risco das alterações climáticas que evidencie todos os riscos climáticos a nível municipal, incluindo zonas de submersão, risco de cheias e incêndios.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar um atlas de risco das alterações climáticas que evidencie todos os riscos climáticos, como zonas afetadas por submersão e inundação decorrentes da subida do nível do mar.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Rever a Estratégia Florestal Nacional com cartografia e caracterização dos prédios rústicos, integrando a adaptação às alterações climáticas e limitando eucaliptos por PROF.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Rever a Estratégia Florestal Nacional, incidindo numa cuidadosa cartografia e caracterização dos prédios rústicos do território com o objetivo de integrar a adaptação da floresta às alterações climáticas.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Estabelecer como meta um mínimo de florestação anual de 20.000 hectares durante os próximos 10 anos, dando prioridade a culturas naturais como carvalhais, soutos e folhosas.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Estabelecer como meta um mínimo de florestação anual de 20.000 ha durante os próximos 10 anos, dando prioridade a culturas naturais como carvalhais, soutos, e outras folhosas.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Implementar uma rede de viveiros e bancos de sementes intermunicipais como forma de apoio à reflorestação autóctone.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Implementar uma rede de viveiros e bancos de sementes intermunicipais como forma de apoio à reflorestação autóctone.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Atingir uma taxa de cobertura do território por floresta autóctone de 30% até 2050.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Temos como objetivo criar uma onda de florestação e atingir uma taxa de cobertura do nosso território por floresta autóctone de 30% até 2050.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Promover a revisão dos instrumentos de ordenamento do território, nomeadamente o Plano Diretor Municipal, até 2024, incluindo obrigatoriamente o atlas de risco das alterações climáticas.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Promover a revisão dos instrumentos de ordenamento do território, nomeadamente o Plano Diretor Municipal, até ao final de 2024.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Tornar obrigatória a Avaliação de Impacte Ambiental para explorações agrícolas intensivas com mais de 20 hectares (pomares), 15 hectares (culturas protegidas) ou 5 hectares (estufas).",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Tornar obrigatória a elaboração de AIA para explorações agrícolas intensivas ou superintensivas que correspondam a áreas iguais ou superiores a: 20 hectares no caso de pomares; 15 hectares no caso de culturas protegidas; 5 hectares no caso de estufas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Antecipar as metas do Roteiro para a Neutralidade Carbónica 2050 para a atividade pecuária, visando reduzir emissões entre 25% a 50% até 2030.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Antecipar as metas previstas no Roteiro para a Neutralidade Carbónica previstas para 2050 no que respeita à atividade pecuária entre 25% a 50% das emissões, com vista à sua efetiva redução até 2030.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Eliminar os apoios financeiros para exploração de animais de pecuária, redirecionando esses apoios para a produção de alimentos de origem vegetal.",
+    "categoria": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Eliminar os apoios financeiros para exploração de animais de pecuária, redirecionando esses apoios para produção de alimentos de origem vegetal.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Rever a regulamentação aplicável para prever a não renovação de licenças para utilização de herbicidas com glifosato e incluir o glifosato nas análises mensais às águas destinadas a consumo humano.",
+    "categoria": [
+      "agricultura",
+      "saúde",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Rever a regulamentação aplicável de forma a prever a não renovação de licenças para utilização de herbicidas com glifosato e considerar o herbicida glifosato nas análises mensais às águas destinadas a consumo humano.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Pugnar pela aplicação efetiva da Lei n.º 34/2019, de 22 de maio, garantindo o fornecimento de alimentos biológicos às cantinas públicas do Pré-Escolar, 1.º Ciclo e 2.º Ciclo.",
+    "categoria": [
+      "educação",
+      "agricultura",
+      "saúde"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Pugnar pela aplicação efetiva da Lei n.º 34/2019, de 22 de maio, de forma a garantir o fornecimento efetivo de alimentos biológicos às cantinas públicas do Pré-Escolar, 1º Ciclo e 2º Ciclo.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Impedir a exploração de hidrocarbonetos em território nacional, tanto onshore como offshore.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Impedir a exploração de hidrocarbonetos em território nacional (onshore e offshore).",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Estabelecer o fim da comercialização de veículos com motor de combustão até 2030.",
+    "categoria": [
+      "transportes",
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Estabelecer o fim da comercialização de veículos com motor de combustão até 2030.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Rever o programa ferroviário nacional, garantindo a aposta até 2030 em ligações rápidas entre capitais de distrito e maior capacidade de transporte de passageiros.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Rever o programa ferroviário nacional, dando prioridade aos investimentos com maior potencial de redução do impacte ambiental do setor de transportes, de forma a garantir a aposta até 2030 em ligações rápidas entre capitais de distrito.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Apostar no aeroporto de Beja como alternativa aeroportuária a Portela e Montijo, melhorando acessos ferroviários e rodoviários e finalizando obras no IP8 e na A26.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Apostar no aeroporto de Beja como alternativa aeroportuária a Portela + Montijo, melhorando os acessos ferroviários e rodoviários e finalizando as obras no IP8 e na A26.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Eliminar a realização de voos noturnos entre as 00h00 e as 06h00 em todos os aeroportos portugueses, exceto em caso de emergência.",
+    "categoria": [
+      "transportes",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Eliminar a realização de voos noturnos entre as 00h00 e as 06h00 da manhã em todos os aeroportos portugueses, exceto em caso de emergência.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Implementar o plano nacional de mobilidade suave/ativa com construção de eixos cicláveis interligados, estacionamento de bicicletas e transporte facilitado em transportes públicos.",
+    "categoria": [
+      "transportes",
+      "saúde"
+    ],
+    "confianca_extracao": 0.88,
+    "_context": "Implementar o plano nacional de mobilidade suave/ativa dotando-o de meios e recursos humanos para apoiar os municípios a garantirem eixos cicláveis seguros.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Incentivar a aquisição de bicicletas e outros meios suaves a 80% e a reparação a 100%.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Incentivar a aquisição de bicicletas e outros meios suaves a 80% e a reparação a 100%.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Reduzir o IVA associado às reparações de equipamentos elétricos e eletrónicos, incluindo eletrodomésticos, de 23% para 6%.",
+    "categoria": [
+      "economia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Promover o direito à reparação, incentivando a criação de novos serviços e postos de trabalho e reduzindo a taxa do IVA associada às reparações de equipamentos elétricos e eletrónicos, incluindo eletrodomésticos, alterando a mesma de 23% para 6%.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Desclassificar a biomassa florestal como recurso renovável para produção de energia, admitindo-a apenas para aproveitamento de resíduos.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "Desclassificar a biomassa florestal como recurso renovável para produção de energia, evitando a produção florestal para estes fins e admitindo-se apenas para aproveitamento de resíduos.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar a Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar uma Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar uma Direção-Geral de Proteção, Saúde e Bem-estar Animal com competências em todas as atividades que envolvam animais.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar uma Direção-Geral de Proteção, Saúde e Bem-estar Animal que tenha competências em todas as atividades que envolvam animais.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um Instituto de Bem-estar, Saúde e Proteção Animal.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criar um Instituto de Bem-estar, Saúde e Proteção Animal.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Proceder a uma revisão constitucional que consagre como dever do Estado a defesa do bem-estar animal e reconheça o direito dos animais não humanos a tratamento condigno e livre de sofrimento.",
+    "categoria": [
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.92,
+    "_context": "A revisão Constitucional, com vista a consagrar como dever do Estado a defesa do bem-estar animal e a reconhecer o direito dos animais não humanos a um tratamento condigno e livre de sofrimento.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Alargar a tutela penal a todos os animais sencientes e reforçar o quadro sancionatório dos crimes contra animais.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Alargar a tutela penal a todos os animais sencientes e reforçar o quadro sancionatório.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aprovar um Código do Animal que uniformize e codifique num único diploma toda a legislação no âmbito do direito dos animais.",
+    "categoria": [
+      "justiça"
+    ],
+    "confianca_extracao": 0.93,
+    "_context": "Aprovar um Código do Animal, que uniformize e codifique num único diploma toda a legislação no âmbito do direito dos animais.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar uma Estratégia Nacional de Proteção, Saúde e Bem-estar Animal em articulação com as autarquias locais e organizações da sociedade civil.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar uma Estratégia Nacional de Proteção, Saúde e Bem-estar animal, em articulação com as autarquias locais e as organizações da sociedade civil.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar um Fundo de Proteção Animal financiado com parte das receitas das coimas em matéria de proteção animal.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar um Fundo de Proteção Animal que arrecade parte das receitas provenientes das coimas aplicadas em matéria de proteção animal.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Instalar hospitais médico-veterinários públicos nas áreas metropolitanas de Lisboa e do Porto e em todas as comunidades intermunicipais.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Instalar hospitais médico-veterinários públicos nas áreas metropolitanas de Lisboa e do Porto e em todas as comunidades intermunicipais.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Abolir os espetáculos tauromáquicos e eliminar todos os apoios públicos à atividade tauromáquica.",
+    "categoria": [
+      "outros"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Abolir os espetáculos tauromáquicos; Eliminar todos os apoios públicos à atividade tauromáquica.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Reconverter as praças de touros sob tutela do Estado, como a praça de touros do Campo Pequeno, até ao final de 2022.",
+    "categoria": [
+      "outros"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Reconverter, no contexto do ponto anterior, as praças de touros sob a tutela do Estado, como a praça de touros do Campo Pequeno, até ao final do ano de 2022.",
+    "_validation_score": 1.0
+  }
+]

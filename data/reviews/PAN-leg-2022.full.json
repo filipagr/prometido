@@ -1,0 +1,867 @@
+[
+  {
+    "text": "Criar o Ministério da Economia e das Alterações Climáticas, integrando as competências relativas às alterações climáticas no ministério responsável pelo desenvolvimento económico do país.",
+    "context": "Incluir no Ministério da Economia a competência relativa às Alterações Climáticas, garantindo que o desenvolvimento do país seja realizado de forma ambientalmente sustentável.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o Ministério do Ambiente, Biodiversidade e Proteção Animal como ministério autónomo.",
+    "context": "Instituir o Ministério do Ambiente, Biodiversidade e Proteção Animal.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o crime de Ecocídio no Código Penal português, tipificando-o como crime contra a humanidade e as gerações futuras.",
+    "context": "Instituir o crime de Ecocídio no Código penal.",
+    "topics": [
+      "ambiente",
+      "justiça"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar e regulamentar a Lei de Bases do Clima, constituindo o órgão de consultoria e iniciando o reconhecimento do Clima como Património da Humanidade junto das Nações Unidas.",
+    "context": "Proceder à implementação e regulamentação da Lei de Bases do Clima, nomeadamente a constituição do órgão de consultoria.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado: substituído 'Proceder à implementação' por 'Implementar' e removido 'processo de' para maior clareza e concisão."
+  },
+  {
+    "text": "Criar uma Comissão Independente para o Clima, Energia e Transição, constituída por analistas, especialistas, representantes da sociedade civil e de comunidades vulneráveis.",
+    "context": "Criar uma Comissão Independente para o Clima, Energia e Transição, constituída por analistas e especialistas.",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância 'às alterações climáticas' após 'comunidades vulneráveis', ficando implícito no contexto."
+  },
+  {
+    "text": "Aumentar o investimento na IGAMAOT, reforçando o número de efetivos e garantindo a valorização das carreiras de inspeção.",
+    "context": "Aumentar o investimento na Inspeção-geral da Agricultura, do Mar, do Ambiente e do Ordenamento do Território (IGAMAOT), reforçando o número de efetivos.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.88,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Promessa concreta mas sem números específicos de efetivos ou valores de investimento",
+    "review_changed": true,
+    "review_note": "Substituído nome completo por sigla (já definida) para reduzir caracteres mantendo clareza."
+  },
+  {
+    "text": "Eliminar o regime de deferimento tácito nos processos de Avaliação de Impacte Ambiental e garantir que a avaliação não é condicionada por interesses económicos.",
+    "context": "Alterar o regime de avaliação ambiental estratégica, eliminando-se o regime do deferimento tácito, atualmente previsto em processos de Avaliação de Impacte Ambiental (AIA).",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Ação clara mas o segundo elemento ('garantir que não é condicionada') é vago e difícil de verificar",
+    "review_changed": true,
+    "review_note": "Removida sigla (AIA) após primeira menção para maior concisão."
+  },
+  {
+    "text": "Garantir prazo mínimo de 30 dias de consulta pública nos processos de Avaliação de Impacte Ambiental, com sessões de esclarecimento e publicação das respostas aos cidadãos.",
+    "context": "Modificar o regime de consulta pública nos processos de AIA, garantindo maior publicidade, um prazo mínimo de 30 dias de consulta pública.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido artigo 'um' e simplificado 'intervenções dos' para 'aos' para maior concisão."
+  },
+  {
+    "text": "Aumentar a Rede Nacional de Áreas Marinhas Protegidas para pelo menos 30% das águas territoriais protegidas até 2030.",
+    "context": "Aumentar a Rede Nacional de Áreas Marinhas Protegidas até pelo menos 30% das águas territoriais abrangidas por regimes de proteção até 2030.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado: substituído 'cobertas por regimes de proteção' por 'protegidas' para maior concisão."
+  },
+  {
+    "text": "Estabelecer um plano para a efetivação de 'no take zones' no âmbito das Áreas Marinhas Protegidas.",
+    "context": "Estabelecer um plano para a efetivação de 'no take zones' no âmbito das Áreas Marinhas Protegidas.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.65,
+    "validation_reason": "Promessa genérica; 'plano para efetivação' é vago, sem prazos ou metas específicas",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar santuários marinhos em áreas devidamente monitorizadas, destinadas à devolução de animais que tenham estado em cativeiro.",
+    "context": "Criar santuários marinhos em áreas devidamente monitorizadas, destinadas à devolução de animais que tenham estado em cativeiro.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.7,
+    "validation_reason": "Concreta mas sem número de santuários, prazos ou localização específica",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Promover a criação de um Tratado Internacional dos Oceanos pela comunidade internacional, incluindo um plano de mitigação das alterações climáticas.",
+    "context": "Desenvolver as ações necessárias para a criação, pela comunidade internacional, de um Tratado dos Oceanos que inclua um plano de mitigação às alterações climáticas.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.85,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Não é ação direta do partido; depende de 'comunidade internacional'. É mais um posicionamento/objetivo que uma promessa verificável"
+  },
+  {
+    "text": "Assegurar a colocação de ecoilhas em todos os portos marítimos para adequada separação, recolha e tratamento de resíduos e redes de pesca inutilizadas.",
+    "context": "Assegurar a colocação de ecoilhas em todos os portos marítimos, com vista à adequada separação, recolha e tratamento de resíduos.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionado 'e redes de pesca inutilizadas' para completar a ideia (presente no contexto mas omitido no texto original)."
+  },
+  {
+    "text": "Abolir métodos de pesca destrutivos como o arrasto, as redes de emalhar e o uso de explosivos para matar ou atordoar peixes.",
+    "context": "Abolir métodos de pesca destrutivos como o arrasto, as redes de emalhar ou o uso de explosivos para matar ou atordoar peixes.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Alterado 'ou' para 'e' para maior clareza na enumeração dos métodos destrutivos."
+  },
+  {
+    "text": "Implementar um Programa de Remoção de Resíduos de Pesca e de plástico no Mar com métodos de extração neutros para a vida marinha.",
+    "context": "Implementar um Programa de Remoção de Resíduos de Pesca e de plástico no Mar com métodos de extração neutros para a vida marinha.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.75,
+    "validation_reason": "Promessa concreta mas 'métodos neutros' é critério vago e difícil de verificar objetivamente",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar de forma efetiva a Lei de Base dos Solos.",
+    "context": "Implementar de forma efetiva a Lei de Base dos Solos.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretização: não especifica ações, prazos ou medidas concretas de implementação. 'De forma efetiva' é vago."
+  },
+  {
+    "text": "Publicar a legislação sobre prevenção da contaminação e remediação da poluição do solo (ProSolos).",
+    "context": "Publicar a legislação sobre prevenção da contaminação e remediação da poluição do solo (ProSolos).",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar um Regime de Cadastro Predial com a unificação da Matriz, Registo Predial e Cadastro Predial numa base transparente de acesso público.",
+    "context": "Implementar um Regime de Cadastro Predial com a unificação da Matriz, Registo Predial e Cadastro Predial numa base transparente de acesso público.",
+    "topics": [
+      "administração pública",
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um sistema nacional de monitorização da qualidade do solo, contemplando a prevenção da sua contaminação e regeneração, nomeadamente em zonas de exploração pecuária.",
+    "context": "Criar um sistema nacional de monitorização da qualidade do solo, contemplando a prevenção da sua contaminação, assim como a sua regeneração.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'assim como a sua' para melhorar clareza e respeitar limite de caracteres, mantendo o significado."
+  },
+  {
+    "text": "Refundar o programa de Gestão das Bacias Hidrográficas (PGARHs), priorizando a gestão ambiental dos rios.",
+    "context": "Proceder à refundação do programa de Gestão das Bacias Hidrográficas - os Planos de Gestão de Região Hidrográfica devem priorizar a gestão ambiental dos rios.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.88,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado removendo 'incluindo a palavra Ambiental na sua denominação' para maior concisão, mantendo a essência."
+  },
+  {
+    "text": "Implementar um secretariado técnico permanente para a Comissão de Acompanhamento e Desenvolvimento da Convenção de Albufeira e proceder à sua revisão.",
+    "context": "Implementar um secretariado técnico permanente para a Comissão de Acompanhamento e Desenvolvimento da Convenção de Albufeira, devendo a mesma ser alvo de revisão.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.88,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Alterado 'procedendo' para 'e proceder' para melhor clareza gramatical."
+  },
+  {
+    "text": "Repor os guarda-rios e reforçar o SEPNA em número de profissionais e formação, atuando de imediato em cada denúncia de poluição dos rios.",
+    "context": "Reforçar o SEPNA em número de profissionais e formação, atuando de imediato em cada denúncia de poluição dos rios, identificando a fonte de poluição e repondo os guarda-rios.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Parcialmente vaga: 'reforçar em número' sem especificar quantos; 'atuando de imediato' é impreciso e não verificável objetivamente."
+  },
+  {
+    "text": "Estabelecer um quadro legislativo único para os rios que defina a sua personalidade jurídica e tipifique o crime de poluição de água.",
+    "context": "Estabelecer um quadro legislativo único para os rios que defina a sua personalidade jurídica e, objetivamente, o crime de poluição de água.",
+    "topics": [
+      "ambiente",
+      "justiça"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'objetivamente' para simplificar e ganhar clareza na enunciação dos objetivos."
+  },
+  {
+    "text": "Realizar um levantamento independente a nível nacional de todas as ETARs existentes e publicar mensalmente os seus relatórios de monitorização em local público.",
+    "context": "Realizar um levantamento independente a nível nacional de todas as ETARs existentes e os seus relatórios de monitorização de funcionamento da qualidade e quantidade de efluentes a publicar mensalmente em local público.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Instituir a obrigatoriedade de armazenamento das águas pluviais citadinas em bacias de retenção para uso em regadio, incluindo nos novos projetos urbanísticos.",
+    "context": "Instituir a obrigatoriedade de armazenamento das águas pluviais citadinas em bacias de retenção para uso em regadio, incluindo os novos projetos urbanísticos.",
+    "topics": [
+      "ambiente",
+      "habitação"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Implementar o programa 'rios livres' com vista à remoção de barragens e açudes ineficientes.",
+    "context": "Implementar o programa rios livres com vista à remoção de barragens e açudes ineficientes.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta concretização: não especifica quantas barragens/açudes, prazos, ou critérios de 'ineficiência'."
+  },
+  {
+    "text": "Criar um atlas de risco das alterações climáticas que evidencie todos os riscos climáticos a nível municipal, incluindo zonas de submersão, risco de cheias e incêndios.",
+    "context": "Criar um atlas de risco das alterações climáticas que evidencie todos os riscos climáticos, como zonas afetadas por submersão e inundação decorrentes da subida do nível do mar.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Rever a Estratégia Florestal Nacional com cartografia e caracterização dos prédios rústicos, integrando a adaptação às alterações climáticas e limitando eucaliptos por PROF.",
+    "context": "Rever a Estratégia Florestal Nacional, incidindo numa cuidadosa cartografia e caracterização dos prédios rústicos do território com o objetivo de integrar a adaptação da floresta às alterações climáticas.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada estrutura gramatical e reduzido para 250 caracteres, mantendo significado essencial."
+  },
+  {
+    "text": "Estabelecer como meta um mínimo de florestação anual de 20.000 hectares durante os próximos 10 anos, dando prioridade a culturas naturais como carvalhais, soutos e folhosas.",
+    "context": "Estabelecer como meta um mínimo de florestação anual de 20.000 ha durante os próximos 10 anos, dando prioridade a culturas naturais como carvalhais, soutos, e outras folhosas.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido \"outras\" antes de \"folhosas\" para clareza e concisão, sem perder significado."
+  },
+  {
+    "text": "Implementar uma rede de viveiros e bancos de sementes intermunicipais como forma de apoio à reflorestação autóctone.",
+    "context": "Implementar uma rede de viveiros e bancos de sementes intermunicipais como forma de apoio à reflorestação autóctone.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Atingir uma taxa de cobertura do território por floresta autóctone de 30% até 2050.",
+    "context": "Temos como objetivo criar uma onda de florestação e atingir uma taxa de cobertura do nosso território por floresta autóctone de 30% até 2050.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Promover a revisão dos instrumentos de ordenamento do território, nomeadamente o Plano Diretor Municipal, até 2024, incluindo obrigatoriamente o atlas de risco das alterações climáticas.",
+    "context": "Promover a revisão dos instrumentos de ordenamento do território, nomeadamente o Plano Diretor Municipal, até ao final de 2024.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Ligeira reformulação para melhor clareza e fluidez, mantendo o significado integral."
+  },
+  {
+    "text": "Tornar obrigatória a Avaliação de Impacte Ambiental para explorações agrícolas intensivas com mais de 20 hectares (pomares), 15 hectares (culturas protegidas) ou 5 hectares (estufas).",
+    "context": "Tornar obrigatória a elaboração de AIA para explorações agrícolas intensivas ou superintensivas que correspondam a áreas iguais ou superiores a: 20 hectares no caso de pomares; 15 hectares no caso de culturas protegidas; 5 hectares no caso de estufas.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido \"superintensivas ou\" para clareza e brevidade, mantendo essência da promessa."
+  },
+  {
+    "text": "Antecipar as metas do Roteiro para a Neutralidade Carbónica 2050 para a atividade pecuária, visando reduzir emissões entre 25% a 50% até 2030.",
+    "context": "Antecipar as metas previstas no Roteiro para a Neutralidade Carbónica previstas para 2050 no que respeita à atividade pecuária entre 25% a 50% das emissões, com vista à sua efetiva redução até 2030.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada estrutura gramatical para melhor compreensão e reduzido para 250 caracteres."
+  },
+  {
+    "text": "Eliminar os apoios financeiros para exploração de animais de pecuária, redirecionando esses apoios para a produção de alimentos de origem vegetal.",
+    "context": "Eliminar os apoios financeiros para exploração de animais de pecuária, redirecionando esses apoios para produção de alimentos de origem vegetal.",
+    "topics": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Assegurar um regime de moratória para novas culturas em regime intensivo e superintensivo até que a atividade seja regulamentada.",
+    "context": "Assegurar um regime de moratória para novas culturas em regime intensivo e superintensivo até que seja regulamentada a atividade.",
+    "topics": [
+      "agricultura",
+      "ambiente"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Promessa vaga: sem prazo definido ('até que') nem critérios claros de regulamentação que acionem o fim da moratória"
+  },
+  {
+    "text": "Rever a regulamentação aplicável para prever a não renovação de licenças para utilização de herbicidas com glifosato e incluir o glifosato nas análises mensais às águas destinadas a consumo humano.",
+    "context": "Rever a regulamentação aplicável de forma a prever a não renovação de licenças para utilização de herbicidas com glifosato e considerar o herbicida glifosato nas análises mensais às águas destinadas a consumo humano.",
+    "topics": [
+      "agricultura",
+      "saúde",
+      "ambiente"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'de forma a' por 'para' (mais conciso); mantido 'incluir' em vez de 'considerar' (mais direto)."
+  },
+  {
+    "text": "Promover um banco de terras que inclua todas as terras do Estado com aptidão agrícola, a arrendar a preços comportáveis com prioridade para jovens agricultores e associações.",
+    "context": "Promover um banco de terras que inclua todas as que tenham aptidão agrícola do Estado. Estas terras devem ser arrendadas a preços comportáveis.",
+    "topics": [
+      "agricultura",
+      "economia"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.65,
+    "validation_reason": "Falta prazo de implementação e 'preços comportáveis' é subjetivo; ação identificada mas pouco verificável"
+  },
+  {
+    "text": "Pugnar pela aplicação efetiva da Lei n.º 34/2019, de 22 de maio, garantindo o fornecimento de alimentos biológicos às cantinas públicas do Pré-Escolar, 1.º Ciclo e 2.º Ciclo.",
+    "context": "Pugnar pela aplicação efetiva da Lei n.º 34/2019, de 22 de maio, de forma a garantir o fornecimento efetivo de alimentos biológicos às cantinas públicas do Pré-Escolar, 1º Ciclo e 2º Ciclo.",
+    "topics": [
+      "educação",
+      "agricultura",
+      "saúde"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'efetivo' redundante antes de 'fornecimento'; substituído 'de forma a garantir' por 'garantindo'."
+  },
+  {
+    "text": "Reduzir as emissões de gases com efeito de estufa em 45% face a 2005 até 2025.",
+    "context": "Propomos a redução de emissões de gases com efeito de estufa, face a 2005, em 45% até 2025.",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.3,
+    "validation_reason": "Meta irrealista para legislatura 2022-2026 (apenas 3-4 anos); promessa de governo central sobre meta que depende de fatores estruturais complexos"
+  },
+  {
+    "text": "Impedir a exploração de hidrocarbonetos em território nacional, tanto onshore como offshore.",
+    "context": "Impedir a exploração de hidrocarbonetos em território nacional (onshore e offshore).",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer o fim da comercialização de veículos com motor de combustão até 2030.",
+    "context": "Estabelecer o fim da comercialização de veículos com motor de combustão até 2030.",
+    "topics": [
+      "transportes",
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar incentivos de autoconsumo singular, coletivo e de comunidades de energia em zonas urbanas e rurais, como condomínios, bairros ou aldeias e parques industriais.",
+    "context": "Criar incentivos de autoconsumo singular, coletivo e de comunidades de energia em zonas urbanas e rurais, tais como em condomínios, bairros ou aldeias e parques industriais.",
+    "topics": [
+      "energia"
+    ],
+    "confidence": 0.9,
+    "is_valid": false,
+    "validation_score": 0.65,
+    "validation_reason": "Vaga: 'criar incentivos' sem especificar quais, quanto, ou como; muito genérica"
+  },
+  {
+    "text": "Definir um regime de incentivos para as Comunidades de Energias Renováveis (CER) em linha com a definição legal europeia (RED II).",
+    "context": "Definir um regime de incentivos para as Comunidades de Energias Renováveis (CER) em linha com a definição legal europeia (RED II).",
+    "topics": [
+      "energia"
+    ],
+    "confidence": 0.92,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Vaga: 'definir um regime' é declaração de intenção; não especifica incentivos concretos ou prazos"
+  },
+  {
+    "text": "Estabelecer uma meta de incentivos até 2050 de 55% da produção de energia elétrica proveniente de unidades de pequena produção e autoconsumo local.",
+    "context": "Estabelecer uma meta de incentivos, até 2050, de 55% da produção de energia elétrica ser proveniente de unidades de pequena produção e autoconsumo local.",
+    "topics": [
+      "energia"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Meta para 2050 está fora do mandato legislativo; prazo extremamente longo torna promessa pouco verificável na legislatura"
+  },
+  {
+    "text": "Rever o programa ferroviário nacional, garantindo a aposta até 2030 em ligações rápidas entre capitais de distrito e maior capacidade de transporte de passageiros.",
+    "context": "Rever o programa ferroviário nacional, dando prioridade aos investimentos com maior potencial de redução do impacte ambiental do setor de transportes, de forma a garantir a aposta até 2030 em ligações rápidas entre capitais de distrito.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'aumento da' (redundante com 'maior'); simplificado 'nacional e internacional' em contexto já claro de transporte."
+  },
+  {
+    "text": "Apostar no aeroporto de Beja como alternativa aeroportuária a Portela e Montijo, melhorando acessos ferroviários e rodoviários e finalizando obras no IP8 e na A26.",
+    "context": "Apostar no aeroporto de Beja como alternativa aeroportuária a Portela + Montijo, melhorando os acessos ferroviários e rodoviários e finalizando as obras no IP8 e na A26.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Substituído 'Portela + Montijo' por 'Portela e Montijo'; removidos artigos repetidos ('os acessos', 'as obras')."
+  },
+  {
+    "text": "Eliminar a realização de voos noturnos entre as 00h00 e as 06h00 em todos os aeroportos portugueses, exceto em caso de emergência.",
+    "context": "Eliminar a realização de voos noturnos entre as 00h00 e as 06h00 da manhã em todos os aeroportos portugueses, exceto em caso de emergência.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'da manhã' (redundante com horário 06h00)."
+  },
+  {
+    "text": "Criar um Plano Nacional de Mobilidade que englobe todas as formas de mobilidade e reflita as especificidades de zonas metropolitanas, regiões ultraperiféricas e interligação com a Europa.",
+    "context": "Criar um Plano Nacional de Mobilidade que englobe todas as formas de mobilidade e reflita as especificidades de zonas metropolitanas de áreas densamente menos populosas.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.88,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretude: não especifica acções, prazos ou medidas nomeadas. É mais um diagnóstico/objectivo genérico."
+  },
+  {
+    "text": "Implementar o plano nacional de mobilidade suave/ativa com construção de eixos cicláveis interligados, estacionamento de bicicletas e transporte facilitado em transportes públicos.",
+    "context": "Implementar o plano nacional de mobilidade suave/ativa dotando-o de meios e recursos humanos para apoiar os municípios a garantirem eixos cicláveis seguros.",
+    "topics": [
+      "transportes",
+      "saúde"
+    ],
+    "confidence": 0.88,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida vírgula após 'suave/ativa'; substituído 'facilidade de transporte de bicicletas' por 'transporte facilitado'."
+  },
+  {
+    "text": "Incentivar a aquisição de bicicletas e outros meios suaves a 80% e a reparação a 100%.",
+    "context": "Incentivar a aquisição de bicicletas e outros meios suaves a 80% e a reparação a 100%.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o IVA associado às reparações de equipamentos elétricos e eletrónicos, incluindo eletrodomésticos, de 23% para 6%.",
+    "context": "Promover o direito à reparação, incentivando a criação de novos serviços e postos de trabalho e reduzindo a taxa do IVA associada às reparações de equipamentos elétricos e eletrónicos, incluindo eletrodomésticos, alterando a mesma de 23% para 6%.",
+    "topics": [
+      "economia",
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "context": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Desclassificar a biomassa florestal como recurso renovável para produção de energia, admitindo-a apenas para aproveitamento de resíduos.",
+    "context": "Desclassificar a biomassa florestal como recurso renovável para produção de energia, evitando a produção florestal para estes fins e admitindo-se apenas para aproveitamento de resíduos.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar a Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "context": "Criar uma Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma Direção-Geral de Proteção, Saúde e Bem-estar Animal com competências em todas as atividades que envolvam animais.",
+    "context": "Criar uma Direção-Geral de Proteção, Saúde e Bem-estar Animal que tenha competências em todas as atividades que envolvam animais.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um Instituto de Bem-estar, Saúde e Proteção Animal.",
+    "context": "Criar um Instituto de Bem-estar, Saúde e Proteção Animal.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Proceder a uma revisão constitucional que consagre como dever do Estado a defesa do bem-estar animal e reconheça o direito dos animais não humanos a tratamento condigno e livre de sofrimento.",
+    "context": "A revisão Constitucional, com vista a consagrar como dever do Estado a defesa do bem-estar animal e a reconhecer o direito dos animais não humanos a um tratamento condigno e livre de sofrimento.",
+    "topics": [
+      "direitos sociais"
+    ],
+    "confidence": 0.92,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar a tutela penal a todos os animais sencientes e reforçar o quadro sancionatório dos crimes contra animais.",
+    "context": "Alargar a tutela penal a todos os animais sencientes e reforçar o quadro sancionatório.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionado 'dos crimes contra animais' para maior clareza e completude, evitando ambiguidade."
+  },
+  {
+    "text": "Aprovar um Código do Animal que uniformize e codifique num único diploma toda a legislação no âmbito do direito dos animais.",
+    "context": "Aprovar um Código do Animal, que uniformize e codifique num único diploma toda a legislação no âmbito do direito dos animais.",
+    "topics": [
+      "justiça"
+    ],
+    "confidence": 0.93,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma Estratégia Nacional de Proteção, Saúde e Bem-estar Animal em articulação com as autarquias locais e organizações da sociedade civil.",
+    "context": "Criar uma Estratégia Nacional de Proteção, Saúde e Bem-estar animal, em articulação com as autarquias locais e as organizações da sociedade civil.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidas vírgulas desnecessárias e padronizado 'Bem-estar Animal' (maiúscula em Animal para consistência com outras promessas)."
+  },
+  {
+    "text": "Criar um Fundo de Proteção Animal financiado com parte das receitas das coimas em matéria de proteção animal.",
+    "context": "Criar um Fundo de Proteção Animal que arrecade parte das receitas provenientes das coimas aplicadas em matéria de proteção animal.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.9,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Instalar hospitais médico-veterinários públicos nas áreas metropolitanas de Lisboa e do Porto e em todas as comunidades intermunicipais.",
+    "context": "Instalar hospitais médico-veterinários públicos nas áreas metropolitanas de Lisboa e do Porto e em todas as comunidades intermunicipais.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Abolir os espetáculos tauromáquicos e eliminar todos os apoios públicos à atividade tauromáquica.",
+    "context": "Abolir os espetáculos tauromáquicos; Eliminar todos os apoios públicos à atividade tauromáquica.",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Consolidadas duas proposições separadas por ponto-e-vírgula numa única frase com conjunção 'e' para melhor fluidez e compreensão standalone."
+  },
+  {
+    "text": "Reconverter as praças de touros sob tutela do Estado, como a praça de touros do Campo Pequeno, até ao final de 2022.",
+    "context": "Reconverter, no contexto do ponto anterior, as praças de touros sob a tutela do Estado, como a praça de touros do Campo Pequeno, até ao final do ano de 2022.",
+    "topics": [
+      "outros"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 1.0,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida referência anafórica 'no contexto do ponto anterior' (dependência de contexto externo) e simplificado 'ano de 2022' para '2022' (redundância eliminada, mantendo clareza)."
+  },
+  {
+    "text": "Abolir as escolas de toureio para crianças e jovens, dando cumprimento às recomendações da ONU.",
+    "context": "Abolir as escolas de toureio para crianças e jovens, dando cumprimento às recomendações da ONU.",
+    "topics": [
+      "educação"
+    ],
+    "confidence": 0.95,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Promessa pouco concreta: não especifica mecanismo de implementação, não tem prazo ou número de escolas. Referência à ONU é justificação, não medida nomeada."
+  }
+]

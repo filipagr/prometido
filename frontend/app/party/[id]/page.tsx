@@ -23,7 +23,7 @@ function LoadingSkeleton({ slowWarning }: { slowWarning: boolean }) {
           <div className="skeleton h-4 w-52 rounded" />
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
         <div className="space-y-2.5">
           {Array.from({ length: 5 }).map((_, i) => <div key={i} className="skeleton h-14 rounded-xl" />)}
         </div>
@@ -94,7 +94,7 @@ export default function PartyPage({ params }: { params: Promise<{ id: string }> 
             {partyAbbr(party.short_name)}
           </span>
           <div>
-            <h1 className="text-[22px] font-semibold text-neutral-950 tracking-[-0.02em]">{party.name}</h1>
+            <h1 className="text-[18px] sm:text-[22px] font-semibold text-neutral-950 tracking-[-0.02em]">{party.name}</h1>
             <p className="text-[13px] text-neutral-400">
               <span className="tabular-nums font-medium text-neutral-500">{(party.promise_count ?? 0).toLocaleString("pt")}</span> promessas
               {" · "}
@@ -117,7 +117,7 @@ export default function PartyPage({ params }: { params: Promise<{ id: string }> 
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
         {/* Sidebar */}
         <div className="md:col-span-1 space-y-2">
           <p className="text-[11px] font-semibold text-neutral-400 uppercase tracking-widest mb-3">Por eleição</p>
