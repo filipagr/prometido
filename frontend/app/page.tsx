@@ -69,21 +69,12 @@ export default function HomePage() {
           <h1 className="text-[2.75rem] sm:text-5xl font-semibold text-neutral-950 mb-4 tracking-[-0.03em] leading-[1.15]">
             O que prometeram.
             <br />
-            Onde está a prova.
+            Onde está escrito.
           </h1>
 
           <p className="text-[15px] text-neutral-600 max-w-md mx-auto mb-8 leading-relaxed">
-            Promessas eleitorais de partidos políticos portugueses desde 2002,
-            arquivadas no{" "}
-            <a
-              href="https://arquivo.pt"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-800 underline underline-offset-2 hover:text-neutral-950 transition-colors"
-            >
-              Arquivo.pt
-            </a>
-            .
+            Pesquisa e compara promessas eleitorais de 9 partidos portugueses
+            desde 2002, com ligação directa ao programa original.
           </p>
 
           <div className="max-w-xl mx-auto">
