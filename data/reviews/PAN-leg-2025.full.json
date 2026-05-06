@@ -1,0 +1,892 @@
+[
+  {
+    "text": "Antecipar as metas de neutralidade climática de 2045 para 2040, assegurando uma redução de emissões em 60% em 2030 face a 2005.",
+    "context": "Antecipar as metas de neutralidade climática de 2045 para 2040, procurando assegurar uma redução de emissões em 60% em 2030 (face a 2005).",
+    "topics": [
+      "ambiente",
+      "energia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir que até 2035 toda a eletricidade do país provém de fontes de energia renovável.",
+    "context": "que até 2035 toda a eletricidade do país provém de fontes de energia renovável.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Erradicar a pobreza energética até 2030, antecipando as metas que estavam fixadas para 2050.",
+    "context": "Erradicar a pobreza energética até 2030, antecipando as metas que estavam fixadas para 2050.",
+    "topics": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a gratuitidade do passe de transportes públicos a todos os jovens até aos 30 anos, independentemente de trabalharem ou estudarem.",
+    "context": "Garantir a gratuitidade do passe a todos os jovens até aos 30 anos, independentemente de trabalharem ou estudarem.",
+    "topics": [
+      "transportes",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir que nos primeiros 30 dias da legislatura são ultrapassados os impasses que têm travado o início de funções do Conselho para a Ação Climática.",
+    "context": "Garantir que nos primeiros 30 dias da legislatura são ultrapassados os impasses que têm travado o início de funções do Conselho para a Ação Climática.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": "Prazo específico (30 dias) mas acção depende de terceiros; verificabilidade moderada",
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aprovar uma Lei das Gerações Futuras que capacite a Administração Pública e os decisores políticos a integrar os direitos das gerações futuras nos processos de tomada de decisão.",
+    "context": "Aprovar uma Lei das Gerações Futuras, que concretize os direitos previstos na Lei de Bases do Clima.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Promessa vaga: não especifica conteúdo, prazos ou mecanismos concretos da Lei; é mais um objetivo/valor"
+  },
+  {
+    "text": "Garantir que até ao final de 2025 são cumpridas as disposições da Lei de Bases do Clima que ficaram por cumprir, priorizando a aprovação de uma Estratégia Industrial Verde.",
+    "context": "Garantir que, até ao final do ano de 2025, são efetivamente cumpridas as diversas disposições da Lei de Bases do Clima.",
+    "topics": [
+      "ambiente",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Rever a Lei de Enquadramento Orçamental para assegurar a adaptação aos princípios de orçamentação verde e prever uma norma-travão que impeça cortes nas verbas do Orçamento do Estado para Política Climática.",
+    "context": "Rever a Lei de Enquadramento Orçamental por forma a assegurar a sua adaptação aos princípios de orçamentação verde previstos na Lei de Bases do Clima.",
+    "topics": [
+      "ambiente",
+      "economia"
+    ],
+    "confidence": 0.96,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Promessa demasiado genérica: 'rever' sem especificar mudanças concretas; a norma-travão carece de detalhe"
+  },
+  {
+    "text": "Assegurar que o Estado Português emite Green Bonds e Blue Bonds para impulsionar o investimento nacional na política climática, tal como fazem França, Alemanha, Países Baixos e Bélgica.",
+    "context": "assegurando que o Estado Português procede à emissão de Green Bonds e de Blue Bonds para impulsionar o investimento nacional na política climática.",
+    "topics": [
+      "ambiente",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado 'procede à emissão de' para 'emite' e 'tal como sucede em' para 'tal como fazem' para melhor clareza e concisão."
+  },
+  {
+    "text": "Criar apoios técnicos e financeiros para ajudar os municípios a implementar a Lei de Bases do Clima e os respetivos planos municipais de ação climática.",
+    "context": "Criar apoios técnicos e financeiros para ajudar os municípios a implementar a Lei de Bases do Clima e os respetivos planos municipais de ação climática.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.96,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": "Concreta mas genérica em montante e tipos específicos de apoio",
+    "review_changed": true,
+    "review_note": "Removida referência à Lei das Finanças Locais por ser contexto secundário; frase mantém sentido completo e fica mais clara e concisa."
+  },
+  {
+    "text": "Estabelecer um enquadramento legal geral do Programa de Ação Nacional de Combate à Desertificação, garantindo vigência, revisão periódica e dotação orçamental anual adequada.",
+    "context": "Estabelecer um enquadramento legal geral do Programa de Ação Nacional de Combate à Desertificação.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.95,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'a sua' antes de 'vigência' para melhor fluidez e concisão, mantendo sentido idêntico."
+  },
+  {
+    "text": "Eliminar todos os subsídios e apoios públicos aos combustíveis fósseis até 2030, canalizando os apoios para a produção de energias renováveis.",
+    "context": "Eliminar todos os subsídios e apoios públicos aos combustíveis fósseis até 2030, canalizando os apoios para a produção de energias renováveis.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o programa 'Sol Para Todos' para transmitir gratuitamente energia excedente de autoconsumo renovável a famílias em pobreza energética.",
+    "context": "pela implementação do programa 'Sol Para Todos', com vista a que a energia excedente produzida para autoconsumo... possa ser investida de forma solidária.",
+    "topics": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada a estrutura para melhor clareza e reduzidos caracteres (de 156 para 145)."
+  },
+  {
+    "text": "Incentivar a produção descentralizada de energias renováveis em comunidades energéticas e o autoconsumo, definindo um modelo de contrato autónomo e transparente para acesso a comunidades de energia.",
+    "context": "Incentivar a produção descentralizada de energias renováveis, nomeadamente em comunidades energéticas, e o autoconsumo.",
+    "topics": [
+      "energia",
+      "ambiente"
+    ],
+    "confidence": 0.96,
+    "is_valid": false,
+    "validation_score": 0.55,
+    "validation_reason": "Promessa vaga: 'incentivar' e 'definindo um modelo' sem especificar medidas, prazos ou detalhes concretos"
+  },
+  {
+    "text": "Reduzir para 6% o IVA dos kits de autoconsumo para fins habitacionais.",
+    "context": "Reduzir para 6% o IVA dos kits de autoconsumo para fins habitacionais.",
+    "topics": [
+      "energia",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aprovar um Programa de Mobilidade Sustentável para a Administração Pública (2026-2031) com conversão das frotas públicas rodoviárias para modo elétrico.",
+    "context": "Aprovar um Programa de Mobilidade Sustentável para a Administração Pública para o período de 2026-2031.",
+    "topics": [
+      "transportes",
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Reformulada para maior clareza e redução de caracteres (de 161 para 149)."
+  },
+  {
+    "text": "Criar um passe único nacional de transportes públicos.",
+    "context": "Criar um passe único nacional de transportes públicos.",
+    "topics": [
+      "transportes"
+    ],
+    "confidence": 0.99,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretização: sem prazo, sem detalhes de implementação, sem números ou métricas."
+  },
+  {
+    "text": "Assegurar a gratuitidade dos passes mensais de transportes públicos até 2029, com redução progressiva de 50% da tarifa inteira até 2027.",
+    "context": "Assegurar a gratuitidade dos passes mensais de transportes público até 2029, implementando, progressivamente, uma redução em 50% do valor da sua tarifa inteira.",
+    "topics": [
+      "transportes",
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida redundância 'do valor da' e ajustada pontuação para melhor fluidez (de 137 para 134 chars)."
+  },
+  {
+    "text": "Criar um programa de incentivos às deslocações pendulares casa-trabalho em bicicleta com dotação orçamental de 6 milhões de euros.",
+    "context": "Criar um programa de incentivos às deslocações pendulares casa-trabalho em bicicleta, que, com uma dotação orçamental de 6 milhões de euros, recompense financeiramente os beneficiários por quilómetros pedalados.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada mantendo essência, removido detalhe sobre recompensa por quilómetros (de 175 para 133 chars)."
+  },
+  {
+    "text": "Reduzir para 6% o IVA da aquisição de componentes e acessórios para bicicletas.",
+    "context": "Reduzir para 6% o IVA da aquisição de componentes e acessórios para bicicletas.",
+    "topics": [
+      "transportes",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Construção de uma ciclovia paralela à IC19.",
+    "context": "Construção de uma ciclovia paralela à IC19.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": false,
+    "validation_score": 0.5,
+    "validation_reason": "Falta concretização: sem prazo, sem dimensões, sem orçamento. Demasiado vago para ser verificável."
+  },
+  {
+    "text": "Aumentar o incentivo à aquisição de automóveis ligeiros elétricos para 6 mil euros (valor médio UE), com majorações para territórios do interior.",
+    "context": "aumentando o incentivo dado à aquisição de automóveis ligeiros elétricos de passageiros para o valor médio do incentivo na União Europeia (6 mil euros).",
+    "topics": [
+      "transportes",
+      "ambiente",
+      "economia"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'de passageiros' para clareza, abreviado 'União Europeia' para 'UE', redução significativa de caracteres."
+  },
+  {
+    "text": "Pôr fim a voos noturnos entre as 00h00 e as 06h00 em todos os aeroportos nacionais, exceto emergência e humanitários.",
+    "context": "Pôr fim à realização de voos noturnos entre as 00h00 e as 06h00 da manhã em todos os aeroportos nacionais.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'da manhã' (redundante com horário) e abreviado 'voos de emergência e humanitários' (de 152 para 123 chars)."
+  },
+  {
+    "text": "Aprovar um regime jurídico de limitação de voos em rotas aéreas internas sempre que exista ligação ferroviária alternativa satisfatória.",
+    "context": "Aprovar um regime jurídico de limitação de voos em rotas aéreas internas, sempre que exista uma ligação ferroviária alternativa satisfatória.",
+    "topics": [
+      "transportes",
+      "ambiente"
+    ],
+    "confidence": 0.98,
+    "is_valid": false,
+    "validation_score": 0.6,
+    "validation_reason": "Falta concretização: critério 'ligação ferroviária alternativa satisfatória' é subjectivo e indefinido. Sem prazo."
+  },
+  {
+    "text": "Aprovar a consagração do crime de Ecocídio no Código Penal.",
+    "context": "Aprovar a consagração do crime de Ecocídio no Código Penal.",
+    "topics": [
+      "ambiente",
+      "justiça"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar em 50% o financiamento do Orçamento do Estado para conservação da natureza e assegurar caráter plurianual.",
+    "context": "Aumentar em 50% o financiamento do Orçamento do Estado para ações de conservação da natureza e assegurar o seu carácter plurianual.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'ações de' para fluidez, simplificada estrutura final (de 131 para 116 chars), mantida grafia 'caráter'."
+  },
+  {
+    "text": "Garantir o aumento em 30% da Rede Nacional de Áreas Protegidas até 2028, antecipando a meta europeia.",
+    "context": "garantindo o aumento em 30%, até 2028, da Rede Nacional de Áreas Protegidas (RNAP), antecipando a meta europeia.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a proteção de pelo menos 30% do território marinho e terrestre até 2028, antecipando a meta europeia de 2030.",
+    "context": "Garantir a proteção de pelo menos 30% do território marinho e terrestre até 2028, antecipando a meta de 2030 definida pelo Pacto Ecológico Europeu.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma agência nacional para as Áreas Marinhas Protegidas que garanta a sua proteção e gestão com vista à conservação da biodiversidade.",
+    "context": "Criar uma agência nacional para as Áreas Marinhas Protegidas, que garanta a sua proteção, articulação das redes regionais de áreas marinhas protegidas com a rede nacional.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.97,
+    "is_valid": false,
+    "validation_score": 0.55,
+    "validation_reason": "Falta concretização: sem prazo, sem orçamento, sem detalhes estruturais. Demasiado genérico."
+  },
+  {
+    "text": "Garantir a implementação da Moratória à Mineração em Mar Profundo em águas nacionais até 2050, aprovada pela Assembleia da República por proposta do PAN.",
+    "context": "Garantir a efetiva implementação da Moratória à Mineração em Mar Profundo em águas nacionais até 2050, recentemente aprovada pela Assembleia da República por proposta do PAN.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer moratória imediata ao Programa Nacional de Regadios e aos investimentos em regadio na estratégia 'Água que Une' para avaliação ambiental estratégica.",
+    "context": "Estabelecer uma moratória imediata ao Programa Nacional de Regadios e aos investimentos previstos em regadio na estratégia 'água que une'.",
+    "topics": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida repetição de 'uma', ajustada pontuação e capitalização de 'Água que Une' para clareza e fluidez."
+  },
+  {
+    "text": "Alterar o regime da taxa de recursos hídricos para refletir o custo real da utilização por indústrias, agropecuária e agricultura intensiva.",
+    "context": "Alterar o regime da taxa de recursos hídricos previsto no Decreto-Lei n.º 97/2008, de 11 de Junho, por forma a refletir na taxa o custo real da utilização de recursos hídricos.",
+    "topics": [
+      "ambiente",
+      "agricultura",
+      "economia"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificada a redação removendo repetição de 'recursos hídricos' e ajustando para maior clareza."
+  },
+  {
+    "text": "Regulamentar o sistema de depósito para embalagens de bebidas descartáveis.",
+    "context": "Regulamentar o sistema de depósito para embalagens de bebidas descartáveis.",
+    "topics": [
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "context": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "topics": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir o IVA dos atos médico-veterinários e da alimentação para animais de companhia para 6%.",
+    "context": "Reduzir o IVA dos atos médico-veterinários e da alimentação para animais de companhia para 6%.",
+    "topics": [
+      "saúde",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a efetiva implementação do Plano Nacional de Desacorrentamento Animal.",
+    "context": "Garantir a efetiva implementação do Plano Nacional de Desacorrentamento Animal.",
+    "topics": [
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": false,
+    "validation_score": 0.45,
+    "validation_reason": "Falta concretização: não especifica o que 'efetiva implementação' significa em termos de ações, prazos ou métricas verificáveis."
+  },
+  {
+    "text": "Garantir a criação e construção de Hospitais Veterinários Públicos, concretizando uma rede pública de serviços médico-veterinários (SNS Animal).",
+    "context": "Garantir a execução da criação/construção de Hospitais Veterinários Públicos, concretizando uma rede pública de serviços médico-veterinários (SNS Animal).",
+    "topics": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.87,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida palavra 'execução' redundante; simplificada a estrutura mantendo o significado."
+  },
+  {
+    "text": "Abolir o transporte marítimo de animais vivos até 2027.",
+    "context": "Abolir o transporte marítimo de animais vivos até 2027.",
+    "topics": [
+      "outros",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.93,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir o direito de 1 dia de luto pela morte de animal de companhia registado no SIAC e faltar justificadamente até 2 dias por ano para prestar assistência inadiável ao animal.",
+    "context": "Garantir a implementação do direito de 1 dia de luto pela morte de animal de companhia devidamente registado no SIAC e garantir o direito do/a trabalhador/a de faltar justificadamente ao trabalho até 2 dias por ano.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida repetição de 'direito de' e 'direito do/a trabalhador/a de'. Ajustada estrutura para melhor fluidez mantendo significado."
+  },
+  {
+    "text": "Criar o Ministério do Ambiente, Proteção Animal e Biodiversidade, retirando a tutela dos animais do Ministério da Agricultura.",
+    "context": "Criar o Ministério do Ambiente, Proteção Animal e Biodiversidade, retirando a tutela dos animais do Ministério da Agricultura.",
+    "topics": [
+      "administração pública",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.91,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar uma Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "context": "Criar uma Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.89,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar a Direção-Geral de Proteção e Bem-estar Animal, revogando a passagem de competências do ICNF para as CCDR e DGAV.",
+    "context": "Criar a Direção-geral de Proteção e Bem-estar Animal, revogando a passagem de competências do ICNF para as CCDRS e do ICNF para a DGAV.",
+    "topics": [
+      "administração pública"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida repetição de 'do ICNF para' e corrigida capitalização (Direção-Geral, CCDR)."
+  },
+  {
+    "text": "Proceder à revisão da Constituição da República Portuguesa para incluir a proteção animal e consagrar como dever do Estado a defesa do bem-estar animal.",
+    "context": "Proceder à revisão da Constituição República Portuguesa com vista a incluir a proteção animal, a consagrar como dever do Estado a defesa do bem-estar animal.",
+    "topics": [
+      "direitos sociais",
+      "administração pública"
+    ],
+    "confidence": 0.97,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Corrigido 'Constituição República' para 'Constituição da República' e simplificada construção mantendo significado."
+  },
+  {
+    "text": "Criar uma Linha de Emergência para Animais denominada '112 Animal'.",
+    "context": "Criar uma Linha de Emergência para Animais ('112 Animal').",
+    "topics": [
+      "saúde",
+      "segurança"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.91,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Garantir a criação de um banco de sangue animal público, de acesso gratuito e universal, e proibir a detenção de animais para este fim.",
+    "context": "Garantir a criação de um banco de sangue animal público, de acesso gratuito e universal, e proibir a detenção de animais para este fim.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.89,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar o Programa Nacional 'Vet no Bairro' para a melhoria do bem-estar e saúde animal em zonas vulneráveis e junto de famílias economicamente carenciadas.",
+    "context": "Criar o Programa Nacional 'Vet no Bairro' para a melhoria do bem-estar e saúde animal em zonas vulneráveis e junto de famílias economicamente carenciadas.",
+    "topics": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Revogar a isenção de IVA nas prestações de serviços de artistas tauromáquicos e aumentar a taxa de IVA dos espetáculos tauromáquicos de 6% para 23%.",
+    "context": "Revogar a isenção de IVA nas prestações de serviços de 'artistas tauromáquicos'; Abolir a redução da taxa de IVA dos 'Espetáculos tauromáquicos' (i.e passar dos 6% para 23%).",
+    "topics": [
+      "economia",
+      "cultura"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidas aspas desnecessárias, clarificado 'abolir a redução' para 'aumentar a taxa' e ajustada estrutura para melhor legibilidade."
+  },
+  {
+    "text": "Aumentar o salário mínimo para 1130 euros até 2029, com aumentos anuais incorporando a inflação, variação de produtividade mais 25 euros adicionais por ano.",
+    "context": "De acordo com o nosso cenário macroeconómico, em 2029 o SMN atingirá os 1130 €.",
+    "topics": [
+      "emprego",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida referência contextual a 'cenário macroeconómico', simplificada estrutura. Promessa extraída do contexto de forma standalone."
+  },
+  {
+    "text": "Aprovar um programa de emergência fiscal que garanta a reposição do IVA Zero para produtos essenciais, a revisão dos limites dos escalões de IRS e a atualização da dedução específica para 5.248 euros.",
+    "context": "Aprovar, no início da legislatura, um programa de emergência fiscal, que garanta: A reposição do IVA Zero para produtos essenciais; Revisão dos limites dos escalões de IRS.",
+    "topics": [
+      "economia",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Rever o regime do IRS Jovem para incluir jovens englobados em agregado familiar, dar isenção de 25% a jovens com menos de 35 anos com mais de 10 anos de descontos e prever um ano zero, excluindo rendimentos iguais ou superiores a 44.987 euros anuais.",
+    "context": "Rever o regime do IRS Jovem por forma a que: Inclua os jovens englobados num agregado familiar; os jovens com menos de 35 anos mas que têm mais de 10 anos de descontos possam beneficiar do regime.",
+    "topics": [
+      "economia",
+      "emprego"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir de 13% para 6% o IVA das refeições escolares.",
+    "context": "Reduzir de 13% para 6% o IVA das refeições escolares.",
+    "topics": [
+      "educação",
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Criar um eco-voucher anual de 240 euros, isento de impostos, como benefício oferecido pelas empresas para compras em produtos sustentáveis.",
+    "context": "Criação de um eco-voucher anual de 240 €, isento de impostos, enquanto possível benefício oferecido pelas empresas para compras em produtos que contribuem para a sustentabilidade.",
+    "topics": [
+      "economia",
+      "ambiente"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir a taxa de IRC em 1 ponto percentual ao ano até atingir 17%, excluindo empresas de setores poluentes como aviação, combustíveis fósseis e agropecuária.",
+    "context": "Reduzir a taxa de IRC em 1 ponto percentual ao ano, até atingir 17%, excluindo as empresas de sectores poluentes.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.88,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Reduzir a taxa de IRC para as PME na parte da matéria coletável até 50.000 euros em meio ponto percentual ao ano até atingir 14%.",
+    "context": "Reduzir a taxa de IRC para as PME, na parte da matéria coletável até 50.000 €, em ½ ponto percentual ao ano até atingir 14%.",
+    "topics": [
+      "economia"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Generalizar a semana de 4 dias de trabalho até ao final da legislatura, assegurando implementação inicial preferencial em territórios do interior.",
+    "context": "Generalizar a semana de 4 dias até ao final da legislatura, assegurando a implementação inicial preferencial em territórios do interior ou de baixa densidade populacional.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer o período de férias em 25 dias úteis para todos os trabalhadores; para pessoas com incapacidade superior a 60% passará a 30 dias úteis.",
+    "context": "Estabelecer o período de férias para 25 dias úteis para todos/as os/as trabalhadores/as; no caso de pessoas com incapacidade superior a 60 %, este período passará a 30 dias úteis.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Alargar a licença parental inicial para 180 dias obrigatórios e intransmissíveis para cada progenitor, remunerados a 100%, com possibilidade de prolongamento por mais 180 dias a 80%.",
+    "context": "Alargamento da licença parental inicial para 180 dias obrigatórios e intransmissíveis para cada progenitor, remunerados a 100%.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Adicionada informação do contexto sobre o prolongamento a 80%, tornando a promessa mais completa e específica."
+  },
+  {
+    "text": "Garantir a remuneração a 100% do subsídio de doença aos trabalhadores com doença oncológica ou cuja doença acarrete circunstâncias económicas particularmente gravosas.",
+    "context": "Garantir a remuneração a 100% do subsídio de doença aos/às trabalhadores/as com doença oncológica ou cuja doença acarrete circunstâncias económicas particularmente gravosas.",
+    "topics": [
+      "emprego",
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.8,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Estabelecer o horário semanal de trabalho de 35 horas para todos os trabalhadores.",
+    "context": "Estabelecer o horário semanal de trabalho de 35 horas para todos/as os/as trabalhadores/as.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Consagrar a Terça-feira de Carnaval como feriado obrigatório.",
+    "context": "Consagrar a Terça-feira de Carnaval como feriado obrigatório.",
+    "topics": [
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": false,
+    "review_note": null
+  },
+  {
+    "text": "Aumentar de 1 para 2 anos a licença de amamentação de gozo obrigatório.",
+    "context": "aumentar de 1 para 2 anos a licença de amamentação de gozo obrigatório.",
+    "topics": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Capitalizada primeira letra (estava em minúscula no context)."
+  },
+  {
+    "text": "Atribuir o estatuto de profissão de risco e desgaste rápido aos profissionais de saúde do SNS, com direito à reforma antecipada aos 36 anos de serviço ou aos 62 anos de idade.",
+    "context": "Atribuir o estatuto de profissão de risco e de desgaste rápido para os profissionais de saúde que trabalham no SNS, com garantia do direito à reforma antecipada aos 36 anos de serviço ou aos 62 anos de idade.",
+    "topics": [
+      "saúde",
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.95,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removida repetição de 'de'; simplificadas referências (SNS em vez de 'que trabalham no SNS') mantendo clareza."
+  },
+  {
+    "text": "Garantir a fixação de profissionais de saúde em áreas carenciadas com compensação de despesas de habitação e deslocação até 50% da remuneração base.",
+    "context": "Garantir a fixação de profissionais de saúde em áreas carenciadas, aprovado um regime de compensação de despesas de habitação e/ou deslocação para o local de trabalho, sendo ficado em 50% da remuneração base.",
+    "topics": [
+      "saúde",
+      "emprego"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.9,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Simplificado texto confuso do context; removido 'regime de' e ajustada redação para maior clareza."
+  },
+  {
+    "text": "Disponibilizar serviços de saúde psicológica, nutrição, saúde oral e visual nas unidades de cuidados de saúde primários.",
+    "context": "Disponibilização de serviços de saúde psicológica, nutrição, saúde oral e visual nas unidades de cuidados de saúde primários.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": false,
+    "validation_score": 0.4,
+    "validation_reason": "Falta concretização: não especifica prazo, número de unidades, âmbito geográfico ou cronograma de implementação. 'Disponibilizar' é genérico demais para ser verificável."
+  },
+  {
+    "text": "Criar um projeto-piloto que permita às farmácias comunitárias o atendimento de situações clínicas ligeiras e não-urgentes.",
+    "context": "Concretizar a criação de um projeto-piloto que permita às farmácias comunitárias fazer o atendimento de situações clínicas ligeiras e não-urgentes.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.98,
+    "is_valid": true,
+    "validation_score": 0.85,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removido 'Concretizar a' do context, mantendo núcleo da promessa; ajustada preposição."
+  },
+  {
+    "text": "Tornar universal o acesso a cuidados de saúde oral no SNS, com criação de carreira de médico-dentista e pelo menos um gabinete de medicina dentária em cada município até final de 2029.",
+    "context": "Tornar universal o acesso a cuidados de saúde oral no SNS, com a criação de carreira de médico-dentista no SNS e com a garantia da existência de pelo menos um gabinete de medicina dentária em cada município até ao final 2029.",
+    "topics": [
+      "saúde"
+    ],
+    "confidence": 0.99,
+    "is_valid": true,
+    "validation_score": 0.92,
+    "validation_reason": null,
+    "review_changed": true,
+    "review_note": "Removidas redundâncias ('com a criação... e com a garantia'); simplificada estrutura mantendo informação completa."
+  }
+]

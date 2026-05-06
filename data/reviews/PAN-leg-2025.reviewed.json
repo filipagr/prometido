@@ -1,0 +1,560 @@
+[
+  {
+    "texto_original": "Antecipar as metas de neutralidade climática de 2045 para 2040, assegurando uma redução de emissões em 60% em 2030 face a 2005.",
+    "categoria": [
+      "ambiente",
+      "energia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Antecipar as metas de neutralidade climática de 2045 para 2040, procurando assegurar uma redução de emissões em 60% em 2030 (face a 2005).",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Garantir que até 2035 toda a eletricidade do país provém de fontes de energia renovável.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "que até 2035 toda a eletricidade do país provém de fontes de energia renovável.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Erradicar a pobreza energética até 2030, antecipando as metas que estavam fixadas para 2050.",
+    "categoria": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Erradicar a pobreza energética até 2030, antecipando as metas que estavam fixadas para 2050.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir a gratuitidade do passe de transportes públicos a todos os jovens até aos 30 anos, independentemente de trabalharem ou estudarem.",
+    "categoria": [
+      "transportes",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a gratuitidade do passe a todos os jovens até aos 30 anos, independentemente de trabalharem ou estudarem.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Garantir que nos primeiros 30 dias da legislatura são ultrapassados os impasses que têm travado o início de funções do Conselho para a Ação Climática.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Garantir que nos primeiros 30 dias da legislatura são ultrapassados os impasses que têm travado o início de funções do Conselho para a Ação Climática.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Garantir que até ao final de 2025 são cumpridas as disposições da Lei de Bases do Clima que ficaram por cumprir, priorizando a aprovação de uma Estratégia Industrial Verde.",
+    "categoria": [
+      "ambiente",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Garantir que, até ao final do ano de 2025, são efetivamente cumpridas as diversas disposições da Lei de Bases do Clima.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Assegurar que o Estado Português emite Green Bonds e Blue Bonds para impulsionar o investimento nacional na política climática, tal como fazem França, Alemanha, Países Baixos e Bélgica.",
+    "categoria": [
+      "ambiente",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "assegurando que o Estado Português procede à emissão de Green Bonds e de Blue Bonds para impulsionar o investimento nacional na política climática.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar apoios técnicos e financeiros para ajudar os municípios a implementar a Lei de Bases do Clima e os respetivos planos municipais de ação climática.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.96,
+    "_context": "Criar apoios técnicos e financeiros para ajudar os municípios a implementar a Lei de Bases do Clima e os respetivos planos municipais de ação climática.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Estabelecer um enquadramento legal geral do Programa de Ação Nacional de Combate à Desertificação, garantindo vigência, revisão periódica e dotação orçamental anual adequada.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Estabelecer um enquadramento legal geral do Programa de Ação Nacional de Combate à Desertificação.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Eliminar todos os subsídios e apoios públicos aos combustíveis fósseis até 2030, canalizando os apoios para a produção de energias renováveis.",
+    "categoria": [
+      "energia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Eliminar todos os subsídios e apoios públicos aos combustíveis fósseis até 2030, canalizando os apoios para a produção de energias renováveis.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar o programa 'Sol Para Todos' para transmitir gratuitamente energia excedente de autoconsumo renovável a famílias em pobreza energética.",
+    "categoria": [
+      "energia",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "pela implementação do programa 'Sol Para Todos', com vista a que a energia excedente produzida para autoconsumo... possa ser investida de forma solidária.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reduzir para 6% o IVA dos kits de autoconsumo para fins habitacionais.",
+    "categoria": [
+      "energia",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir para 6% o IVA dos kits de autoconsumo para fins habitacionais.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aprovar um Programa de Mobilidade Sustentável para a Administração Pública (2026-2031) com conversão das frotas públicas rodoviárias para modo elétrico.",
+    "categoria": [
+      "transportes",
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Aprovar um Programa de Mobilidade Sustentável para a Administração Pública para o período de 2026-2031.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Assegurar a gratuitidade dos passes mensais de transportes públicos até 2029, com redução progressiva de 50% da tarifa inteira até 2027.",
+    "categoria": [
+      "transportes",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Assegurar a gratuitidade dos passes mensais de transportes público até 2029, implementando, progressivamente, uma redução em 50% do valor da sua tarifa inteira.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um programa de incentivos às deslocações pendulares casa-trabalho em bicicleta com dotação orçamental de 6 milhões de euros.",
+    "categoria": [
+      "transportes",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criar um programa de incentivos às deslocações pendulares casa-trabalho em bicicleta, que, com uma dotação orçamental de 6 milhões de euros, recompense financeiramente os beneficiários por quilómetros pedalados.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reduzir para 6% o IVA da aquisição de componentes e acessórios para bicicletas.",
+    "categoria": [
+      "transportes",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir para 6% o IVA da aquisição de componentes e acessórios para bicicletas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aumentar o incentivo à aquisição de automóveis ligeiros elétricos para 6 mil euros (valor médio UE), com majorações para territórios do interior.",
+    "categoria": [
+      "transportes",
+      "ambiente",
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "aumentando o incentivo dado à aquisição de automóveis ligeiros elétricos de passageiros para o valor médio do incentivo na União Europeia (6 mil euros).",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Pôr fim a voos noturnos entre as 00h00 e as 06h00 em todos os aeroportos nacionais, exceto emergência e humanitários.",
+    "categoria": [
+      "transportes",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Pôr fim à realização de voos noturnos entre as 00h00 e as 06h00 da manhã em todos os aeroportos nacionais.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aprovar a consagração do crime de Ecocídio no Código Penal.",
+    "categoria": [
+      "ambiente",
+      "justiça"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Aprovar a consagração do crime de Ecocídio no Código Penal.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aumentar em 50% o financiamento do Orçamento do Estado para conservação da natureza e assegurar caráter plurianual.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Aumentar em 50% o financiamento do Orçamento do Estado para ações de conservação da natureza e assegurar o seu carácter plurianual.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Garantir o aumento em 30% da Rede Nacional de Áreas Protegidas até 2028, antecipando a meta europeia.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "garantindo o aumento em 30%, até 2028, da Rede Nacional de Áreas Protegidas (RNAP), antecipando a meta europeia.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir a proteção de pelo menos 30% do território marinho e terrestre até 2028, antecipando a meta europeia de 2030.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a proteção de pelo menos 30% do território marinho e terrestre até 2028, antecipando a meta de 2030 definida pelo Pacto Ecológico Europeu.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir a implementação da Moratória à Mineração em Mar Profundo em águas nacionais até 2050, aprovada pela Assembleia da República por proposta do PAN.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a efetiva implementação da Moratória à Mineração em Mar Profundo em águas nacionais até 2050, recentemente aprovada pela Assembleia da República por proposta do PAN.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Estabelecer moratória imediata ao Programa Nacional de Regadios e aos investimentos em regadio na estratégia 'Água que Une' para avaliação ambiental estratégica.",
+    "categoria": [
+      "ambiente",
+      "agricultura"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Estabelecer uma moratória imediata ao Programa Nacional de Regadios e aos investimentos previstos em regadio na estratégia 'água que une'.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Alterar o regime da taxa de recursos hídricos para refletir o custo real da utilização por indústrias, agropecuária e agricultura intensiva.",
+    "categoria": [
+      "ambiente",
+      "agricultura",
+      "economia"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Alterar o regime da taxa de recursos hídricos previsto no Decreto-Lei n.º 97/2008, de 11 de Junho, por forma a refletir na taxa o custo real da utilização de recursos hídricos.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Regulamentar o sistema de depósito para embalagens de bebidas descartáveis.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Regulamentar o sistema de depósito para embalagens de bebidas descartáveis.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "categoria": [
+      "ambiente",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Alterar o regulamento tarifário para que a tarifa municipal de resíduos urbanos seja calculada em função do lixo produzido e não da água consumida.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Reduzir o IVA dos atos médico-veterinários e da alimentação para animais de companhia para 6%.",
+    "categoria": [
+      "saúde",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir o IVA dos atos médico-veterinários e da alimentação para animais de companhia para 6%.",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Garantir a criação e construção de Hospitais Veterinários Públicos, concretizando uma rede pública de serviços médico-veterinários (SNS Animal).",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a execução da criação/construção de Hospitais Veterinários Públicos, concretizando uma rede pública de serviços médico-veterinários (SNS Animal).",
+    "_validation_score": 0.87
+  },
+  {
+    "texto_original": "Abolir o transporte marítimo de animais vivos até 2027.",
+    "categoria": [
+      "outros",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Abolir o transporte marítimo de animais vivos até 2027.",
+    "_validation_score": 0.93
+  },
+  {
+    "texto_original": "Garantir o direito de 1 dia de luto pela morte de animal de companhia registado no SIAC e faltar justificadamente até 2 dias por ano para prestar assistência inadiável ao animal.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a implementação do direito de 1 dia de luto pela morte de animal de companhia devidamente registado no SIAC e garantir o direito do/a trabalhador/a de faltar justificadamente ao trabalho até 2 dias por ano.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Criar o Ministério do Ambiente, Proteção Animal e Biodiversidade, retirando a tutela dos animais do Ministério da Agricultura.",
+    "categoria": [
+      "administração pública",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criar o Ministério do Ambiente, Proteção Animal e Biodiversidade, retirando a tutela dos animais do Ministério da Agricultura.",
+    "_validation_score": 0.91
+  },
+  {
+    "texto_original": "Criar uma Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criar uma Secretaria de Estado responsável pelo Bem-estar, Saúde e Proteção Animal no âmbito da orgânica do Governo.",
+    "_validation_score": 0.89
+  },
+  {
+    "texto_original": "Criar a Direção-Geral de Proteção e Bem-estar Animal, revogando a passagem de competências do ICNF para as CCDR e DGAV.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criar a Direção-geral de Proteção e Bem-estar Animal, revogando a passagem de competências do ICNF para as CCDRS e do ICNF para a DGAV.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Proceder à revisão da Constituição da República Portuguesa para incluir a proteção animal e consagrar como dever do Estado a defesa do bem-estar animal.",
+    "categoria": [
+      "direitos sociais",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.97,
+    "_context": "Proceder à revisão da Constituição República Portuguesa com vista a incluir a proteção animal, a consagrar como dever do Estado a defesa do bem-estar animal.",
+    "_validation_score": 0.92
+  },
+  {
+    "texto_original": "Criar uma Linha de Emergência para Animais denominada '112 Animal'.",
+    "categoria": [
+      "saúde",
+      "segurança"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criar uma Linha de Emergência para Animais ('112 Animal').",
+    "_validation_score": 0.91
+  },
+  {
+    "texto_original": "Garantir a criação de um banco de sangue animal público, de acesso gratuito e universal, e proibir a detenção de animais para este fim.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a criação de um banco de sangue animal público, de acesso gratuito e universal, e proibir a detenção de animais para este fim.",
+    "_validation_score": 0.89
+  },
+  {
+    "texto_original": "Criar o Programa Nacional 'Vet no Bairro' para a melhoria do bem-estar e saúde animal em zonas vulneráveis e junto de famílias economicamente carenciadas.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criar o Programa Nacional 'Vet no Bairro' para a melhoria do bem-estar e saúde animal em zonas vulneráveis e junto de famílias economicamente carenciadas.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Revogar a isenção de IVA nas prestações de serviços de artistas tauromáquicos e aumentar a taxa de IVA dos espetáculos tauromáquicos de 6% para 23%.",
+    "categoria": [
+      "economia",
+      "cultura"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Revogar a isenção de IVA nas prestações de serviços de 'artistas tauromáquicos'; Abolir a redução da taxa de IVA dos 'Espetáculos tauromáquicos' (i.e passar dos 6% para 23%).",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aumentar o salário mínimo para 1130 euros até 2029, com aumentos anuais incorporando a inflação, variação de produtividade mais 25 euros adicionais por ano.",
+    "categoria": [
+      "emprego",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "De acordo com o nosso cenário macroeconómico, em 2029 o SMN atingirá os 1130 €.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Aprovar um programa de emergência fiscal que garanta a reposição do IVA Zero para produtos essenciais, a revisão dos limites dos escalões de IRS e a atualização da dedução específica para 5.248 euros.",
+    "categoria": [
+      "economia",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Aprovar, no início da legislatura, um programa de emergência fiscal, que garanta: A reposição do IVA Zero para produtos essenciais; Revisão dos limites dos escalões de IRS.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Rever o regime do IRS Jovem para incluir jovens englobados em agregado familiar, dar isenção de 25% a jovens com menos de 35 anos com mais de 10 anos de descontos e prever um ano zero, excluindo rendimentos iguais ou superiores a 44.987 euros anuais.",
+    "categoria": [
+      "economia",
+      "emprego"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Rever o regime do IRS Jovem por forma a que: Inclua os jovens englobados num agregado familiar; os jovens com menos de 35 anos mas que têm mais de 10 anos de descontos possam beneficiar do regime.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reduzir de 13% para 6% o IVA das refeições escolares.",
+    "categoria": [
+      "educação",
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir de 13% para 6% o IVA das refeições escolares.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um eco-voucher anual de 240 euros, isento de impostos, como benefício oferecido pelas empresas para compras em produtos sustentáveis.",
+    "categoria": [
+      "economia",
+      "ambiente"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Criação de um eco-voucher anual de 240 €, isento de impostos, enquanto possível benefício oferecido pelas empresas para compras em produtos que contribuem para a sustentabilidade.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Reduzir a taxa de IRC em 1 ponto percentual ao ano até atingir 17%, excluindo empresas de setores poluentes como aviação, combustíveis fósseis e agropecuária.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir a taxa de IRC em 1 ponto percentual ao ano, até atingir 17%, excluindo as empresas de sectores poluentes.",
+    "_validation_score": 0.88
+  },
+  {
+    "texto_original": "Reduzir a taxa de IRC para as PME na parte da matéria coletável até 50.000 euros em meio ponto percentual ao ano até atingir 14%.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Reduzir a taxa de IRC para as PME, na parte da matéria coletável até 50.000 €, em ½ ponto percentual ao ano até atingir 14%.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Generalizar a semana de 4 dias de trabalho até ao final da legislatura, assegurando implementação inicial preferencial em territórios do interior.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Generalizar a semana de 4 dias até ao final da legislatura, assegurando a implementação inicial preferencial em territórios do interior ou de baixa densidade populacional.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Estabelecer o período de férias em 25 dias úteis para todos os trabalhadores; para pessoas com incapacidade superior a 60% passará a 30 dias úteis.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Estabelecer o período de férias para 25 dias úteis para todos/as os/as trabalhadores/as; no caso de pessoas com incapacidade superior a 60 %, este período passará a 30 dias úteis.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Alargar a licença parental inicial para 180 dias obrigatórios e intransmissíveis para cada progenitor, remunerados a 100%, com possibilidade de prolongamento por mais 180 dias a 80%.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Alargamento da licença parental inicial para 180 dias obrigatórios e intransmissíveis para cada progenitor, remunerados a 100%.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Garantir a remuneração a 100% do subsídio de doença aos trabalhadores com doença oncológica ou cuja doença acarrete circunstâncias económicas particularmente gravosas.",
+    "categoria": [
+      "emprego",
+      "saúde"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a remuneração a 100% do subsídio de doença aos/às trabalhadores/as com doença oncológica ou cuja doença acarrete circunstâncias económicas particularmente gravosas.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Estabelecer o horário semanal de trabalho de 35 horas para todos os trabalhadores.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Estabelecer o horário semanal de trabalho de 35 horas para todos/as os/as trabalhadores/as.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Consagrar a Terça-feira de Carnaval como feriado obrigatório.",
+    "categoria": [
+      "emprego"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Consagrar a Terça-feira de Carnaval como feriado obrigatório.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aumentar de 1 para 2 anos a licença de amamentação de gozo obrigatório.",
+    "categoria": [
+      "emprego",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "aumentar de 1 para 2 anos a licença de amamentação de gozo obrigatório.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Atribuir o estatuto de profissão de risco e desgaste rápido aos profissionais de saúde do SNS, com direito à reforma antecipada aos 36 anos de serviço ou aos 62 anos de idade.",
+    "categoria": [
+      "saúde",
+      "emprego"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Atribuir o estatuto de profissão de risco e de desgaste rápido para os profissionais de saúde que trabalham no SNS, com garantia do direito à reforma antecipada aos 36 anos de serviço ou aos 62 anos de idade.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Garantir a fixação de profissionais de saúde em áreas carenciadas com compensação de despesas de habitação e deslocação até 50% da remuneração base.",
+    "categoria": [
+      "saúde",
+      "emprego"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Garantir a fixação de profissionais de saúde em áreas carenciadas, aprovado um regime de compensação de despesas de habitação e/ou deslocação para o local de trabalho, sendo ficado em 50% da remuneração base.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um projeto-piloto que permita às farmácias comunitárias o atendimento de situações clínicas ligeiras e não-urgentes.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Concretizar a criação de um projeto-piloto que permita às farmácias comunitárias fazer o atendimento de situações clínicas ligeiras e não-urgentes.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Tornar universal o acesso a cuidados de saúde oral no SNS, com criação de carreira de médico-dentista e pelo menos um gabinete de medicina dentária em cada município até final de 2029.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.99,
+    "_context": "Tornar universal o acesso a cuidados de saúde oral no SNS, com a criação de carreira de médico-dentista no SNS e com a garantia da existência de pelo menos um gabinete de medicina dentária em cada município até ao final 2029.",
+    "_validation_score": 0.92
+  }
+]

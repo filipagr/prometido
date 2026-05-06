@@ -17,6 +17,7 @@ const TOPIC_LABELS: Record<string, string> = {
   emprego: "Emprego",
   ambiente: "Ambiente",
   segurança: "Segurança",
+  "segurança social": "Segurança Social",
   justiça: "Justiça",
   transportes: "Transportes",
   tecnologia: "Tecnologia",
