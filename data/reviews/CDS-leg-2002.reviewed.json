@@ -1,0 +1,462 @@
+[
+  {
+    "texto_original": "Criar um novo regime de acesso, regras de mobilidade e de aposentação dos funcionários públicos, preservando direitos adquiridos.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Portugal gasta mais do que qualquer dos seus parceiros europeus em despesas salariais na Administração Pública. Tais despesas ascendem a 15% do PIB.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aplicar às novas admissões na função pública um regime semelhante às regras do contrato individual de trabalho.",
+    "categoria": [
+      "administração pública",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Esta medida assume, para nós, duas principais consequências positivas: maior flexibilidade na contratação e uma significativa poupança futura.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Adotar a regra de que para cada quatro aposentações na função pública apenas poderá ser realizada uma admissão.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A regra a aplicar deverá ser a de que para cada quatro aposentações apenas poderá ser realizada uma admissão.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um sistema de incentivos à mobilidade e flexibilidade dos funcionários entre departamentos públicos e empresas privadas, baseado em decisão voluntária.",
+    "categoria": [
+      "administração pública",
+      "emprego"
+    ],
+    "confianca_extracao": 0.85,
+    "_context": "Criação de um sistema de incentivos relativamente a certos escalões etários, tendente à mobilidade e à flexibilidade dos funcionários.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Consagrar legalmente a existência de um gestor orçamental em cada ministério, proveniente do Ministério das Finanças.",
+    "categoria": [
+      "administração pública",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "É fundamental que, em cada ministério, passe a existir um elemento qualificado do Ministério das Finanças com a missão de conferir e analisar a despesa realizada.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Introduzir o princípio geral da gestão por objetivos na Administração Pública, com avaliação sistemática de desempenho.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Introdução do princípio geral da gestão por objectivos, o que significa assumir responsabilidades financeiras pelo cumprimento rigoroso dos orçamentos.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar prémios de produtividade na Administração Pública, atribuídos em função da avaliação permanente do desempenho.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criação de prémios de produtividade a atribuir em função da avaliação permanente do desempenho, o que permitirá incentivar e tornar mais eficiente o serviço público.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar novas regras de gestão do sistema de transportes públicos, avançando para um regime de concorrência controlada mediante concurso.",
+    "categoria": [
+      "transportes"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Novas regras de gestão do sistema de transportes públicos. Preparação de Portugal para um regime de concorrência controlada para os transportes colectivos.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Conceder a RTP 2 em concessão mediante concurso público para a melhor proposta.",
+    "categoria": [
+      "cultura",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "A RTP 2 pode e deve ser concessionada, admitindo-se concurso para a melhor proposta, o que pode, finalmente, dar a um canal a oportunidade de não ser residual.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Conceder a Antena 2 e a Antena 3 da RDP mediante concurso público.",
+    "categoria": [
+      "cultura",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "No que toca à RDP, entendemos que a Antena 2 e a Antena 3 podem, igualmente, ser objecto de concessão.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar regras de orçamentos plurianuais com aplicação prática da Lei de Enquadramento Orçamental já aprovada.",
+    "categoria": [
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Este princípio de orçamentos plurianuais está já consagrado na actual Lei de Enquadramento Orçamental, devendo em consequência, ser-lhe dada a respectiva aplicação prática.",
+    "_validation_score": 0.75
+  },
+  {
+    "texto_original": "Prever um limite para a assunção de responsabilidades financeiras pelo Estado em operações de leasing e project finance.",
+    "categoria": [
+      "economia",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Previsão de um limite para a assunção de responsabilidades financeiras pelo Estado no que se refere às denominadas operações de leasing e 'project finance'.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Realizar no prazo de três meses uma avaliação dos institutos públicos e empresas municipais, suas atribuições, competências e órgãos de gestão.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Realização no prazo de três meses de uma avaliação dos justificativos de cada instituto público e empresa municipal, suas atribuições, competências, órgãos de gestão e administração.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Instituir um período de quarentena durante o qual o Estado não criará novos institutos públicos e as autarquias não poderão criar novas empresas municipais.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Instituição de um período de 'quarentena' durante o qual o Estado não criará qualquer novo instituto público e as autarquias não poderão criar qualquer nova empresa municipal.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Obrigar o Governo a extinguir ou fundir serviços, institutos e empresas municipais onde se verifique duplicação de competências.",
+    "categoria": [
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Obrigatoriedade de o Governo, de acordo com as conclusões analíticas do estudo realizado, extinguir ou fundir os serviços e/ou os institutos e as empresas municipais.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Reduzir progressivamente a taxa geral de IRC para 25% em 2003, com objectivo de 20% até ao final da legislatura.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A meta que propomos para 2003 é a baixa do IRC para 25%, sendo que se o peso da Despesa Pública for eficazmente reduzido será possível adaptar o nosso IRC. 20% de IRC é um objectivo plausível.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Revogar a tributação das mais valias, nomeadamente a Lei 30-G/2000 com as alterações do Orçamento de Estado para 2002.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Revogação da tributação das mais valias. Revisão do regime fiscal das mais valias, com a revogação da Lei 30-G/2000.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um regime especial de tributação dos lucros das pequenas e médias empresas a uma taxa de 20%, reduzindo progressivamente para 15%.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Consagração imediata de um regime especial para a tributação dos lucros das pequenas e médias empresas, devendo ser tributadas, desde já a uma taxa de 20%, reduzindo progressivamente para 15%.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar regime fiscal específico para empresas em zonas estratégicas ou pólos de desenvolvimento, como o interior, com taxa de IRC de 10%.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criação de um regime fiscal específico para os lucros das empresas que se pretendam localizar em zonas geográficas qualificadas como áreas estratégicas, com a aplicação de uma taxa de 10%.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Permitir às empresas privadas que invistam em I&D majorar esses gastos até 300% para efeitos de IRC.",
+    "categoria": [
+      "economia",
+      "tecnologia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "O CDS/PP propõe que as empresas privadas que investem em investigação e desenvolvimento possam majorar estes gastos, para efeitos de IRC, até 300%.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Extinguir a atual Direção Geral da Concorrência e substituí-la por uma entidade nomeada pela Assembleia da República com mandato de tempo determinado.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Defendemos a extinção da actual Direcção Geral da Concorrência e a sua substituição por uma entidade, nomeada pela Assembleia da República e controlada por esta.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Desagravar o IRS aumentando e atualizando os escalões em pelo menos 5% acima da taxa de inflação real, de forma progressiva até ao final da legislatura.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "A diminuição da carga fiscal incidente sobre tais rendimentos deve ser realizada pela via do aumento e correspondente actualização dos escalões existentes, em pelo menos 5% acima da taxa de inflação real.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Adotar a regra do mínimo de existência pessoal e familiar em IRS, fixado pelo coeficiente de 14 vezes o salário mínimo nacional mais elevado.",
+    "categoria": [
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "O CDS/PP propõe a introdução de um valor mínimo, a fixar pelo coeficiente de 14 vezes o salário mínimo nacional mais elevado, para efeitos de exclusão de sujeição a imposto.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Aumentar as deduções fiscais para pessoas idosas a cargo e estabelecer isenções fiscais para depósitos a prazo de sujeitos passivos reformados.",
+    "categoria": [
+      "economia",
+      "segurança social"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Aumento das deduções legalmente admitidas no caso de pessoas idosas a cargo e o estabelecimento de isenções fiscais para depósitos a prazo de que sejam titulares sujeitos passivos reformados.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Informatizar completamente a Administração Tributária com cruzamento de informações entre os serviços de cobrança de IRS e IVA.",
+    "categoria": [
+      "administração pública",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Informatização completa da Administração Tributária com o cruzamento de informações entre os serviços de cobrança do imposto sobre o rendimento e o IVA.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar duas novas Secretarias de Estado no Ministério do Equipamento Social: para a Mobilidade e para a Logística.",
+    "categoria": [
+      "transportes",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Aconselha, no âmbito do Ministério do Equipamento Social, a criação de duas Secretarias de Estado para a Mobilidade e para a Logística.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Extinguir as Secretarias de Estado das Obras Públicas, dos Transportes e da Administração Marítima e Portuária.",
+    "categoria": [
+      "transportes",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Extinção das Secretarias de Estado das Obras Públicas dos Transportes e da Administração Marítima e Portuária, em consequência da criação das novas secretarias de Estado.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Suspender todas as obras não obrigatórias por disposições comunitárias que impliquem despesas sumptuárias que afetem as finanças públicas.",
+    "categoria": [
+      "transportes",
+      "economia"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Suspensão de todas as obras que, não sendo obrigatória a sua realização por força das disposições comunitárias, possam implicar despesas sumptuárias que afectem as finanças públicas.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar apoio específico para agricultores em zonas desertificadas, equivalente ao subsídio de montanha usado noutros países.",
+    "categoria": [
+      "agricultura"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criação de um apoio face ao isolamento específico, noutros países chamado 'subsídio de montanha', para os agricultores que vivam e façam exploração agrícola nas zonas desertificadas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Definir uma política global de tratamento de resíduos sólidos e suspender o atual processo de co-incineração em curso.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Definir uma política global de tratamento dos resíduos sólidos e implementação de soluções baseadas na sua redução e tratamento adequado à sua natureza e toxicidade, suspendendo o processo em curso.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar um sistema de gestão integrada dos recursos hídricos baseado nas bacias hidrográficas.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criar um sistema de gestão integrada dos recursos hídricos baseada nas bacias hidrográficas.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar uma Lei de Certificação Ambiental das Empresas com obrigatoriedade de certificação anual por auditores independentes.",
+    "categoria": [
+      "ambiente"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criação uma Lei de Certificação Ambiental das Empresas que estabelecerá a obrigatoriedade da certificação anual por auditores ambientais independentes.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Dar prioridade absoluta à melhoria das pensões mínimas, convergindo-as com o salário mínimo líquido, com atenção especial às pensões de viuvez e dos rurais.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Prioridade absoluta no gasto social à melhoria das pensões mínimas e, consequentemente, no quadro da reforma fazer a convergência das pensões com o valor do salário mínimo líquido de taxa social única.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Introduzir um tecto contributivo na segurança social no contexto da contratação colectiva e individual.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Desenvolvimento articulado dos diferentes pilares da segurança social, o que implica assumir a complementaridade com a introdução do tecto contributivo.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar um Fundo Nacional de Solidariedade, supervisão dos Fundos de Pensões e um Fundo de Garantia de Pensões.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Criação de um Fundo Nacional de Solidariedade; criação de uma Supervisão dos Fundos de Pensões e de um Fundo de Garantia de Pensões.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Flexibilizar a idade de entrada na reforma e baixar a idade de referência para as mulheres para 62 anos com carreira contributiva completa.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Compromisso com a baixa da idade de referência para a reforma das mulheres, que deverá passar a ser 62 anos, desde que tenham uma carreira contributiva completa.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Privatizar parcialmente as prestações de subsídio de doença por baixa até 30 dias para melhorar o controlo da sua atribuição.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Privatização parcial das prestações de subsídio por baixa (por exemplo, até 30 dias), de maneira a melhorar o controlo da sua atribuição.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Apresentar uma Lei de Bases da Saúde que privilegie a evolução para um sistema misto com separação das funções regulamentadora, financiadora e prestadora.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Apresentação de uma Lei de Bases da Saúde que assegure a plena utilização da capacidade disponível das infra-estruturas e que privilegie a evolução para um sistema misto.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Criar um procedimento de reembolso pelo SNS para intervenções cirúrgicas quando o tempo de execução ultrapasse 90 dias.",
+    "categoria": [
+      "saúde"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Responsabilização pública pelas listas de espera com a criação de um procedimento de reembolso pelo SNS para intervenções cirúrgicas, sempre que o tempo para a sua execução pelo Estado ultrapasse 90 dias.",
+    "_validation_score": 0.95
+  },
+  {
+    "texto_original": "Criar um cheque medicamento para pensionistas com rendimentos iguais ou inferiores ao salário mínimo nacional com comparticipação acrescida.",
+    "categoria": [
+      "saúde",
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Implementação de um sistema mais justo e equitativo, proporcionando uma comparticipação acrescida para a população mais carenciada, designadamente os pensionistas que aufiram rendimentos iguais ou inferiores ao salário mínimo nacional, através da criação do 'cheque medicamento'.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Aumentar a idade mínima de acesso ao Rendimento Mínimo Garantido para 30 anos, com exceção para mães solteiras com menores a cargo.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.98,
+    "_context": "Aumento da idade mínima de acesso para os 30 anos de idade. Única excepção o regime relativo às mães solteiras com menores a cargo e situação de carência objectiva.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Acabar com a renovação automática do Rendimento Mínimo Garantido, exigindo prova regular de carência para renovação.",
+    "categoria": [
+      "segurança social"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "O CDS/PP propõe o fim da renovação automática das prestações daqueles que delas beneficiam, exigindo, para que possa ser renovada, a obrigação de prova regular da carência dos titulares.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Consagrar obrigatoriedade de aceitação de oferta de trabalho pelo beneficiário do Rendimento Mínimo, sob pena de revogação imediata da prestação.",
+    "categoria": [
+      "segurança social",
+      "emprego"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Consagração da obrigatoriedade de aceitação pelo beneficiário da prestação de uma oferta de trabalho, sob pena de revogação imediata do acesso à prestação.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar um Serviço Nacional do Trabalho Voluntário para a Comunidade, parcialmente financiado pelo Estado.",
+    "categoria": [
+      "direitos sociais",
+      "administração pública"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criação de um Serviço Nacional do Trabalho Voluntário para a Comunidade, parcialmente financiado pelo Estado, que coordenará o trabalho voluntário a nível nacional.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar um cartão de grávida que atribua direitos especiais de cidadania às mulheres grávidas, incluindo passes sociais.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Criação de um cartão de grávida que atribua direitos especiais de cidadania às mulheres grávidas (exemplo bem significativo dos passes sociais).",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Consagrar a obrigatoriedade do Estado facultar creches e infantários com horários flexíveis que atendam às necessidades laborais dos pais.",
+    "categoria": [
+      "direitos sociais",
+      "educação"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Consagração da obrigatoriedade do Estado facultar creches e infantários com horários flexíveis que atendam às necessidades laborais dos pais, recorrendo a parcerias e regime de incentivos.",
+    "_validation_score": 0.8
+  },
+  {
+    "texto_original": "Alargar o regime de prioridade e gratuitidade nas consultas médicas para mulheres grávidas até dois meses pós-parto.",
+    "categoria": [
+      "saúde",
+      "direitos sociais"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Alargamento do regime de prioridade e gratuitidade nas consultas médicas para as mulheres grávidas e até completarem os dois meses pós parto.",
+    "_validation_score": 0.9
+  },
+  {
+    "texto_original": "Criar uma nova política de segurança pública com mais policiamento na rua, libertando 30 a 40% dos efetivos de funções não policiais.",
+    "categoria": [
+      "segurança"
+    ],
+    "confianca_extracao": 0.9,
+    "_context": "Não é aceitável que 30 a 40% dos 45 000 efectivos das forças de segurança exerçam funções não directamente policiais. Tarefas que não são de segurança sejam desempenhadas por funcionários civis.",
+    "_validation_score": 0.85
+  },
+  {
+    "texto_original": "Criar uma Direção Nacional de Polícia com tutela única no Ministério da Administração Interna para coordenar PSP, GNR, PJ e SEF.",
+    "categoria": [
+      "segurança"
+    ],
+    "confianca_extracao": 0.95,
+    "_context": "Para terminar com a descoordenação entre Forças de Segurança estas devem depender de uma tutela única, que deve residir no Ministério da Administração Interna, sendo a sua articulação assegurada por um comando único.",
+    "_validation_score": 0.9
+  }
+]
