@@ -142,13 +142,8 @@ export default function PromisePage({ params }: { params: Promise<{ id: string }
           <span className={`text-[11px] font-semibold uppercase tracking-widest shrink-0 ${
             promise.source.source_type === "direct" ? "text-amber-600" : "text-neutral-500"
           }`}>
-            {promise.source.source_type === "direct" ? "⚠ Fonte não arquivada" : "Fonte arquivada"}
+            {promise.source.source_type === "direct" ? "⚠ Programa não arquivado" : "Programa arquivado"}
           </span>
-          {promise.source.archived_date && (
-            <span className="text-[12px] text-neutral-400 tabular-nums shrink-0">
-              {`${promise.source.archived_date.slice(6, 8)}/${promise.source.archived_date.slice(4, 6)}/${promise.source.archived_date.slice(0, 4)}`}
-            </span>
-          )}
         </div>
         <a
           href={promise.source.archived_url}
