@@ -61,12 +61,14 @@ def get_party(party_id: str):
                   SUM(CASE WHEN p.status = 'corroborated' THEN 1 ELSE 0 END) as corroborated,
                   SUM(CASE WHEN p.status = 'evidence_of_implementation' THEN 1 ELSE 0 END) as implemented,
                   SUM(CASE WHEN p.status = 'evidence_of_non_implementation' THEN 1 ELSE 0 END) as not_implemented,
-                  SUM(CASE WHEN p.status = 'partial_implementation' THEN 1 ELSE 0 END) as partial
+                  SUM(CASE WHEN p.status = 'partial_implementation' THEN 1 ELSE 0 END) as partial,
+                  eg.role as governed_role
            FROM elections e
            LEFT JOIN promises p ON p.election_id = e.id AND p.party_id = ? AND p.is_valid = 1
+           LEFT JOIN election_governments eg ON eg.election_id = e.id AND eg.party_id = ?
            GROUP BY e.id
            ORDER BY e.date DESC""",
-        (party_id,),
+        (party_id, party_id),
     ).fetchall()
 
     promise_count = conn.execute(
@@ -112,6 +114,7 @@ def get_party(party_id: str):
                     "not_implemented": e["not_implemented"],
                     "partial": e["partial"],
                 },
+                "governed_role": e["governed_role"],
             }
             for e in elections
             if e["promise_count"] > 0
