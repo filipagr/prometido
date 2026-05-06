@@ -92,7 +92,7 @@ export default function ComoFunciona() {
         <div>
           <h2 className="text-[15px] font-semibold text-neutral-900 mb-3 tracking-[-0.01em]">Limitações conhecidas</h2>
           <ul className="text-[13px] text-neutral-600 space-y-2.5 leading-relaxed">
-            [
+            {[
               "<strong class=\"text-neutral-800\">CDS 2011:</strong> PDF não indexado pelo Arquivo.pt. A fonte é um site não oficial (tretas.org) — documento autêntico mas sem arquivo institucional.",
               "<strong class=\"text-neutral-800\">Chega 2024 e 2025:</strong> PDFs carregados pelo partido após as eleições, não indexados no período eleitoral. O link aponta para o PDF directo no site do partido — sem versão arquivada disponível por enquanto.",
               "<strong class=\"text-neutral-800\">PS 2022, 2024 e 2025 · AD 2025:</strong> o Arquivo.pt não indexou o PDF específico nestas eleições. O link disponível é para a página de listagem de programas dos respectivos sites.",
