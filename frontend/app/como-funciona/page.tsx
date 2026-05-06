@@ -50,7 +50,7 @@ export default function ComoFunciona() {
           <h2 className="text-[15px] font-semibold text-neutral-900 mb-3 tracking-[-0.01em]">O que é uma promessa</h2>
           <div className="bg-neutral-50 border border-neutral-200 rounded-xl p-4 text-[13px] text-neutral-800 mb-3 leading-relaxed">
             <strong>Definição operacional:</strong> Declaração verificável com intenção futura explícita,
-            atribuída directamente ao partido ou programa eleitoral, não parafraseada por jornalista.
+            atribuída directamente ao partido ou programa eleitoral.
           </div>
           <p className="text-[13px] text-neutral-600 leading-relaxed">
             Incluímos: &ldquo;vamos criar&rdquo;, &ldquo;iremos implementar&rdquo;, &ldquo;comprometemo-nos a&rdquo;.
@@ -62,17 +62,17 @@ export default function ComoFunciona() {
         <div>
           <h2 className="text-[15px] font-semibold text-neutral-900 mb-3 tracking-[-0.01em]">De onde vêm os dados</h2>
           <p className="text-[13px] text-neutral-600 leading-relaxed mb-4">
-            Usámos uma abordagem híbrida consoante o partido e a eleição:
+            Mais de 7.800 promessas extraídas de 9 partidos, cobrindo eleições legislativas de 2002 a 2025:
           </p>
           <div className="space-y-2">
             {[
               {
-                label: "Arquivo.pt CDX API",
-                desc: "Para partidos históricos (PS, PSD, BE, PCP, CDS) nas eleições de 2005 a 2019. O Arquivo.pt faz crawls especiais em períodos eleitorais — os sites dos partidos dessas épocas estão preservados. Usámos a CDX API para descobrir páginas arquivadas e o endpoint de fetch para obter o texto.",
+                label: "Arquivo.pt",
+                desc: "Fonte principal. Para eleições de 2002 a 2019, usámos a CDX API para descobrir páginas arquivadas dos sites dos partidos durante os períodos eleitorais. Para 2019–2025, os programas existem maioritariamente como PDFs — a maioria está indexada directamente no Arquivo.pt.",
               },
               {
-                label: "PDFs e Wayback Machine",
-                desc: "Para partidos mais recentes (IL, Chega, Livre, PAN) e eleições de 2022–2025, os programas existem como PDFs. Alguns estão no Arquivo.pt, outros no Wayback Machine ou nos próprios sites dos partidos. O link para o arquivo serve como evidência de origem.",
+                label: "Ligação directa ao programa",
+                desc: "Para programas não indexados pelo Arquivo.pt: CDS 2011 (fonte não oficial — tretas.org), Chega 2024 e 2025 (PDF no site do partido, carregado após a eleição), AD 2025 e BE 2024 (PDF no site do partido). Nestes casos o link aponta directamente para o documento original.",
               },
             ].map((t) => (
               <div key={t.label} className="bg-white border border-neutral-200 rounded-xl p-4 flex gap-4">
@@ -84,7 +84,7 @@ export default function ComoFunciona() {
             ))}
           </div>
           <p className="text-[12px] text-neutral-500 mt-2.5 leading-relaxed">
-            Todos os partidos com assento parlamentar estão incluídos. Coligações (AD, CDU) são atribuídas ao partido principal.
+            Todos os partidos com assento parlamentar estão incluídos. Coligações (AD em 2022–2025, CDU) são atribuídas ao partido principal (PSD e PCP, respectivamente).
           </p>
         </div>
 
@@ -92,13 +92,14 @@ export default function ComoFunciona() {
         <div>
           <h2 className="text-[15px] font-semibold text-neutral-900 mb-3 tracking-[-0.01em]">Limitações conhecidas</h2>
           <ul className="text-[13px] text-neutral-600 space-y-2.5 leading-relaxed">
-            {[
+            [
+              "<strong class=\"text-neutral-800\">CDS 2002:</strong> programa não encontrado em nenhuma fonte arquivada. Sem dados disponíveis.",
               "<strong class=\"text-neutral-800\">CDS 2011:</strong> PDF não indexado pelo Arquivo.pt. A fonte é um site não oficial (tretas.org) — documento autêntico mas sem arquivo institucional.",
-              "<strong class=\"text-neutral-800\">Chega 2024 e 2025:</strong> PDFs carregados pelo partido após as eleições, não indexados no período eleitoral. O link aponta para o PDF directo no site do partido — sem versão arquivada disponível por enquanto.",
-              "<strong class=\"text-neutral-800\">PS 2022, 2024 e 2025 · AD 2025:</strong> o Arquivo.pt não indexou o PDF específico nestas eleições. O link disponível é para a página de listagem de programas dos respectivos sites.",
-              "<strong class=\"text-neutral-800\">BE 2025:</strong> o partido publicou apenas um manifesto de 2 páginas, sem programa completo — reflecte a opção do partido.",
-              "A cobertura actual começa em 2002. A intenção é expandir para todas as legislativas desde 1975, à medida que os documentos forem localizados e processados.",
-              "A cobertura varia por partido e eleição. Partidos recentes (Chega, IL, Livre, PAN) têm histórico mais curto, correspondente às eleições em que participaram.",
+              "<strong class=\"text-neutral-800\">Chega 2024 e 2025:</strong> PDFs carregados pelo partido após as eleições. O link aponta directamente para o PDF no site do partido — sem versão arquivada no Arquivo.pt.",
+              "<strong class=\"text-neutral-800\">PS 2022, 2024 e 2025 · AD 2025:</strong> o Arquivo.pt não indexou o PDF do programa nestas eleições. O link aponta para a página de listagem de programas dos respectivos sites.",
+              "<strong class=\"text-neutral-800\">BE 2025:</strong> o partido publicou apenas um manifesto de 2 páginas, sem programa completo.",
+              "A cobertura varia por partido: Chega, IL, Livre e PAN têm histórico mais curto, a partir das eleições em que participaram pela primeira vez.",
+              "A cobertura actual começa em 2002. A intenção é expandir para todas as legislativas desde 1975.",
               "A extracção automática tem uma taxa de erro estimada de 5–10%. Promessas de baixa confiança são marcadas internamente para revisão.",
             ].map((item, i) => (
               <li key={i} className="flex gap-2.5">

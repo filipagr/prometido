@@ -33,7 +33,7 @@ Fonte de todos os programas: [psd.pt/pt/programas-do-partido-e-programas-eleitor
 
 | Eleição | Ficheiro | Notas | Arquivo.pt |
 |---------|---------|-------|------------|
-| 2002 | PSD-leg-2002.pdf | PDF digitalizado (OCR) | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105452/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2002.pdf) |
+| 2002 | PSD-leg-2002.pdf | PDF digitalizado (OCR) | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105452/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2002.pdf) — **link Arquivo.pt não funcional**; DB usa link directo: https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2002.pdf |
 | 2005 | PSD-leg-2005.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105447/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2005.pdf) |
 | 2009 | PSD-leg-2009.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105442/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2009.pdf) |
 | 2011 | PSD-leg-2011.pdf | | [✓✓ PDF — psd.pt (dez 2020)](https://arquivo.pt/noFrame/replay/20201215105438/https://www.psd.pt/sites/default/files/2020-09/programa-eleitoral-2011.pdf) |
