@@ -29,7 +29,7 @@ Internacionalmente, ferramentas como o **PolitiFact** (EUA) ou o **Polimeter** (
 
 O Arquivo Eleitoral resolve o problema de uma forma diferente: em vez de curadoria humana exaustiva, usa o Arquivo.pt como fonte primária e automação (Claude API) para extracção e validação. A curadoria humana fica reservada para os casos ambíguos — uma fracção do total.
 
-**O gap que preenchemos:** nenhum projeto existente combina promessas eleitorais portuguesas + fontes primárias arquivadas + comparação entre partidos + evidência de implementação. É o primeiro.
+**O gap que preenchemos:** nenhum projeto existente combina promessas eleitorais portuguesas + fontes primárias arquivadas + comparação entre partidos. É o primeiro.
 
 ---
 
@@ -63,7 +63,7 @@ O pipeline corre em sete passos:
 
 **5. Curadoria humana** — Apenas as promessas marcadas como `needs_human_review=true` chegam à revisão manual — uma fracção do total (estimativa: 30-50 em centenas). Os restantes casos são resolvidos automaticamente.
 
-**6. Linking** — Artigos de Tier 3 (Público, Expresso, RTP, Observador) são associados a promessas por partido, eleição e tema. Artigos contemporâneos da campanha servem de corroboração; artigos posteriores podem conter evidência de cumprimento ou não-cumprimento.
+**6. Linking** — Artigos de Tier 3 (Público, Expresso, RTP, Observador) são associados a promessas por partido, eleição e tema. Artigos contemporâneos da campanha servem de corroboração da promessa — citação directa do partido, com fonte arquivada.
 
 **7. Indexação** — FTS5 (full-text search nativo do SQLite) é populado para pesquisa instantânea.
 
@@ -73,7 +73,7 @@ O Arquivo Eleitoral comunica as suas limitações directamente na interface. O B
 
 ### Stack técnica
 
-Python + FastAPI + SQLite (FTS5) no backend. Next.js + Tailwind CSS no frontend. Claude API (claude-sonnet-4-6 para extracção, claude-haiku para validação) para o pipeline de dados. Deploy: Railway (backend) + Vercel (frontend).
+Python + FastAPI + SQLite (FTS5) no backend. Next.js + Tailwind CSS no frontend. Claude API (claude-sonnet-4-6 para extracção, claude-haiku para validação) para o pipeline de dados. Deploy: Render (backend) + Vercel (frontend).
 
 ---
 
