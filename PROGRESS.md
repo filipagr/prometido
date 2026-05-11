@@ -1,10 +1,10 @@
 # Arquivo Eleitoral — Progress Log
 
 ## Estado atual
-**Fase:** Pós-submissão — limpeza e qualidade dos dados.
-**Data:** 6 de maio de 2026
-**Próximo passo:** git push → continuar validação partido a partido.
-**Totais actuais na DB:** 12.015 promessas válidas · 9 partidos · 9 eleições (2002–2025).
+**Fase:** Pós-submissão — passe de qualidade completo por partido/ano.
+**Data:** 11 de maio de 2026
+**Próximo passo:** git push.
+**Totais actuais na DB:** 11.920 promessas válidas · 9 partidos · 9 eleições (2002–2025).
 
 **URLs de deploy:**
 - Frontend (Vercel): https://frontend-rosy-six-72.vercel.app (subdomínio actual, projecto renomeado de `prometido-app` → `frontend`)
@@ -13,6 +13,37 @@
 ---
 
 ## Decisões tomadas
+
+### 11 de maio de 2026 (Cowork — passe de qualidade completo)
+
+#### Passe de qualidade por partido/ano — resultado final
+
+| Partido | Antes | Depois | Diff |
+|---------|-------|--------|------|
+| PS | 2 785 | 2 783 | -2 |
+| PAN | 2 322 | 2 296 | -26 |
+| PSD | 1 331 | 1 330 | -1 |
+| Chega | 1 314 | 1 306 | -8 |
+| BE | 1 302 | 1 292 | -10 |
+| IL | 1 085 | 1 037 | -48 |
+| PCP | 840 | 840 | 0 |
+| CDS | 723 | 723 | 0 |
+| Livre | 313 | 313 | 0 |
+| **Total** | **12 015** | **11 920** | **-95** |
+
+#### Problemas corrigidos
+
+- **IL leg_2022 (−48):** 25 cabeçalhos de secção "Base X – Título" invalidados; 8 textos explicativos/diagnósticos (não-promessas) invalidados; ~30 artefactos de número de página removidos do texto (e.g. "013 014.").
+- **PAN leg_2025 (−26):** 26 promessas truncadas a meio de palavra com artefacto "A ÚTIL PARA O FUTURO N." invalidadas; 30 promessas com artefacto no final corrigidas (sufixo removido).
+- **BE leg_2022 (−9):** textos garbled (e.g. "Apoios com sejam participadas, ções beneficiárias offshore."), truncamentos mid-word com cabeçalhos de figura embedidos.
+- **PCP leg_2025 (−8):** 8 frases retóricas/vagas invalidadas ("É necessário romper com a política...", "São necessárias políticas viradas para a actividade produtiva", etc.).
+- **Chega leg_2025 (−4):** promessas incompletas ("Criar o Fundo Nacional.", "Fixar a taxa de tributação.").
+- **PSD leg_2025 + PCP leg_2025:** 110 promessas com artefacto ":;" (cabeçalho de secção fundido com a acção) corrigidas — sufixo header removido, acção mantida.
+- **PS leg_2022 + PAN leg_2022:** ~30 promessas com número de página no final corrigidas (sufixo removido).
+- **PCP leg_2024:** 8 promessas recuperadas de registos inválidos que continham bullets embedidos.
+- FTS5 reconstruído após todas as alterações.
+
+---
 
 ### 6 de maio de 2026 (Cowork — sessão de submissão)
 

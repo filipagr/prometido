@@ -83,16 +83,16 @@ O Arquivo Eleitoral cobre **9 partidos** nas **9 eleições legislativas de 2002
 
 | Partido | Promessas |
 |---------|-----------|
-| PS | 2 785 |
-| PAN | 2 322 |
-| PSD / AD | 1 331 |
-| Chega | 1 314 |
-| BE | 1 302 |
-| IL | 1 085 |
+| PS | 2 783 |
+| PAN | 2 296 |
+| PSD / AD | 1 330 |
+| Chega | 1 306 |
+| BE | 1 292 |
+| IL | 1 037 |
 | PCP | 840 |
 | CDS | 723 |
 | Livre | 313 |
-| **Total** | **12 015** |
+| **Total** | **11 920** |
 
 Cada promessa está ligada à página original arquivada no Arquivo.pt. Exemplo do programa do PS de 2005 (Bases Programáticas, arquivado a 27 de janeiro de 2005):
 
