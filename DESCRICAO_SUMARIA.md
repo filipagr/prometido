@@ -86,13 +86,13 @@ O Arquivo Eleitoral cobre **9 partidos** nas **9 eleições legislativas de 2002
 | PS | 2 783 |
 | PAN | 2 296 |
 | PSD / AD | 1 330 |
-| Chega | 1 306 |
+| Chega | 1 258 |
 | BE | 1 292 |
 | IL | 1 037 |
 | PCP | 840 |
 | CDS | 723 |
 | Livre | 313 |
-| **Total** | **11 920** |
+| **Total** | **11 872** |
 
 Cada promessa está ligada à página original arquivada no Arquivo.pt. Exemplo do programa do PS de 2005 (Bases Programáticas, arquivado a 27 de janeiro de 2005):
 
